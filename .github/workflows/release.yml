@@ -1,0 +1,38 @@
+name: Release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  pack:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: overlay/package-lock.json
+      - run: npm ci
+        working-directory: overlay
+      - run: npx electron-builder --win portable
+        working-directory: overlay
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: "false"
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: latest
+          name: Latest
+          body: |
+            Double-click `WowQuickRef-Overlay.exe` and leave it running.
+            The first launch copies the Lua addon into WoW AddOns.
+            Play in borderless windowed. F8 toggles the panel.
+            If Windows says the app is unrecognized: More info → Run anyway.
+          files: overlay/dist/WowQuickRef-Overlay.exe
+          make_latest: true
+          fail_on_unmatched_files: true

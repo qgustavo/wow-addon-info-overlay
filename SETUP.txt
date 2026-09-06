@@ -1,0 +1,11 @@
+WowQuickRef
+
+1. Double-click WowQuickRef-Overlay.exe and leave it running.
+   The first launch copies the addon into WoW AddOns. If it cannot
+   find WoW, pick the _retail_ folder when asked.
+
+2. Play WoW in borderless windowed.
+
+F8 toggles the panel. In-game, the addon button opens Blood DK.
+
+If Windows says the app is unrecognized: More info → Run anyway.

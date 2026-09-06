@@ -2,11 +2,47 @@
   "name": "wowquickref-overlay",
   "version": "1.0.0",
   "private": true,
+  "author": "WowQuickRef",
+  "description": "WowQuickRef desktop overlay",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "dist": "electron-builder --win portable"
   },
-  "dependencies": {
-    "electron": "^36.9.2"
+  "devDependencies": {
+    "electron": "^36.9.2",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.wowquickref.overlay",
+    "productName": "WowQuickRef Overlay",
+    "files": [
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "index.html",
+      "styles.css"
+    ],
+    "extraResources": [
+      {
+        "from": "../data/specs",
+        "to": "data/specs"
+      },
+      {
+        "from": "../data/encounters",
+        "to": "data/encounters"
+      },
+      {
+        "from": "../WowQuickRef",
+        "to": "WowQuickRef"
+      }
+    ],
+    "win": {
+      "target": ["portable"],
+      "artifactName": "WowQuickRef-Overlay.exe"
+    },
+    "directories": {
+      "output": "dist"
+    }
   }
 }

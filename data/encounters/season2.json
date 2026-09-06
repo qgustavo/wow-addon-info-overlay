@@ -68,7 +68,7 @@
       "instance": "Venomous Abyss",
       "lines": [
         "Park permanently between the Shadow and Fire fountains. On Imbibe at 100 energy, pop raid defensives and kill every add before it reaches the center pool.",
-        "Grip the two Burning Venom; CC Shrouded Venom. One pool arrival is a Malignant Burst DoT; more than one is usually a wipe. Adds harden and sprint after 60 seconds.",
+        "Grip the two Burning Venom and kill them one at a time (Heroic death DoT). CC Shrouded Venom. One pool arrival is a Malignant Burst DoT; more than one is usually a wipe.",
         "Cover every Catalytic Bile soak. Plague Froth players spread; dodge the plus-shaped waves and do not clip the boss with them.",
         "Taunt swap every Dripping Fangs (100% physical amp). Stagger Exploding Infection dispels; never dump them into low raid HP.",
         "Kill before Toxic Vapor stacks from repeated Imbibe take over."
@@ -91,7 +91,7 @@
         "Tank at the edge. Swap Ravage mid-combo (400% amp); alternate Mutilate soaks so the same group never soaks twice. Dodge Tempest tornadoes.",
         "Surge targets drop Viscous Cysts opposite glowing tunnels (need 3 for wind order; 4th is spare). Dodge Caustic Claws; move the boss to a clean slice.",
         "Crosswinds: point your arrow at a partner and collide mid-air. Missing everyone drifts you off the platform.",
-        "Intermission: pixel-stack mid so wind hits your cyst and knocks you back onto the boss. Burn Dig In (+30% damage), then pop the leftover cyst."
+        "Intermission: drag the boss mid, pixel-stack, and pop one cyst into each wind so it knocks you back onto the platform. Burn Dig In (+30%), then pop leftover cysts."
       ],
       "specNotes": {
         "250": "Death Strike Ravage, not Mutilate. Death's Advance can skip the Crosswinds knock-up only if your partner is not relying on colliding with you."
@@ -109,7 +109,7 @@
       "lines": [
         "Eternal Venom never expires; 10 stacks kill you. Soak every Caustic Globule (one player each). Only Ravenous Feast removes stacks, one per player on Heroic.",
         "Bosses do not share HP and cannot be moved. Kill them together or Uncoiled Wrath ramps. Both dead before the third Submerge.",
-        "Vexhul tank swaps Caustic Deluge. Ithraz tank soaks Stone Breaker swirlies (alternate sets). Stay in melee or they bolt you.",
+        "Everyone soaks Caustic Deluge orbs (a miss stacks the whole raid). Vexhul tank swaps Deluge. Ithraz soaks Stone Breaker (three hits; swap after the set). Stay in melee or they bolt you.",
         "Venomous Emergence is an unavoidable stack plus three serpents: dodge spit lines and kill them fast. Drop Coiling Ichor at the edge; weave Stir the Depths waves.",
         "Feast: three soak groups of 7+ (or two plus immunities). Submerge: run against Vile Flood rotation and dodge Sanguine Storm, then get back in melee."
       ],
@@ -118,7 +118,8 @@
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/the-venomous-abyss/the-twin-fangs-heroic" },
-        { "name": "Tactyks", "url": "https://www.youtube.com/watch?v=P-V2_kWBmP8" }
+        { "name": "Ready Check Pull", "url": "https://www.youtube.com/watch?v=yVqnDDOYGMs" },
+        { "name": "Raidplan", "url": "https://raidplan.io/plan/dvbduvd7hq7wyxvj" }
       ]
     },
     {
@@ -137,7 +138,8 @@
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/the-venomous-abyss/the-coiled-altar-heroic" },
-        { "name": "Tactyks", "url": "https://www.youtube.com/watch?v=P-V2_kWBmP8" }
+        { "name": "Ready Check Pull", "url": "https://www.youtube.com/watch?v=3yREfPONtYM" },
+        { "name": "Raidplan", "url": "https://raidplan.io/plan/aj8b3zrar9dcwae3" }
       ]
     },
     {
@@ -149,14 +151,15 @@
         "Phase 1: grab the three starting eggs on pull. Soak Spectral Coils in two groups. Dodge Caustic Waves opposite the pulled wing. Hero the first Rage of the Shackled Heart.",
         "Phase 2: grip/rescue across; save the Warlock gate for the return. Kill the Doomscale Warden, snap Grasping Fangs two at a time. Feed the cauldron small eggs first, Doomscale last.",
         "Intermission: pick up every egg. Group 1 soaks Spectral Coils 1/3/5, group 2 soaks 2/4/6. Stand off-center when the floor splits into four.",
-        "Phase 3: three Bite soak groups, stay in until soaked, then spread for Volatile Purge. Leave a platform before Circling Prey breaks it. Taunt-kill Shriekers and kick Vicious Echoes."
+        "Phase 3: three Bite soak groups (melee / healer-mid / ranged), stay in until soaked, then spread for Volatile Purge. Leave counterclockwise before Circling Prey breaks the platform. Taunt-kill Shriekers and kick Vicious Echoes."
       ],
       "specNotes": {
-        "250": "Grip the phase-2 crossing. Death Strike Mother's Wrath and Serpent's Bite. Death's Advance off Circling Prey breaks; AMS the Heart burn and Bite soaks."
+        "250": "Grip the phase-2 crossing (Blood takes extra damage with no target). Death Strike Mother's Wrath and Serpent's Bite. Death's Advance off Circling Prey breaks; AMS the Heart burn and Bite soaks."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/the-venomous-abyss/ulatek-heroic" },
-        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/raids/venomous-abyss-ulatek-boss-strategy-abilities" }
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/raids/venomous-abyss-ulatek-boss-strategy-abilities" },
+        { "name": "Ready Check Pull", "url": "https://www.youtube.com/watch?v=2FNdgVbSYjI" }
       ]
     }
   ],

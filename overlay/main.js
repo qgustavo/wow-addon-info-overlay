@@ -2,15 +2,22 @@ const {
   app,
   BrowserWindow,
   clipboard,
+  dialog,
   globalShortcut,
   ipcMain,
   screen,
   shell,
 } = require("electron");
+const { execFileSync } = require("child_process");
 const fs = require("fs");
 const path = require("path");
 
-const DATA_ROOT = path.resolve(__dirname, "..", "data");
+const DATA_ROOT = app.isPackaged
+  ? path.join(process.resourcesPath, "data")
+  : path.resolve(__dirname, "..", "data");
+const ADDON_SRC = app.isPackaged
+  ? path.join(process.resourcesPath, "WowQuickRef")
+  : path.resolve(__dirname, "..", "WowQuickRef");
 const CLIPBOARD_MS = 200;
 const DEFAULT_HOTKEY = "F8";
 
@@ -42,6 +49,85 @@ function loadSettings() {
 function saveSettings() {
   try {
     fs.writeFileSync(settingsPath(), JSON.stringify(settings, null, 2), "utf8");
+  } catch {
+    /* ignore */
+  }
+}
+
+function registryWowRoot() {
+  const keys = [
+    "HKLM\\SOFTWARE\\WOW6432Node\\Blizzard Entertainment\\World of Warcraft",
+    "HKLM\\SOFTWARE\\Blizzard Entertainment\\World of Warcraft",
+  ];
+  for (const key of keys) {
+    try {
+      const out = execFileSync("reg", ["query", key, "/v", "InstallPath"], {
+        encoding: "utf8",
+        windowsHide: true,
+        timeout: 5000,
+      });
+      const m = out.match(/InstallPath\s+REG_SZ\s+(.+)/i);
+      if (m) return m[1].trim();
+    } catch {
+      /* missing key */
+    }
+  }
+  return null;
+}
+
+function retailFromRoot(root) {
+  if (!root) return null;
+  const normalized = path.resolve(root);
+  if (!fs.existsSync(normalized)) return null;
+  if (fs.existsSync(path.join(normalized, "Wow.exe"))) return normalized;
+  const retail = path.join(normalized, "_retail_");
+  if (fs.existsSync(retail)) return retail;
+  return null;
+}
+
+function copyAddonTo(retail) {
+  const dest = path.join(retail, "Interface", "AddOns", "WowQuickRef");
+  fs.mkdirSync(dest, { recursive: true });
+  fs.cpSync(ADDON_SRC, dest, { recursive: true, force: true });
+}
+
+async function installAddon() {
+  if (!fs.existsSync(ADDON_SRC)) return;
+  const pf86 = process.env["ProgramFiles(x86)"];
+  const pf = process.env.ProgramFiles;
+  const roots = [
+    settings.wowRoot,
+    registryWowRoot(),
+    pf86 && path.join(pf86, "World of Warcraft"),
+    pf && path.join(pf, "World of Warcraft"),
+  ];
+  for (const root of roots) {
+    const retail = retailFromRoot(root);
+    if (!retail) continue;
+    try {
+      copyAddonTo(retail);
+      settings.wowRoot = path.resolve(path.join(retail, ".."));
+      saveSettings();
+      return;
+    } catch {
+      /* try next */
+    }
+  }
+  if (settings.addonPrompted) return;
+  settings.addonPrompted = true;
+  saveSettings();
+  const picked = await dialog.showOpenDialog({
+    title: "Select the World of Warcraft _retail_ folder",
+    properties: ["openDirectory"],
+  });
+  if (picked.canceled || !picked.filePaths[0]) return;
+  const chosen = picked.filePaths[0];
+  const retail = retailFromRoot(chosen) || retailFromRoot(path.join(chosen, ".."));
+  if (!retail) return;
+  try {
+    copyAddonTo(retail);
+    settings.wowRoot = path.resolve(path.join(retail, ".."));
+    saveSettings();
   } catch {
     /* ignore */
   }
@@ -312,8 +398,9 @@ if (!gotLock) {
 } else {
   app.on("second-instance", () => setPanelVisible(true));
 
-  app.whenReady().then(() => {
+  app.whenReady().then(async () => {
     loadSettings();
+    await installAddon();
     createWindow();
     startClipboardPoll();
     settings.hotkey = registerHotkey(settings.hotkey || DEFAULT_HOTKEY);

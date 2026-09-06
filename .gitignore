@@ -1,4 +1,7 @@
 node_modules/
+overlay/dist/
+release/
+WowQuickRef-for-friends.zip
 .env
 .env.*
 *.log
