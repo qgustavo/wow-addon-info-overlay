@@ -31,10 +31,6 @@
       {
         "from": "../data/encounters",
         "to": "data/encounters"
-      },
-      {
-        "from": "../WowQuickRef",
-        "to": "WowQuickRef"
       }
     ],
     "win": {

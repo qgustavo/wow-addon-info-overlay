@@ -1,0 +1,778 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 1,
+  "specId": 72,
+  "className": "Warrior",
+  "specName": "Fury",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "One-Hand",
+      "item": "Blood Knight's Impetus (Darkmoon Sigil: Hunt)",
+      "notes": "Icy Veins first Spark. Weapon ilvl discounts the other hand. Pair Hunt with Fang on armor; two embellishments max. Hold Day-1 crafts after S2 cantrip changes.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Blood Knight's Warblade (Hunter's Ritual Stone)",
+      "notes": "Wowhead first Spark (four sparks). Any 2H Strength weapon is the same. Ritual Stone only slightly beats Hunt after the nerf. Skip a second weapon if you play endgame.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/fury/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Blood Knight's Warblade (Darkmoon Sigil: Hunt)",
+      "notes": "Method Hunt craft. Main-hand early, then off-hand once a Myth-track Maze-roa or dungeon 2H is online. Icy Veins uses Impetus for this Hunt slot instead.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Adorned Fang)",
+      "notes": "Icy Veins second Spark and raid/M+ Fang pair. Wowhead: Fang or Arcanoweave after the weapon; Fang edges haste-starved profiles. Low-budget Spark slot.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/fury/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Spellbreaker's March (Adorned Fang)",
+      "notes": "Icy Veins third Spark once Myth-track weapons replace Hunt. Wowhead boots only if you skipped the weapon craft. Icy Veins raid, M+, and overall BiS feet.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/fury/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Arcanoweave Lining)",
+      "notes": "Method BiS lining on bracers. Wowhead: Fang and Arcanoweave are practically even. Two embellishments max.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/fury/bis-gear" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Maze-roa, Warlord's Fury" },
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Waist", "item": "Girdle of Toxic Regret" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Chest", "item": "Reckless Spirit Breastplate (catalyze)" }
+        ],
+        "notes": "Voidcore first. Cantrip weapon, matching S-tier trinket, belt, cloak, Icy Veins/Method/Wowhead catalyze chest. Method also Voidcores Heroic Maze-roa.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/fury/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Legs", "item": "Chausses of Unbound Rancor (catalyze)" }
+        ],
+        "notes": "Voidcore second. BiS on-use, double-socket cantrip neck. Icy Veins raid catalyzes Greaves of the Jade Warlord here; Method Voidcores these legs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/fury/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Off Hand", "item": "Malignant Toothed Edge" },
+          { "slot": "Finger", "item": "Vile Alchemist's Band" },
+          { "slot": "Feet", "item": "Scaled Fiend's Warboots" }
+        ],
+        "notes": "Icy Veins Voidcore OH with Maze-roa. Raid ring on Icy Veins, Wowhead, and Method. Method/Wowhead overall boots if you skip crafted Fang stompers.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/fury/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Head", "item": "Skullguard of the Risen Sacrifice (catalyze)" }
+        ],
+        "notes": "Icy Veins and Method raid catalyze this head into Tempered Horns. Overall mix catalyzes Murder Row instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Hands", "item": "Jeweled Gauntlets of the Jade Warlord (tier token)" },
+          { "slot": "Trinket", "item": "Keeper's Seething Core" }
+        ],
+        "notes": "Method raid glove token. Keeper's Core is Icy Veins A-tier while you wait on Guillotine or Heart.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" },
+          { "slot": "Shoulders", "item": "Raging Pauldrons of the Jade Warlord (tier token)" }
+        ],
+        "notes": "Icy Veins S-tier passive. Method raid BiS catalyzes this shoulder token; Icy Veins raid shoulders are the BoE trash drop instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins raid BiS and Method raid ring. Skip if you already have Sickening Signet of Atroxus plus Vile Alchemist's Band.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Trash (BoE)",
+        "instance": "Venomous Abyss",
+        "priority": 8,
+        "items": [
+          { "slot": "Shoulders", "item": "Pauldrons of the Forgotten Sacrifice" }
+        ],
+        "notes": "Icy Veins raid BiS shoulders. Method raid uses the Lost Explorers token; overall catalyzes Murder Row instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Vile Writhefang Glaive" },
+          { "slot": "Legs", "item": "Ancient General's Obsidian Pillars (catalyze)" },
+          { "slot": "Neck", "item": "Strand of Warding Fangs" },
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom" }
+        ],
+        "notes": "Icy Veins first farm: most pieces plus the dungeon weapon. Method M+ catalyzes these legs; Method MH is Charonic Crescent instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Hands", "item": "Bonds of the Hash'ura (catalyze)", "from": "Nalorakk" },
+          { "slot": "Trinket", "item": "Idol of the War Loa", "from": "Nalorakk" }
+        ],
+        "notes": "Icy Veins second farm. Overall and Wowhead catalyze these gloves. Idol is Icy Veins M+ BiS; Method M+ uses Vale trinkets instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/fury/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Finger", "item": "Signet of Snarling Servitude" },
+          { "slot": "Shoulders", "item": "Cinderfury Shoulderguards (catalyze)", "from": "Lithiel Cinderfury" },
+          { "slot": "Head", "item": "Greathelm of Temptation (catalyze)" },
+          { "slot": "Neck", "item": "Pendant of Malefic Fury" }
+        ],
+        "notes": "Icy Veins third farm for the ring. FAQ/Wowhead/Method overall catalyze helm and shoulders here. Method M+ neck. Method Voidcores +10 Cinderfury.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/fury/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus", "from": "Atroxus" },
+          { "slot": "Off Hand", "item": "Charonic Crescent", "from": "Charonus" },
+          { "slot": "Head", "item": "Tempered Horns of the Jade Warlord (catalyze)" },
+          { "slot": "Main Hand", "item": "Charonic Crescent", "from": "Charonus" }
+        ],
+        "notes": "Icy Veins M+ ring and OH; M+ table catalyzes helm here instead of Murder Row. Method M+ uses Crescent as main-hand with a crafted off-hand.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Chest", "item": "Breastplate of Soaring Terror (catalyze)" },
+          { "slot": "Back", "item": "Fireproof Drape" },
+          { "slot": "Feet", "item": "Scaleguard's Stalwart Greatboots" }
+        ],
+        "notes": "Icy Veins M+ catalyze chest. Icy Veins M+ cloak. Method M+ boots; Method Voidcores this chest on +10.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Waist", "item": "Sand-Scoured Greatbelt", "from": "Galvazzt" },
+          { "slot": "Finger", "item": "Charged Sandstone Band", "from": "Galvazzt" }
+        ],
+        "notes": "Icy Veins M+ belt. Method M+ second ring if you skip Apex Brute's Claw Ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Back", "item": "Bloodthorn Burnous", "from": "Ikuzz the Light Hunter" },
+          { "slot": "Trinket", "item": "Seed of the Devouring Wild", "from": "Ikuzz the Light Hunter" },
+          { "slot": "Trinket", "item": "Sapling of the Dawnroot", "from": "Ziekket" }
+        ],
+        "notes": "Method overall and M+ cloak. Method M+ trinket pair; Icy Veins ranks both A but wears Vile Vial plus Idol in the M+ list.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 8,
+        "items": [
+          { "slot": "Hands", "item": "Gauntlets of the Avian Sentinel (catalyze)", "from": "The Golden Serpent" },
+          { "slot": "Waist", "item": "Girdle of Pestilent Purification", "from": "The Council of Tribes" }
+        ],
+        "notes": "Method overall and M+ glove catalyze and belt. Icy Veins M+ gloves are Nalorakk; M+ belt is Sand-Scoured Greatbelt.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Slayer",
+        "recommended": true,
+        "loadoutCode": "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDzMmZ2MzMzMDjZmZGzYmlZmxMzMbmZmBAAixy2ALgJYGmAzwGwMDjNAAYmhxYYMYM",
+        "bullets": [
+          "Icy Veins default ST Slayer (25 Aug 2026); best pure single-target, though few Venomous Abyss fights are true ST.",
+          "Method publishes a different Slayer ST string (11 Aug 2026).",
+          "Flex Enraged Regeneration; good Defensive Stance use can cover skipping it.",
+          "Wrecking Throw over Fearless when the boss has a shield.",
+          "Interpose can swap with Piercing Howl when you need the ally soak.",
+          "Wowhead talent body was JS-stripped (no import copied)."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/fury/talent-builds-pve-dps" }
+        ]
+      },
+      {
+        "heroTree": "Mountain Thane",
+        "recommended": false,
+        "loadoutCode": "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDDzMz2yMzMzMMmZmZMjZWmZGjZmlxMzAAAhB2glNjGzAysgZsAYGMGAMzAYYMzMMYA",
+        "bullets": [
+          "Method ST and Cleave Thane import; Icy Veins does not publish a Thane ST quick-start.",
+          "Icy Veins: Thane only when adds are constant; Thunder Clap replaces Whirlwind.",
+          "Bloodthirst is kept to trigger Thunder Blast even as a filler.",
+          "Method: Thane sustained AoE vs Slayer burst; Reap the Storm narrowed that gap.",
+          "Icy Veins still defaults Slayer for raid single-target.",
+          "Method (11 Aug 2026) has no Delves page; this is the raid ST alternative."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Mountain Thane",
+        "recommended": true,
+        "loadoutCode": "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDjZMz2yMzMjZmxMzMzMjZWmZmZmxsZmZGAAIMwGssY0YGQmFMjFAzgBAMzAwwiZAGD",
+        "bullets": [
+          "Icy Veins Dungeons & Delves Thane; highest sustained multi-target, slightly lower single-target.",
+          "Use Raging Blow three times each cooldown cycle to complete the 4pc; Method says that 4pc is extra work on Thane.",
+          "Icy Veins: the two M+ trees are close, so preference is fine.",
+          "Flex Enraged Regeneration over Bloodcraze; class-tree swaps are Rumbling Earth, Wrecking Throw, Bounding Stride.",
+          "Stance Mastery if you actually press Defensive Stance; that costs Crushing Force or Barbaric Training.",
+          "Method also publishes a Thane AoE/M+ string; skip the leftover Algeth'ar Academy example on that page."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/talents" }
+        ]
+      },
+      {
+        "heroTree": "Slayer",
+        "recommended": false,
+        "loadoutCode": "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDDmZ2WmZmZmxMmZMjZMzyMzYMzsNmZGAAIGLLDsAmgZYCMDbAmZjxAAgZGDzMzMMYA",
+        "bullets": [
+          "Method Slayer AoE/M+ import; Icy Veins quick-start dungeon string is Thane only.",
+          "Icy Veins Slayer M+: slightly less AoE, more boss damage, and easier 4pc because Raging Blow is already in the rotation.",
+          "Wrecking Throw plus Javelineer for a ranged interrupt; that costs Stance Mastery.",
+          "Method: Slayer Unhinged makes the 4pc automatic; burst AoE in a shorter window than Thane.",
+          "Icy Veins picker still marks Slayer for Mythic+ & Delves.",
+          "Icy Veins still defaults Thane for keys."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Mountain Thane",
+        "recommended": true,
+        "loadoutCode": "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDjZMz2yMzMjZmxMzMzMjZWmZmZmxsZmZGAAIMwGssY0YGQmFMjFAzgBAMzAwwiZAGD",
+        "bullets": [
+          "Icy Veins published Dungeons & Delves import is Thane (same string as the M+ tab).",
+          "Method has no separate Delves loadout; use this Icy Veins string for solo and open world.",
+          "Highest sustained multi-target; slightly lower single-target than Slayer.",
+          "Flex matches keys: Enraged Regeneration, Wrecking Throw, Stance Mastery if you use Defensive Stance.",
+          "Icy Veins picker marks Thane recommended for Mythic+ & Delves.",
+          "Method (11 Aug 2026) has no Delves page."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-spec-builds-talents" }
+        ]
+      },
+      {
+        "heroTree": "Slayer",
+        "recommended": false,
+        "loadoutCode": "CgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgGDDmZ2WmZmZmxMmZMjZMzyMzYMzsNmZGAAIGLLDsAmgZYCMDbAmZjxAAgZGDzMzMMYA",
+        "bullets": [
+          "No Icy Veins Slayer Delves string in the three quick-starts; the picker still lists Slayer for Mythic+ & Delves.",
+          "Method has no Delves page; this string is Method AoE/Mythic+ Slayer if you want that tree solo.",
+          "Icy Veins: Slayer dungeon play is easier 4pc and more boss damage than Thane.",
+          "Icy Veins still recommends Thane for Delves.",
+          "Do not invent an Icy Veins Slayer Delves code; none is published in the three quick-start strings."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S. Method's raid pair with Voracious Heart of Ula'tek. Voidcore this with Maze-roa.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method BiS on-use (Crit). Pair with Guillotine. Season has few on-uses that line up with Enrage or Avatar.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S all-primary passive. Method named alternative while you wait on Guillotine or Heart; procs are random so do not plan a window around it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A all-primary on-use. Icy Veins M+ BiS pair with Idol of the War Loa; farm it on the Altar of Fangs weapon run.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Idol of the War Loa",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins A Strength passive. Icy Veins M+ BiS with Vile Vial; Method M+ wears Vale trinkets instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Strength/Agility passive. Raid catch while Guillotine or Heart is late.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Seed of the Devouring Wild",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A Strength on-use. Method named alternative and Method M+ BiS until Heart drops.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A all-primary passive. Method M+ pair with Seed; no extra setup.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B all-primary passive from Ruby Life Pools.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B Agility/Strength passive. Pickup while farming Signet of Snarling Servitude.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Blazebinder's Hoof",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B Haste on-use. Method Fury does not name this among Guillotine/Heart alternatives.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B Mastery on-use from the same boss as Heart. Method names it as an alternative; do not take this over Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C Agility/Strength on-use. Skip it for Vile Vial from the same dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sszorak's Ferocity",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Strength passive. Farm Apex Brute's Claw Ring here; this trinket is not the Fury chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Coiled Fangstone",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C Strength on-use. Vile Vial is the Altar of Fangs on-use Icy Veins actually ranks for Fury.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Merektha's Fang",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C Strength on-use. Farm Sethraliss for Sand-Scoured Greatbelt, not this trinket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S. Still the raid piece you want in keys if vault or bonus rolls give it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S on-use. Use on big pulls if you have it from raid or vault; dungeon on-uses sit lower on the Icy Veins list.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S passive. Fine in keys while you farm Vile Vial or Idol of the War Loa.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A and Icy Veins M+ BiS on-use. First dungeon trinket to chase with the Writhefang glaive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Idol of the War Loa",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins A and Icy Veins M+ BiS Strength passive. Pair with Vile Vial; Method M+ uses Seed plus Sapling instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Strength/Agility passive. Raid catch you can wear in keys until Vial or Idol upgrades.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Seed of the Devouring Wild",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A / Method M+ BiS Strength on-use. Method's dungeon pair with Sapling until Heart or Guillotine lands.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A / Method M+ BiS all-primary passive. Farm Vale while you wait on Idol of the War Loa.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B passive. Farm Pools for Fireproof Drape and the Soaring Terror chest first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B Agility/Strength passive. Pickup while targeting Signet of Snarling Servitude.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Blazebinder's Hoof",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B Haste on-use. Method Fury M+ BiS is Seed plus Sapling, not this Hoof.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B / Method named alternative. Never take this over Heart from the same boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/fury-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C. Vile Vial is the Altar of Fangs on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sszorak's Ferocity",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Strength passive. Not a Fury M+ chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Coiled Fangstone",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C Strength on-use. Skip it for Vile Vial on the same dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Merektha's Fang",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C Strength on-use. Sethraliss is a belt farm, not a Fang farm, for Fury.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/fury-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

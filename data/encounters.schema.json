@@ -19,6 +19,12 @@
         "name": { "type": "string" },
         "kind": { "enum": ["raid", "dungeon"] },
         "instance": { "type": "string" },
+        "diagram": { "$ref": "#/$defs/diagram" },
+        "steps": {
+          "type": "array",
+          "maxItems": 6,
+          "items": { "$ref": "#/$defs/step" }
+        },
         "lines": { "type": "array", "maxItems": 5, "items": { "type": "string" } },
         "specNotes": {
           "type": "object",
@@ -35,6 +41,41 @@
             "properties": {
               "name": { "type": "string" },
               "url": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "step": {
+      "type": "object",
+      "required": ["id", "label", "action"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "maxLength": 8 },
+        "kind": { "enum": ["phase", "intermission", "loop", "burn"] },
+        "label": { "type": "string", "maxLength": 32 },
+        "action": { "type": "string", "maxLength": 160 }
+      }
+    },
+    "diagram": {
+      "type": "object",
+      "required": ["caption", "cols", "cells"],
+      "additionalProperties": false,
+      "properties": {
+        "caption": { "type": "string", "maxLength": 80 },
+        "cols": { "type": "integer", "minimum": 2, "maximum": 3 },
+        "cells": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 9,
+          "items": {
+            "type": "object",
+            "required": ["label", "tone"],
+            "additionalProperties": false,
+            "properties": {
+              "label": { "type": "string", "maxLength": 28 },
+              "tone": { "enum": ["boss", "tank", "stack", "soak", "hazard", "add", "move"] },
+              "span": { "type": "integer", "minimum": 1, "maximum": 3 }
             }
           }
         }

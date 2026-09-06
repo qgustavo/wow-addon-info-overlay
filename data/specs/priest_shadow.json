@@ -1,0 +1,713 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 5,
+  "specId": 258,
+  "className": "Priest",
+  "specName": "Shadow",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Wrist",
+      "item": "Martyr's Bindings (Arcanoweave Lining)",
+      "notes": "Icy Veins and Method first Spark lining. Eventual BiS wrists. Two embellishments max. IV still warns Venomous Abyss cantrips shifted right before S2; recraft if you rushed day 1.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+      ]
+    },
+    {
+      "slot": "Waist",
+      "item": "Martyr's Waistwrap (Arcanoweave Lining)",
+      "notes": "Icy Veins and Method second lining. Method overall BiS belt. IV raid-only list uses Caustic Chain-Wrapped Sash instead of this craft.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+      ]
+    },
+    {
+      "slot": "Back",
+      "item": "Adherent's Silken Shroud (Arcanoweave Lining)",
+      "notes": "Third lining if you skipped wrists or belt. Overall IV/Method lists use Silken Voodoo Drape from Coiled Altar instead.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+      ]
+    },
+    {
+      "slot": "Off-Hand",
+      "item": "Crafted Off-Hand (Hunter's Ritual Stone)",
+      "notes": "Optional early Spark. Icy Veins and Method: not a long-term craft; overall BiS off-hand is Spine of the Hissing Abyss. Skip an early staff.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+      ]
+    },
+    {
+      "slot": "Finger",
+      "item": "Loa Worshiper's Band",
+      "notes": "Icy Veins early ring if you cannot find a dungeon or raid band. Proc depends on gem colors; IV prefers Garnet or Peridot. Not on Method overall.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Jan'thrazet, the Soul Fang" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Head", "item": "Venomkeeper's Horrific Cowl (catalyze)" }
+        ],
+        "notes": "Voidcore first. Bonus-roll Heroic as Holy loot spec so the DPS trinket stays off the table. Cantrip MH, neck, and catalyze helm; IV says helm and neck are Myth-track even on Heroic.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Hands", "item": "Grasps of the Eternal Shadow (catalyze)" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Feet", "item": "Cackling Soultreads" },
+          { "slot": "Trinket", "item": "Hex Lord's Dooming Idol" }
+        ],
+        "notes": "IV overall and raid catalyze these gloves. Cloak and boots on overall/raid. Hex Lord is the raid on-use; line it up with damage-amp phases.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "priority": 3,
+        "items": [
+          { "slot": "Trinket", "item": "Wavecaller's Seastone" },
+          { "slot": "Finger", "item": "Alluring Bubbleband" }
+        ],
+        "notes": "Icy Veins best passive, slightly ahead of Gebbo. Method overall wears Seastone. IV raid-only second ring is this band; Method overall uses Sickening Signet of Atroxus instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" },
+          { "slot": "Shoulders", "item": "Cosmic Penitent's Echoing Screams (tier token)" }
+        ],
+        "notes": "S-tier raid passive. Method Voidcores Myth-track Gebbo after Ula'tek weapons. IV raid catalyzes this shoulder token; overall catalyze is King's Rest.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Off-Hand", "item": "Spine of the Hissing Abyss" }
+        ],
+        "notes": "Icy Veins and Method overall/raid off-hand. Skip the Ritual Stone craft once this is Myth-track.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Chest", "item": "Cosmic Penitent's Eclipsing Robes (tier token)" },
+          { "slot": "Finger", "item": "Vile Alchemist's Band" }
+        ],
+        "notes": "Icy Veins raid chest token. Method/IV overall ring. Overall catalyze chest is Altar of Fangs instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Legs", "item": "Enveloping Legwraps of the Cosmic Penitent (tier token)" }
+        ],
+        "notes": "Icy Veins raid catalyze legs. Overall catalyze is Forest Dream Leg-guards from Den of Nalorakk. Token legs are Haste/Versatility.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Trinket", "item": "Freightrunner's Flask" },
+          { "slot": "Neck", "item": "Pendant of Malefic Fury" },
+          { "slot": "Feet", "item": "Tempestuous Sandals" }
+        ],
+        "notes": "Icy Veins first farm: S-tier on-use, M+ neck, M+ boots. Method overall wears Flask with Seastone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Main Hand", "item": "Polished Lightwood Channeler" },
+          { "slot": "Chest", "item": "Primordial Robe of Rites (catalyze)" },
+          { "slot": "Hands", "item": "Handwraps of Blasphemous Rites (catalyze)" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord" },
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom" }
+        ],
+        "notes": "Icy Veins second farm: cantrip 1H that lasts until Jan'thrazet, overall catalyze chest, M+ catalyze gloves, M+ ring, A-tier on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Back", "item": "Bloodthorn Burnous" },
+          { "slot": "Waist", "item": "Lightblossom Cinch" },
+          { "slot": "Trinket", "item": "Lightspire Core" }
+        ],
+        "notes": "Icy Veins third farm: M+ cloak and belt. Lightspire is A-tier passive while you wait on Seastone or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Head", "item": "Overseer's Diadem (catalyze)" },
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus" },
+          { "slot": "Trinket", "item": "Mindpiercer's Sigil" }
+        ],
+        "notes": "Icy Veins M+ catalyze helm. Method/IV overall ring. Mindpiercer is Icy Veins M+ BiS second trinket with Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Shoulders", "item": "Mantle of Ceremonial Ascension (catalyze)" },
+          { "slot": "Trinket", "item": "Stormbound Emblem of Dazar" }
+        ],
+        "notes": "Icy Veins and Method overall catalyze these shoulders. Stormbound is A-tier on-use; Flask is still the M+ on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Legs", "item": "Forest Dream Leg-guards (catalyze)" }
+        ],
+        "notes": "Icy Veins overall catalyze legs. Raid-only catalyze uses the Sszorak token instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Archon",
+        "recommended": true,
+        "loadoutCode": "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMz2MGzw2MzYmZGbIzYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
+        "bullets": [
+          "Icy Veins recommended raid Archon; Halo empowers Voidform. Method default raid import is the same code.",
+          "Method leans Archon in Midnight; IV starts Voidweaver, then swaps here for a more sustained pattern.",
+          "Sszorak is true ST: drop Psychic Link (Method/IV pure-ST import).",
+          "Entombed Sentinels: drop Tentacle Slam points; slam cannot hit both spread targets.",
+          "Ancient Madness is the Season 2 default Voidform node; Improved Voidform is niche burst (Ula'tek amp window).",
+          "No Season 2 4pc: drop Descending Darkness and Crushing Void for Idol of C'Thun."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/talents" }
+        ]
+      },
+      {
+        "heroTree": "Voidweaver",
+        "recommended": false,
+        "loadoutCode": "CIQAAAAAAAAAAAAAAAAAAAAAAMMjZGAAAAAAAAAAAAMLmxMbzMMz2MzYG2mZGzMzYDZGLmpBYmZGAIAz2stAmNGAYwYmZGz2YGMzgZwA",
+        "bullets": [
+          "Method Voidweaver raid import. IV: Void Torrent opens Entropic Rift, then Void Blast while it lasts.",
+          "Icy Veins would start here, then move to Archon if you want sustained damage.",
+          "Method: Voidweaver shines on short burst windows; most damage is during the rift.",
+          "Sszorak: drop Psychic Link (Method/IV pure-ST import).",
+          "Entombed Sentinels: drop Tentacle Slam points, same as Archon.",
+          "IV skips Thought Harvester: Mind Blast and Void Blast are weak, and Mind Blast no longer spawns Shadowy Apparitions."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Voidweaver",
+        "recommended": true,
+        "loadoutCode": "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMzyMzYG2mZGzMzYDZGLmpBYmZGAIAz2stAmNGAYwYmZGzGzgZGMDGA",
+        "bullets": [
+          "Icy Veins recommended M+ Voidweaver; Method M+ import matches the IV AoE string.",
+          "Misery is the default; Invoked Nightmare only if you can set up and targets live long enough.",
+          "IV: strong AoE plus priority damage during AoE, with usable single-target.",
+          "Method: Voidweaver is the short-window burst tree; Archon is the sustained alternative.",
+          "No Season 2 4pc: drop Descending Darkness and Crushing Void for Idol of C'Thun.",
+          "IV still skips Thought Harvester on this tree."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/talents" }
+        ]
+      },
+      {
+        "heroTree": "Archon",
+        "recommended": false,
+        "loadoutCode": "CIQAAAAAAAAAAAAAAAAAAAAAAMMDzAAAAAAAAAAAAwMLmxMbjxMzyMGzw2MzYmZGbIzYxMNAzAMzmZY2MAkxYBAzMgxMzMmNmZbZAmBDA",
+        "bullets": [
+          "Method Archon M+ import. Icy Veins uses Archon when you need large sustained AoE.",
+          "IV: can feel sluggish in pug keys; they tell you to try Voidweaver first.",
+          "Misery default. Method: Invoked Nightmare for low-target cleave or high-key multi-target.",
+          "Archon M+ utility: Incessant Screams is an extra stop.",
+          "No Season 2 4pc: drop Descending Darkness and Crushing Void for Idol of C'Thun.",
+          "Icy Veins still marks Voidweaver as the recommended M+ hero tree."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Voidweaver",
+        "recommended": true,
+        "loadoutCode": "CIQAAAAAAAAAAAAAAAAAAAAAAMMDDAAAAAAAAAAAAmZxMmZbmxMzyMzYmx2MYmZmZDZGLb0AMzMDAEgZb2WAzGDAMwMzMzMbMDmZwMYA",
+        "bullets": [
+          "Icy Veins recommended Delves import; Method Voidweaver Delves code matches.",
+          "Spec tree is near the dungeon build; class tree is rebuilt for solo utility.",
+          "Pick up Dominate Mind, Shackle Horror, Spectral Illusion (Fade mini-taunt for Valeera), dispels, and Phantasm.",
+          "Drops Twins of the Sun Priestess; put it back if you are grouped.",
+          "Shadow Word: Death is out; IV says its damage is already low.",
+          "Method has a Delves import; IV marks this tree recommended for Delves."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/talents" }
+        ]
+      },
+      {
+        "heroTree": "Archon",
+        "recommended": false,
+        "loadoutCode": "CIQAAAAAAAAAAAAAAAAAAAAAAMMDzAAAAAAAAAAAAwMLmxMbjxMzyMGzM2mBzMzMbIzYZjGgZAmZzMMbGAyYsAgZGgZmZmZ2YmtlBYGMA",
+        "bullets": [
+          "Method Archon Delves import; IV has an Archon Delves section with the same utility list.",
+          "Spec tree stays close to the dungeon build; class tree takes Dominate Mind, Shackle Horror, Spectral Illusion, dispels, and Phantasm.",
+          "Drops Twins of the Sun Priestess unless you are grouped.",
+          "Shadow Word: Death is out for the extra utility.",
+          "Icy Veins still marks Voidweaver as the recommended Delves hero tree.",
+          "Method also publishes this as the Archon Delves variant of the raid build."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "whenToUse": "Icy Veins best passive, slightly ahead of Gebbo. Method overall BiS pair with Flask. Wear with one on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins/Method S passive. Method Voidcores this after Ula'tek weapons. Pair with Hex Lord or Flask, not a second passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins best raid on-use; Method S. Line up with damage-amp phases. Pair with Seastone or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins/Method S on-use and Method overall second slot. Best dungeon on-use if Hex Lord is late.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins/Method A all-primary on-use. Farm while targeting the Altar of Fangs cantrip 1H.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins/Method A passive while you wait on Seastone or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins/Method A. Icy Veins M+ BiS second trinket with Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins/Method A raid Intellect on-use. Behind Hex Lord and Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins/Method A dungeon on-use. Do not chase it over Flask or Hex Lord.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B Intellect passive from Vashnik. Method drops lists it; Shadow A-tier list does not.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B Intellect passive. Vile Vial is the Altar of Fangs trinket to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B all-primary passive. Lightspire is the Vale trinket Icy Veins ranks A.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B only after the whelp is trained; skip it until then.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Mastery on-use from Ula'tek. Do not take this over Seastone farming or the Holy-spec cantrip rolls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sethraliss' Defiled Relic",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C Intellect on-use. Flask, Hex Lord, and Vile Vial are the on-uses to chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins first dungeon farm and M+ BiS on-use. Method overall second slot. Pair with Seastone, Gebbo, or Mindpiercer.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "whenToUse": "Icy Veins best passive in keys too. Wear with Flask if the lair drop is already Myth-track.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins/Method S. Vault or raid catch; still behind Flask plus a dungeon A-tier if Seastone is missing.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins/Method S raid on-use. Fine in keys if you already have it; Flask is the farmable on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins M+ BiS pair with Flask. Method A. Farm Voidscar while catalyzing Overseer's Diadem.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins/Method A. Farm it with the cantrip 1H; Flask still outranks it for keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins/Method A. Passive while farming Vale cloak and belt.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins/Method A. Raid on-use catch; Flask is the key-slot chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins/Method A. Farm with Mantle of Ceremonial Ascension; still behind Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/shadow-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B raid passive. Mindpiercer or Lightspire are the dungeon passives to farm.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B. Vile Vial is the Altar of Fangs trinket Icy Veins ranks A.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B. Lightspire is the Vale trinket to wear first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B only after the whelp is trained; otherwise leave it in the bag.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C. Do not take this over Seastone, Gebbo, or the Holy-spec Ula'tek cantrip rolls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sethraliss' Defiled Relic",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C. Temple of Sethraliss is not an Icy Veins Shadow farm dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/shadow-priest-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,706 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 9,
+  "specId": 266,
+  "className": "Warlock",
+  "specName": "Demonology",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Wrist",
+      "item": "Martyr's Bindings (Arcanoweave Lining)",
+      "notes": "Icy Veins long-term lining host with the lantern. Method overall/raid BiS wrists. Two embellishments max. IV still warns Venomous Abyss cantrips shifted right before S2; hold Day 1 crafts.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" }
+      ]
+    },
+    {
+      "slot": "Off-Hand",
+      "item": "Aln'hara Lantern (Arcanoweave Lining)",
+      "notes": "Icy Veins long-term second lining on the off-hand frill. Overall, raid, and M+ IV lists wear this lantern. Method overall/raid off-hand is Spine of the Hissing Abyss instead.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Aln'hara Cane (Hunter's Ritual Stone)",
+      "notes": "Icy Veins immediate Spark dump: 4 Sparks on this staff plus lower-ilvl Arcanoweave wrists. Skip once a Myth-track weapon or Heroic+ Jan'thrazet is online. Same stats as 1H+OH at equal ilvl.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Waist",
+      "item": "Martyr's Waistwrap (Arcanoweave Lining)",
+      "notes": "Method overall/raid second lining. IV overall uses Ethereal Netherwrap; IV raid uses Caustic Chain-Wrapped Sash. Two embellishments max.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Jan'thrazet, the Soul Fang" },
+          { "slot": "Head", "item": "Venomkeeper's Horrific Cowl" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" }
+        ],
+        "notes": "Icy Veins Voidcore first: Myth-track Soul Fang, then Myth-track Cowl. Vault chase is Fang, Cowl, and Reliquary. Wear the cantrip helm; catalyze four other slots.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" },
+          { "slot": "Shoulders", "item": "Spires of the Damned Necrolyte (catalyze)" }
+        ],
+        "notes": "Icy Veins vault: Gebbo is the best raid trinket. IV raid and Method overall/raid catalyze this shoulder token. IV overall catalyzes Brood Cleanser's Amice from Sethraliss instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Hands", "item": "Grasps of the Eternal Shadow (catalyze)" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Feet", "item": "Cackling Soultreads" },
+          { "slot": "Trinket", "item": "Hex Lord's Dooming Idol" }
+        ],
+        "notes": "IV overall/raid and Method catalyze these gloves. Cloak and boots match IV and Method raid. Hex Lord is Method's raid on-use; IV ranks it A and raid-lists Vexhul instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Chest", "item": "Damned Necrolyte's Rattling Robes" },
+          { "slot": "Finger", "item": "Vile Alchemist's Band" }
+        ],
+        "notes": "Direct tier chest on IV raid/overall and Method. IV raid and Method second ring. IV overall second ring is Charged Sandstone Band from Sethraliss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Legs", "item": "Damned Necrolyte's Leg Bindings" },
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" },
+          { "slot": "Waist", "item": "Caustic Chain-Wrapped Sash" }
+        ],
+        "notes": "Direct tier legs on IV and Method. Apex ring is IV overall/raid and Method. IV raid belt; Method crafts Martyr's Waistwrap instead, IV overall uses Ethereal Netherwrap.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Trinket", "item": "Vexhul's Everflowing Gland" },
+          { "slot": "Shoulders", "item": "Ornaments of the Eternal Coil (catalyze)" }
+        ],
+        "notes": "Icy Veins raid on-use pair with Gebbo. IV raid FAQ also catalyzes these shoulders; the raid table and Method use Lost Explorers instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Off-Hand", "item": "Spine of the Hissing Abyss" }
+        ],
+        "notes": "Method overall/raid off-hand. Icy Veins lists Aln'hara Lantern on overall, raid, and M+ instead.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "priority": 8,
+        "items": [
+          { "slot": "Trinket", "item": "Wavecaller's Seastone" }
+        ],
+        "notes": "Icy Veins overall BiS pair with Vile Vial; Method overall/raid BiS passive. Tidebound Grotto is not the Season 2 raid; keep it if already Myth-track.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Polished Lightwood Channeler" },
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom", "from": "Rav'i" },
+          { "slot": "Chest", "item": "Primordial Robe of Rites (catalyze)" }
+        ],
+        "notes": "Icy Veins first farm: weapon and trinket. IV M+ catalyzes this chest. Channeler lasts until Jan'thrazet; 1H+OH equals a staff at the same ilvl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Neck", "item": "Graft of the Domanaar", "from": "Charonus" },
+          { "slot": "Waist", "item": "Ethereal Netherwrap" },
+          { "slot": "Trinket", "item": "Mindpiercer's Sigil" }
+        ],
+        "notes": "Icy Veins second farm: neck, belt, and M+ second trinket. IV overall also wears this belt. Skip the neck if Aqirbane Reliquary is already Myth-track.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Finger", "item": "Signet of Snarling Servitude", "from": "Xathuux the Annihilator" },
+          { "slot": "Back", "item": "Speakeasy Shroud" },
+          { "slot": "Feet", "item": "Tempestuous Sandals", "from": "Xathuux the Annihilator" }
+        ],
+        "notes": "Icy Veins third farm: ring, cloak, and boots. IV M+ second ring; overall/raid second ring is Apex Brute's Claw Ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Finger", "item": "Charged Sandstone Band", "from": "Galvazzt" },
+          { "slot": "Shoulders", "item": "Brood Cleanser's Amice (catalyze)", "from": "Avatar of Sethraliss" },
+          { "slot": "Hands", "item": "Handwraps of Oscillating Polarity (catalyze)", "from": "Galvazzt" }
+        ],
+        "notes": "Icy Veins overall first ring and overall/M+ catalyze shoulders and gloves. Method raid catalyzes Lost Explorers shoulders and Coiled Altar gloves instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Head", "item": "Worldroot Canopy (catalyze)" }
+        ],
+        "notes": "Icy Veins M+ catalyze helm if you skip Ula'tek's Cowl. Raid/overall helm stays Venomkeeper's Horrific Cowl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Legs", "item": "Forest Dream Leg-guards (catalyze)" }
+        ],
+        "notes": "Icy Veins M+ catalyze legs. Raid/overall legs are Damned Necrolyte's Leg Bindings from Sszorak.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Soul Harvester",
+        "recommended": true,
+        "loadoutCode": "CoQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZjhZmxsMAAAAAAAjtlBGwAmhtQGbmhZ2mlZmZMDAYMzMzAMzMmxMDAAwMzMzMjZYZAYA",
+        "bullets": [
+          "Icy Veins default ST Soul Harvester; about 3% ahead of Diabolist in pure single-target, with much worse cleave.",
+          "Ranged Summon Demonic Tyrant. Play around Dominion of Argus: after Tyrant, dump Hand of Gul'dan to spawn extra demons.",
+          "Method (11 Aug 2026) still calls Diabolist the stronger 12.1 tree even after its cleave nerf.",
+          "Method SH ST spends Demonic Cores into Wicked Reaping and Quietus.",
+          "Method flex: Gloomhound to Charhound, or both hounds plus Vilefiend into Doom and Summon Doomguard.",
+          "Shadow of Death: Tyrant grants 3 shards, so Method casts it at 2/5 shards to avoid overcap."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/talents" }
+        ]
+      },
+      {
+        "heroTree": "Diabolist",
+        "recommended": false,
+        "loadoutCode": "CoQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZjxmZGzyAAAAAAAAGzYYBGYb0GNsYwMLzyMzMmBAmhZmZmZAGzYMbAAgZmZmZGzwyMGwA",
+        "bullets": [
+          "Method ST Diabolist import; they call this the stronger 12.1 hero talent.",
+          "Icy Veins: about 3% behind Soul Harvester on true ST, with much more free cleave.",
+          "Icy Veins still defaults Soul Harvester for ST; Venomous Abyss is rarely true ST, so Diabolist cleave matters.",
+          "Do not overcap cores or shards; keep Diabolic Ritual rolling.",
+          "Line Pit Lord and Ruination with add spawns if it does not overcap shards.",
+          "Tyrant plus Reign of Tyranny and Abyssal Dominion. Implosion is still worth pressing in ST with To Hell and Back."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Diabolist",
+        "recommended": true,
+        "loadoutCode": "CoQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxmZGzyAAAAAAAAGzYYBGYb0CNsYMzYZ2mZmxMAwMjZGzMDwYmxMbAAgxMzMzww2MGwA",
+        "bullets": [
+          "Icy Veins default at any key level; comparable single-target to Soul Harvester with better AoE.",
+          "Method bread and butter for Mythic+ and multi-target raid (they publish a different import).",
+          "Overlord and Pit Lord front-load burst.",
+          "Implosion builds Demonic Cores and lets Wild Imps cleave at small counts via To Hell and Back.",
+          "Method: the spec mostly plays itself if you do not overcap cores or shards and keep Diabolic Ritual rolling.",
+          "Apex Dominion of Argus: 35–40s of high damage after Tyrant, then 20–25s of downtime."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/talents" }
+        ]
+      },
+      {
+        "heroTree": "Soul Harvester",
+        "recommended": false,
+        "loadoutCode": "CoQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZjxmZGzyAAAAAAAMWWGYADYGWCZsZYmZZ2mZmxMAwMMmZAmZGzYMbAAgZmZmZGzwyMGwA",
+        "bullets": [
+          "Icy Veins: situational when you need damage immediately; faster ramp, higher variance, worse overall.",
+          "Shadow of Death speeds Dominion of Argus setups versus Diabolist.",
+          "Method SH M+: stacked 5-target cleave with Dreadlash, Implosion, Antoran Armaments, To Hell and Back, Doom, and Summon Doomguard.",
+          "Method class-tree M+ nodes: AoE curses, Blight of Weakness or Curse of Tongues, and Shadowfury.",
+          "Icy Veins still defaults Diabolist for keys.",
+          "No Icy Veins quick-start Soul Harvester M+ code; this is Method's import."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Soul Harvester",
+        "recommended": true,
+        "loadoutCode": "CoQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxiZGzyAAAAAAAMWWGYADYG2CM2MmZsMmxMzMAwMzMGDwMzYmxMbAAgxMzMzYw2MDwA",
+        "bullets": [
+          "Icy Veins published Delves import is Soul Harvester.",
+          "Icy Veins: hero tree is stylistic here; Soul Harvester has better defensives overall.",
+          "Diabolist still has stronger burst if a pack needs to die immediately.",
+          "Method has no separate Delves page; Icy Veins still defaults Soul Harvester for ST and Delves.",
+          "Play around Dominion of Argus the same way as raid; Shadow of Death speeds the setup.",
+          "Use this for solo and open world."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/talents" }
+        ]
+      },
+      {
+        "heroTree": "Diabolist",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Diabolist Delves import on Icy Veins or Method.",
+          "Icy Veins Delves quick-start is Soul Harvester only.",
+          "Icy Veins: stylistic pick; Diabolist has stronger burst and can trivialize some packs.",
+          "Method talent page has Raid/M+ Diabolist codes and no Delves tab.",
+          "Use the Soul Harvester Delves loadout on this tab for solo and open world."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins S and overall BiS on-use with Seastone. Method lists it as the Hex Lord alternative.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "whenToUse": "Icy Veins overall BiS passive / Method BiS passive. Pair with one on-use. S1 leftover; wear it if already Myth-track.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A, vault 'best trinket', and raid-list pair with Vexhul. Runner-up passive with Mindpiercer. Random procs; do not plan a window around it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method raid on-use BiS with Seastone. Line it with Tyrant / Dominion of Argus. Vile Vial is Method's alternative.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A and raid-list on-use with Gebbo. Runner-up active with Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A dungeon Intellect on-use. Do not chase it over Vile Vial or Hex Lord.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B and M+ runner-up passive. Wear in raid only if Seastone and Gebbo are missing.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B / Method passive alternative to Seastone. Farmable Intellect passive with no extra setup.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Zaen Bladesorrow",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B and runner-up active with Vexhul. Weaker on Demo than on many other casters; Vile Vial is the on-use to chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B / Method Seastone alternative. Mastery on-use from the same boss as Jan'thrazet; never Voidcore this over Fang or Cowl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C Intellect passive. Vile Vial is the Altar of Fangs trinket to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Intellect passive from Vashnik. Do not take this over Gebbo or Seastone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C all-primary passive. Lightspire is the Vale trinket Icy Veins ranks higher.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C only after the whelp is trained; skip it until then.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sethraliss' Defiled Relic",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C Intellect on-use. Vile Vial, Hex Lord, and Vexhul are the on-uses to chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins S and M+ BiS on-use. First dungeon farm with Polished Lightwood Channeler. Method on-use alternative to Hex Lord.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "whenToUse": "Icy Veins overall BiS passive / Method BiS. Wear in keys if already Myth-track; otherwise farm Mindpiercer.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A vault catch. Fine in keys next to Vile Vial if Seastone is missing; random procs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method raid on-use. Usable in keys if you already have it; Vile Vial is the farmable on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A raid on-use. Runner-up active; skip farming raid for this if Vile Vial is already dropping.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A dungeon on-use. Do not chase King's Rest for this over Altar of Fangs Vile Vial.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B and M+ BiS second trinket with Vile Vial. Second dungeon farm with Graft of the Domanaar.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B / Method Seastone alternative. Farmable passive while you are already in Vale for Worldroot Canopy.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Zaen Bladesorrow",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B. Pickup while farming Speakeasy Shroud and Tempestuous Sandals; Vile Vial is still the on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B / Method Seastone alternative. Never take this over Jan'thrazet or Venomkeeper's Horrific Cowl from the same boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/demonology-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C. Same dungeon as Vile Vial; do not wear this over the Vial.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C raid Intellect passive. Skip in keys unless it is a large ilvl upgrade over Mindpiercer.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C. Lightspire is the Vale trinket to take if you farm this dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C only after the whelp is trained; otherwise leave it in the bag.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sethraliss' Defiled Relic",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C. Farm Sethraliss for Charged Sandstone Band and catalyze pieces, not this on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/demonology-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

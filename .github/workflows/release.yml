@@ -30,8 +30,8 @@ jobs:
           name: Latest
           body: |
             Double-click `WowQuickRef-Overlay.exe` and leave it running.
-            The first launch copies the Lua addon into WoW AddOns.
-            Play in borderless windowed. F8 toggles the panel.
+            Play in borderless windowed. F8 toggles the panel; pick spec in the dropdown.
+            If an older version left Interface\AddOns\WowQuickRef, delete that folder.
             If Windows says the app is unrecognized: More info → Run anyway.
           files: overlay/dist/WowQuickRef-Overlay.exe
           make_latest: true

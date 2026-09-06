@@ -141,14 +141,16 @@
     },
     "trinketList": {
       "type": "array",
-      "maxItems": 12,
+      "maxItems": 24,
       "items": {
         "type": "object",
-        "required": ["tier", "item", "whenToUse", "sources"],
+        "required": ["tier", "item", "from", "instance", "whenToUse", "sources"],
         "additionalProperties": false,
         "properties": {
-          "tier": { "enum": ["S", "A", "B"] },
+          "tier": { "enum": ["S", "A", "B", "C"] },
           "item": { "type": "string" },
+          "from": { "type": "string" },
+          "instance": { "type": "string" },
           "whenToUse": { "type": "string" },
           "sources": { "$ref": "#/$defs/sources" }
         }

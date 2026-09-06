@@ -1,0 +1,768 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 2,
+  "specId": 70,
+  "className": "Paladin",
+  "specName": "Retribution",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Finger",
+      "item": "Loa Worshiper's Band",
+      "notes": "Icy Veins default embellishment and Method later BiS with Bandolier. Stronger at full BiS. Missive: Thalassian Missive of the Feverflare. Gems: Flawless Masterful Peridot.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Stabilizing Gemstone Bandolier)",
+      "notes": "Method later BiS pair with the Loa band. Icy Veins puts Bandolier on any low-ilvl slot; it does nothing without Loa Worshiper's Band. Bracers are a late slot, not a first Spark.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Blood Knight's Warblade (Hunter's Ritual Stone)",
+      "notes": "Optional early Spark if you lack a Myth weapon. Skip if you plan Voidcores on weapon bosses. Best weapon embellishment early; weaker than armor options long term.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Arcanoweave Lining)",
+      "notes": "Icy Veins alt to Loa+Bandolier: two linings (Arcanoweave and/or Adorned Fang). Mix-and-match with Hunter's Ritual Stone plus Loa band. Either combo can win on sims.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Adorned Fang)",
+      "notes": "Other lining in the Icy Veins two-lining combo. Overall and Method BiS wrists are Spellbreaker's Bracers; do not craft them first.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+      ]
+    },
+    {
+      "slot": "Back",
+      "item": "Adherent's Silken Shroud",
+      "notes": "Method raid BiS crafted cloak. Overall Icy Veins/Method lists use Silken Voodoo Drape from Coiled Altar instead.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Two-Hand", "item": "Maze-roa, Warlord's Fury" },
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Waist", "item": "Girdle of Toxic Regret" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Chest", "item": "Reckless Spirit Breastplate (catalyze)" }
+        ],
+        "notes": "Voidcore and vault first. BiS cantrip weapon, matching trinket, belt, cloak, and catalyze chest. Guillotine wants the Maze-roa set on cleave.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Legs", "item": "Chausses of Unbound Rancor (catalyze)" }
+        ],
+        "notes": "Voidcore second. Best on-use, cantrip neck, catalyze legs. After Heart, Icy Veins will loot Holy to drop both trinkets from the pool.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Head", "item": "Skullguard of the Risen Sacrifice (catalyze)" }
+        ],
+        "notes": "Icy Veins overall/raid and Method overall/raid catalyze this helm.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Feet", "item": "Scaled Fiend's Warboots" },
+          { "slot": "Finger", "item": "Vile Alchemist's Band" }
+        ],
+        "notes": "Icy Veins overall/raid boots and ring. Method raid catalyzes chest here; overall catalyze is Coiled Altar.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Shoulders", "item": "Pauldrons of the Consecrated Flame (tier token)" }
+        ],
+        "notes": "Icy Veins raid catalyze is the Explorers shoulder token. Method raid shoulders from this boss; overall catalyze is Murder Row.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Hands", "item": "Scaleplate Strangulators (catalyze)" }
+        ],
+        "notes": "Icy Veins raid catalyze gloves. Method overall uses Bonds of the Hash'ura; Method raid uses Entombed Sentinels.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Hands", "item": "Gauntlets of the Consecrated Flame (tier token)" }
+        ],
+        "notes": "Method raid glove token. Skip if you catalyze Twin Fangs or Nalorakk instead.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 8,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Method raid second ring. Icy Veins overall uses Loa Worshiper's Band here instead.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Two-Hand", "item": "Backdraft Cleaver" },
+          { "slot": "Chest", "item": "Breastplate of Soaring Terror (catalyze)" },
+          { "slot": "Trinket", "item": "Blazebinder's Hoof" }
+        ],
+        "notes": "Icy Veins first farm: weapon plus a usable trinket on a small loot table. Method M+ catalyze chest and BiS Hoof.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Legs", "item": "Ancient General's Obsidian Pillars (catalyze)" },
+          { "slot": "Feet", "item": "Poison-Proof Stompers" },
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom" }
+        ],
+        "notes": "Icy Veins farm plus M+ catalyze legs and boots. Icy Veins M+ BiS on-use; Method M+ uses Hoof instead of the Vial.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Trinket", "item": "Sapling of the Dawnroot" }
+        ],
+        "notes": "Icy Veins trinket farm. Icy Veins and Method M+ BiS both wear Sapling.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Shoulders", "item": "Cinderfury Shoulderguards (catalyze)", "from": "Lithiel Cinderfury" },
+          { "slot": "Head", "item": "Greathelm of Temptation (catalyze)" },
+          { "slot": "Two-Hand", "item": "Xathuux's Cleave", "from": "Xathuux the Annihilator" },
+          { "slot": "Neck", "item": "Pendant of Malefic Fury" },
+          { "slot": "Finger", "item": "Signet of Snarling Servitude" }
+        ],
+        "notes": "Icy Veins M+ catalyze helm and shoulders. Method M+ weapon, neck, ring; overall catalyze shoulders from here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Hands", "item": "Bonds of the Hash'ura (catalyze)" }
+        ],
+        "notes": "Icy Veins overall and M+ catalyze gloves. Method overall same; Method M+ catalyzes King's Rest instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Waist", "item": "Girdle of Pestilent Purification" },
+          { "slot": "Hands", "item": "Gauntlets of the Consecrated Flame (catalyze)" }
+        ],
+        "notes": "Icy Veins M+ BiS belt. Method M+ belt and glove catalyze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus", "from": "Atroxus" },
+          { "slot": "Head", "item": "Warhelm of the Consecrated Flame (catalyze)" }
+        ],
+        "notes": "Icy Veins M+ BiS ring. Method M+ ring and helm catalyze; Icy Veins M+ helm catalyze is Murder Row.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Herald of the Sun",
+        "recommended": true,
+        "loadoutCode": "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAANbbzMzywMDAAAAAAzUGzwMjtxsNMz2MGjxwMWYbAYWmtZmZrBBAAsAYAwYGmBzYmZDYmZYMjBD",
+        "bullets": [
+          "Icy Veins default ST Herald; both trees are nearly even on ST, Herald tends to win with Power Infusion.",
+          "All Icy Veins builds use Crusading Strikes; Templar Strikes is far behind.",
+          "Herald has no real ST talent swaps.",
+          "Method ST Herald takes Tempest of the Lightbringer on ST because of the Season 2 tier set.",
+          "Season 2 4pc favors Herald: Aurora guarantees Divine Purpose on Wake of Ashes.",
+          "Method opener (27 Aug 2026) recommends Herald for Raid; leftover conclusion still says Templar."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/talents" }
+        ]
+      },
+      {
+        "heroTree": "Templar",
+        "recommended": false,
+        "loadoutCode": "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAANbbzMzywMDAAAAAAzUmtZYmx2Y2GmZbGjxMDzYhtBAAkZm2mZ2mBAsBYAwYGGYGjZDbzghxMGMA",
+        "bullets": [
+          "Method Templar ST import; Icy Veins still defaults Herald.",
+          "Can play Radiant Glory instead of Execution Sentence.",
+          "Icy Veins: Divine Exaction and Quickened Invocation instead for extra passive cleave.",
+          "Stronger immediate burst and better defensives; favorite in short ST burst windows.",
+          "Method leftover conclusion still lists Templar as recommended for Raid; opener and Icy Veins say Herald.",
+          "Both trees are viable if you strongly prefer one."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Herald of the Sun",
+        "recommended": true,
+        "loadoutCode": "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzAAAAAAYmyYGmZsNmthZ2mxYMGmxCbAYWmtZmZrBBAAsAYAwYGGYGzMbAzMDjZMYA",
+        "bullets": [
+          "Icy Veins default Cleave/M+ Herald; Method Herald M+ import matches this code.",
+          "Default Herald as the all-rounder; better low-target cleave, small gap on large packs.",
+          "Herald has no real ST vs AoE talent swaps.",
+          "Swap Execution Sentence for Radiant Glory for smoother CDs with unorthodox tank pulls.",
+          "Templar is much stronger for burst AoE; play both when the dungeon asks.",
+          "Method opener recommends Herald for M+; leftover conclusion still says Templar."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/talents" }
+        ]
+      },
+      {
+        "heroTree": "Templar",
+        "recommended": false,
+        "loadoutCode": "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGzMzAAAAAAYmyYGmZsNmthZ2mxYMGmxGbAAAZmptZmtZAAbAGAMmhBmxMzGWmBDjZMYA",
+        "bullets": [
+          "Method Templar M+ import; drop the worst ST talents for AoE.",
+          "Sanctify instead of Jurisdiction for more AoE.",
+          "Execution Sentence to Radiant Glory for desync-proof CDs.",
+          "Much stronger burst AoE; favorite in short burst windows.",
+          "Icy Veins still defaults Herald for keys.",
+          "Method leftover conclusion still says Templar for M+; opener recommends Herald."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Templar",
+        "recommended": true,
+        "loadoutCode": "CYEAAAAAAAAAAAAAAAAAAAAAAAAAAAwoZbbmZWGjZmBAAAAAYmyYGMjtZmthZ2mxYMzwM2YDAAgZm2mZ2mBAsBYAAzwAzYGbYZGMmxMGMA",
+        "bullets": [
+          "Icy Veins published Delves import is Templar.",
+          "Best for short multi-target fights and frequent movement.",
+          "Longer, higher Delves: Icy Veins says use the regular Mythic+ builds instead.",
+          "Stronger immediate burst and better defensives than Herald.",
+          "Method has no separate Delves page.",
+          "Crusading Strikes on this import like the other Icy Veins builds."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/talents" }
+        ]
+      },
+      {
+        "heroTree": "Herald of the Sun",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Herald Delves import on Icy Veins.",
+          "Icy Veins Delves/Open World tab is Templar only.",
+          "For longer sustained Delves, Icy Veins says use the regular Mythic+ builds (Herald M+ on this tab).",
+          "Method has no Delves page; opener still recommends Herald for M+ and Raid.",
+          "Use the Templar Delves loadout for short packs."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method S. Ideal passive with Heart. Needs the Maze-roa set bonus for max power on cleave/AoE.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method S. Best on-use; pair with Guillotine. Method Voidcore Ula'tek after the Coiled Altar weapon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B passive. Catch while you wait on Guillotine or Heart; Method 12.1 Ret A-tier list is empty.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B Strength/Agility passive from raid. Farmable while Coiled Altar and Ula'tek are locked.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B all-primary on-use. Icy Veins M+ BiS pair with Sapling; Method M+ uses Hoof instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Blazebinder's Hoof",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B on-use. Method M+ BiS with Sapling. Icy Veins early dungeon Voidcore: Ruby Life Pools.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B passive. Icy Veins and Method M+ BiS; Method overall also lists it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins C Agility/Strength passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Merektha's Fang",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C. Method: aimed channel, use before the cooldown window. Method AoE-only Voidcore.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the War Loa",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C Strength passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Seed of the Devouring Wild",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C Strength on-use. Do not take this over Sapling from the same dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C Agility/Strength on-use. Vile Vial is the Altar on-use Icy Veins actually ranks B.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tumor of the Swarm",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins C Agility/Strength passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here). Same boss as Heart; never take this over Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sszorak's Ferocity",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here). Strength passive; skip vs Heart plus Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Coiled Fangstone",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins D (C here). Strength on-use; Vile Vial is the Altar on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins D (C here). Method M+ BiS from this dungeon is Blazebinder's Hoof, not the whelp.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method S. Still the passive to chase; Maze-roa set matters on 2+ target pulls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method S. Best on-use on big pulls; dungeon BiS lists are stopgaps until this lands.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B and Icy Veins/Method M+ BiS passive while you farm Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B and Icy Veins M+ BiS on-use. Method M+ pairs Hoof with Sapling instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Blazebinder's Hoof",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B / Method M+ BiS on-use with Sapling. Farm it with Backdraft Cleaver.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B raid passive. Fine in keys until Guillotine or Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B raid passive. Catch while you farm Fang, Hoof, or Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Merektha's Fang",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C. Method: aimed channel before CDs; AoE-only Voidcore, not a default M+ slot.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins C. Farm Murder Row for shoulders and Xathuux's Cleave, not this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the War Loa",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C. Method's Nalorakk pickup for Ret is the Hash'ura glove catalyze, not this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Seed of the Devouring Wild",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C. Sapling is the Vale trinket Icy Veins and Method actually put in M+ BiS.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C. Vile Vial is the Altar on-use on the Icy Veins M+ list.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tumor of the Swarm",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins C. Method Voidscar farm for Ret is the Atroxus ring and helm catalyze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here). Never take this over Heart from the same boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sszorak's Ferocity",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here). Strength passive; skip if you have Heart plus Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Coiled Fangstone",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins D (C here). Vile Vial is the Altar on-use to chase in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins D (C here). Method M+ BiS from Ruby Life Pools is Blazebinder's Hoof.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/retribution-paladin-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/retribution-paladin/gearing" }
+        ]
+      }
+    ]
+  }
+}

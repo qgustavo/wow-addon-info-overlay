@@ -1,0 +1,731 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 8,
+  "specId": 62,
+  "className": "Mage",
+  "specName": "Arcane",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Two-Hand",
+      "item": "Aln'hara Cane (Hunter's Ritual Stone)",
+      "notes": "Icy Veins and Wowhead first Spark unless you expect Heroic or better Jan'thrazet, the Soul Fang. Method also crafts this staff early for weapon stats. Skip once a Myth-track weapon or Heroic+ Soul Fang is online, then recraft Hunt onto the lantern.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+      ]
+    },
+    {
+      "slot": "Off-Hand",
+      "item": "Aln'hara Lantern (Hunter's Ritual Stone)",
+      "notes": "Long-term Hunt host once Soul Fang or another Myth-track weapon is equipped. Craft this second if you skipped the staff. Method BiS off-hand for raid and M+. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Martyr's Bindings (Arcanoweave Lining)",
+      "notes": "Icy Veins, Wowhead late, and Method lining BiS. Wrist is the end-game host; Wowhead early lining goes on your lowest of Helm/Chest/Legs first. Method also allows lining on cloak. Two embellishments max. Do not craft trinkets.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Jan'thrazet, the Soul Fang" },
+          { "slot": "Head", "item": "Venomkeeper's Horrific Cowl" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" }
+        ],
+        "notes": "Icy Veins Voidcore first: Heroic+ Soul Fang by a large margin, then Mythic Cowl, then Mythic Reliquary. Method Voidcores all three. Wear the cantrip helm; catalyze four other slots.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" },
+          { "slot": "Shoulders", "item": "Primal Leywarden's Manaflux (tier token)" }
+        ],
+        "notes": "Method Voidcore for Gebbo (absolute BiS passive). Method overall/raid catalyzes this shoulder token; Icy Veins and Wowhead overall catalyze Twin Fangs instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Hands", "item": "Grasps of the Eternal Shadow (catalyze)" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Feet", "item": "Cackling Soultreads" },
+          { "slot": "Trinket", "item": "Hex Lord's Dooming Idol" }
+        ],
+        "notes": "Icy Veins Voidcore next, especially Grasps. Cloak and boots are overall/raid BiS. Method raid pairs Hex Lord's with Gebbo if you lack Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Shoulders", "item": "Ornaments of the Eternal Coil (catalyze)" },
+          { "slot": "Trinket", "item": "Vexhul's Everflowing Gland" }
+        ],
+        "notes": "Icy Veins and Wowhead overall catalyze these shoulders. Icy Veins raid BiS on-use (tied with Flask on single-target, weaker on AoE).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Chest", "item": "Crest of the Primal Leywarden" }
+        ],
+        "notes": "Icy Veins raid and Method overall/raid chest (already tier). Icy Veins/Wowhead overall catalyzes Primordial Robe of Rites from Altar of Fangs instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Legs", "item": "Initiate's Sacrificial Tights (catalyze)" }
+        ],
+        "notes": "Icy Veins and Wowhead overall/raid catalyze these legs. Method overall/raid uses the Sszorak leg token instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Waist", "item": "Caustic Chain-Wrapped Sash" },
+          { "slot": "Legs", "item": "Primal Leywarden's Tailored Legwraps (tier token)" },
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Belt is overall/raid BiS. Method catalyzes this leg token. Icy Veins/Method raid second ring; overall second ring is Pilfered Precious Band. Alluring Bubbleband from Nymrissa Wavecaller (Tidebound Grotto) is the other ring on all three overall lists.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 8,
+        "items": [
+          { "slot": "Hands", "item": "Primal Leywarden's Manashapers (tier token)" }
+        ],
+        "notes": "Method overall/raid glove token. Icy Veins and Wowhead catalyze Grasps of the Eternal Shadow from Coiled Altar instead.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Trinket", "item": "Freightrunner's Flask", "from": "Zaen Bladesorrow" },
+          { "slot": "Neck", "item": "Pendant of Malefic Fury", "from": "Lithiel Cinderfury" },
+          { "slot": "Hands", "item": "Counterfeit Clutches (catalyze)", "from": "Zaen Bladesorrow" },
+          { "slot": "Feet", "item": "Tempestuous Sandals", "from": "Xathuux the Annihilator" }
+        ],
+        "notes": "Icy Veins first farm: Myth-track Flask (vault), neck, catalyze hands, boots. Method Voidcores +10 Flask. Line Flask up with Arcane Surge (90s).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Lightspire Core" },
+          { "slot": "Back", "item": "Bloodthorn Burnous", "from": "Ikuzz the Light Hunter" },
+          { "slot": "Trinket", "item": "Sapling of the Dawnroot", "from": "Ziekket" }
+        ],
+        "notes": "Icy Veins second farm: best non-raid passive (Lightspire), cloak, and a B-tier ST passive. Method M+ second trinket is Lightspire.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Head", "item": "Overseer's Diadem (catalyze)" },
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus", "from": "Atroxus" },
+          { "slot": "Waist", "item": "Ethereal Netherwrap" },
+          { "slot": "Feet", "item": "Riftworn Stompers" },
+          { "slot": "Main Hand", "item": "Fang of Contagion" }
+        ],
+        "notes": "Icy Veins M+ catalyze helm and M+ ring. Method M+ also takes belt, boots, and this dungeon dagger if you skip Altar of Fangs Channeler.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Finger", "item": "Pilfered Precious Band", "from": "The Hoardmonger" },
+          { "slot": "Chest", "item": "Hoarded Harvest Wrap (catalyze)" }
+        ],
+        "notes": "Overall BiS ring on Icy Veins, Wowhead, and Method. Icy Veins M+ catalyzes this chest; Method M+ catalyzes Primordial Robe of Rites from Altar of Fangs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Shoulders", "item": "Mantle of Ceremonial Ascension (catalyze)" },
+          { "slot": "Back", "item": "Cloak of the Restless Tribes" },
+          { "slot": "Legs", "item": "Down-Lined Breeches (catalyze)" },
+          { "slot": "Off-Hand", "item": "Vessel of Last Rites" }
+        ],
+        "notes": "Icy Veins M+ catalyze shoulders. Method M+ also catalyzes these legs and uses this cloak. Vessel is Icy Veins M+ off-hand if you skipped the lantern.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Main Hand", "item": "Polished Lightwood Channeler" },
+          { "slot": "Chest", "item": "Primordial Robe of Rites (catalyze)" },
+          { "slot": "Hands", "item": "Handwraps of Blasphemous Rites (catalyze)" },
+          { "slot": "Neck", "item": "Strand of Warding Fangs" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord", "from": "Zul'jan" }
+        ],
+        "notes": "Icy Veins M+ weapon. Icy Veins/Wowhead overall catalyze this chest. Method M+ chest, gloves, neck, and this ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Legs", "item": "Wind Soarer's Breeches (catalyze)" }
+        ],
+        "notes": "Icy Veins M+ catalyze legs. Method M+ catalyzes Down-Lined Breeches from King's Rest instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Sunfury",
+        "recommended": true,
+        "loadoutCode": "C4DAAAAAAAAAAAAAAAAAAAAAAYGGLzMzswMDamZGAAAGAwMz0sssMDAgNAAAzMDbWmxMLzYMzMzMsxMmZmBAYAAAGgZGwMAYYmZA",
+        "bullets": [
+          "Icy Veins default for all content. Raid import: ~1% ST loss vs Pure ST for much more cleave; Venomous Abyss is almost never true ST.",
+          "Sunfury is significantly ahead on ST and cleave in raid; IV sees no reason to play Spellslinger unless you prefer the playstyle.",
+          "Apex Prismatic Bolt is virtually always taken; hold the proc up to a minute and dump it before you Barrage again.",
+          "Raid flex: Incantation of Swiftness can swap to Spellsteal.",
+          "Method (5 Sep 2026) lists Spellslinger Pure ST first; this Sunfury Raid code is Icy Veins (12 Aug).",
+          "After Surge, Arcane Soul is Barrage spam: Clearcasting, 4 Charges, 5 Salvo, and Barrage does not consume Salvo."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/talents" }
+        ]
+      },
+      {
+        "heroTree": "Spellslinger",
+        "recommended": false,
+        "loadoutCode": "C4DAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFMDamxAAAwAAgAmZmZZZmJWAAYDzMzM2sMzMzyMGjZmBLMzMzMDAwAAAMzsAAmBADzMD",
+        "bullets": [
+          "Method lists Spellslinger Pure ST first (5 Sep 2026). Icy Veins still defaults Sunfury for all content.",
+          "Method: Barrage only at 20 Arcane Salvo (Polished Focus); that is the main playstyle split vs Sunfury.",
+          "Icy Veins: use Spellslinger Raid/cleave if any adds spawn; this Pure ST import is for true ST only.",
+          "Apex Prismatic Bolt is still taken; Method: press it before you Barrage again so you do not overcap.",
+          "No Icy Veins Spellslinger code on the quick-start row; this is Method's ST import.",
+          "Icy Veins: both trees are close in AoE; Sunfury wins ST with the AoE build, so this is the preference pick."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Sunfury",
+        "recommended": true,
+        "loadoutCode": "C4DAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFMzQzMzAAAwAAmZmmlllZAAsBAwGMzMsZZGzsMjxMzMzwGzYGzAAMAAADwMDMzAghZmB",
+        "bullets": [
+          "Icy Veins default M+ Sunfury; same DPS talents as Raid, with Mythic+ utility (Supernova, Remove Curse).",
+          "Icy Veins: both trees are close in AoE; Sunfury wins slightly and does much more ST with its AoE build.",
+          "Weekly keys and high keys are both tagged Sunfury on Icy Veins.",
+          "Method (5 Sep 2026) lists Spellslinger M+/Raid Cleave first, then a Sunfury Raid Cleave/M+ import.",
+          "Apex Prismatic Bolt is virtually always taken.",
+          "Icy Veins: no real reason to play Spellslinger in keys unless you prefer the playstyle."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/talents" }
+        ]
+      },
+      {
+        "heroTree": "Spellslinger",
+        "recommended": false,
+        "loadoutCode": "C4DAAAAAAAAAAAAAAAAAAAAAAMzwYZmZmFMDamxAAAwAAgAmZmZZZmJWAAYbwMzwmlZMjZMmZmZGWYmZmZGAgBAAYmZDAMDAGmZG",
+        "bullets": [
+          "Method M+/Raid Cleave Spellslinger; they list this before Sunfury. Icy Veins still defaults Sunfury for keys.",
+          "Icy Veins Spellslinger M+ gives up more ST than the Raid build to maximize AoE, plus Supernova.",
+          "Method: Barrage only at 20 Salvo; track stacks so Infused Splinters does not overcap.",
+          "Icy Veins: AoE is close; Sunfury still wins ST on the AoE build, which is why they skip this tree.",
+          "Apex Prismatic Bolt is still taken.",
+          "No Icy Veins Spellslinger quick-start code; this is Method's M+/cleave import."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Sunfury",
+        "recommended": true,
+        "loadoutCode": "C4DAAAAAAAAAAAAAAAAAAAAAAMzwYZGzsYzMDNzYGAAADAYmZaWWWmBAwGAAbwMzwmlZMzyMGzMzMDbMjZMDAwAAAMAzMwMDAGmZG",
+        "bullets": [
+          "Icy Veins published Delves import is Sunfury.",
+          "Built for survival, kiting, mobility, and crowd-control with very little DPS given up.",
+          "Icy Veins also calls this excellent for outdoor content.",
+          "Method has no separate Delves page; Icy Veins still defaults Sunfury for all content.",
+          "Apex Prismatic Bolt is virtually always taken.",
+          "Icy Veins: no real reason to play Spellslinger here unless you prefer the playstyle."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/talents" }
+        ]
+      },
+      {
+        "heroTree": "Spellslinger",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Spellslinger Delves import on Icy Veins or Method.",
+          "Icy Veins Delves quick-start is Sunfury only.",
+          "Method talent page has Raid/M+ Spellslinger codes and no Delves tab.",
+          "Use the Sunfury Delves loadout on this tab for solo and open world."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Freightrunner's Flask",
+        "from": "Zaen Bladesorrow",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins S on-use. Myth-track from vault. Method second BiS: 90s Crit, line up with Arcane Surge every time.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method absolute BiS passive. Random secondary procs; do not plan a window around it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A and raid-list on-use. Tied with Flask on single-target; loses value on AoE. Pair with Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A; slightly weaker Flask stand-in until Murder Row or vault lands.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A passive and best non-raid trinket. Wear if Gebbo is missing.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "whenToUse": "Icy Veins A / Method solid Gebbo alternative. Passive Intellect; no extra setup.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B / Method raid Flask alternative. Numerically strong, but you must track the buff. Method raid BiS pair with Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B passive; strong on single-target, loses value on AoE.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B passive from Voidscar.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Intellect passive from Vashnik. Do not take this over Gebbo or Lightspire.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins C Intellect on-use. Flask or Vile Vial is the on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C Intellect passive. Vile Vial from this dungeon is the ranked on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sethraliss' Defiled Relic",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins D (mapped to C). Intellect on-use; skip it for Flask or Vile Vial.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins D (mapped to C). Skip it; IV does not even give the usual trained-whelp pass.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (mapped to C) Mastery on-use from the same boss as Soul Fang. Do not Voidcore this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Freightrunner's Flask",
+        "from": "Zaen Bladesorrow",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins S / Method second BiS. Myth-track from vault. 90s Crit with Arcane Surge on big pulls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method absolute BiS passive. Wear in keys if raid or vault already dropped it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/mage/arcane/bis-gear" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A and M+ pair with Flask. Method M+ second trinket. Best non-raid passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A Flask stand-in while you farm Murder Row. Slightly weaker on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A. Strong ST on-use from raid; loses value on AoE pulls versus Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "whenToUse": "Icy Veins A / Method Gebbo alternative. Passive Intellect while you farm Lightspire or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B / Method Flask alternative. Track the buff; Method uses this in raid-only lists, not M+.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arcane-mage/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B. Farm Ziekket while you are already in Vale for Lightspire; weaker on AoE than Lightspire.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B passive. Farm it while targeting Overseer's Diadem.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C. Raid leftover; Lightspire or Gebbo is the passive to wear in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins C. King's Rest farm is the catalyze shoulders; Flask is the on-use to chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C. Altar of Fangs on-use to take is Vile Vial, not this passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sethraliss' Defiled Relic",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins D (mapped to C). Not an M+ chase; Flask and Vile Vial outrank it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins D (mapped to C). Ruby Life Pools chase for Arcane is the catalyze legs, not this trinket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (mapped to C). Never take this over Soul Fang from the same boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arcane-mage-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

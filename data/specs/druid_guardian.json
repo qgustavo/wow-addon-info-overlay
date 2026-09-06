@@ -1,0 +1,834 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 11,
+  "specId": 104,
+  "className": "Druid",
+  "specName": "Guardian",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Two-Hand",
+      "item": "Aln'hara Pikestaff (Darkmoon Sigil: Hunt)",
+      "notes": "Icy Veins first Spark. Method: extra value while Myth-track weapons are scarce; skip once Abyssal Broodfiend's Bardiche is upgraded. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Silvermoon Agent's Deflectors (Arcanoweave Lining)",
+      "notes": "Icy Veins long-term lining host (low stat budget). Method: lining on bracers and boots if you have Myth Coiled Altar loot. Wear at most two embellished pieces.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Silvermoon Agent's Sneakers (Arcanoweave Lining)",
+      "notes": "Icy Veins second lining host. Method: same if you lack Myth Coiled Altar; otherwise lining x2 on cloak, bracers, belt, or boots.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Silvermoon Agent's Deflectors (Adorned Fang)",
+      "notes": "Method 12.1 armor option: stacking Haste proc, competitive with Arcanoweave Lining. Icy Veins craft list is Hunt plus lining only.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Two-Hand", "item": "Abyssal Broodfiend's Bardiche" },
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Head", "item": "Gaze of the Coiled Watcher (catalyze)" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" }
+        ],
+        "notes": "Icy Veins Voidcore first. Cantrip weapon (Mythic +10 ilvl), 90s Heart, Haste cantrip helm, Crit cantrip neck with two sockets.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Legs", "item": "Coiled Hex Legguards (catalyze)" },
+          { "slot": "Waist", "item": "Sash of the Forlorn Vessel" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" }
+        ],
+        "notes": "Icy Veins Voidcore second. Guillotine, catalyze legs, belt, and cloak. Method also Voidcores Mythic Altar for legs and sash.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Hands", "item": "Enigmatic Dreamwatcher's Gauntlets (tier token)" },
+          { "slot": "Trinket", "item": "Keeper's Seething Core" }
+        ],
+        "notes": "Icy Veins raid glove token. Method Overall pairs Keeper's Seething Core with Heart; Method also Voidcores this for the Core.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Shoulders", "item": "Enigmatic Dreamwatcher's Plumage (tier token)" },
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" }
+        ],
+        "notes": "Icy Veins raid shoulder token and raid BiS Gebbo. Raid-tab catalyze can use Frothing Venom Spaulders from Vashnik instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Chest", "item": "Enigmatic Dreamwatcher's Lunar Raiment" },
+          { "slot": "Shoulders", "item": "Frothing Venom Spaulders (catalyze)" },
+          { "slot": "Finger", "item": "Vile Alchemist's Band" }
+        ],
+        "notes": "Icy Veins raid chest and ring. Raid catalyze FAQ also lists these shoulders. Method raid/Overall uses the Vashnik chest.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Feet", "item": "Bespittled Slitherslippers" }
+        ],
+        "notes": "Icy Veins raid and Overall boots. Method raid/Overall lists Breakwater Boots from Nymrissa Wavecaller instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins raid/Overall ring. Method raid uses this plus Alluring Bubbleband (Nymrissa); skip if you already have Ritual Binder's Ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 8,
+        "items": [
+          { "slot": "Wrist", "item": "Restless Spirit Shackles" },
+          { "slot": "Chest", "item": "Vestment of the Awakening (catalyze)" }
+        ],
+        "notes": "Method raid wrists if you skip Spark bracers. Icy Veins raid catalyze FAQ lists this chest; raid BiS chest is still Vashnik.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom" },
+          { "slot": "Head", "item": "Spare Speaker's Hood (catalyze)" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord" }
+        ],
+        "notes": "Icy Veins first farm if you skip raid: best dungeon on-use and a catalyze helm. Method M+ uses this ring. Icy Veins Voidcore 3 here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Neck", "item": "Yoke of the Charging Bear" },
+          { "slot": "Chest", "item": "War Trial Vestments (catalyze)" },
+          { "slot": "Feet", "item": "Arctic Explorer's Legwraps" }
+        ],
+        "notes": "Icy Veins: most useful dungeon. Method M+ neck, catalyze chest, and boots.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Two-Hand", "item": "Twin-Strike Polearm" }
+        ],
+        "notes": "Icy Veins third farm: dungeon BiS weapon until Ula'tek Bardiche. Method M+ weapon is the same polearm.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Gauntlets of Fevered Defense (catalyze)" },
+          { "slot": "Wrist", "item": "Fury-Fletched Armlets" },
+          { "slot": "Trinket", "item": "Resonant Bellowstone" },
+          { "slot": "Trinket", "item": "Freightrunner's Flask" },
+          { "slot": "Legs", "item": "Breeches of Deft Deals (catalyze)" }
+        ],
+        "notes": "Icy Veins Overall/M+ catalyze gloves; M+ BiS Resonant Bellowstone. Method Overall/M+ wrists and Flask. M+ FAQ also catalyzes these legs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Finger", "item": "Ritual Binder's Ring" },
+          { "slot": "Back", "item": "Cloak of the Restless Tribes" },
+          { "slot": "Waist", "item": "Primal Dinomancer's Belt" },
+          { "slot": "Legs", "item": "Breeches of the Sacred Hall" }
+        ],
+        "notes": "Icy Veins M+ ring and catalyze legs. Method M+ cloak, belt, and these legs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Shoulders", "item": "Somber Spaulders (catalyze)" },
+          { "slot": "Trinket", "item": "Tumor of the Swarm" },
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus" }
+        ],
+        "notes": "Icy Veins Overall/M+ catalyze shoulders and M+ ring. Method M+ BiS Tumor with Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Druid of the Claw",
+        "recommended": true,
+        "loadoutCode": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsMPwYMzmZZGMLLDMbwoJamZWmZmZGjZMDAAAAAYGLzAAAAgmZZWmZmBAwCmZAWMDGwmFDAmZDG",
+        "bullets": [
+          "Icy Veins default raid ST after 12.1; both trees are close on every Venomous Abyss fight.",
+          "DoTC is slightly burstier; Elune's Chosen is more sustained with mildly better defense.",
+          "Method (3 Sep 2026) recommends Elune's Chosen for raid instead of DoTC.",
+          "Icy Veins: play DoTC if you know Guardian; higher ceiling with RNG and stronger consistent mitigation.",
+          "DoTC ST: Ravage and bleeds; high boss damage. Apex Wild Guardian 12s DoT; Icy Veins says rotation is unchanged.",
+          "Method: skip catweaving on current tuning; Wildpower Surge only if you enjoy the playstyle."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/talents" }
+        ]
+      },
+      {
+        "heroTree": "Elune's Chosen",
+        "recommended": false,
+        "loadoutCode": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmhFzYMzmZZGMLLDMbMGNRzMzyMzMzYMjZAAAAAAzYZGwy2MDGz2AYKAAAwGmxAWMDGwiltBYmBwA",
+        "bullets": [
+          "Method raid Elune's import; Method recommends Elune's Chosen for raid and M+.",
+          "Icy Veins also marks Elune's ST as recommended; sustained damage and mildly better defensives.",
+          "Method raid leans offensive. More defense: Brambles to Natural Resilience, Killing Blow to Ursoc's Guidance.",
+          "Consistent multi-target: Method swaps Red Moon for Twin Moonfire (damage and rage).",
+          "Class flex: Typhoon, Mass Entanglement, or Ursol's Vortex; drop Natural Recovery if you need two.",
+          "Icy Veins: Lunar Beam opener for aggro; Moonfires spread as targets are added."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Elune's Chosen",
+        "recommended": true,
+        "loadoutCode": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZml5BmZMziZxMmZZZgZzwoJyMzyMzMzsMmxAAAAAAMjlZALbzMYMLDgJAAAgNMzAsYGMgNLAMzAYA",
+        "bullets": [
+          "Icy Veins default M+; both trees even at all key levels; IV picks Elune's for a simpler, more flexible profile.",
+          "Method (3 Sep 2026) also recommends Elune's for M+ despite Lunation nerfs.",
+          "Icy Veins M+ build: Thrash healing and absorbs. This import is the IV AoE quick-start.",
+          "Method: Apex is worth taking after the rework; avoid Maul-related nodes.",
+          "Method flex: Natural Resilience or Reinforced Fur to Brambles for damage; Fury of Nature to Elune's Favored for defense.",
+          "Class flex: Matted Fur, Fluid Form, Improved Stampeding Roar into Innervate or Moonkin Form."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/talents" }
+        ]
+      },
+      {
+        "heroTree": "Druid of the Claw",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published Method DoTC M+ import; Method only posts Elune's Chosen for keys.",
+          "Icy Veins has a DoTC AoE/M+ tree for burst AoE (Thrash/Raze absorbs with Ursoc's Fury); no quick-start string in the 12.1 copy.",
+          "Icy Veins: DoTC shines on Incarnation pulls; most of its damage is tied to cooldowns.",
+          "Icy Veins still defaults Elune's in keys for simplicity.",
+          "Method choice node: Killing Strikes if you are not chain-pulling; Ruthless Aggression for more Ravage procs.",
+          "Use the Elune's Chosen M+ loadout on this tab unless you already play DoTC."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Elune's Chosen",
+        "recommended": true,
+        "loadoutCode": "CgGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmxsMPwMjZWMLGmZZZgZzwoJyMzyMzMzsMmxAAAAAAMjlZALbzMYMLDgJAAAgNMzAsYGMgNLAMzAYA",
+        "bullets": [
+          "Icy Veins published Delves import is Elune's Chosen.",
+          "Off-healing talents so undergeared groups and weak follower heals survive.",
+          "Prowl past some stages. No timer: wait cooldowns, heal to full, kite.",
+          "Icy Veins M+ and Delves Elune's codes are different; this is the Delves string.",
+          "Method has no Delves page; Method still recommends Elune's for M+.",
+          "Use this for solo and open world."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/talents" }
+        ]
+      },
+      {
+        "heroTree": "Druid of the Claw",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 DoTC Delves import on Icy Veins or Method.",
+          "Icy Veins Delves quick-start is Elune's Chosen only.",
+          "Method has no Delves tab.",
+          "Use the Elune's Chosen Delves loadout on this tab for this content."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S on-use; Method raid pair with Guillotine. Line up with Incarnation (Method: 1.5min CDs line up in S2).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method raid rec with Heart. Method: best pure damage even without the weapon set; extra ilvl from Altar.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S alternate on-use vs Heart. Method: niche 4min; strong with damage amps or a fight timer that lines up.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S passive and raid BiS pair with Guillotine. Method: solid rotating secondaries, not outstanding.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins S dungeon on-use; first M+ farm if you skip raid Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A. Method Overall with Heart and Method M+ pair with Guillotine; Haste stacks, Guardian's best secondary.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Agility passive from Vashnik. Method drop table lists it; Method Guardian recs do not.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A tank absorb. Method lists the tank drop; Method Guardian recs skip it for Heart, Guillotine, or Keeper.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Idol of the Howling Nexus",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A. Method: undertuned proc; relatively weak passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A Agility/Strength on-use from Altar of Fangs. Vile Vial is the Altar on-use Icy Veins ranks S.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tumor of the Swarm",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B / Method other-good and Method M+ BiS. Buffed passive damage; Method says the heal is still weak.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B / Method other-good and Method M+ BiS. 1.5min dungeon on-use; Method: weaker than Heart, stronger passively (primary stat).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B, but Icy Veins M+ BiS pair with Vile Vial. Method: best dungeon passive crit stick.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Permafrost Essence",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins B dungeon tank trinket. Method: S1 nerfs; crit is fine, uptime is not; pick something else.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Manaheart's Binding Flame",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B M+ tank on-use. Method: absorb is undertuned; use a stat stick for defense.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B all-primary passive from The Blinding Vale.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B. Method: Mastery stick that wants you in the light proc; underwhelming for Guardian.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B Agility on-use from Voidscar Arena.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins C Agility on-use from King's Rest.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mchimba's Ritual Bandages",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins C 60s defensive. Method: absorb is lackluster; generally avoid.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Method: tank DR on cantrips killed the old path; the stat proc loses to other S2 sticks.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins S and Icy Veins M+ BiS on-use. Farm Altar of Fangs first if you lack Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S 90s on-use; still the raid on-use to vault into keys. Line up with Incarnation on big pulls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S. Method M+ rec pair with Keeper's Seething Core.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S alternate on-use. Method: other-good; 4min is awkward in keys unless the timer lines up.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S passive. Method: other-good; often behind Keeper in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method M+ rec with Guillotine. Haste stacking passive while you farm Vile Vial or Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Agility passive. Skip if you already have Keeper, Gebbo, or Tumor.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A absorb. Do not replace Vile Vial or Heart with this in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Idol of the Howling Nexus",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method weak. Skip for Keeper or dungeon passives.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A. Farm it while targeting Vile Vial; Vial is the Altar on-use to wear.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tumor of the Swarm",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B / Method M+ BiS with Flask. Farm Voidscar while catalyzing Somber Spaulders.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B / Method M+ BiS with Tumor. Farm Murder Row with the catalyze gloves.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B chart, Icy Veins M+ BiS pair with Vile Vial. Method: best dungeon crit stick.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Permafrost Essence",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins B. Method: skip; farm Yoke of the Charging Bear in this dungeon instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Manaheart's Binding Flame",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B. Method: skip the absorb; Flask or Resonant Bellowstone are the Murder Row pickups.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B passive from The Blinding Vale.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B. Method: stand in the light for Mastery; skip for Tumor or Sapling.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B Agility on-use. Method M+ BiS trinket from this dungeon is Tumor.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins C. Farm King's Rest for Ritual Binder's Ring, not this on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mchimba's Ritual Bandages",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins C / Method avoid. Emergency absorb only.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Method: skip; other S2 sticks are better even after the whelp is trained.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/guardian-druid-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/guardian-druid/gearing" }
+        ]
+      }
+    ]
+  }
+}

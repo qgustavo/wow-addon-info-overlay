@@ -1,0 +1,670 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 7,
+  "specId": 262,
+  "className": "Shaman",
+  "specName": "Elemental",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Wrist",
+      "item": "Farstrider's Plated Bracers (Arcanoweave Lining)",
+      "notes": "Method second Spark (Crit/Mastery). Icy Veins overall, raid, and M+ wrists. Long-term pair with belt or boots; two embellishments max. Wowhead 12.1 BiS page is JS-empty.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/elemental/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Waist",
+      "item": "Farstrider's Trophy Belt (Arcanoweave Lining)",
+      "notes": "Method first Spark if you Voidcore Ula'tek immediately. Icy Veins long-term second lining is belt or boots. If you will not clear Mythic raid, Method prefers a Back craft over this belt.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Aln'hara Cane (Hunter's Ritual Stone)",
+      "notes": "Icy Veins immediate Spark (not the Pikestaff). Method first Spark if you are not bonus-rolling Ula'tek. Replace with Jan'thrazet plus a strong off-hand. Icy Veins: hold Day 1 crafts after last-minute cantrip changes.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+      ]
+    },
+    {
+      "slot": "Off-Hand",
+      "item": "Aln'hara Lantern (Hunter's Ritual Stone)",
+      "notes": "Method early spike if Jan'thrazet drops first; close to long-term BiS. Icy Veins overall lists this lantern as the off-hand, but warned against crafting Hunter's Ritual Stone on it early. Method overall OH is Tidebound Bubblefin Splash Guard instead.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Jan'thrazet, the Soul Fang" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Chest", "item": "Awoken Dreadfang Cuirass (catalyze)" }
+        ],
+        "notes": "Icy Veins first three Voidcores: Heroic Ula'tek in Restoration loot-spec to drop the mediocre trinket. Keep the cantrip chest; do not wear a natural tier chest.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Shoulders", "item": "Soulslither Spaulders (catalyze)" },
+          { "slot": "Legs", "item": "Cuisses of the Uncoiled Union (catalyze)" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" }
+        ],
+        "notes": "Method high-priority Voidcore: catalyze shoulders and legs, plus the 344 Mythic cloak that makes crafted belt better than crafted cloak.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" },
+          { "slot": "Off-Hand", "item": "Venom-Slashed Scuteward" }
+        ],
+        "notes": "Icy Veins next Voidcore after the Ula'tek cantrips. Enhancement loot-spec for the trinket. Method raid OH from this boss; Icy Veins overall uses the crafted lantern instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Head", "item": "Crown of the Eternal Fang (catalyze)" }
+        ],
+        "notes": "Icy Veins remaining Voidcore after Gebbo starts with helm and legs. Raid FAQ catalyzes this Twin Fangs helm. Method raid wears Serpent Crown of the Ophidian Oracle from here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Hands", "item": "Hexing Grips of the Ophidian Oracle" }
+        ],
+        "notes": "Icy Veins overall/raid gloves: catalyze or this Sentinels drop. Method raid BiS gloves from this boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Waist", "item": "Serpentine Mixing Belt" },
+          { "slot": "Finger", "item": "Vile Alchemist's Band" }
+        ],
+        "notes": "Icy Veins overall/raid belt. Icy Veins raid second ring; overall uses Band of the Amani Warlord from Altar of Fangs instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Feet", "item": "Ferocious Scaleboots" },
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins and Method overall/raid boots and first ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Polished Lightwood Channeler" },
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom" },
+          { "slot": "Trinket", "item": "Knot of Writhing Serpents" },
+          { "slot": "Chest", "item": "Chestguard of Corroded Scales (catalyze)" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord" },
+          { "slot": "Wrist", "item": "Hydra Scale Wristguards" }
+        ],
+        "notes": "Icy Veins first farm: two weapons and the best trinket options. Method +10 Voidcore for Vile Vial. Icy Veins M+ catalyze chest and overall second ring from here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Freightrunner's Flask" },
+          { "slot": "Neck", "item": "Pendant of Malefic Fury" },
+          { "slot": "Legs", "item": "Lithiel's Linked Leggings (catalyze)" }
+        ],
+        "notes": "Icy Veins second farm: one of the best trinkets plus jewelry. Method M+ catalyze legs from here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Head", "item": "Voidscarred Crown (catalyze)" },
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus" },
+          { "slot": "Waist", "item": "Behemoth Waistband" },
+          { "slot": "Neck", "item": "Graft of the Domanaar" },
+          { "slot": "Chest", "item": "Manipulator's Vest (catalyze)" }
+        ],
+        "notes": "Icy Veins overall/M+ catalyze helm and M+ ring. Method overall helm; Method M+ neck, belt, and catalyze chest. Icy Veins M+ belt is this Behemoth Waistband.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Feet", "item": "Sabatons of Coruscating Energy" },
+          { "slot": "Finger", "item": "Charged Sandstone Band" },
+          { "slot": "Legs", "item": "Legguards of the Awakening Brood (catalyze)" }
+        ],
+        "notes": "Icy Veins farm plus M+ catalyze legs, boots, and second ring. Method M+ same boots and Charged Sandstone Band.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Hands", "item": "Sepulchral Construct's Gloves (catalyze)" },
+          { "slot": "Shoulders", "item": "Spaulders of Prime Emperor (catalyze)" }
+        ],
+        "notes": "Icy Veins M+ catalyze gloves and shoulders. Method overall gloves and Method M+ shoulders from here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Back", "item": "Bloodthorn Burnous" },
+          { "slot": "Trinket", "item": "Lightspire Core" }
+        ],
+        "notes": "Icy Veins M+ cloak. Method M+ BiS pair uses Lightspire Core here; Icy Veins ranks it A only if you can stand in the beam.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Off-Hand", "item": "Tempest's Shelter" }
+        ],
+        "notes": "Method M+ off-hand. Skip if you already have the crafted lantern or a Mythic raid shield.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Farseer",
+        "recommended": true,
+        "loadoutCode": "CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAzMbLzMmZmZZZZMMjBAAAAsYmNYADY2YCMLAwsNzMjZ2WmJMzsxyMzMjZwyMWMzwMLDAYAgZGDDD",
+        "bullets": [
+          "Icy Veins default ST Farseer; Farseer is uncontested in Season 2 and Stormbringer lags on pure ST and AoE.",
+          "Raid: Farseer on everything. Method ST import drops cleave/AoE and differs from this Icy Veins string.",
+          "Method also publishes Farseer Raid/Cleave with Voltaic Blaze, Purging Flames, and Crackling Fury.",
+          "Elemental Blast is more damage; Earth Shock is at most ~5% behind but much more mobile (Icy Veins).",
+          "Apex Feedback Loop is mandatory and does not change gameplay; Crit and Mastery get stronger (Method).",
+          "Method (1 Sep 2026) has no Stormbringer trees; Icy Veins still lists Stormbringer as a Raid Alternative, notably behind."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Farseer",
+        "recommended": true,
+        "loadoutCode": "CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAzMbLzMGjZZZZMmhBAAAAsYmNYADY2YCMLAwsNzMjx2iJMzsNWmZmZMjFLzMmZGzMLAADAMzYYYA",
+        "bullets": [
+          "Icy Veins default M+ Farseer; more reliable damage than Stormbringer and easier to play optimally.",
+          "Ahead especially at lower keys and smaller pulls. Stormbringer is fine on easy content, almost always less damage unless mass AoE.",
+          "Method M+ drops Master of the Elements for Molten Wrath and plays Voltaic Blaze plus Purging Flames.",
+          "Icy Veins and Method M+ import strings differ; this is the Icy Veins quick-start code.",
+          "Class tree skips some utility such as Purge; adapt Wind Shear, Capacitor Totem, and Purge per dungeon (Icy Veins).",
+          "Method has no Stormbringer M+ tree; Icy Veins still lists Stormbringer as a Mythic+ Alternative, notably behind."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Farseer",
+        "recommended": true,
+        "loadoutCode": "CYQAAAAAAAAAAAAAAAAAAAAAAAAAAAzMbLzMGjZZZZMmhBAAAAsYmNYADY2YCMLAwsNzMjZ2WmJMzYsYmZGzYxyMjZmxMzCAwAAzMGGGA",
+        "bullets": [
+          "Icy Veins published Delves import is Farseer.",
+          "Drops Primordial Bond so Earth Elemental can tank; picks Healing Stream Totem, Capacitor Totem, and Wind Shear.",
+          "Icy Veins: you may play Stormbringer if you are confident and chain-pulling; no published Stormbringer Delves import.",
+          "Method has no Delves page; use this for solo and open world.",
+          "Icy Veins picker marks Farseer as recommended for Delves.",
+          "Switch to the raid or M+ tree for that content."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S and best passive; Method take whenever possible. Random secondary buffs (or debuffs); do not plan a window around it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins S / Method best on-use. 2-minute intellect on-use that lines up with Ascendance; random secondary can brick toward Versatility.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins S on-use. Method: 90s Crit; hold 30 seconds if you play 2-minute Ascendance so both line up.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins S and raid BiS pair with Gebbo. Method second passive behind Gebbo: intellect stacks that cycle during Ascendance. Not in the S2 key pool.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A; can be S when killing stacked adds on a boss. Intellect passive from Vashnik.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A. Good Mythic+ option; otherwise unimpressive in raid versus Gebbo or Vile Vial.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A if you can stand in the light beam; they do not recommend it on difficult content. Method M+ BiS pair uses it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A Haste on-use. Inferior to other A options unless you are very low on Haste.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B. Largest burst when you use a mostly or fully stacked effect; skip it unless you need fewer, larger damage bursts.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B (okay, nothing special). Icy Veins M+ BiS still pairs this with Vile Vial while farming Altar of Fangs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Strong but infrequent proc; use on yourself with no allies for Crit, or with at least 3 allies for Haste.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Mastery on-use. Hard to justify the cooldown; never Voidcore this over Jan'thrazet, Aqirbane Reliquary, or Awoken Dreadfang.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C. Okay in single-target and bad otherwise. Farm Lightspire from this dungeon instead if you want the Method M+ pair.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins C. Reasonable intellect passive with an annoying downside. Voidscar farm is the helm and Sickening Signet first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here). Method raid DPS table lists it; Icy Veins calls the Ula'tek trinket mediocre and Voidcores Restoration loot-spec to remove it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S. Wear in keys if raid or vault already gave it; still the best passive while you farm Vile Vial.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins S / Method M+ BiS on-use. Line up with Ascendance on big pulls. First Altar of Fangs farm.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins S. Method: 90s Crit; hold for Ascendance. Icy Veins second dungeon farm with jewelry.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins S leftover. Not in the S2 key pool; keep it only if it still beats dungeon S/A options on item level.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A. Wear in keys if stacked-add pulls make it S; otherwise farm Vile Vial or Flask first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A and their named good Mythic+ option from Twin Fangs. Catch while you farm Altar of Fangs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Method M+ BiS with Vile Vial. Icy Veins A only if you can stand in the beam; skip it on difficult keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/elemental-shaman/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A. Farm it while catalyzing King's Rest gloves/shoulders; Flask and Vile Vial still come first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B. Raid leftover for burst windows; do not replace Vile Vial or Flask with this in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins M+ BiS pair with Vile Vial, ranked B on the chart. Farm both from Altar of Fangs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Unreliable proc in keys; leave it in the bag unless the whelp is trained and it beats other C options on ilvl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C. Never take this over Heart-skip Voidcores; Vile Vial is the M+ on-use to chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C and bad outside single-target. Blinding Vale pickup is Lightspire Core (Method M+) or Bloodthorn Burnous.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins C. Voidscar farm is Voidscarred Crown and Sickening Signet; skip this unless you need a filler intellect passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here). Do not farm Ula'tek for this in keys; Icy Veins Voidcores Restoration loot-spec to remove it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sethraliss' Defiled Relic",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins D (C here). Method M+ DPS intellect on-use from this dungeon; Icy Veins farm here is boots, ring, and catalyze legs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/elemental-shaman-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

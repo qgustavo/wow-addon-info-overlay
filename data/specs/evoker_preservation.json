@@ -1,0 +1,758 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 13,
+  "specId": 1468,
+  "className": "Evoker",
+  "specName": "Preservation",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Off-Hand",
+      "item": "Aln'hara Lantern (Darkmoon Sigil: Hunt)",
+      "notes": "Icy Veins/Method first Spark while you Voidcore Heroic Ula'tek for Jan'thrazet. Skip if a Myth-track raid off-hand drops, or if you are not targeting the dagger. Two embellishments max. IV: hold Day 1 crafts after last-minute cantrip/embellishment changes.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Farstrider's Plated Bracers (Arcanoweave Lining)",
+      "notes": "Long-term lining after the Hunt lantern. Icy Veins/Method late-game pair. Skip leftover Rising Tide Wristguards from Nymrissa Wavecaller (Tidebound). Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Farstrider's Razor Talons (Arcanoweave Lining)",
+      "notes": "Second long-term lining with the bracers. If you skip the lantern, craft both Arcanoweave pieces instead. Method long-term for raid and M+ is two linings.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Jan'thrazet, the Soul Fang" },
+          { "slot": "Chest", "item": "Awoken Dreadfang Cuirass (catalyze)" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" }
+        ],
+        "notes": "Icy Veins/Method first Voidcore: Heroic Ula'tek until the cantrip dagger, catalyze chest, and neck. Bonus-rolled items cap at 6/6 Myth; Mythic drops go to 9/6.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Soulcoiler Ritual Vessel" },
+          { "slot": "Head", "item": "Calamitous Echo's Magmashapers (catalyze)" }
+        ],
+        "notes": "Icy Veins next Voidcore: Mythic Nek'zali for Soulcoiler. Method: same after Ula'tek. IV raid helm is listed from this boss; overall catalyze is Voidscarred Crown instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" }
+        ],
+        "notes": "Icy Veins S-tier pair with Soulcoiler. Method overall/raid BiS passive. If Nek'zali is easy for your raid, IV says wait on the healer trinket drop and coin Gebbo here instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Shoulders", "item": "Soulslither Spaulders (catalyze)" },
+          { "slot": "Legs", "item": "Cuisses of the Uncoiled Union (catalyze)" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" }
+        ],
+        "notes": "Icy Veins overall/raid catalyze shoulders and legs (bonus ilvl). IV/Method raid BiS cloak. Method overall uses Speakeasy Shroud from Murder Row instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Waist", "item": "Serpentine Mixing Belt" },
+          { "slot": "Finger", "item": "Vile Alchemist's Band" },
+          { "slot": "Two-Hand", "item": "Venomancer's Winged Channeler" }
+        ],
+        "notes": "Icy Veins overall/raid belt and ring. Method overall/raid same belt and ring. Method Voidcores the staff; skip it once Jan'thrazet is upgraded.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Feet", "item": "Ferocious Scaleboots" }
+        ],
+        "notes": "Icy Veins overall/raid and Method overall/raid boots. Skip once Farstrider's Razor Talons are the lining host.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Off-Hand", "item": "Spine of the Hissing Abyss" }
+        ],
+        "notes": "Icy Veins/Method raid BiS off-hand. Skip the Hunt lantern if this drops Myth-track. Method overall uses Luminescent Sprout from The Blinding Vale instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Trinket", "item": "Lightspire Core" },
+          { "slot": "Off-Hand", "item": "Luminescent Sprout" },
+          { "slot": "Hands", "item": "Pulverizing Pads (catalyze)" },
+          { "slot": "Back", "item": "Bloodthorn Burnous" },
+          { "slot": "Wrist", "item": "Saptorbane Guards" }
+        ],
+        "notes": "Icy Veins first farm and M+ Voidcore: Lightspire. IV overall OH and glove catalyze. Method overall OH; Method M+ wrists. Do not chase the Lightspire beam.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Freightrunner's Flask" },
+          { "slot": "Neck", "item": "Pendant of Malefic Fury" },
+          { "slot": "Finger", "item": "Signet of Snarling Servitude" },
+          { "slot": "Back", "item": "Speakeasy Shroud" },
+          { "slot": "Two-Hand", "item": "Nibbles' Training Rod" }
+        ],
+        "notes": "Icy Veins second farm: Flask plus neck and ring. Method overall cloak. Method M+ staff. Method M+ table also lists Unstable Felheart Crystal here; IV ranks that C.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Main Hand", "item": "Crackling Jade Kilij" },
+          { "slot": "Shoulders", "item": "Spaulders of Prime Emperor (catalyze)" },
+          { "slot": "Hands", "item": "Calamitous Echo's Ebon Greathorns (catalyze)" }
+        ],
+        "notes": "Icy Veins third farm: dungeon 1H and other usable slots. IV M+ FAQ catalyzes these shoulders. IV M+ gloves catalyze from this dungeon if you skip Vale pads.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus" },
+          { "slot": "Head", "item": "Voidscarred Crown (catalyze)" },
+          { "slot": "Chest", "item": "Manipulator's Vest (catalyze)" }
+        ],
+        "notes": "Icy Veins overall/M+ BiS ring and M+ Voidcore. IV overall helm catalyze. Method M+ catalyze chest. Method also Voidcores the signet if you skip raid targets.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Feet", "item": "Sabatons of Coruscating Energy" },
+          { "slot": "Legs", "item": "Legguards of the Awakening Brood (catalyze)" },
+          { "slot": "Head", "item": "Sethraliss' Fanged Helm (catalyze)" },
+          { "slot": "Chest", "item": "Corrupted Hexxer's Vestments (catalyze)" }
+        ],
+        "notes": "Icy Veins/Method M+ boots. IV M+ catalyze legs. Method M+ helm. IV M+ FAQ catalyze chest if you skip raid Awoken Dreadfang.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Waist", "item": "Tribal Defender's Cord" }
+        ],
+        "notes": "Icy Veins M+ and Method M+ belt. Skip once Serpentine Mixing Belt is upgraded.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Head", "item": "Blazebound Lieutenant's Helm (catalyze)" },
+          { "slot": "Back", "item": "Fireproof Drape" },
+          { "slot": "Hands", "item": "Galerattle Gauntlets" }
+        ],
+        "notes": "Icy Veins M+ FAQ helm if you skip Voidscarred Crown. Method M+ cloak and gloves. Skip leftover Method raid gloves from Nymrissa Wavecaller (Tidebound).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 8,
+        "items": [
+          { "slot": "Neck", "item": "Strand of Warding Fangs" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord" },
+          { "slot": "Two-Hand", "item": "Polished Lightwood Channeler" },
+          { "slot": "Main Hand", "item": "Nocuous Focal Fang" },
+          { "slot": "Wrist", "item": "Hydra Scale Wristguards" }
+        ],
+        "notes": "Method M+ neck, ring, and weapons. Icy Veins M+ wrists. Skip the weapons once Jan'thrazet is upgraded.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Flameshaper",
+        "recommended": true,
+        "loadoutCode": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMDmZMYGzmhZmZbAAAMjZMYGzIzMDAAAwMzMZmZmxsNzMAYGzALgFwMMB2MsZYAMzMGA",
+        "bullets": [
+          "Icy Veins default raid Flameshaper; Chronowarden is close but more mana-hungry and behind on output.",
+          "Two Dream Breath charges (Legacy of the Lifebinder) to proc Merithra's Blessing for large ramps.",
+          "Lifecinders puts Obsidian Scales on an ally; with Time Dilation that is a lot of externals.",
+          "Method also recommends Flameshaper in raid; Season 2 4pc loops Living Flame into Essence Burst.",
+          "Emerald Blossom is the preferred Essence spender this season (2pc Living Flame), not Echo spam.",
+          "Method raid import differs from this Icy Veins string (IV class tree updated 28 Aug 2026)."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/talents" }
+        ]
+      },
+      {
+        "heroTree": "Chronowarden",
+        "recommended": false,
+        "loadoutCode": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZwMjBzY2MMzMbYAAgZMjBzYGZmZAAAAmZmJzYmxsNzMAYgxM2YBGYGGawYBGzMAjB",
+        "bullets": [
+          "Icy Veins Chronowarden raid import; competitive but behind Flameshaper on healing and damage.",
+          "Spam Temporal Anomaly for Nozdormu Adept; keep Tip the Scales on cooldown.",
+          "Reverberations and Primacy: Verdant Embrace as often as possible for stacking Haste.",
+          "Method raid Chronowarden is a viable alternative; they still default Flameshaper (20 Aug 2026).",
+          "Afterimage Chrono Flames on Empowers; Golden Opportunity buffs Echo.",
+          "Method raid import differs from this Icy Veins string."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Flameshaper",
+        "recommended": true,
+        "loadoutCode": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzMjhZiZmBAAAMzMTGzMjxMzAAjZgFwCYGmAbM2MMAmZGD",
+        "bullets": [
+          "Icy Veins default Mythic+/Delve Flameshaper; extra Dream Breath charge plus Lifecinders.",
+          "IV: more forgiving in keys, but Chronowarden can feel stronger in a 5-man party.",
+          "Method also defaults Flameshaper; they publish a +11-and-lower string and a +12-and-higher string.",
+          "Consume Flame: Verdant Embrace or Emerald Blossom turns Dream Breath HoT into burst.",
+          "Method extras: Energy Loop when mana is tight; Titan's Gift over Tempo Charged in keys.",
+          "Method M+ imports differ from this Icy Veins string (IV M+ tree updated 23 Aug 2026)."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/talents" }
+        ]
+      },
+      {
+        "heroTree": "Chronowarden",
+        "recommended": false,
+        "loadoutCode": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMz2yAzYmxsZGjx2wAAAzYGzghZyMzMAAAw2MzMNjZmZGjZAAYMjFWgBmhhGGWgxMDAD",
+        "bullets": [
+          "Icy Veins Chronowarden M+ import; Method lists it as a viable alternative.",
+          "Afterimage, Chrono Flame, and Reverberations add a lot of passive healing.",
+          "Energy Cycles extra Essence Burst; Golden Opportunity buffs Echo.",
+          "Tip the Scales becomes a real cooldown; Time Convergence over Double-Time in keys.",
+          "IV still defaults Flameshaper for keys despite Chronowarden's 5-man power.",
+          "Method M+ Chronowarden import differs from this Icy Veins string."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Flameshaper",
+        "recommended": true,
+        "loadoutCode": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAmZmZ2WmZGDjxsZGw2wAAAzYGzMjhZiZmBAAAMzMTGzMjxMzAAjZgFwCYGmAbM2MMAmZGD",
+        "bullets": [
+          "Icy Veins recommended Mythic+/Delve tab is Flameshaper; this is that M+ string.",
+          "Two Dream Breath charges and Lifecinders keep tools available without a full raid.",
+          "Method has no separate Delves page; they still recommend Flameshaper in raid and keys.",
+          "Icy Veins has no Chronowarden Delve tab; Flameshaper is the published Delves pick.",
+          "Use this for solo and open world.",
+          "IV Flameshaper M+ tree last updated 23 Aug 2026."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/talents" }
+        ]
+      },
+      {
+        "heroTree": "Chronowarden",
+        "recommended": false,
+        "loadoutCode": "CwbBAAAAAAAAAAAAAAAAAAAAAAAAAAAMzMz2yAzYmxsZGjx2wAAAzYGzghZyMzMAAAw2MzMNjZmZGjZAAYMjFWgBmhhGGWgxMDAD",
+        "bullets": [
+          "No published 12.1 Chronowarden Delves import; this is the Icy Veins Chronowarden M+ string.",
+          "Icy Veins Chronowarden tabs are Raid and Mythic+ only; Mythic+/Delve recommended is Flameshaper.",
+          "Method has no Delves page.",
+          "Use the Flameshaper Delves loadout on this tab unless you already play Chronowarden in keys."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Soulcoiler Ritual Vessel",
+        "from": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method BiS on-use. Party-wide absorb; Method pairs one active with one passive. First-boss drop.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method best passive to pair with Soulcoiler. Contested with some DPS; IV may coin this if Soulcoiler will drop naturally.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A / honorable mention. Method best dungeon trinket while you farm raid BiS. Do not chase the beam.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins A / Method strong passive alternative. Intellect ramps then drops. Tidebound is not the S2 raid; keep it only if it still beats S2 A options.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Haste passive/on-use. Method lists it on the raid DPS table; IV still ranks it for Preservation.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A / Method strong Mythic+ on-use. Pairs with Lightspire for a dungeon-only setup until Soulcoiler and Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins A only after the whelp is trained; skip it until then.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Drum of Renewed Bonds",
+        "from": "Delves",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins A delve option while you wait on raid BiS.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Method: decent but behind Lightspire and Flask; 2s channel. Not on the Icy Veins S/A/B table.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Effigy of Ula'tek's Faithful",
+        "from": "Lost Spirit (Forgotten Trinket)",
+        "instance": "The Coiled Isle",
+        "whenToUse": "Icy Veins B open-world. Loot the Forgotten Trinket, then turn it in to the Lost Spirit.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/npc=261867/lost-spirit" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B all-primary on-use from the first Altar of Fangs boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Glorious Crusader's Keepsake",
+        "from": "Delve journey",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins B. Delve-journey trinket; cannot be Myth-track.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Gaze of the Alnseer",
+        "from": "Chimaerus",
+        "instance": "The Dreamrift (S1 leftover)",
+        "whenToUse": "Icy Veins B. Dreamrift is not the Season 2 raid; keep it only if it still beats S2 B options.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mycolic Medicine",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C healer passive. Method healer row lists this dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Unstable Felheart Crystal",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins C healer on-use. Method M+ table still lists it; Flask from this dungeon is the slot IV actually wants.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Seed of Radiant Hope",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins D (mapped to C). Method healer on-use from Vale; farm Lightspire Core from this dungeon instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Preternatural Antivenom",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (mapped to C). Method raid healer passive from Twin Fangs; do not take it over Soulcoiler or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Soulcoiler Ritual Vessel",
+        "from": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Long-term goal in keys as well as raid. Icy Veins: M+ trinkets are undertuned vs this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method dungeon-endgame pair with Soulcoiler. Wear it in keys if raid or vault already dropped it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins first dungeon farm and A-tier. Method best dungeon trinket and M+ Voidcore. Do not chase the beam.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A / Method dungeon pair with Lightspire. Second IV farm. Method text prefers this over the Method M+ table's Felheart Crystal.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins A leftover passive in keys if it still beats Lightspire or Flask on ilvl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A. Raid Haste option while you farm Lightspire or Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins A only after the whelp is trained; otherwise leave it in the bag.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Drum of Renewed Bonds",
+        "from": "Delves",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins A while you farm keys. Replace once Lightspire or Flask is upgraded.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Method dungeon alternative with a 2s channel; falls behind Lightspire and Flask.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Effigy of Ula'tek's Faithful",
+        "from": "Lost Spirit (Forgotten Trinket)",
+        "instance": "The Coiled Isle",
+        "whenToUse": "Icy Veins B while you farm keys. Turn the Forgotten Trinket in to the Lost Spirit.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/npc=261867/lost-spirit" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B on-use while targeting Altar of Fangs for Method M+ neck and ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Glorious Crusader's Keepsake",
+        "from": "Delve journey",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins B. Easy Delve-journey filler; cannot be Myth-track.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Gaze of the Alnseer",
+        "from": "Chimaerus",
+        "instance": "The Dreamrift (S1 leftover)",
+        "whenToUse": "Icy Veins B leftover. Not in the S2 key pool; keep it only if it still beats other B options on ilvl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mycolic Medicine",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C. Nalorakk farm is Tribal Defender's Cord, not this healer passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Unstable Felheart Crystal",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins C. Method M+ BiS table lists this; Method trinket text still prefers Flask plus Lightspire.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/preservation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Seed of Radiant Hope",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins D (mapped to C). Never take this over Lightspire Core from the same dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Preternatural Antivenom",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (mapped to C). Raid healer passive; skip it for keys in favor of Lightspire or Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/preservation-evoker-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

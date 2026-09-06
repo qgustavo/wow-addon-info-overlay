@@ -1,0 +1,728 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 9,
+  "specId": 265,
+  "className": "Warlock",
+  "specName": "Affliction",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Wrist",
+      "item": "Martyr's Bindings (Arcanoweave Lining)",
+      "notes": "Icy Veins overall/raid/M+ wrists and long-term lining host. Method wants two Arcanoweave Linings, ideally on bracers or cloak. Two embellishments max. IV still warns Venomous Abyss cantrips shifted right before S2; wait a few days before the first Spark.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" }
+      ]
+    },
+    {
+      "slot": "Off-Hand",
+      "item": "Aln'hara Lantern (Arcanoweave Lining)",
+      "notes": "Icy Veins long-term pair is lining on wrists plus this off-hand frill. Overall, raid, and M+ IV lists wear the lantern. Method overall uses Kokia's Burnout Rod; Method raid uses Spine of the Hissing Abyss.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Aln'hara Cane (Hunter's Ritual Stone)",
+      "notes": "Icy Veins immediate-power first Spark (4 Sparks) plus lower-ilvl lining wrists. Skip once a Myth-track weapon is online; 1H+OH equals a staff at the same item level. Fireflash missive on weapon and wrists.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Aln'hara Cane (Darkmoon Sigil: Hunt)",
+      "notes": "Method early staff because Jan'thrazet is late on Ula'tek. Pair with one Arcanoweave Lining on any non-tier cloth upgrade. Recraft Hunt off once the Soul Fang is upgraded.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Jan'thrazet, the Soul Fang" },
+          { "slot": "Head", "item": "Venomkeeper's Horrific Cowl (catalyze)" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Trinket", "item": "Font of Venomous Rage" }
+        ],
+        "notes": "Voidcore first. IV: Myth-track Fang, then Cowl, then weapons and trinkets. Method bonus-rolls Fang, Reliquary, and Cowl. Font is the IV overall second slot with Stormbound.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Vexhul's Everflowing Gland" },
+          { "slot": "Shoulders", "item": "Ornaments of the Eternal Coil (catalyze)" }
+        ],
+        "notes": "IV raid BiS on-use (vault FAQ still calls this the best trinket). IV raid catalyze shoulders; overall IV catalyzes Brood Cleanser's Amice from Sethraliss instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Hands", "item": "Grasps of the Eternal Shadow (catalyze)" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Feet", "item": "Cackling Soultreads" }
+        ],
+        "notes": "IV overall and raid catalyze these gloves. Cloak and boots are IV overall/raid. Method raid also uses this cloak. Skip Hex Lord's Dooming Idol (IV C).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" },
+          { "slot": "Shoulders", "item": "Spires of the Damned Necrolyte (catalyze)" }
+        ],
+        "notes": "IV raid second trinket. Method Voidcores Myth-track Gebbo (and Venomwoven Remnant). IV raid table also allows catalyzing shoulders here; Method overall catalyzes Sethraliss instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" }
+        ]
+      },
+      {
+        "boss": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "priority": 5,
+        "items": [
+          { "slot": "Trinket", "item": "Wavecaller's Seastone" }
+        ],
+        "notes": "Method overall and raid BiS passive. IV ranks it A, behind Stormbound+Font on the overall list. Skip Method raid chest Tidebound Sorcereress's Robes (S1 leftover); IV raid chest is Vashnik.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Chest", "item": "Damned Necrolyte's Rattling Robes" },
+          { "slot": "Finger", "item": "Vile Alchemist's Band" },
+          { "slot": "Trinket", "item": "Fang of Umbral Malignance" }
+        ],
+        "notes": "IV overall/raid chest (already tier, or catalyze Primordial Robe of Rites in keys). IV raid ring. Fang is IV B / Method dungeon AoE honorable.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Legs", "item": "Damned Necrolyte's Leg Bindings" },
+          { "slot": "Waist", "item": "Caustic Chain-Wrapped Sash" },
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "IV raid legs (direct tier). IV raid belt; overall IV belt is Ethereal Netherwrap. Apex ring is IV overall/raid and Method overall; Method raid table mislabels this ring as Murder Row.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 8,
+        "items": [
+          { "slot": "Feet", "item": "Nek'zali's Spiritwalkers" }
+        ],
+        "notes": "Method overall and raid boots. IV overall/raid boots are Cackling Soultreads from Coiled Altar.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Polished Lightwood Channeler" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord" },
+          { "slot": "Chest", "item": "Primordial Robe of Rites (catalyze)" },
+          { "slot": "Legs", "item": "Leggings of Entwined Serpents (catalyze)" },
+          { "slot": "Neck", "item": "Strand of Warding Fangs" },
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom" }
+        ],
+        "notes": "Icy Veins first farm: both weapons and a ring. IV M+ catalyze chest. Method overall catalyze legs and M+ neck. Vile Vial is IV B runner-up on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Shoulders", "item": "Brood Cleanser's Amice (catalyze)" },
+          { "slot": "Chest", "item": "Robes of the Reborn Serpent (catalyze)" },
+          { "slot": "Hands", "item": "Handwraps of Oscillating Polarity (catalyze)" },
+          { "slot": "Finger", "item": "Charged Sandstone Band" },
+          { "slot": "Feet", "item": "Sandswept Sandals" }
+        ],
+        "notes": "IV overall catalyze shoulders and M+ catalyze gloves. Method +10 Voidcore: robes, gloves, sandals, and this ring. Method overall chest is these robes.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Trinket", "item": "Mindpiercer's Sigil" },
+          { "slot": "Waist", "item": "Ethereal Netherwrap" },
+          { "slot": "Neck", "item": "Graft of the Domanaar" }
+        ],
+        "notes": "Icy Veins second farm: trinket, belt, and neck. Mindpiercer is IV M+ BiS second slot with Stormbound. Ethereal Netherwrap is IV overall/M+ and Method overall belt.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Trinket", "item": "Stormbound Emblem of Dazar" }
+        ],
+        "notes": "Icy Veins third farm and S-tier on-use. Method: best 2-minute channel; use it just before Summon Darkglare. IV overall BiS pair is this plus Font of Venomous Rage.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Back", "item": "Speakeasy Shroud" },
+          { "slot": "Feet", "item": "Tempestuous Sandals" },
+          { "slot": "Finger", "item": "Signet of Snarling Servitude" },
+          { "slot": "Trinket", "item": "Freightrunner's Flask" },
+          { "slot": "Main Hand", "item": "Nibbles' Training Rod" }
+        ],
+        "notes": "IV M+ cloak, boots, and second ring. Method +10 Voidcore: Nibbles, shroud, signet, and Flask. Method overall cloak and ring. Flask is Method's 90s Darkglare alternative; IV ranks it B.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Head", "item": "Worldroot Canopy (catalyze)" },
+          { "slot": "Trinket", "item": "Lightspire Core" }
+        ],
+        "notes": "Icy Veins M+ catalyze helm. Lightspire is IV A-tier passive while you wait on Font, Gebbo, or Seastone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Legs", "item": "Forest Dream Leg-guards (catalyze)" },
+          { "slot": "Wrist", "item": "Winter's Embrace Bracers" }
+        ],
+        "notes": "Icy Veins overall catalyze legs. Method overall/M+ wrists if you skip Spark bracers. Raid-only IV legs are the Sszorak tier drop.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 8,
+        "items": [
+          { "slot": "Off-Hand", "item": "Kokia's Burnout Rod" }
+        ],
+        "notes": "Method overall off-hand. Icy Veins overall/raid/M+ off-hand is the Aln'hara Lantern craft. Method raid off-hand is Spine of the Hissing Abyss from Entombed Sentinels.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Soul Harvester",
+        "recommended": true,
+        "loadoutCode": "CkQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZhhZmZmlBAAYmZZ2mZmlxAAjllBGwEMDbBG2GAAAmBAAwMDzMjBzwMzMzMGMzMzAAmBG",
+        "bullets": [
+          "Icy Veins default ST Soul Harvester; about 2% ahead of Hellcaller, and the lead grows on light cleave or quick AoE burst.",
+          "Method ST import uses the bottom-left spec tree: Xavius' Gambit, Cascading Calamity, and Fatal Echoes for Unstable Affliction.",
+          "Spend shards aggressively to cut Dark Harvest cooldown; keep Cascading Calamity uptime high.",
+          "Method: Drain Soul vs one target, Improved Shadow Bolt vs several. Put all four Apex points into Haunt and press it on cooldown.",
+          "Hellcaller is poorly tuned after the rework; Method says it is almost never worth playing versus Soul Harvester burst.",
+          "Method ST string differs from this Icy Veins import; use Method's if you prefer their tree."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Soul Harvester",
+        "recommended": true,
+        "loadoutCode": "CkQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxyMzYWGAAwMzsMLzMzyYAgx2yADYCmhtADbDAAAzAAAYmZMzwsxwYmZmZYYmZmBAMDMA",
+        "bullets": [
+          "Icy Veins default M+ Soul Harvester; better in any dungeon after the Hellcaller rework.",
+          "Method recommended M+ import; bottom-right spec tree: Seeds of Destruction, Patient Zero, Sow the Seeds.",
+          "Spend shards fast for Dark Harvest. Drain Soul sniping matters less; Shadow Bolt for mobility.",
+          "Method: Dark Harvest plus Cull the Weak is about a 40-second burst; line it up with important adds.",
+          "Method M+ string differs from this Icy Veins import.",
+          "Method still prefers this over Hellcaller even though Hellcaller looks like the dungeon tree on paper."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/talents" }
+        ]
+      },
+      {
+        "heroTree": "Hellcaller",
+        "recommended": false,
+        "loadoutCode": "CkQAAAAAAAAAAAAAAAAAAAAAAwMzMzoZjBzMmlBAAYmZZWmZmlxAAWgBmFjGzAysAWGAAAMAAwMDmZGzMMGmZmZmZGMzMzAAmBG",
+        "bullets": [
+          "Method spread multi-target Hellcaller import. Icy Veins publishes a Hellcaller M+ tree; the IV import is behind a JS widget.",
+          "One-minute Malevolence profile; dump shards after Malevolence for stacks.",
+          "Keep Agony on as many targets as possible; shard generation is slower than Soul Harvester.",
+          "Icy Veins: Eye Contract can swap to Sudden Onset for easier Agony uptime at some damage loss.",
+          "Icy Veins: Improved Shadow Bolt can swap to Drain Soul for more shard sniping.",
+          "Icy Veins and Method still default Soul Harvester; this is the preference/burst alternative."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Soul Harvester",
+        "recommended": true,
+        "loadoutCode": "CkQAAAAAAAAAAAAAAAAAAAAAAwMjZGNLmxyMzYWGAAwMzsMLzMzyYAgxyyADYAzwWghtBAAgZAAAMzMmZY2GjZwMzMMMzMzAAmBG",
+        "bullets": [
+          "Icy Veins published Delves import is Soul Harvester.",
+          "Hero trees do not change much here; Soul Harvester has better defensives, more fluid play, and short Haunt burst (Sataiel's Volition, Quietus, Wicked Reaping).",
+          "Gorebound Fortitude, Friends in Dark Places, and Gorefiend's Resolve are the Soul Harvester utility package.",
+          "Method has no Delves page; use this for solo and open world.",
+          "Switch to the M+ or ST loadout for that content."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-spec-builds-talents" }
+        ]
+      },
+      {
+        "heroTree": "Hellcaller",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Hellcaller Delves import on Icy Veins or Method.",
+          "Icy Veins Delves quick-start is Soul Harvester only.",
+          "Method talents are Raid/M+ only; no Delves tab.",
+          "Use the Soul Harvester Delves loadout on this tab for solo and open world."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins S and overall BiS on-use with Font. Method best 2-minute channel; press it just before Summon Darkglare.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A and overall BiS second slot with Stormbound. Mastery on-use from the same boss as Jan'thrazet.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A and raid-list on-use (vault FAQ still calls this the best trinket). Pair with Gebbo on the IV raid list. Method Affliction does not wear it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "whenToUse": "Icy Veins A. Method best passive and overall/raid pair with Stormbound. Stacking intellect buffs; no setup.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A runner-up passive and raid-list second slot. Method Voidcores this; random secondaries, do not plan a window around it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A passive while you wait on Font, Gebbo, or Seastone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins A runner-up passive. IV M+ BiS second slot with Stormbound.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B intellect passive. Method honorable for dungeon AoE; skip it in raid if you have Gebbo or Seastone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B runner-up on-use. Farm it with the Altar of Fangs weapon and ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B. Method honorable 90s on-use; Crit window with Summon Darkglare. Method dungeon BiS pair with Stormbound.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B intellect passive. Vile Vial is the Altar of Fangs trinket to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C. Do not take this over Stormbound, Font, or Vexhul.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C. Lightspire is the Vale trinket Icy Veins ranks A.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Skip it until the whelp is trained if you still have one.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sethraliss' Defiled Relic",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C intellect on-use. Do not farm Sethraliss for this; farm the catalyze pieces instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins S. Channel just before Darkglare on big pulls. IV M+ pair is this plus Mindpiercer's Sigil.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A. Overall second slot with Stormbound; still worth a vault if keys have not given Mindpiercer yet.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A runner-up on-use. Vault option if Stormbound is late; IV raid list pairs it with Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "whenToUse": "Icy Veins A / Method best passive. Wear it in keys if you already have one; do not farm Tidebound Grotto over S2 dungeons.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A runner-up passive. Solid catch from raid or vault while you farm Mindpiercer.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A dungeon passive. Farm it while catalyzing Worldroot Canopy.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins A and M+ BiS second slot with Stormbound. Farm Voidscar with the belt and neck.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B. Method honorable dungeon AoE; wear it on large pulls if your other slot is Stormbound.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B runner-up on-use. Farm it on the same dungeon as the Lightwood Channeler.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B / Method dungeon on-use. 90s Crit with Darkglare; Method Voidcores this at +10 with the shroud and signet.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B intellect passive. Skip it if you already have Mindpiercer or Lightspire.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C. Do not replace Stormbound or Flask with this in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C. Lightspire is the Vale farm; leave Sapling if it drops.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Only after the whelp is trained; Method overall is in this dungeon for Kokia's Burnout Rod, not this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sethraliss' Defiled Relic",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C. Method Voidcores Sethraliss for robes, gloves, sandals, and the ring, not this relic.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/affliction-warlock-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/affliction-warlock/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

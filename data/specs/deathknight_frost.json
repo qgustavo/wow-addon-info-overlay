@@ -1,0 +1,737 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 6,
+  "specId": 251,
+  "className": "Death Knight",
+  "specName": "Frost",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Arcanoweave Lining)",
+      "notes": "Icy Veins long-term Spark with Crit/Mastery. Wowhead also parks a lining here. Wear at most two embellished pieces.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/frost/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Spellbreaker's March (Arcanoweave Lining)",
+      "notes": "Icy Veins second lining for raid and overall BiS. Wowhead's late-season pair is cloak plus bracers instead of boots.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/frost/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Back",
+      "item": "Adherent's Silken Shroud (Arcanoweave Lining)",
+      "notes": "Wowhead long-term second lining (cloak gives up the fewest stats at the crafted cap). Method M+ BiS uses this cloak.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/frost/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+      ]
+    },
+    {
+      "slot": "Finger",
+      "item": "Loa Worshiper's Band",
+      "notes": "Method personal-DPS winner with Stabilizing Gemstone Bandolier. Icy Veins: that pair sims ~0.2% ahead, but they still default double Arcanoweave for raid buffs and Unholy offspec.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Stabilizing Gemstone Bandolier)",
+      "notes": "Second half of Method's Loa pair. Skip if you already wear double Arcanoweave; two embellishments max.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "One-Hand",
+      "item": "Crafted 1H (Darkmoon Sigil: Hunt)",
+      "notes": "Early Spark dump if you lack Myth-track Aman'muso or Jaw. Icy Veins: hold Day-1 crafts after S2 cantrip changes. Skip once Coiled Altar / Ula'tek weapons are upgraded.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Aman'muso, Warlord's Vengeance" },
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Chest", "item": "Reckless Spirit Breastplate (catalyze)" },
+          { "slot": "Two-Hand", "item": "Maze-roa, Warlord's Fury" },
+          { "slot": "Waist", "item": "Girdle of Toxic Regret" }
+        ],
+        "notes": "Icy Veins Voidcore first. DW is their S2 default (Aman'muso + Jaw). Raid FAQ still names Maze-roa; Method BiS lists both 2H and DW. Method puts this belt on Ula'tek.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Off Hand", "item": "Jaw of the Shackled Goddess" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Legs", "item": "Chausses of Unbound Rancor (catalyze)" }
+        ],
+        "notes": "Icy Veins Voidcore second. Heart at +10 ilvl, cantrip neck, cantrip legs, and the DW off-hand. Method also Voidcores Jaw here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Head", "item": "Baleful Grave-Knight's Casque (tier token)" }
+        ],
+        "notes": "Icy Veins overall/raid helm. Method lists this token from Vexhul (same encounter). Raid-only catalyze can use Skullguard of the Risen Sacrifice from Nek'zali instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Baleful Grave-Knight's Deathgrips (tier token)" },
+          { "slot": "Feet", "item": "Scaled Fiend's Warboots" }
+        ],
+        "notes": "Icy Veins raid/overall glove token. Method raid BiS boots if you skip crafted March. Icy Veins overall wears the Spark boots instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Shoulders", "item": "Baleful Grave-Knight's Gibbets (tier token)" },
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" }
+        ],
+        "notes": "Method raid catalyzes this shoulder token. Icy Veins overall catalyzes C'thraxxi Binders Pauldrons from Temple of Sethraliss instead. Gebbo is the AoE stand-in for Guillotine.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Finger", "item": "Vile Alchemist's Band" }
+        ],
+        "notes": "Icy Veins raid BiS and Method overall ring. Overall mix can use Band of the Amani Warlord plus Sickening Signet of Atroxus instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins raid BiS second ring. Skip if you already have the crafted Loa band or the Altar of Fangs / Voidscar rings.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Shoulders", "item": "C'thraxxi Binders Pauldrons (catalyze)", "from": "Avatar of Sethraliss" },
+          { "slot": "Chest", "item": "Desert Guardian's Breastplate (catalyze)", "from": "Avatar of Sethraliss" },
+          { "slot": "One-Hand", "item": "Resonating Crystal Scimitar", "from": "Avatar of Sethraliss" },
+          { "slot": "Finger", "item": "Charged Sandstone Band", "from": "Galvazzt" }
+        ],
+        "notes": "Icy Veins first farm: overall BiS shoulders, M+ catalyze chest, and the DW scimitar. Method M+ catalyzes Murder Row shoulders and Ruby Life Pools chest instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Finger", "item": "Band of the Amani Warlord", "from": "Zul'jan" },
+          { "slot": "Legs", "item": "Ancient General's Obsidian Pillars (catalyze)", "from": "Zul'jan" }
+        ],
+        "notes": "Icy Veins M+ BiS ring and catalyze legs. Kill Zul'jan; skip Rav'i unless you still need Vile Vial.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Waist", "item": "Girdle of Pestilent Purification", "from": "The Council of Tribes" },
+          { "slot": "Feet", "item": "Auric Puddle Stompers", "from": "The Golden Serpent" },
+          { "slot": "Hands", "item": "Gauntlets of the Avian Sentinel (catalyze)", "from": "The Golden Serpent" }
+        ],
+        "notes": "Icy Veins M+ waist and feet. Method also catalyzes these gloves. Method's M+ boot row still says Entombed Sentinels; the dungeon table is King's Rest.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Neck", "item": "Graft of the Domanaar" },
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus", "from": "Atroxus" },
+          { "slot": "Head", "item": "Visor of the Predator (catalyze)" }
+        ],
+        "notes": "Icy Veins second-ring and M+ neck farm, plus M+ catalyze helm. Method M+ neck matches; Method catalyzes Murder Row helm instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Trinket", "item": "Seed of the Devouring Wild", "from": "Ikuzz the Light Hunter" },
+          { "slot": "Trinket", "item": "Sapling of the Dawnroot", "from": "Ziekket" },
+          { "slot": "Legs", "item": "Bedrock Breeches", "from": "Meittik" },
+          { "slot": "One-Hand", "item": "Thorned Reply", "from": "Ziekket" }
+        ],
+        "notes": "Method M+ on-use and DW filler. Icy Veins ranks Seed B and Sapling A. Method M+ legs if you skip Altar of Fangs catalyze.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Finger", "item": "Signet of Snarling Servitude", "from": "Xathuux the Annihilator" },
+          { "slot": "Two-Hand", "item": "Xathuux's Cleave", "from": "Xathuux the Annihilator" },
+          { "slot": "Trinket", "item": "Resonant Bellowstone", "from": "Xathuux the Annihilator" },
+          { "slot": "Head", "item": "Greathelm of Temptation (catalyze)", "from": "Kystia Manaheart" },
+          { "slot": "Shoulders", "item": "Cinderfury Shoulderguards (catalyze)", "from": "Lithiel Cinderfury" }
+        ],
+        "notes": "Method M+ ring, 2H, and catalyze helm/shoulders. Wowhead's loot table names the Xathuux 2H axe Nibbles' Training Rod. Icy Veins M+ on-use pair uses Bellowstone; they catalyze Sethraliss/Voidscar instead.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Rider of the Apocalypse",
+        "recommended": true,
+        "loadoutCode": "CsPAAAAAAAAAAAAAAAAAAAAAAMDwMjZmZGDz2MzMzMLmZmMjxYYmxgZMzMzMzMDAAAAAAAAAgNzihBGY2YohNMzYmZgBgBgZGgB",
+        "bullets": [
+          "Icy Veins default ST: Dual-Wield Breath of Sindragosa with Rider; ~1% ahead of Deathbringer and Frostbane.",
+          "Wowhead Season 2 table marks Deathbringer Raid (Best); Method's raid import is Deathbringer Breath.",
+          "Flex Cryogenic Chamber vs Icy Onslaught, Runic Overflow, or Northwinds; Icy Veins defaults Cryo for extra AoE.",
+          "Method S2 Remorseless Winter set pushes RW talents even in ST; Wowhead says the set changes no talent picks.",
+          "Apex: Frostwyrm's Fury early in Pillar, then recast within 45s (half effect) so all four Riders cover the next window.",
+          "Dual-wield is Icy Veins' S2 weapon default (Icy Death Torrent). Breath runeforges: Fallen Crusader / Stoneskin Gargoyle."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-spec-builds-talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/frost/midnight-season-2" }
+        ]
+      },
+      {
+        "heroTree": "Deathbringer",
+        "recommended": false,
+        "loadoutCode": "CsPAAAAAAAAAAAAAAAAAAAAAAMAmZMjZAz2MzMzMLzMjMjxYYmxgZmZmZmZmZAAAAAAAAAYMbDMgFwywEyYBzMmZGYAYYmBYmBD",
+        "bullets": [
+          "Method [Raid/Cleave] Breath import (Deathbringer). Icy Veins: same spec/class tree as Rider, Dark Talons in the hero tree.",
+          "Wowhead marks this Raid (Best). Icy Veins still defaults Rider for ST.",
+          "Send Reaper's Mark just before Pillar; explode it early in the window, then spend two Exterminate Obliterates.",
+          "Skip Reaper's Onslaught; keep Mark on the 45s Pillar cycle.",
+          "Icy Veins: DW Breath in all content. Method Breath uses Arctic Assault for Razorice, so Fallen Crusader MH (Stoneskin OH if DW).",
+          "Method (11 Aug 2026) still publishes Breath for raid/cleave; Frostbane is their M+ page, not this import."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-spec-builds-talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/frost/talent-builds-pve-dps" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Deathbringer",
+        "recommended": true,
+        "loadoutCode": "CsPAAAAAAAAAAAAAAAAAAAAAAMDYmZMzMzYY2mZmZmZxMjMjxYYMGMzMzMzMzMDAAAAAAAAAjZbgBsAWGmAjFMzYmZgBghZGAgB",
+        "bullets": [
+          "Icy Veins default M+: Deathbringer a few % ahead of Rider. Published Mythic+/Delves import is this Breath tree.",
+          "Hub split: Icy Veins talents page is DW Breath; their M+ tips still say Breathbane; Method's 12.1 M+ import is Frostbane.",
+          "Wowhead: same build as raid; Smothering Offense carries AoE and Frostbane does not hit hard enough anymore.",
+          "Icy Veins M+ swap vs raid: Howling Blades to Northwinds. Frostreaper is the easy flex if you Frostscythe more than Obliterate.",
+          "Method Frostbane runeforges Razorice MH + Fallen Crusader OH; Breath keeps Stoneskin / Fallen Crusader.",
+          "Method extras: drop Wraith Walk / Grip of the Dead / Coldthirst for AMZ, Asphyxiate, Vestigial Shell, or Control Undead."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/frost/talent-builds-pve-dps" }
+        ]
+      },
+      {
+        "heroTree": "Rider of the Apocalypse",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No separate 12.1 Rider M+ import on Icy Veins or Method.",
+          "Icy Veins Rider M+ is the raid Breath tree with Frostreaper swapped to Northwinds.",
+          "Slightly behind Deathbringer; burstier 1.5-minute Apocalypse Now profile.",
+          "Use the Deathbringer M+ import on this tab, then swap the hero tree to Rider if you want Death Charge.",
+          "Icy Veins still defaults Deathbringer for keys."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-spec-builds-talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/frost/talent-builds-pve-dps" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Rider of the Apocalypse",
+        "recommended": true,
+        "loadoutCode": "CsPAAAAAAAAAAAAAAAAAAAAAAMDYmZMzMzYY2mZmZmZxMjMjxYYMGMzMzMzMzMDAAAAAAAAAjZbgBsAWGmAjFMzYmZgBghZGAgB",
+        "bullets": [
+          "Icy Veins Delves: standard M+ Breath tree with Rider, mainly for Death Charge speed.",
+          "Wowhead Season 2 table marks Rider Delves (Best). Talent-page body still says Frost sticks to Deathbringer in Delves.",
+          "Icy Veins publishes one Mythic+/Delves import; that is this string.",
+          "Same ST/AoE mix as keys; no Method Delves page.",
+          "Keep Frostwyrm's Fury for Apocalypse Now.",
+          "Open-world and leveling also favor Rider mobility on Wowhead's overview."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-spec-builds-talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/frost/midnight-season-2" }
+        ]
+      },
+      {
+        "heroTree": "Deathbringer",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Deathbringer Delves import on Icy Veins.",
+          "Wowhead talent body: stick to Deathbringer so Reaper's Mark hits the beefier pack mobs.",
+          "Wowhead Season 2 table still marks Rider as Delves (Best), which is why this tab defaults Rider.",
+          "Use the Rider Delves import on this tab, then swap the hero tree if you want Mark on every fat mob."
+        ],
+        "sources": [
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/frost/talent-builds-pve-dps" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Best on-use by far (~4% ahead of the next). 90s Strength; line up with Breath / Pillar / Apocalypse Now.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Best passive. Icy Veins: especially with Aman'muso / Maze-roa. Method: 1–2 targets; swap to Gebbo in mass AoE.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A passive. Method's fifth option: farmable stand-in for Gebbo or Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method's Guillotine replacement in AoE. Random stat proc; do not plan a Breath window around it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Strength/Agility passive while you wait on Heart or Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Darkmoon Dominion: Hunt",
+        "from": "Inscription",
+        "instance": "Crafted",
+        "whenToUse": "Icy Veins A crafted Dominion. Spark-gated; only if it beats your other A passives on a sim.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gaze of the Alnseer",
+        "from": "Chimaerus",
+        "instance": "The Dreamrift (S1 leftover)",
+        "whenToUse": "Icy Veins A at 298 ilvl. Dreamrift is not the Season 2 raid; keep it only if it still beats S2 A options.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Darkmoon Dominion: Blood",
+        "from": "Inscription",
+        "instance": "Crafted",
+        "whenToUse": "Icy Veins B crafted Dominion. Hunt is the A-tier deck if you spend a Spark here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Seed of the Devouring Wild",
+        "from": "Ikuzz the Light Hunter",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B on-use. Method M+ BiS pair with Idol of the War Loa until Heart drops.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B / their M+ BiS second trinket with Seed. Farm Xathuux while chasing the Method ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B all-primary on-use from the first Altar of Fangs boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Blazebinder's Hoof",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C Haste on-use. Method lists it among S2 dungeon DPS trinkets.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the War Loa",
+        "from": "Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C. Method M+ BiS second trinket with Seed: farmable Strength passive they pair instead of Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Only after the whelp is trained; skip it until then.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C. Method: 90s Heart alternative that plays well in keys as you kill trash.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sszorak's Ferocity",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Strength passive. Do not take this over Heart or Guillotine from the last two bosses.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Still the on-use to chase. Line up with Breath on big pulls; vault/Voidcore it if keys are not dropping Seed.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Best passive on 1–2 target bosses. Method swaps this for Gebbo or Idol when pulls go wide.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A. Farm Ziekket while you are already in Vale for Seed and Thorned Reply.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "AoE passive when Guillotine falls off. Method often prefers Idol of the War Loa from keys instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A catch while you farm Heart, Seed, or Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Darkmoon Dominion: Hunt",
+        "from": "Inscription",
+        "instance": "Crafted",
+        "whenToUse": "Icy Veins A. Spark-gated; sim vs Sapling and Gebbo before you craft it for keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gaze of the Alnseer",
+        "from": "Chimaerus",
+        "instance": "The Dreamrift (S1 leftover)",
+        "whenToUse": "Icy Veins A leftover. Not in the S2 key pool; keep it only if ilvl still wins.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Darkmoon Dominion: Blood",
+        "from": "Inscription",
+        "instance": "Crafted",
+        "whenToUse": "Icy Veins B. Hunt is the Dominion to craft if you spend a Spark on a trinket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Seed of the Devouring Wild",
+        "from": "Ikuzz the Light Hunter",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B / Method M+ on-use. Farmable Heart stand-in until raid or vault lands.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B and their M+ BiS second trinket with Seed. Method's M+ pair is Seed plus Idol instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B on-use while targeting Band of the Amani Warlord on Zul'jan.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Blazebinder's Hoof",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Method catalyzes a chest in this dungeon; do not farm RLP just for the hoof.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the War Loa",
+        "from": "Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C / Method M+ BiS with Seed. Strength passive Method expects in keys over Guillotine or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C only after the whelp is trained; otherwise leave it in the bag.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C / Method Heart alternative. Farm it while targeting Band of the Amani Warlord.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/frost-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sszorak's Ferocity",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C. Seed, Bellowstone, or Idol are the dungeon passives to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/frost-death-knight-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

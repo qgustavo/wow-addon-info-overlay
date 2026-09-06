@@ -1,0 +1,766 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 4,
+  "specId": 260,
+  "className": "Rogue",
+  "specName": "Outlaw",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "One-Hand",
+      "item": "Spellbreaker's Blade (Darkmoon Sigil: Void)",
+      "notes": "Icy Veins and Method first Spark if you still need a main-hand. Agility 1H. Skip once Myth-track Aman'muso is in; then craft the other lining. Icy Veins: hold Day-1 crafts after last-minute cantrip changes. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Silvermoon Agent's Sneakers (Arcanoweave Lining)",
+      "notes": "Icy Veins second Spark and overall/raid/M+ BiS feet. Method: boots or belt after the weapon. Crit/Haste missive until ~40% Crit and ~25–30% Haste.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+      ]
+    },
+    {
+      "slot": "Waist",
+      "item": "Silvermoon Agent's Utility Belt (Arcanoweave Lining)",
+      "notes": "Icy Veins third Spark and overall/raid/M+ BiS belt. Method crafts this as the other lining once the weapon is replaced. Two Arcanoweave pieces is the long-term pair.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Aman'muso, Warlord's Vengeance" },
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Legs", "item": "Coiled Hex Legguards (catalyze)" }
+        ],
+        "notes": "Voidcore first. Cantrip main-hand, matching S-tier trinket. Icy Veins raid catalyzes these legs for the +10 ilvl (Enlightened). Method Voidcores Heroic Aman'muso and Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Head", "item": "Gaze of the Coiled Watcher (catalyze)" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" }
+        ],
+        "notes": "Voidcore second. BiS 90s on-use, overall/raid helm catalyze, cantrip neck. Method also Voidcores Gaze and Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Shoulders", "item": "Chosen Bloodslayer's Voodoo Guards (tier token)" },
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" }
+        ],
+        "notes": "Icy Veins and Method raid/overall shoulder token. Gebbo is Icy Veins S / Method raid alt while you wait on Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Chest", "item": "Chosen Bloodslayer's Banded Poncho (tier token)" }
+        ],
+        "notes": "Icy Veins raid and Method overall/raid chest token. Overall mix catalyzes Hide of Pestilence from Voidscar Arena instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Back", "item": "Amani Summoning Shawl" },
+          { "slot": "Wrist", "item": "Restless Spirit Shackles" }
+        ],
+        "notes": "Icy Veins and Method overall/raid cloak and wrists.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Legs", "item": "Chosen Bloodslayer's Reinforced Pants (tier token)" },
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Method overall/raid legs. Icy Veins and Method overall/raid second ring. Icy Veins raid catalyzes Coiled Altar legs instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Hands", "item": "Chosen Bloodslayer's Fanged Grips (tier token)" },
+          { "slot": "Off Hand", "item": "Ancient Construct's Venomshiv" },
+          { "slot": "Trinket", "item": "Keeper's Seething Core" }
+        ],
+        "notes": "Method raid gloves and raid off-hand. Overall gloves catalyze Murder Row instead; overall off-hand is Sharpened Lightwood Slasher. Core is Icy Veins S; Gebbo is strictly better.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "Nymrissa Wavecaller",
+        "instance": "Nymrissa Wavecaller",
+        "priority": 8,
+        "items": [
+          { "slot": "Finger", "item": "Alluring Bubbleband" }
+        ],
+        "notes": "Icy Veins and Method overall/raid Haste ring from the lair boss. Icy Veins raid FAQ: grab this if the raid group does the lair.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Shoulders", "item": "Somber Spaulders (catalyze)", "from": "Taz'Rah" },
+          { "slot": "Chest", "item": "Hide of Pestilence (catalyze)", "from": "Atroxus" }
+        ],
+        "notes": "Icy Veins first farm: overall and M+ shoulder and chest catalyzes. Method overall catalyzes Murder Row gloves and raid tokens for the other tier slots instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Hands", "item": "Gauntlets of Fevered Defense (catalyze)", "from": "Kystia Manaheart" },
+          { "slot": "Wrist", "item": "Fury-Fletched Armlets" },
+          { "slot": "Trinket", "item": "Freightrunner's Flask", "from": "Zaen Bladesorrow" }
+        ],
+        "notes": "Icy Veins first farm: overall/M+ glove catalyze and M+ wrists. Flask is Icy Veins A. Method overall also catalyzes these gloves.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Legs", "item": "Breeches of the Sacred Hall (catalyze)", "from": "The Golden Serpent" },
+          { "slot": "Finger", "item": "Ritual Binder's Ring", "from": "Mchimba the Embalmer" },
+          { "slot": "Trinket", "item": "Lustrous Golden Plumage", "from": "The Golden Serpent" }
+        ],
+        "notes": "Icy Veins first farm: M+ and Method M+ leg catalyze, M+ ring, and Method M+ on-use until Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Off Hand", "item": "Sharpened Lightwood Slasher", "from": "Zul'jan" },
+          { "slot": "Head", "item": "Spare Speaker's Hood (catalyze)", "from": "Zul'jan" },
+          { "slot": "Neck", "item": "Strand of Warding Fangs", "from": "The Writhing Coil" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord", "from": "Zul'jan" },
+          { "slot": "Shoulders", "item": "Chosen Bloodslayer's Voodoo Guards (catalyze)", "from": "Zul'jan" }
+        ],
+        "notes": "Icy Veins weapon farm and M+ helm/neck. Method Voidcores the slasher on Easy. Method M+ catalyzes shoulders here; Icy Veins overall uses Voidscar instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Trinket", "item": "Sapling of the Dawnroot", "from": "Ziekket" }
+        ],
+        "notes": "Icy Veins S and Method M+ BiS passive. Strong farmable stopgap; Icy Veins says it scaled badly in AoE versus raw stats.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Back", "item": "Fireproof Drape" },
+          { "slot": "Main Hand", "item": "Havoc Crusher" }
+        ],
+        "notes": "Icy Veins M+ cloak and M+ main-hand until Aman'muso. Overall cloak stays Amani Summoning Shawl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Pilfered Precious Band", "from": "The Hoardmonger" }
+        ],
+        "notes": "Icy Veins M+ second ring. Method M+ uses Band of the Amani Warlord plus Ritual Binder's Ring instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Trickster",
+        "recommended": true,
+        "loadoutCode": "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMmZmtZmZmZMmF4BmZbaZw2MAAAAAALLzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+        "bullets": [
+          "Icy Veins default ST Trickster (10 Aug 2026); only recommended choice for higher-end progression.",
+          "About 5% ahead of Fatebound; the gap grows when adds spawn into Blade Flurry.",
+          "Class and spec trees are almost the same as Fatebound; only the Dispatch combo-point threshold differs.",
+          "Method ST import differs from this string; both are Trickster. Core: Ace Up Your Sleeve, Keep It Rolling, Killing Spree, Preparation.",
+          "Method (12 Aug 2026): Trickster is best in all content by about 5%. No Fatebound import.",
+          "Apex Gravedigger: extra Between the Eyes stacks, more Dispatch damage, then a free BtE after six bullets."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/talents" }
+        ]
+      },
+      {
+        "heroTree": "Fatebound",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Fatebound Quick Start import on Icy Veins or Method. Icy Veins has a Fatebound ST talent tab only.",
+          "Icy Veins: high sustained ST, some AoE cost; ~5% behind Trickster, close enough for theme.",
+          "Both trees play almost the same class and spec talents; Fatebound Dispatch uses a slightly different combo-point threshold.",
+          "Icy Veins: more consistent procs and easier to start on; not recommended for harder content.",
+          "Method has no Fatebound import; they call Trickster ~5% ahead in all content.",
+          "Use the Trickster raid loadout on this tab unless you want the coin tree."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Trickster",
+        "recommended": true,
+        "loadoutCode": "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMjZmtZmZMzMzsAmZbaZw2MAAAAAALLzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+        "bullets": [
+          "Icy Veins default AoE/M+ Trickster; same string as their Delves import.",
+          "Nimble Flurry is the AoE edge; higher ceiling than Fatebound on large packs and sustained cleave.",
+          "Sacrifices a bit of single-target versus the ST Trickster string.",
+          "Method Cleave import differs from this string. Dungeons: drop Sleight of Hand and Summarily Dispatched for Dancing Steel and Grand Melee.",
+          "Method class flex: Shiv (Soothe) can swap to Shadowrunner or Sanguine Vial; Wound Poison vs healing packs.",
+          "Thistle Tea, Supercharger, Forced Induction, and Deeper Stratagem are the locked damage nodes."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/talents" }
+        ]
+      },
+      {
+        "heroTree": "Fatebound",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Fatebound Quick Start import on Icy Veins or Method. Icy Veins has a Fatebound AoE talent tab only.",
+          "Icy Veins: lower-performing dungeon build; great sustained AoE, much lower ceiling than Trickster.",
+          "Icy Veins: both hero trees use the same class and spec tree after the Killing Spree change.",
+          "Method has no Fatebound import and recommends Trickster in all content by about 5%.",
+          "Icy Veins still allows Fatebound for theme if you accept the DPS loss.",
+          "Use the Trickster M+ loadout on this tab."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Trickster",
+        "recommended": true,
+        "loadoutCode": "CQQAAAAAAAAAAAAAAAAAAAAAAAgx2MMzMjZmtZmZMzMzsAmZbaZw2MAAAAAALLzMzwMzMziZmZbAAAAYmBAjZxwADMLsQLsxAMzgBG",
+        "bullets": [
+          "Icy Veins published Delves import is Trickster; same string as AoE/Mythic+.",
+          "Icy Veins recommends Trickster for virtually all content, including Delves.",
+          "Nimble Flurry is the listed reason Trickster leads in Delves and keys.",
+          "Method has no Delves page and no Fatebound import; their Cleave string is the closest dungeon tree.",
+          "Apex Gravedigger still applies: free Between the Eyes smooths the rotation.",
+          "Use this for solo and open world."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/talents" }
+        ]
+      },
+      {
+        "heroTree": "Fatebound",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Fatebound Delves import on Icy Veins Quick Start or Method.",
+          "Icy Veins Delves quick-start code is Trickster only.",
+          "Icy Veins Fatebound calculator includes a Mythic+ and Delves tab with no copyable Quick Start string.",
+          "Method has no Fatebound or Delves imports.",
+          "Use the Trickster Delves loadout on this tab."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method strongest. Passive; set bonus with Aman'muso lets it cleave. Method: still best even without the set.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method next best. 90s on-use; Outlaw has no major CD to pair, but both guides still wear it because it is over-budgeted.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method raid alt. High-uptime stat proc while Heart is contested. Icy Veins: strictly better than Keeper's Core after the pre-season nerfs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins S best Mythic+ option / Method dungeon passive. Scaled badly in AoE, where raw stats are typically better.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S Agility/Strength passive. Decent stand-in; Icy Veins says Gebbo is strictly better.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lustrous Golden Plumage",
+        "from": "The Golden Serpent",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A / Method dungeon option. Farmable on-use until Heart; Method pairs it with Sapling in the M+ BiS list.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A all-primary on-use. Farm it while targeting Sharpened Lightwood Slasher on Zul'jan.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "Lightwarden Ruia",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A Agility/Intellect passive. Pickup while farming Sapling of the Dawnroot; do not take it over Sapling.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Zaen Bladesorrow",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A Agility/Intellect on-use. Pickup while catalyzing Fevered Defense gloves.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Void Execution Mandate",
+        "from": "Taz'Rah",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins A on-use. Farm it while catalyzing Somber Spaulders or Hide of Pestilence.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B Agility/Strength on-use from the last Altar of Fangs boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B Agility/Strength passive. Pickup on the same Murder Row farm as Flask and the glove catalyze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins B Agility passive from Temple of Sethraliss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Agility passive. Pickup while looting the chest token; do not take it over Guillotine or Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Pickup only if you are already in Ruby Life Pools for Fireproof Drape or Havoc Crusher.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins C. Method drop table tags it as a tank trinket; Icy Veins still lists it among Outlaw C-tier.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here). Mastery on-use from the same boss as Heart; never take this over Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method strongest. Wear in keys as soon as vault or Voidcore lands; still best without the Aman'muso set.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method next best. Dungeon BiS lists are stopgaps until this lands. No major CD to pair; wear it anyway.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method raid alt. Strong second slot in keys if Heart is late.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins S and Method M+ BiS passive. Farm Vale until Guillotine or Heart; weaker in large AoE than raw-stat options.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S catch while you farm Guillotine, Heart, or Gebbo. Gebbo is strictly better.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lustrous Golden Plumage",
+        "from": "The Golden Serpent",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A / Method M+ BiS on-use. Pair with Sapling until Heart. Icy Veins also points trinket farm at King's Rest.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/outlaw-rogue/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A. Pickup while farming Sharpened Lightwood Slasher; Plumage is still the dungeon on-use Method lists.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "Lightwarden Ruia",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A. Same dungeon as Sapling; keep Sapling in the slot.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Zaen Bladesorrow",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A. Icy Veins names Murder Row as a trinket farm; Flask is weaker than Plumage as the dungeon on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Void Execution Mandate",
+        "from": "Taz'Rah",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins A. Pickup while catalyzing Voidscar tier; Plumage and Flask are the named dungeon on-uses to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B. Altar farm priority is the slasher and helm; this on-use is a leftover.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B. Farm with Fevered Defense gloves and Fury-Fletched Armlets.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins B. Not on the Icy Veins limited-time dungeon farm list.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C. Raid leftover; dungeon farms should chase Sapling and Plumage first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Only relevant if you are already in Ruby Life Pools for Fireproof Drape.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins C. Voidscar pickup is the tier catalyzes, not this tank-tagged Method drop.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here). Never take this over Heart from the same boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/outlaw-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

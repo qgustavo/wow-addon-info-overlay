@@ -1,0 +1,658 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 2,
+  "specId": 66,
+  "className": "Paladin",
+  "specName": "Protection",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Arcanoweave Lining)",
+      "notes": "Icy Veins overall BiS lining once you have a Myth-track weapon and shield. Method with Mythic Coiled Altar loot: Arcanoweave on bracers and boots. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Spellbreaker's March (Arcanoweave Lining)",
+      "notes": "Icy Veins overall BiS second lining after the bracers. Method alternative slots if you skip Mythic Coiled Altar: cloak, bracers, belt, or boots.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+      ]
+    },
+    {
+      "slot": "Main Hand",
+      "item": "Spellbreaker's Blade (Darkmoon Sigil: Hunt)",
+      "notes": "Icy Veins first Spark: any Strength 1H with Hunt. Skip once Myth-track Aman'muso or Jaw of the Shackled Goddess is upgraded.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+      ]
+    },
+    {
+      "slot": "Off Hand",
+      "item": "Spellbreaker's Rebuke (Arcanoweave Lining)",
+      "notes": "Icy Veins second craft if you are not a Mythic raider and still lack a Myth-track shield. Replace with Venom-Slashed Scuteward.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Adorned Fang)",
+      "notes": "Method 12.1 lining: stacking Haste at a high proc rate, competitive with Arcanoweave. Icy Veins still wants Arcanoweave on both embellished slots.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Aman'muso, Warlord's Vengeance" },
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Chest", "item": "Reckless Spirit Breastplate (catalyze)" },
+          { "slot": "Waist", "item": "Girdle of Toxic Regret" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" }
+        ],
+        "notes": "Voidcore and vault first. Cantrip axe enables Guillotine cleave; Icy Veins also flags Myth chest, belt, weapon, and trinkets from the last two bosses.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Legs", "item": "Chausses of Unbound Rancor (catalyze)" },
+          { "slot": "Main Hand", "item": "Jaw of the Shackled Goddess" }
+        ],
+        "notes": "Voidcore second. Icy Veins S-tier Heart, cantrip neck with two sockets, cantrip legs. Method: Jaw is the defensive 1H (double Haste); Icy Veins raid BiS is Aman'muso.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Trinket", "item": "Keeper's Seething Core" }
+        ],
+        "notes": "Method Voidcore and BiS pair with Guillotine. Icy Veins does not rank this; their S-tier pair is Heart plus Guillotine.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Off Hand", "item": "Venom-Slashed Scuteward" },
+          { "slot": "Shoulders", "item": "Pauldrons of the Consecrated Flame (tier token)" },
+          { "slot": "Wrist", "item": "Shellbound Bracers" }
+        ],
+        "notes": "Icy Veins Voidcore shield if you skipped the Spark Rebuke. Method raid catalyzes the Explorers shoulder token and uses these wrists.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Head", "item": "Skullguard of the Risen Sacrifice (catalyze)" },
+          { "slot": "Feet", "item": "Entombed Cultist's Sabatons" }
+        ],
+        "notes": "Icy Veins and Method raid catalyze this head. Method overall BiS boots; Icy Veins overall keeps Spellbreaker's March.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Hands", "item": "Scaleplate Strangulators (catalyze)" }
+        ],
+        "notes": "Icy Veins and Method raid glove catalyze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins raid BiS and Method overall ring. Skip if you already have Band of the Amani Warlord or Sickening Signet of Atroxus.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Taz'Rah's Cosmic Edge", "from": "Taz'Rah" },
+          { "slot": "Trinket", "item": "Tumor of the Swarm", "from": "Atroxus" },
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus", "from": "Atroxus" }
+        ],
+        "notes": "Icy Veins first farm if you skip raid: weapon, Method M+ trinket, and the overall BiS Voidscar ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Head", "item": "Helm of the Raptor King (catalyze)", "from": "Dazar, the First King" },
+          { "slot": "Hands", "item": "Gauntlets of the Avian Sentinel (catalyze)", "from": "The Golden Serpent" },
+          { "slot": "Finger", "item": "Ritual Binder's Ring", "from": "Mchimba the Embalmer" },
+          { "slot": "Waist", "item": "Girdle of Pestilent Purification" },
+          { "slot": "Wrist", "item": "Embalmer's Steadying Bracers", "from": "Mchimba the Embalmer" }
+        ],
+        "notes": "Icy Veins M+ helm and glove catalyze plus a BiS ring. Method overall uses these wrists if you skip Spark bracers.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Off Hand", "item": "Tempest's Shelter" },
+          { "slot": "Chest", "item": "Breastplate of Soaring Terror (catalyze)" },
+          { "slot": "Back", "item": "Fireproof Drape" }
+        ],
+        "notes": "Icy Veins second farm: the M+ shield and chest catalyze. Method M+ BiS cloak is here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Finger", "item": "Band of the Amani Warlord" },
+          { "slot": "Neck", "item": "Strand of Warding Fangs" },
+          { "slot": "Legs", "item": "Ancient General's Obsidian Pillars (catalyze)", "from": "Zul'jan" },
+          { "slot": "Feet", "item": "Poison-Proof Stompers", "from": "Rav'i" },
+          { "slot": "Trinket", "item": "Coiled Fangstone", "from": "Rav'i" }
+        ],
+        "notes": "Icy Veins overall BiS ring and M+ neck. Method M+ catalyze legs, boots, and Fangstone pair with Tumor.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Legs", "item": "Legplates of Charged Duality (catalyze)" },
+          { "slot": "Shoulders", "item": "C'thraxxi Binders Pauldrons (catalyze)", "from": "Avatar of Sethraliss" }
+        ],
+        "notes": "Icy Veins M+ catalyze legs. Method overall catalyzes these shoulders instead of Murder Row.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Shoulders", "item": "Cinderfury Shoulderguards (catalyze)" }
+        ],
+        "notes": "Icy Veins overall and M+ shoulder catalyze. Method overall uses Temple of Sethraliss shoulders instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Back", "item": "Bloodthorn Burnous", "from": "Ikuzz the Light Hunter" },
+          { "slot": "Chest", "item": "Taproot Ribs (catalyze)" },
+          { "slot": "Main Hand", "item": "Thorned Reply" },
+          { "slot": "Off Hand", "item": "Teldrassil's Sacrifice" }
+        ],
+        "notes": "Icy Veins M+ BiS cloak. Method M+ catalyze chest plus dungeon weapon and shield if you skip Voidscar and Ruby Life Pools.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Templar",
+        "recommended": true,
+        "loadoutCode": "CIEAAAAAAAAAAAAAAAAAAAAAAsZmtZZmZMzMzMWGjxw2MGAAAAAAAAINGmxMzYMbtBgBMwMYbAAgZm2mZWmBAYjNMAGjZYMAALzAmZGwYB",
+        "bullets": [
+          "Icy Veins default raid/ST Templar; Season 2 is a 1-minute cycle that pairs Divine Toll with Hammer of Light.",
+          "Method recommends Lightsmith in raid instead; same spec-tree choices if you only swap hero trees.",
+          "Icy Veins: no Venomous Abyss fight is pure ST; add cleave feeds Apex and Avenger's Shield, so Templar wins.",
+          "Divine Exaction plus Divine Toll is why Icy Veins says Templar outdamages Lightsmith.",
+          "Use this on bosses without consistent add spawns or 1-3 target open world; otherwise Icy Veins points at the M+ tree for cleave.",
+          "Method: Templar is punishing if you drop Shake the Heavens, and Apex wants more Avenger's Shield during wings than Templar does."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/talents" }
+        ]
+      },
+      {
+        "heroTree": "Lightsmith",
+        "recommended": false,
+        "loadoutCode": "CIEAAAAAAAAAAAAAAAAAAAAAAsNDzyMzYmZmx2yYMLzithBAYAAAAAAQamZZmxMzYMbtBgBMwMYDAAgAMzsst0yMjFbbYAwYGGAwMDAmZQGL",
+        "bullets": [
+          "Method raid Lightsmith import; they recommend Lightsmith in raid (Templar is a hero-tree swap on this build).",
+          "Icy Veins still defaults Templar for raid; Lightsmith is the simpler rotation at a DPS loss.",
+          "Method raid flex: Spellwarding, Redoubt vs Imbued Shield, Searing Sunlight, Blessed Word.",
+          "More damage, less defense: drop Bulwark of Order and Seal of Reprisal or Light of the Titans for Consecration in Flame.",
+          "Cleave: Vision of Sanctity into Undying Embers; Adjudication into Sweeping Verdict.",
+          "Capstone: Ferren Marcus's Fervor can move to Empyrean Authority and/or Final Stand; Blessed Assurance plus Hammer of the Righteous for ST."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Templar",
+        "recommended": true,
+        "loadoutCode": "CIEAAAAAAAAAAAAAAAAAAAAAAsZYWGzYmZmZW2GjZZWmlZMAAAAAAAAQTzMMjZGGzWbAYgBMD2GAAYmptZmlZAA2ssgBAjZYMAALzAmZGwYB",
+        "bullets": [
+          "Icy Veins default M+ Templar (weekly-keys import); they also default Templar for Delves.",
+          "Method recommends Lightsmith in keys; Templar is a hero-tree swap on the same class/spec choices.",
+          "Weekly keys: Valiant Crusade for Shield of the Righteous uptime between pulls.",
+          "High keys: Light of the Titans instead of Valiant Crusade; assumes Holy Power is not a concern.",
+          "Icy Veins: Templar burst AoE every pull in +10 or higher; Lightsmith is simpler at a slight DPS loss.",
+          "Method: Punishment is especially important for Templar (bonus Blessed Hammers plus Higher Calling / Shake the Heavens)."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/talents" }
+        ]
+      },
+      {
+        "heroTree": "Lightsmith",
+        "recommended": false,
+        "loadoutCode": "CIEAAAAAAAAAAAAAAAAAAAAAAsZsNLjZMzMzMLLjxYWmlZMAADAAAAAAaamZZmxMDzMbtBgBGwAbAAAEgZmltlWmZsYbBDAYGGDAmZAwMDyYB",
+        "bullets": [
+          "Method M+ Lightsmith import; they recommend Lightsmith in keys.",
+          "Icy Veins lists Lightsmith as beginner M+ for Holy Bulwark / Sacred Weapon utility and a simpler rotation.",
+          "Method: Imbued Shield default; Redoubt if the dungeon has little magic damage.",
+          "Spellwarding optional; otherwise Searing Sunlight, Hand of the Protector, or Uther's Counsel.",
+          "Class-tree flex includes Cleanse Toxins, Guided Prayer, Blessing of Protection, Consecrated Ground, and Eye for an Eye.",
+          "Divine Guidance is the M+ default with Blessed Hammer; Blessed Assurance is Method's raid ST pick."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Templar",
+        "recommended": true,
+        "loadoutCode": "CIEAAAAAAAAAAAAAAAAAAAAAAsZYWGzYmZmZW2GjZZWmlZMAAAAAAAAQTzMMjZGGzWbAYgBMD2GAAYmptZmlZAA2ssgBAjZYMAALzAmZGwYB",
+        "bullets": [
+          "Icy Veins published Delves import is Templar (same code as weekly-keys M+).",
+          "Same damage profile as keys; drop Final Stand for Ferren Marcus's Fervor if you do not need it.",
+          "Icy Veins defaults Templar for Delves; Method has no Delves page.",
+          "Season 2 1-minute Templar windows still apply in solo content.",
+          "Weekly-keys Valiant Crusade setup covers Shield of the Righteous between packs.",
+          "Method still prefers Lightsmith in raid and M+; this tab follows Icy Veins."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/talents" }
+        ]
+      },
+      {
+        "heroTree": "Lightsmith",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Lightsmith Delves import on Icy Veins or Method.",
+          "Icy Veins Delves code is Templar only (same as weekly keys).",
+          "Icy Veins Lightsmith is listed as beginner M+, not Delves.",
+          "Method has no separate Delves page; they recommend Lightsmith in raid and M+.",
+          "Use the Templar Delves loadout on this tab for this content."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S-tier 90s on-use pair with Guillotine. Method still likes the burst despite 1-min Avenging Wrath not lining up; they BiS Keeper's Core plus Guillotine instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method BiS. Pair with Aman'muso for Bite of Zul'jan cleave. Icy Veins pairs it with Heart; Method pairs it with Keeper's Seething Core.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Method raid and M+ BiS pair with Guillotine (primary plus stacking Haste). Icy Veins does not rank this on the Prot Paladin list; their S pair is Heart plus Guillotine.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method other good. Strong secondary proc, but you cannot choose which stat or when it buffs; high proc rate is the counter.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A passive Strength damage. Icy Veins M+ dungeon BiS pair with Tumor while you wait on Heart or Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Method other good 4-min on-use when a damage amp or fight timer lines up. Icy Veins does not rank it; do not take this over Heart from the same boss.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Coiled Fangstone",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Method other good 1-min Strength on-use that syncs with Avenging Wrath. Method M+ dungeon BiS with Tumor; Icy Veins does not rank it.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/item=273795/coiled-fangstone" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Merektha's Fang",
+        "from": "Merektha",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins B on-use. Method other good as a farmable raid-damage stand-in for Font of Venomous Rage.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B 2-min random secondary on-use. Lines up every other Avenging Wrath; can roll Mastery and debuffs that secondary after.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins defensive pick: 90s absorb you can plan around. Skip it when you are leaning offensive Heart or Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins defensive (random absorbs, so you cannot plan a window). Method other good / M+ dungeon BiS after buffs; healing is still underwhelming.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the Howling Nexus",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins defensive: flat Mastery, Strength only on proc, so you are weaker until it hits. Method: undertuned proc; skip it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S-tier on-use in keys with Guillotine. Method still values the burst window; they BiS Keeper's Core plus Guillotine instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Bring the raid pair into keys. Icy Veins: Heart plus Guillotine. Method: Keeper's Core plus Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Method M+ BiS pair with Guillotine. Icy Veins M+ dungeon list is Sapling plus Tumor; they do not rank Keeper's Core.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A and M+ dungeon BiS with Tumor if you skip raid Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A catch while you farm Heart, Guillotine, or Keeper's Core; you cannot plan a pull around the random secondary.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Coiled Fangstone",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Method M+ dungeon BiS with Tumor; 1-min on-use lines up with Avenging Wrath. Icy Veins does not rank it.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/item=273795/coiled-fangstone" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Method other good when a 4-min window or damage amp exists. Icy Veins prefers 1/2/3-min on-use that match Avenging Wrath.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins M+ dungeon BiS with Sapling; Method M+ dungeon BiS with Fangstone. Random absorbs, so Icy Veins will not treat it as a planned defensive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Merektha's Fang",
+        "from": "Merektha",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins B. Method other good dungeon on-use; farm it while you are already in Sethraliss for catalyze pieces.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B. Farm on Rav'i with Fangstone and Poison-Proof Stompers; 2-min cycle misses every other wings window.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins 90s absorb if a key actually needs a planned defensive. Do not replace Sapling, Tumor, Heart, or Guillotine with this by default.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the Howling Nexus",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins: skip; any other trinket gives more armor from passive Strength. Method: undertuned.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-paladin-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-paladin/gearing" }
+        ]
+      }
+    ]
+  }
+}

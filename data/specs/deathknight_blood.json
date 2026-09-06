@@ -366,7 +366,9 @@
       {
         "tier": "S",
         "item": "Voracious Heart of Ula'tek",
-        "whenToUse": "90s on-use; line up with Gift of the San'layn / Reaper's Mark (macro with Dancing Rune Weapon).",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "90s on-use at +10 ilvl; line up with Gift of the San'layn / Reaper's Mark (macro with Dancing Rune Weapon).",
         "sources": [
           { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
           { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
@@ -375,27 +377,248 @@
       {
         "tier": "S",
         "item": "Merektha's Fang",
-        "whenToUse": "Walk the channel with Death's Advance; damage is not split, so it still hits on single-target.",
+        "from": "Merektha",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Walk the channel with Death's Advance; damage is not split, so it still hits on single-target. Icy Veins AoE pad outside CDs.",
         "sources": [
-          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" }
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
         ]
       },
       {
         "tier": "A",
-        "item": "Zul'jin's Guillotine Technique",
-        "whenToUse": "Pair with Maze-roa; the set is stronger on 2+ targets. Without the axe, Method prefers an A-tier passive.",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A-tier Strength/Agility passive from raid; farmable while you wait on Heart or Guillotine.",
         "sources": [
           { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
-          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
         ]
       },
       {
         "tier": "A",
         "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
         "whenToUse": "Wear when you cannot pair Guillotine with Maze-roa; extra secondaries, but procs are random so do not plan a window around it.",
         "sources": [
           { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
           { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method S. Pair with Maze-roa; the set is stronger on 2+ targets. Without the axe, Method prefers an A-tier passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Effigy of Ula'tek's Faithful",
+        "from": "Lost Spirit (Forgotten Trinket)",
+        "instance": "The Coiled Isle",
+        "whenToUse": "Open-world B-tier. Loot the Forgotten Trinket, then turn it in to the Lost Spirit; extra urns from Firetender Zab'ni.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/npc=261867/lost-spirit" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B passive. Method ranks it A: easy farm, split Nature damage plus a self-heal, no extra setup.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B passive similar to Tumor. Method also ranks it A as a no-setup damage option.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Seed of the Devouring Wild",
+        "from": "Ikuzz the Light Hunter",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B on-use. Method ranks it A as the farmable alternative to Voracious Heart of Ula'tek.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B all-primary on-use from the first Altar of Fangs boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B only after the whelp is trained; skip it until then.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Latch's Crooked Hook",
+        "from": "Derelict Duo",
+        "instance": "Windrunner Spire (S1 leftover)",
+        "whenToUse": "Icy Veins B Agility/Strength on-use. Windrunner Spire is not in the Season 2 M+ pool; only relevant if you still have one.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/windrunner-spire-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "90s absorb (40% partial, 80% while below 40% HP). Icy Veins: emergency only, not a default slot.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mchimba's Ritual Bandages",
+        "from": "Mchimba the Embalmer",
+        "instance": "King's Rest",
+        "whenToUse": "60s defensive. Icy Veins: emergency only, especially this one; do not wear it by default.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sszorak's Ferocity",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Strength passive. Icy Veins A in Mythic+ only; C here versus raid S/A options.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the War Loa",
+        "from": "Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C (everything else). Method A: farmable Strength passive/defensive they prefer in keys over Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Coiled Fangstone",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Strength on-use (three Envenomed Bites). Icy Veins C (everything else).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/item=273795/coiled-fangstone" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Agility/Strength on-use from the last Altar of Fangs boss. Icy Veins C (everything else).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Agility/Strength passive. Icy Veins C (everything else).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Mastery on-use from the same boss as Heart. Icy Veins C; do not take this over Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the Howling Nexus",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Raid tank trinket (Mastery). Icy Veins C (everything else); Method lists it as the Sszorak tank drop.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Permafrost Essence",
+        "from": "Sentinel of Winter",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Dungeon tank trinket. Icy Veins C (everything else).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Manaheart's Binding Flame",
+        "from": "Kystia Manaheart",
+        "instance": "Murder Row",
+        "whenToUse": "M+ tank on-use. Icy Veins C; named defensive absorbs are First Mate's Shellward and Mchimba's Bandages.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
         ]
       }
     ],
@@ -403,7 +626,9 @@
       {
         "tier": "S",
         "item": "Voracious Heart of Ula'tek",
-        "whenToUse": "90s on-use; line up with Gift of the San'layn / Reaper's Mark on big pulls.",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "90s on-use at +10 ilvl; line up with Gift of the San'layn / Reaper's Mark on big pulls.",
         "sources": [
           { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
           { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
@@ -412,14 +637,41 @@
       {
         "tier": "S",
         "item": "Merektha's Fang",
+        "from": "Merektha",
+        "instance": "Temple of Sethraliss",
         "whenToUse": "Walk the channel with Death's Advance; drop Death and Decay, then channel from range. Unsplit even on single-target.",
         "sources": [
-          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" }
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A-tier Strength/Agility passive; solid catch while you farm Heart or Fang.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Extra secondaries when you cannot pair Guillotine with Maze-roa; Method often swaps this for Idol of the War Loa in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
         ]
       },
       {
         "tier": "A",
         "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
         "whenToUse": "Pair with Maze-roa on 2+ target pulls; still usable alone if the axe is not upgraded yet.",
         "sources": [
           { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
@@ -428,11 +680,205 @@
       },
       {
         "tier": "A",
-        "item": "Gebbo's Bottomless Bag",
-        "whenToUse": "Extra secondaries when you cannot pair Guillotine with Maze-roa; Method often swaps this for a defensive passive in keys.",
+        "item": "Sszorak's Ferocity",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A in Mythic+ only. Strength passive from Sszorak; skip if you already have Heart plus Fang or Guillotine.",
         "sources": [
           { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
-          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Effigy of Ula'tek's Faithful",
+        "from": "Lost Spirit (Forgotten Trinket)",
+        "instance": "The Coiled Isle",
+        "whenToUse": "Open-world B-tier while you farm keys. Turn the Forgotten Trinket in to the Lost Spirit on the Coiled Isle.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/npc=261867/lost-spirit" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B / Method A. Easy Voidscar farm; split Nature burst plus a self-heal with no extra setup.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B / Method A. Farm Ziekket while you are already in Vale for the cloak and gauntlets.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Seed of the Devouring Wild",
+        "from": "Ikuzz the Light Hunter",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B / Method A. Farmable on-use stand-in for Heart until raid or vault lands.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B all-primary on-use; farm it while targeting Poison-Proof Stompers on Rav'i.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B only after the whelp is trained; otherwise leave it in the bag.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Latch's Crooked Hook",
+        "from": "Derelict Duo",
+        "instance": "Windrunner Spire (S1 leftover)",
+        "whenToUse": "Icy Veins B leftover from Season 1. Not in the S2 key pool; keep it only if it still beats your other B options on ilvl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/windrunner-spire-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "90s absorb. Icy Veins: emergency only; do not replace Fang or Heart with this in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mchimba's Ritual Bandages",
+        "from": "Mchimba the Embalmer",
+        "instance": "King's Rest",
+        "whenToUse": "60s defensive from a dungeon you already farm for helm/ring. Icy Veins: emergency only.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the War Loa",
+        "from": "Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C / Method A. Strength passive Method expects in Mythic+ instead of Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Coiled Fangstone",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Strength on-use from Rav'i. Icy Veins C; Fang from Sethraliss is the M+ on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/item=273795/coiled-fangstone" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Agility/Strength on-use from Zul'jan. Icy Veins C (everything else).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Agility/Strength passive from Xathuux. Icy Veins C (everything else).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Mastery on-use from Ula'tek. Icy Veins C; never take this over Heart from the same boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the Howling Nexus",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Raid tank trinket from Sszorak. Icy Veins C; Ferocity is the Sszorak drop Icy Veins actually ranks for keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Permafrost Essence",
+        "from": "Sentinel of Winter",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Dungeon tank trinket. Icy Veins C; Method's Nalorakk pickup for Blood is Idol of the War Loa.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Manaheart's Binding Flame",
+        "from": "Kystia Manaheart",
+        "instance": "Murder Row",
+        "whenToUse": "M+ tank on-use. Icy Veins C; named defensive absorbs are First Mate's Shellward and Mchimba's Bandages.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
         ]
       }
     ]

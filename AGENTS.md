@@ -1,31 +1,16 @@
 # WowQuickRef
 
-Retail hybrid: Lua launcher in WoW + desktop overlay. English UI and content. Midnight 12.1 / Season 2. v1 content = Blood DK only.
+Retail desktop overlay only (no Lua addon). English UI and content. Midnight 12.1 / Season 2.
 
 ## Layout
 
-- `WowQuickRef/` — Lua addon only
 - `overlay/` — Electron + vanilla HTML/CSS/JS (no React)
 - `data/` — JSON content; overlay reads this at runtime
 - Do not invent a second schema. Do not copy full third-party guides.
 
-## IPC
+## Overlay
 
-On user click, addon copies exactly:
-
-```
-WQR|<classId>|<specId>|open
-```
-
-Example Blood DK: `WQR|6|250|open`
-
-Overlay polls clipboard ~200ms, ignores anything not prefixed `WQR|`. Hotkey F8 toggles the panel without IPC. No memory reading, no inject, no sockets into WoW.
-
-## Spec detection (Lua, official API)
-
-- `PLAYER_LOGIN`, `PLAYER_ENTERING_WORLD`, `PLAYER_SPECIALIZATION_CHANGED`
-- `UnitClass("player")` and `C_SpecializationInfo.GetSpecialization()` + `GetSpecializationInfo`
-- Blood DK specId **250**, classId **6**
+Portable `.exe`. Hotkey F8 (rebindable in the panel) toggles visibility. Spec comes from the picker; last `classId`/`specId` is saved locally. No memory reading, no inject, no sockets into WoW, no writes to `Interface\AddOns`.
 
 ## Overlay UX
 
@@ -34,7 +19,7 @@ Overlay polls clipboard ~200ms, ignores anything not prefixed `WQR|`. Hotkey F8 
 - Click-through when hidden; interactive when open
 - Tabs: BIS Crafts | BIS Drops (Raid / M+) | Talents (Single Target / M+ / Delves, one loadout per hero tree) | Boss cheat sheets | Trinket tier list
 - Local search over `data/`
-- Spec picker fallback
+- Spec picker
 - Overlay position lock
 - Source links open in the system browser
 
@@ -56,7 +41,8 @@ Reddit: specific threads in r/competitivewow, r/wow, r/wownoob, class subs. No r
 
 ## Worker bounds
 
-- Lua worker: only `WowQuickRef/`
 - Overlay worker: only `overlay/` (may read `data/` + `data/schema.json`)
 - Sources worker: only `data/sources.md`
 - Curation worker: only `data/specs/` and `data/encounters/`
+- Research agents: read-only web; do not write files
+- Curation: one spec JSON file per agent

@@ -1,0 +1,693 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 10,
+  "specId": 269,
+  "className": "Monk",
+  "specName": "Mistweaver",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Two-Hand",
+      "item": "Aln'hara Cane (Darkmoon Sigil: Void)",
+      "notes": "Wowhead first Spark; Icy Veins weapon embellishment is Void. Skip if you have Myth-track raid weapon priority. Icy Veins: hold Day 1 crafts after last-minute cantrip/embellishment changes. Two embellishments max.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Aln'hara Cane (Darkmoon Sigil: Hunt)",
+      "notes": "Method first Spark (4 Spark of Tides), then recraft to Myth when you have crests. Wowhead: Hunt is the Void alt; Haste vs Elementals/Aberrations/Demons, Mastery vs Humanoids (MW avoids Mastery).",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Silvermoon Agent's Sneakers (Arcanoweave Lining)",
+      "notes": "Wowhead second Spark. Method later Sparks also go Arcanoweave or Adorned Fang on non-tier waist, boots, or shoulders. Two embellishments max.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+      ]
+    },
+    {
+      "slot": "Waist",
+      "item": "Silvermoon Agent's Utility Belt (Arcanoweave Lining)",
+      "notes": "Wowhead third Spark if you already have a Myth-track 2H and still need a second lining. Method lists waist as a good non-tier lining slot. Do not craft over a tier slot.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Silvermoon Agent's Deflectors (Arcanoweave Lining)",
+      "notes": "Wowhead long-term lining on the low-budget wrist. Icy Veins overall/raid/M+ BiS wrists; armor embellishment is Arcanoweave Lining on wrists or cloak.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Back",
+      "item": "Adherent's Silken Shroud (Arcanoweave Lining)",
+      "notes": "Wowhead long-term second lining. Icy Veins overall/raid/M+ cloak is this shroud. Method overall/M+ cloak is Fireproof Drape from Ruby Life Pools instead.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Head", "item": "Gaze of the Coiled Watcher (catalyze)" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" }
+        ],
+        "notes": "Icy Veins first Voidcore: both uniquely powerful; early Heroic rolls for Myth-track Gaze. Method Voidcores the same two. Wowhead: catalyze this helm.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Soulcoiler Ritual Vessel" },
+          { "slot": "Chest", "item": "Vestment of the Awakening (catalyze)" },
+          { "slot": "Wrist", "item": "Restless Spirit Shackles" },
+          { "slot": "Back", "item": "Amani Summoning Shawl" }
+        ],
+        "notes": "Icy Veins Voidcore second: Mythic Vessel. Method overall/raid catalyze chest, raid wrists and cloak. IV raid catalyzes Battle Gi of the Monkey King here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Main Hand", "item": "Baleful Hexblade" },
+          { "slot": "Legs", "item": "Coiled Hex Legguards (catalyze)" },
+          { "slot": "Waist", "item": "Sash of the Forlorn Vessel" },
+          { "slot": "Trinket", "item": "Hex Lord's Dooming Idol" }
+        ],
+        "notes": "Icy Veins BiS weapon; raid FAQ catalyzes these legs. Method raid belt and legs. IV/Method/Wowhead still list Nymrissa Wavecaller (Tidebound leftover) for Seastone, Bubbleband, and Breakwater Boots.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Monkey King's Fighting Fists (tier token)" }
+        ],
+        "notes": "Icy Veins overall/raid gloves from Vault or this token. Wowhead raid catalyzes Murder Row gloves instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" },
+          { "slot": "Shoulders", "item": "Tassels of the Monkey King (tier token)" },
+          { "slot": "Legs", "item": "Pantaloons of the Monkey King (tier token)" }
+        ],
+        "notes": "Icy Veins A-rank Gebbo. Method overall legs from Explorers. IV raid shoulders from Catalyst or this token.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Feet", "item": "Bespittled Slitherslippers" },
+          { "slot": "Trinket", "item": "Preternatural Antivenom" }
+        ],
+        "notes": "Method overall/raid boots. Method: Antivenom crit spread is fine on MW, but tuning loses to other raid and M+ options.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" },
+          { "slot": "Hands", "item": "Ruthless Slaughtergrips" }
+        ],
+        "notes": "Icy Veins raid BiS ring; Method overall/raid ring. Method raid gloves if you skip the Sentinels token. IV raid second ring is still Alluring Bubbleband from Nymrissa.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 8,
+        "items": [
+          { "slot": "Main Hand", "item": "Venomancer's Winged Channeler" },
+          { "slot": "Shoulders", "item": "Frothing Venom Spaulders" }
+        ],
+        "notes": "Method raid staff and shoulders. Skip the staff if you already have Baleful Hexblade or the Aln'hara craft.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Two-Hand", "item": "Fallen Speaker's Staff" },
+          { "slot": "Neck", "item": "Yoke of the Charging Bear" },
+          { "slot": "Feet", "item": "Arctic Explorer's Legwraps" }
+        ],
+        "notes": "Icy Veins first farm: weapon, neck, boots. Method M+ neck and boots. IV M+ farm list still names Skyreach for a trinket/ring/belt (Season 1 leftover).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Shoulders", "item": "Somber Spaulders (catalyze)" },
+          { "slot": "Chest", "item": "Hide of Pestilence (catalyze)" },
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus" }
+        ],
+        "notes": "Icy Veins overall catalyze shoulders and chest here. Method overall/M+ same two. Wowhead M+ second ring from Atroxus.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Head", "item": "Spare Speaker's Hood (catalyze)" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord" },
+          { "slot": "Neck", "item": "Strand of Warding Fangs" },
+          { "slot": "Shoulders", "item": "Snakeskin Spaulders (catalyze)" },
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom" }
+        ],
+        "notes": "Icy Veins M+ helm and ring. Method Voidcore +10: Strand and Snakeskin Spaulders. Method M+ BiS vial from this dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Finger", "item": "Ritual Binder's Ring" },
+          { "slot": "Waist", "item": "Primal Dinomancer's Belt" },
+          { "slot": "Legs", "item": "Breeches of the Sacred Hall (catalyze)" },
+          { "slot": "Trinket", "item": "Stormbound Emblem of Dazar" }
+        ],
+        "notes": "Icy Veins overall/M+ ring and belt; M+ catalyze legs. Method overall belt and M+ legs/ring. IV M+ BiS pairs Emblem with Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Wrist", "item": "Fury-Fletched Armlets" },
+          { "slot": "Hands", "item": "Gauntlets of Fevered Defense (catalyze)" },
+          { "slot": "Trinket", "item": "Freightrunner's Flask" },
+          { "slot": "Main Hand", "item": "Nibbles' Training Rod" }
+        ],
+        "notes": "Method M+ wrists, gloves, and dungeon weapon. Wowhead raid catalyze gloves here. Icy Veins M+ BiS Flask.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Trinket", "item": "Seed of Radiant Hope" },
+          { "slot": "Trinket", "item": "Lightspire Core" }
+        ],
+        "notes": "Method M+ BiS Seed (90s emergency heal). Icy Veins ranks Lightspire Core C for Mistweaver; take Seed first if you farm Vale.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Back", "item": "Fireproof Drape" }
+        ],
+        "notes": "Method overall and M+ BiS cloak. Icy Veins keeps Adherent's Silken Shroud in all three lists instead.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Conduit of the Celestials",
+        "recommended": true,
+        "loadoutCode": "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghx2YZYzixMzyyM2wYGmZZbbmxCzoZMDYwAsMzMzwsBDWmJAAAAAAYxyMLzyMDAAMgBYGwYYsMZMDA",
+        "bullets": [
+          "Icy Veins default raid CotC (Rising Mist); MoH does not scale well in raid.",
+          "Spread Renewing Mist; Rapid Diffusion plus Rising Mist, then Vivify cleave is most of your HPS.",
+          "Keep Renewing Mist and Rushing Wind Kick on cooldown; Method: spend Vivacious Vivification Vivifies after RWK.",
+          "Celestial Conduit is a 90s channel; Unity Within at the end (Method: you can cancel early).",
+          "Method preferred raid import differs from this Icy Veins string.",
+          "Method Sheilun's Gift CotC variant on bosses that want stronger spot healing (Invigorating Mists 500% on the primary)."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/talents" }
+        ]
+      },
+      {
+        "heroTree": "Master of Harmony",
+        "recommended": false,
+        "loadoutCode": "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM2mB2sYGzMbzYDzMDzsstMzYhZ0MmBMYwYWmZmZY2GmhZZmAAAAAz20ysNzysBAAAAwMzAADwiMAA",
+        "bullets": [
+          "Icy Veins: not recommended; MoH talents do not scale well in a raid.",
+          "Same Renewing Mist / Rising Mist plan; Thunder Focus Tea windows matter more (IV).",
+          "Method raid MoH import; trigger Harmonic Surge with Tiger Palm, Blackout Kick, and Rising Sun Kick.",
+          "Method: CotC outperforms MoH in all content; this is the raid alternative.",
+          "Icy Veins still publishes a MoH raid tree for fun, not as the default.",
+          "Keep Thunder Focus Tea on cooldown so stored vitality actually spends."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Conduit of the Celestials",
+        "recommended": true,
+        "loadoutCode": "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MmZsZstsNjZ2Mz22yMjFmRzYGwgBDmZmZY2GmhZ5BmAAAAAAgFLzsMLzMAAwAAMDYMwiMmBA",
+        "bullets": [
+          "Icy Veins default keys: Apexless CotC; extra baseline talents, DPS-to-healing, little group survivability loss.",
+          "Skip Spiritfont; Morning Breeze, Emperor's Elixir, Focused Thunder; TFT on Rising Sun Kick for Jadefire Stomp.",
+          "TFT on cooldown for damage, or save charges as a mini cooldown on big AoE; Spinning Crane Kick filler with Way of the Crane.",
+          "Method preferred keys CotC is melee Tiger Palm / Blackout Kick / Rising Sun Kick via Jadefire Teachings; import differs.",
+          "Method also publishes a damage-oriented Emperor's Elixir / Focused Thunder variant for high keys.",
+          "Method active healing: Sheilun's Gift, Vivify, and Soothing Mist."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/talents" }
+        ]
+      },
+      {
+        "heroTree": "Master of Harmony",
+        "recommended": false,
+        "loadoutCode": "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM2mZZYxixMzsZsssND2Mzy2yMjFmRzYGwgBjZZmZmhZbYGmlZCAAAAMbTLz2MLzGAAAAAzMDAMALyAA",
+        "bullets": [
+          "Icy Veins: not recommended; MoH has no throughput edge over CotC in keys.",
+          "Keep Thunder Focus Tea and Rushing Wind Kick on cooldown; Spinning Crane Kick on 5+; Tiger Palm and Blackout Kick otherwise.",
+          "Method M+ MoH import; TFT guarantees the next Tiger Palm or Vivify Harmonic Surge.",
+          "Method: Soothing Mist or Sheilun's Gift when you need a named target.",
+          "Method: CotC outperforms MoH in all content.",
+          "Way of the Crane in keys feeds Jadefire Teachings; IV still defaults Apexless CotC."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Conduit of the Celestials",
+        "recommended": true,
+        "loadoutCode": "C4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAghxyMLjZx2MzMz2G2sNjZ2Mz22yMjFmZaGzYBDGglZmZGmNYwyMBAAAAAALWmZZWmZAAAYAYGwAsMZMDA",
+        "bullets": [
+          "Icy Veins published Delves import is CotC.",
+          "Mostly the M+ build plus Crashing Momentum for distance.",
+          "Pull wide; Ancient Teachings plus Spinning Crane Kick; HoT yourself, then kite if intake outruns passive healing.",
+          "Icy Veins: Windwalker is likely better for solo Delves (same melee loop, more DPS).",
+          "Method has no Delves page; Raid/M+ only.",
+          "IV: Valeera follow/attack targeting is a solo pain point."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/talents" }
+        ]
+      },
+      {
+        "heroTree": "Master of Harmony",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 MoH Delves import on Icy Veins or Method.",
+          "Icy Veins: MoH is not recommended versus CotC in raid or keys.",
+          "Icy Veins quick-start Delves code is CotC only.",
+          "Method has no Delves page.",
+          "Use the CotC Delves loadout on this tab.",
+          "Method: CotC outperforms MoH in all content."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Soulcoiler Ritual Vessel",
+        "from": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S and Method raid/M+ BiS. 2-min 5-man absorb; Voidcore this on Mythic after a main-hand.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Haste passive/on-use. Method: Haste is great, but it cuts Intellect; save for a named cooldown window.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A. Method: random secondaries are still usable because MW is always pressing something. Do not plan a window around the proc.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A. Wowhead: pair with 2-min Yu'lon or Chi-Ji; 2s unhasted channel is annoying. IV M+ BiS pair with Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins A and Method overall BiS haste stick. Tidebound Grotto is not the Season 2 raid; only relevant if you still have one. IV Voidcore still names Mythic Seastone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B and M+ BiS pair with Stormbound Emblem. Wear in raid if you already have it from keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Mycolic Medicine",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins B healer passive. Farm it while targeting Fallen Speaker's Staff and Yoke.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B only after the whelp is trained; skip it until then.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Seed of Radiant Hope",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Method M+ BiS 90s targeted heal. Method: absorbs beat this for effective health; still pairs with 2-min Vessel.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C. Same dungeon as Seed; Method wants Seed here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Preternatural Antivenom",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Method raid healer passive. Method: tuning loses to other raid options and to M+ trinkets. Do not take it over Vessel or Gebbo.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Unstable Felheart Crystal",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Method: 2-min single-target absorb to pair with Vessel. Method: current tuning loses to Season 1 max-ilvl options. Flask from this dungeon is the IV M+ slot.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Soulcoiler Ritual Vessel",
+        "from": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Method: go-to keys trinket as well as raid. 2-min 5-man absorb on big pulls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins M+ BiS pair with Flask. Line the 2s channel with Invoke Yu'lon or Chi-Ji.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/monk/mistweaver/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins M+ BiS pair with Stormbound Emblem. Farm Murder Row while targeting Fury-Fletched Armlets.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Method M+ BiS pair with Seed of Radiant Hope. All-primary on-use while you farm Spare Speaker's Hood.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Seed of Radiant Hope",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Method M+ BiS 90s emergency heal; pairs with 2-min Vessel. Method: a damage absorb is still stronger for effective health.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A. Raid Haste option while you farm Stormbound or Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A. Wear in keys if you already have it from raid or vault; still behind Vessel.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Mycolic Medicine",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins B. Den of Nalorakk farm is the staff, neck, and boots first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B only after the whelp is trained; otherwise leave it in the bag.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins A leftover haste stick. Keep it in keys only if it still beats Stormbound or Flask on ilvl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C. Same dungeon as Seed of Radiant Hope; Method wants Seed in this slot.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/mistweaver-monk-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Unstable Felheart Crystal",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Method 2-min single-target absorb. Murder Row farm for keys is Flask first; Method says current tuning loses to old max-ilvl trinkets.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Preternatural Antivenom",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Method raid healer leftover. Do not replace Flask, Stormbound, Vial, or Seed with this in keys.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/mistweaver-monk/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,739 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 11,
+  "specId": 103,
+  "className": "Druid",
+  "specName": "Feral",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Feet",
+      "item": "Silvermoon Agent's Sneakers (Arcanoweave Lining)",
+      "notes": "Icy Veins first Spark and overall/raid/M+ lining host. Method second craft can sit here (or gloves/shoulders) because Silken Voodoo Drape is 344. Two embellishments max. Feverflare missive if you skip sims.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Silvermoon Agent's Deflectors (Arcanoweave Lining)",
+      "notes": "Icy Veins second lining. Method long-term first craft on the low-budget slot; their overall BiS wears these. Two linings max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Aln'hara Pikestaff (Hunter's Ritual Stone)",
+      "notes": "Icy Veins only if Abyssal Broodfiend's Bardiche will not land early; Ritual Stone is the weapon embellishment. Method: skip the weapon Spark and Voidcore Heroic Ula'tek instead.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Silvermoon Agent's Deflectors (Adorned Fang)",
+      "notes": "Icy Veins: stacking Haste proc is close to Arcanoweave Lining but behind, and lining also buffs allies. Skip Polished Ammolite and Snakeskin Lining.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Two-Hand", "item": "Abyssal Broodfiend's Bardiche" },
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Head", "item": "Gaze of the Coiled Watcher (catalyze)" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" }
+        ],
+        "notes": "Voidcore first. Cantrip weapon, 90s Heart, Haste cantrip helm, Crit cantrip neck. Method: Heroic rolls in Guardian loot spec until these land.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Legs", "item": "Coiled Hex Legguards (catalyze)" },
+          { "slot": "Waist", "item": "Sash of the Forlorn Vessel" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" }
+        ],
+        "notes": "Voidcore second. Guillotine plus three 344 slots. Method: 344 cloak is why the second lining leaves cloak. Icy Veins overall catalyzes these legs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Shoulders", "item": "Enigmatic Dreamwatcher's Plumage (tier)" },
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" }
+        ],
+        "notes": "Icy Veins overall/raid shoulder drop (do not catalyze this slot). Gebbo is Icy Veins S / Method next passive after Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Chest", "item": "Vestment of the Awakening (catalyze)" }
+        ],
+        "notes": "Icy Veins overall/raid catalyze this chest. Method overall chest is any 334; they still catalyze all five tier slots.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Finger", "item": "Vile Alchemist's Band" },
+          { "slot": "Trinket", "item": "Vashnik's Sanguine Rancor" }
+        ],
+        "notes": "Icy Veins and Method overall/raid ring with Sickening Signet of Atroxus. Rancor is Icy Veins B Agility passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Hands", "item": "Ruthless Slaughtergrips (catalyze)" }
+        ],
+        "notes": "Icy Veins raid-only glove catalyze. Overall mix catalyzes Gauntlets of Fevered Defense from Murder Row instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Trinket", "item": "Keeper's Seething Core" }
+        ],
+        "notes": "Icy Veins A Agility/Strength passive. Catch while you wait on Heart or Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus", "from": "Atroxus" },
+          { "slot": "Shoulders", "item": "Somber Spaulders (catalyze)" },
+          { "slot": "Trinket", "item": "Void Execution Mandate" }
+        ],
+        "notes": "Icy Veins first farm and overall/raid BiS ring. M+ catalyze shoulders here. Mandate is Icy Veins B on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Lustrous Golden Plumage" }
+        ],
+        "notes": "Icy Veins second farm and M+ BiS on-use. Method: next on-use if you skip raid; Voidcore +10 here if you are not rolling Ula'tek.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Hands", "item": "Gauntlets of Fevered Defense (catalyze)" },
+          { "slot": "Head", "item": "Vilefiend's Guise (catalyze)" },
+          { "slot": "Legs", "item": "Breeches of Deft Deals (catalyze)" },
+          { "slot": "Neck", "item": "Pendant of Malefic Fury" },
+          { "slot": "Trinket", "item": "Resonant Bellowstone" }
+        ],
+        "notes": "Icy Veins third/fourth farm: overall glove catalyze, M+ helm/legs catalyze, M+ BiS neck and A-tier passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Two-Hand", "item": "Victor's Flashfrozen Blade" },
+          { "slot": "Chest", "item": "War Trial Vestments (catalyze)" }
+        ],
+        "notes": "Icy Veins M+ weapon and chest catalyze. Method: six-item pool; bonus-roll a weapon here or Toxin-Coated Warstaff in Altar of Fangs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Back", "item": "Bloodthorn Burnous" },
+          { "slot": "Trinket", "item": "Lightspire Core" },
+          { "slot": "Trinket", "item": "Sapling of the Dawnroot" }
+        ],
+        "notes": "Icy Veins M+ cloak. Method: only real M+ passives, both a step down from Guillotine and Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Finger", "item": "Charged Sandstone Band" },
+          { "slot": "Waist", "item": "Whirling Dervish Sash" },
+          { "slot": "Trinket", "item": "Tiny Electromental in a Jar" }
+        ],
+        "notes": "Icy Veins M+ second ring and belt. Tiny Electromental is Icy Veins C; skip it versus Plumage or Resonant Bellowstone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom" },
+          { "slot": "Two-Hand", "item": "Toxin-Coated Warstaff" }
+        ],
+        "notes": "Icy Veins A on-use. Method: staff is the other tight weapon pool if you skip Nalorakk Flashfrozen Blade.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Wildstalker",
+        "recommended": true,
+        "loadoutCode": "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAwYMjxYmZMmtFWGbzMzYmZAAAAYLY2MMmZUzYWmZmZGjZMAAAAAAMwAAAAAAMbzs0sNzyGYmHAYxMYAAMzAgB",
+        "bullets": [
+          "Icy Veins default raid Wildstalker; DoTC is close on true ST, but Wildstalker transitions into low-target Abyss cleave better.",
+          "Method (4 Sep 2026) after Sep 1 buffs: DoTC pulls ahead on ST; they still post a Wildstalker ST import.",
+          "Icy Veins: Circle of Life and Death, Lunar Inspiration, Berserk plus Convoke; 4/4 Unseen Predator.",
+          "Flex Carnivorous Instinct vs Saber Jaws; Ashamane's Guidance for 1-minute burst. Skip Incarn (weaker 2pc).",
+          "Cleave fights: Icy Veins Raid Cleave import; Primal Wrath, then Rampant Ferocity, then Double-Clawed Rake.",
+          "Method Coiled Altar: play Wildstalker so Twin Sprouts vines the boss on mind-controls."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/talents" }
+        ]
+      },
+      {
+        "heroTree": "Druid of the Claw",
+        "recommended": false,
+        "loadoutCode": "CcGADBD3hSPCL9Y9gz68WcKvMAAAAAAwghxYmZmxsxDsMz2MzMmZGAAAAWCmNYMzomxsMzMzMGzYGAAAAAAgBAAAQzsMLzMzACsAmZAWMDGAAAzshB",
+        "bullets": [
+          "Method (4 Sep 2026) default raid DoTC after Sep 1; almost all of their boss imports are DoTC.",
+          "Icy Veins: neck-and-neck on ST from the extra Berserk on 4pc; better defense for progress.",
+          "Method ST import. Apex plus Carnivorous Instinct vs Saber Jaws sim close; they keep Apex for Primal Wrath swaps.",
+          "Icy Veins: Saber Jaws, skip Apex Predator's Craving (hurts Ravage); Berserk plus Convoke; Focused Frenzy with Tiger's Fury.",
+          "Method: Primal Wrath on Nek'zali, Vashnik, and Ula'tek; skip Ashamane's Guidance on Mythic Nek'zali first group and Ula'tek Heart timings.",
+          "Icy Veins still defaults Wildstalker for raid because Venomous Abyss has many cleave fights."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Druid of the Claw",
+        "recommended": true,
+        "loadoutCode": "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZ2YmZmxY2MPw2YbGzMmZAAAAYLY2M8AmZUzYWMzMzsMmxAAAAAAwADAAAgmZZWmZmBAsAzMDwCDGAAAzshB",
+        "bullets": [
+          "Icy Veins default M+ DoTC; easier execute and better defense; Blood Spattered holds priority.",
+          "Method: damage is even; DoTC slightly better defense, and raking is optional versus required on Wildstalker.",
+          "Icy Veins: Primal Wrath, Rampant Ferocity, Double-Clawed Rake, Infected Claws. Skip Hunger for Battle unless you chain-pull.",
+          "Method Convoke plus Rake is their first M+ string; Incarn plus Swipe is the other after the Incarn sim fix. Both viable.",
+          "Method: Infected Wounds to reach Soul of the Forest; Rip and Tear over Veinripper; they no longer recommend Swipe-leaning builds.",
+          "Method: Strike for the Heart over Tear Down the Mighty unless you force 1-minute Convoke with Frantic Frenzy."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/talents" }
+        ]
+      },
+      {
+        "heroTree": "Wildstalker",
+        "recommended": false,
+        "loadoutCode": "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAgZmZ2YmZmxY2M2mZZGzMmZAAAAYJY2MMmZUzYWMzMzsMmhBAAAAAAYAAAAEAMLzs0sMzyGYmBYxMYAAMzAgB",
+        "bullets": [
+          "Method Wildstalker M+ import. Icy Veins has a Wildstalker M+ tab; the published quick-start M+ code is DoTC.",
+          "Icy Veins: S2 AoE via bleeds; higher execution, a bit more ST lost, and weaker defense than DoTC.",
+          "Icy Veins: Berserk plus Convoke; Frantic Frenzy instead of Focused Frenzy; Blood Spattered from about 3 to 6 targets.",
+          "Method: Bloodseeker Vines make rake-spreading mandatory on this tree.",
+          "Icy Veins: Rip and Tear scales in high-target AoE; Carnivorous Instinct to Ashamane's Guidance for 1-minute.",
+          "Both sites still default DoTC in keys."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Druid of the Claw",
+        "recommended": true,
+        "loadoutCode": "CcGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAjZYmxMzMzsZsNz2MmZegZGAAAA2CmNDPgZG1MmlxMzMLjZYAAAAAAMwAAAAoZWmlZmZAALwMzAswgBAAwMbYA",
+        "bullets": [
+          "Icy Veins published Delves import is DoTC.",
+          "Icy Veins: survival plus on-demand AoE; Killing Strikes from dropping combat; front-loaded burst.",
+          "Method has no Delves page; they still prefer DoTC in keys for defense.",
+          "Method keys note: Killing Strikes wants the free Ravage from Tiger's Fury; Shadowmeld or Incarn to drop combat off bosses.",
+          "Icy Veins: 4/4 Unseen Predator on every build.",
+          "Use this for solo and open world."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/talents" }
+        ]
+      },
+      {
+        "heroTree": "Wildstalker",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Wildstalker Delves import on Icy Veins; Delves quick-start is DoTC only.",
+          "Icy Veins has a Wildstalker Delves tab; weaker defensives can limit aggressive pathing.",
+          "Icy Veins: still capable of mass AoE even though the DoTs are less front-loaded.",
+          "Method has no Delves page.",
+          "Use the Wildstalker Mythic+ loadout on the M+ tab if you want this tree in Delves."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method best on-use. Awkward 90s; hold for Berserk. No other on-use comes close.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method strongest passive. Higher max ilvl, very good ST. Method also wears it in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method next passive. Overlapping stat procs; best passive for cleave, AoE, and dungeons. One negative proc in the pool.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Agility/Strength passive. Farmable while you wait on Heart or Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A / Method next on-use if you skip raid. Longer duration blankets the extended Berserk from 4pc.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A. Lines up with Berserk, but the negative after-effect blankets the tail of cooldowns and the 2pc payoff.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Resonant Bellowstone",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A and Icy Veins M+ BiS second trinket. Agility/Strength passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B Agility on-use. Use on a target that lives long enough to stack the Crit buff, or most of the value is lost.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B / Method M+ passive option. Mastery is fine; staying in the zone is restrictive in raid arenas and keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B Agility passive from Vashnik.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Drum of Renewed Bonds",
+        "from": "Jan'alai altar",
+        "instance": "Zul'Aman",
+        "whenToUse": "Icy Veins B. Set it to Mastery at the Jan'alai altar in Zul'Aman.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B. Hold for Berserk. Potion of Recklessness before the trinket so it does not lock Crit.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Mastery on-use from the same boss as Heart. Channel plus long cooldown; never take this over Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C / Method M+ passive with Lightspire. Both a step down from Guillotine and Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Effigy of Ula'tek's Faithful",
+        "from": "Lost Spirit (Forgotten Trinket)",
+        "instance": "The Coiled Isle",
+        "whenToUse": "Icy Veins C open-world. Turn the Forgotten Trinket in to the Lost Spirit.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C Agility passive. Skip versus Resonant Bellowstone or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins D (C here). Agility/Strength on-use; Vile Vial is the Altar on-use Icy Veins ranks A.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method best on-use on big pulls. Hold for Berserk; dungeon lists are stopgaps until this lands.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method default passive in keys too, even though it is purely ST. Pair with Heart; Gebbo if the pull is pure AoE.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method next passive. Best dungeon/cleave stat stick until Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A and Icy Veins M+ BiS on-use. Method: farm this if you do not raid; Voidcore +10 here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Resonant Bellowstone",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A and Icy Veins M+ BiS second trinket. Farm Murder Row with the glove/helm/leg catalyzes.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A dungeon on-use. Weaker than Plumage because the downside hits the Berserk tail and 2pc.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A raid passive. Vault catch, not a key farm target.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B. Farm Voidscar with the signet; only press it on a target that will live through the Crit stacks.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B / Method M+ passive. Hectic key movement makes the zone hard to keep.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B 90s on-use. Hold for Berserk; pot Recklessness first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Drum of Renewed Bonds",
+        "from": "Jan'alai altar",
+        "instance": "Zul'Aman",
+        "whenToUse": "Icy Veins B leftover. Set to Mastery at the Jan'alai altar; skip if you have Plumage or Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B raid Agility passive. Skip versus Gebbo, Guillotine, or Resonant Bellowstone in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C / Method M+ passive with Lightspire. Farm Vale with Bloodthorn Burnous.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/feral-druid/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C. Same boss as Heart; never take this over Heart in keys either.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C. Sethraliss farm is Charged Sandstone Band; skip this versus Resonant Bellowstone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Effigy of Ula'tek's Faithful",
+        "from": "Lost Spirit (Forgotten Trinket)",
+        "instance": "The Coiled Isle",
+        "whenToUse": "Icy Veins C open-world while you farm keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins D (C here). Vile Vial is the Altar on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/feral-druid-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

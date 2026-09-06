@@ -1,0 +1,737 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 5,
+  "specId": 257,
+  "className": "Priest",
+  "specName": "Holy",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Off-Hand",
+      "item": "Aln'hara Lantern (Darkmoon Sigil: Hunt)",
+      "notes": "Icy Veins first Spark if you lack a Myth-track off-hand; not strictly BiS vs a Myth OH but close. Method first Spark: Hunt lantern because bonus rolls go to Heroic Ula'tek for Jan'thrazet, the Soul Fang. Two embellishments max. IV: if you lack Myth crests, first craft is a 2H staff with Hunt instead.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Martyr's Bindings (Arcanoweave Lining)",
+      "notes": "Icy Veins eventual BiS lining once the Myth-track off-hand is upgraded. Method later Spark: move the second lining onto a low stat-budget slot (wrists or cloak). Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+      ]
+    },
+    {
+      "slot": "Waist",
+      "item": "Martyr's Waistwrap (Arcanoweave Lining)",
+      "notes": "Icy Veins other eventual lining BiS. Method second Spark is any high stat-budget armour with Arcanoweave Lining for an immediate spike, then swap that lining onto wrists or cloak later.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Jan'thrazet, the Soul Fang" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Head", "item": "Venomkeeper's Horrific Cowl (catalyze)" }
+        ],
+        "notes": "IV/Method first three Voidcores: all three drops are season-long. Catalyze the cowl so it keeps the Mastery cantrip as Cosmic Penitent's Truesight Helm. IV/Method raid BiS still catalysts Tidebound Sorcereress's Robes from Nymrissa Wavecaller (S1 leftover).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Soulcoiler Ritual Vessel" },
+          { "slot": "Feet", "item": "Nek'zali's Spiritwalkers" },
+          { "slot": "Legs", "item": "Initiate's Sacrificial Tights (catalyze)" },
+          { "slot": "Back", "item": "Amani Summoning Shawl" }
+        ],
+        "notes": "Icy Veins S-tier healer trinket; Method S. Raid-only boots. IV/Method raid catalyzes these legs. Method raid BiS cloak; overall Method uses Speakeasy Shroud from Murder Row instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" },
+          { "slot": "Shoulders", "item": "Cosmic Penitent's Echoing Screams (tier token)" }
+        ],
+        "notes": "Icy Veins A / Method S second raid trinket. IV/Method: take the shoulder token; do not catalyst this slot.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Feet", "item": "Cackling Soultreads" },
+          { "slot": "Hands", "item": "Grasps of the Eternal Shadow (catalyze)" },
+          { "slot": "Trinket", "item": "Hex Lord's Dooming Idol" }
+        ],
+        "notes": "Icy Veins overall cloak and boots. IV raid catalyzes these gloves; Method raid uses the Entombed Sentinels token instead. IV B / Method A Haste idol.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Wrist", "item": "Venom-Singed Cuffs" },
+          { "slot": "Hands", "item": "Cosmic Penitent's Celestial Grips (tier token)" }
+        ],
+        "notes": "Icy Veins/Method raid wrists if you skip Spark bracers. Method raid BiS catalyzes the Sentinels glove token.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Finger", "item": "Vile Alchemist's Band" }
+        ],
+        "notes": "Icy Veins and Method raid BiS ring. IV overall uses Charged Sandstone Band from Temple of Sethraliss instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins and Method raid BiS second ring. Method overall also keeps this with Signet of Snarling Servitude.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Finger", "item": "Charged Sandstone Band", "from": "Galvazzt" },
+          { "slot": "Chest", "item": "Robes of the Reborn Serpent (catalyze)", "from": "Avatar of Sethraliss" },
+          { "slot": "Shoulders", "item": "Brood Cleanser's Amice (catalyze)", "from": "Avatar of Sethraliss" },
+          { "slot": "Hands", "item": "Handwraps of Oscillating Polarity (catalyze)", "from": "Galvazzt" },
+          { "slot": "Feet", "item": "Sandswept Sandals", "from": "Adderis and Aspix" },
+          { "slot": "Wrist", "item": "Bindings of the Slithering Current", "from": "Adderis and Aspix" }
+        ],
+        "notes": "Icy Veins first farm: Crit/Mastery ring and several high-Crit cloth slots. Method M+ BiS chest, sash (Ouroborial Sash from Merektha), sandals, and this ring. IV M+ wrists live here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Finger", "item": "Signet of Snarling Servitude" },
+          { "slot": "Back", "item": "Speakeasy Shroud" },
+          { "slot": "Trinket", "item": "Freightrunner's Flask" }
+        ],
+        "notes": "Icy Veins second farm: Crit/Mastery ring. Method overall/M+ cloak. IV/Method M+ BiS on-use pair with Lightspire Core.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Legs", "item": "Down-Lined Breeches (catalyze)" },
+          { "slot": "Head", "item": "Headdress of the First Empire (catalyze)" }
+        ],
+        "notes": "Icy Veins overall/M+ catalyze legs. IV M+ catalyze helm if you skip Ula'tek's cowl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Trinket", "item": "Lightspire Core" },
+          { "slot": "Head", "item": "Worldroot Canopy (catalyze)" }
+        ],
+        "notes": "Icy Veins/Method M+ BiS trinket. Method M+ catalyze helm. IV ranks Lightspire B in the raid table, but it is their dungeon BiS pair with Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Hands", "item": "Handwraps of Blasphemous Rites (catalyze)" }
+        ],
+        "notes": "Method overall catalyzes these gloves. IV raid catalyzes Grasps of the Eternal Shadow from Coiled Altar instead.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Neck", "item": "Graft of the Domanaar" },
+          { "slot": "Shoulders", "item": "Poisoner's Pauldrons (catalyze)" }
+        ],
+        "notes": "Icy Veins M+ neck. Method M+ catalyze shoulders. Skip if you already have Aqirbane Reliquary.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Wrist", "item": "Winter's Embrace Bracers" }
+        ],
+        "notes": "Method M+ wrists. Icy Veins third farm is a Vers/Crit ring here; they do not name the ring on the BiS list.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 8,
+        "items": [
+          { "slot": "Two-Hand", "item": "Chillworn's Infusion Staff" }
+        ],
+        "notes": "Icy Veins/Method M+ staff while you wait on Jan'thrazet. Ruby Whelp Shell is the dungeon trinket; IV B only after it is Crit-trained.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Oracle",
+        "recommended": true,
+        "loadoutCode": "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAYBmZWGzMmZMMDzsMzYGAAAAzYWmBzMzwMMjBMTBwMLYIMmtBYMwiZmZBgZMzYMMzAMzMgB",
+        "bullets": [
+          "Icy Veins default raid Oracle (Easy Mode import); Method publishes a different Oracle raid string.",
+          "IV: Oracle is currently stronger in raid for constant healing; Archon is competitive but stacks more into Apotheosis and Halo (higher overheal).",
+          "PoM, Prompt Prognosis, Holy Word: Serenity, then Flash Heal / Benediction; Renew, Echo of Light, and Piety fill the rest.",
+          "Ultimate Serenity is the popular capstone; Lightweaver is similar HPS but costs more mana and is less forgiving, so IV generally avoids it.",
+          "Seraphic Crescendo over Gales of Song unless every Hymn is planned more than 3 minutes apart.",
+          "Method raid recommendation is Archon, not Oracle; this is the IV raid default."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/talents" }
+        ]
+      },
+      {
+        "heroTree": "Archon",
+        "recommended": false,
+        "loadoutCode": "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAAgZmlxMjZmZYmZYZGmBAAAwMmlZwMzMMDzAYmaAgZWMTmFDAMGsZmZWA0MGjxwMz2yAMDMA",
+        "bullets": [
+          "Method recommended raid Archon import; Icy Veins has a different Archon raid string.",
+          "Method: Holy Word: Serenity with Ultimate Serenity; spend Surge of Light on Prayer of Healing via Spiritwell; pair Halo with Apotheosis or Divine Hymn.",
+          "IV: competitive raid choice, but more of the healing sits in Apotheosis and Halo windows.",
+          "Method Archon raid: Spiritwell default; always Word of Supremacy; Energy Compression unless you need longer Apotheosis.",
+          "IV flex: do not swap Dispersing Light for Divine Image or Say Your Prayers.",
+          "Icy Veins still defaults Oracle in raid; this is Method's raid tree."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Oracle",
+        "recommended": true,
+        "loadoutCode": "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAgZmxsMMjZGDzwYZmZmBAAAwYmlZwMzM2MmZMgZKAmZBDhxsNAjBWMzMLAMjZGjBzAMzMgB",
+        "bullets": [
+          "Icy Veins Delves & M+ Oracle import; Method publishes a different Oracle M+ string.",
+          "IV: both hero trees are viable in dungeons; Oracle is the sustain/damage choice and helps the timer.",
+          "Method Oracle M+: Burning Vehemence Holy Fire AoE; healing through Serenity with Ultimate Serenity.",
+          "IV: reduced burst vs Archon; take Oracle for personal defence, damage, and consistent healing.",
+          "Method recommended M+ tree is Archon, not Oracle; this is the IV keys import.",
+          "Do not talent Lightburst; it removes Holy Nova as a spammable filler."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/talents" }
+        ]
+      },
+      {
+        "heroTree": "Archon",
+        "recommended": false,
+        "loadoutCode": "CEQAAAAAAAAAAAAAAAAAAAAAAwYAAAAAAgZzwYWGwMzMjZmZsMzMzAAAAYYWmhZmZGmxMD2wMFAYmNzkZzAAjBbGjFANjZGjBzstMADYA",
+        "bullets": [
+          "Method recommended M+ Archon import. Icy Veins has no Archon M+ quick-start code; their Archon keys page is Lasting Words.",
+          "Method: Burning Vehemence Holy Fire AoE; Lightweaver buffs Prayer of Healing (expensive spam for party spikes).",
+          "IV Archon Lasting Words: slightly weaker overall throughput than Oracle, with Halo bursts and extra Surge of Light for triage.",
+          "Method M+: take Realized Potential over Spiritwell; Incessant Screams is a minor extra stop.",
+          "IV: Archon burst in 5-man can consume a lot more mana than Oracle.",
+          "Icy Veins still lists both as viable; Method recommends this tree in keys."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Oracle",
+        "recommended": true,
+        "loadoutCode": "CEQAAAAAAAAAAAAAAAAAAAAAAADAAAAAAgZmxsMMjZGDzwYZmZmBAAAwYmlZwMzM2MmZMgZKAmZBDhxsNAjBWMzMLAMjZGjBzAMzMgB",
+        "bullets": [
+          "Icy Veins: do Delves as Shadow, not Holy, for the extra damage. Stay on this Oracle import only if you insist on Holy (solo or group).",
+          "IV Delves tweak: drop Everlasting Light, or Leap of Faith if solo, and take Dominate Mind.",
+          "Dominate Mind is for extra damage and to soak hits that would otherwise hit you or allies.",
+          "This is the same IV Delves & M+ Oracle string; Method has no Delves page.",
+          "IV: if you stay Holy in Delves, do them as Oracle.",
+          "Method has no separate Delves loadout."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/talents" }
+        ]
+      },
+      {
+        "heroTree": "Archon",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Archon Delves import on Icy Veins or Method.",
+          "Icy Veins: do Delves as Shadow rather than Holy; if you stay Holy, they want Oracle, not Archon.",
+          "IV has no Archon Delves or M+ quick-start code.",
+          "Method has no Delves page; their Archon import is the M+ Lightweaver tree.",
+          "Use the Oracle Delves loadout on this tab if you are healing Delves as Holy."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Soulcoiler Ritual Vessel",
+        "from": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method S. Five absorbs; IV: use on cooldown, preferably ~5s before damage. Not using it regularly is a healing loss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method S second raid slot. Random effects, but Method calls them strong. IV raid BiS pair with Soulcoiler.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B / Method A. Method: stand in the light beam; only procs from damage spells. IV/Method M+ BiS pair with Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B / Method A. Strong on-use that gets stronger the longer you hold it. Haste from Coiled Altar.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B only after the whelp is Crit-trained; skip it until then.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Wavecaller's Seastone",
+        "from": "Tidebound Grotto leftover",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins B / Method S passive that cycles stats. Tidebound Grotto is not in the Season 2 raid; Method still S-ranks it. Skip if you do not already have one.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins C in the raid table / Method A. 1.5-min on-use. IV/Method M+ BiS pair with Lightspire; C here versus Soulcoiler and Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C all-primary on-use from Altar of Fangs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mycolic Medicine",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C / Method B. Decent passive heal trinket. Method healer row lists this dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Drum of Renewed Bonds",
+        "from": "Delve",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins C / Method B. Choose your best stat. Delve trinket while you farm raid or keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Glorious Crusader's Keepsake",
+        "from": "Delve",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins C / Method B. Proc that increases your highest secondary. Delve option, not a raid farm.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Effigy of Ula'tek's Faithful",
+        "from": "Lost Spirit (Forgotten Trinket)",
+        "instance": "The Coiled Isle",
+        "whenToUse": "Method B open-world proc (random stats and tertiaries). Not on the Icy Veins Holy ranking table.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/npc=261867/lost-spirit" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins D (mapped to C). Intellect on-use; do not take it over Soulcoiler or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Seed of Radiant Hope",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins D (mapped to C) healer on-use. Farm Lightspire Core from this dungeon instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Unstable Felheart Crystal",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins D (mapped to C) healer on-use. Flask from this dungeon is the slot IV/Method actually want in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Preternatural Antivenom",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Not on the Icy Veins table (treat as D, mapped to C). Method raid healer passive from Twin Fangs; do not take it over Soulcoiler or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins/Method M+ BiS pair. Passive; Method: stand in the beam, procs from damage spells. IV B in the raid table, S here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins/Method M+ BiS pair with Lightspire. 1.5-min on-use. IV C in the raid table, S here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Soulcoiler Ritual Vessel",
+        "from": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Wear in keys if you already have it from raid or vault. IV S in raid; dungeon BiS pair is Lightspire plus Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method S. Wear in keys if you already have it; still behind the Lightspire plus Flask dungeon pair on the M+ lists.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B / Method A. Raid Haste option while you farm Lightspire or Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B only after the whelp is Crit-trained; otherwise leave it in the bag.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Wavecaller's Seastone",
+        "from": "Tidebound Grotto leftover",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins B / Method S leftover. Keep it in keys only if it still beats Lightspire or Flask on item level.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C on-use. Altar of Fangs farm for Holy is Method's blasphemous-rites gloves, not this vial.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mycolic Medicine",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C / Method B. Den of Nalorakk Method pickup is Winter's Embrace Bracers, not this trinket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Drum of Renewed Bonds",
+        "from": "Delve",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins C / Method B while you farm keys. Lightspire plus Flask is the dungeon pair to chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Glorious Crusader's Keepsake",
+        "from": "Delve",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins C / Method B. Do not replace Lightspire or Flask with this in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Effigy of Ula'tek's Faithful",
+        "from": "Lost Spirit (Forgotten Trinket)",
+        "instance": "The Coiled Isle",
+        "whenToUse": "Method B while you farm keys. Turn the Forgotten Trinket in to the Lost Spirit.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/holy-priest/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/npc=261867/lost-spirit" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins D (mapped to C). King's Rest farm for Holy is the catalyze legs/helm, not this on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Seed of Radiant Hope",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins D (mapped to C). Same dungeon as Lightspire Core; take Lightspire.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Unstable Felheart Crystal",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins D (mapped to C). Murder Row farm is Freightrunner's Flask, not this healer on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Preternatural Antivenom",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Not on the Icy Veins table (treat as D, mapped to C). Raid healer leftover; do not replace Lightspire or Flask with this in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/holy-priest-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

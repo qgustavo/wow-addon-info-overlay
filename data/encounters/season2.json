@@ -6,6 +6,23 @@
       "name": "Nek'zali the Soulcoiler",
       "kind": "raid",
       "instance": "Venomous Abyss",
+      "diagram": {
+        "caption": "Tank the door. Well arrivals wipe.",
+        "cols": 3,
+        "cells": [
+          { "label": "Soulcoil Well", "tone": "hazard", "span": 3 },
+          { "label": "Barrage out", "tone": "move" },
+          { "label": "Boss", "tone": "boss" },
+          { "label": "Puddles out", "tone": "hazard" },
+          { "label": "Tank at door", "tone": "tank", "span": 3 }
+        ]
+      },
+      "steps": [
+        { "id": "P1", "kind": "phase", "label": "Pull", "action": "Tank at the entrance. Barrage far out with a clear path. Swap Hollowed." },
+        { "id": "Adds", "kind": "phase", "label": "Amani", "action": "Rend puddles aside. Break Amani shields, then kill them before the well." },
+        { "id": "50%", "kind": "intermission", "label": "50%", "action": "Dodge Soul Transfer. Half soak Pyre; half drop fire on Amani corpses. Kill both Echoes." },
+        { "id": "P2", "kind": "burn", "label": "Phase 2 burn", "action": "Hero through Uncoiling ticks. Kill before 100 energy Uncoiled Rage." }
+      ],
       "lines": [
         "Tank at the entrance. For Possession Barrage, run far out with nobody in the path — spirits explode when they reach you; farther travel is less raid damage. Taunt swap Hollowed.",
         "Essence Rend targets step aside and get dispelled so Latent Cultist puddles land out of the way; those puddles start moving after Invoke in phase 2.",
@@ -14,7 +31,12 @@
         "Phase 2: Hero/Lust and burn through Uncoiling ticks. Kill before 100 energy Uncoiled Rage."
       ],
       "specNotes": {
-        "250": "Grip Restless Amani after the magic shield breaks. Death's Advance out on Possession Barrage. Death Strike Hollowing Strikes; AMZ/AMS Soulcoil Ignition."
+        "250": "Grip Restless Amani after the magic shield breaks. Death's Advance out on Possession Barrage. Death Strike Hollowing Strikes; AMZ/AMS Soulcoil Ignition.",
+        "73": "Heroic Leap out on Possession Barrage so the spirits travel far. Shield Block Hollowing Strikes; Spell Reflect Soulcoil Ignition.",
+        "66": "Divine Toll the Restless Amani magic shields, then kill them before the well. Divine Steed out on Possession Barrage; Blessing of Spellwarding Soulcoil Ignition.",
+        "268": "Clash Restless Amani onto the raid after the magic shield breaks. Roll or Transcendence: Transfer out on Possession Barrage; Fortifying Brew Hollowing Strikes.",
+        "104": "Typhoon Restless Amani off the well after the magic shield breaks. Stampeding Roar out on Possession Barrage; Frenzied Regeneration Hollowing Strikes.",
+        "581": "Sigil of Chains Restless Amani after the magic shield breaks. Infernal Strike out on Possession Barrage; Fiery Brand Soulcoil Ignition."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/the-venomous-abyss/nekzali-the-soulcoiler-heroic" },
@@ -26,6 +48,25 @@
       "name": "Entombed Sentinels",
       "kind": "raid",
       "instance": "Venomous Abyss",
+      "diagram": {
+        "caption": "Stay 40y+ apart. Swap sides after each intermission.",
+        "cols": 3,
+        "cells": [
+          { "label": "Green golem", "tone": "boss" },
+          { "label": "40y+ split", "tone": "move" },
+          { "label": "Red golem", "tone": "boss" },
+          { "label": "Droplet soaks", "tone": "soak" },
+          { "label": "Pair orbs = 4", "tone": "stack" },
+          { "label": "Wall puddles", "tone": "hazard" }
+        ]
+      },
+      "steps": [
+        { "id": "Split", "kind": "phase", "label": "Split", "action": "Left/right 40y+. Keep both even or Stasis heals the weaker one." },
+        { "id": "Green", "kind": "phase", "label": "Green", "action": "Soak droplets 1–2 each. Kill Coagulation on spawn. Slam swap." },
+        { "id": "Red", "kind": "phase", "label": "Red", "action": "Stack Miasma, drop Blood Venom on the wall. Injection puddle on existing pools." },
+        { "id": "Orbs", "kind": "intermission", "label": "Orb pairs", "action": "Pair so combined green orbs equal 4. Wrong pairs go to a corner." },
+        { "id": "Swap", "kind": "loop", "label": "Side swap", "action": "Swap sides after every intermission. Hero on pull; no burn phase." }
+      ],
       "lines": [
         "Split left/right, 40+ yards apart, and keep both golems even on HP or Vitriolic Stasis heals the weaker one. Swap sides after every intermission to drop Mark of Acid/Blood.",
         "Green: soak Toxic Droplets one or two per player; kill Venom Coagulation immediately; dodge Living Venom on the way out and back. Empowering Slam ramps until a new tank.",
@@ -34,7 +75,12 @@
         "Hero on pull. There is no burn phase; the intermission is downtime."
       ],
       "specNotes": {
-        "250": "Death Strike Empowering Slam and Bloodvenom Injection. After the swap, drop the Injection puddle on existing red pools before it expires."
+        "250": "Death Strike Empowering Slam and Bloodvenom Injection. After the swap, drop the Injection puddle on existing red pools before it expires.",
+        "73": "Shield Block Empowering Slam and Bloodvenom Injection. After the swap, drop the Injection puddle on existing red pools before it expires.",
+        "66": "Ardent Defender Empowering Slam and Bloodvenom Injection. After the swap, drop the Injection puddle on existing red pools before it expires.",
+        "268": "Fortifying Brew Empowering Slam and Bloodvenom Injection. After the swap, drop the Injection puddle on existing red pools before it expires.",
+        "104": "Frenzied Regeneration Empowering Slam and Bloodvenom Injection. After the swap, drop the Injection puddle on existing red pools before it expires.",
+        "581": "Demon Spikes Empowering Slam; Fiery Brand Bloodvenom Injection. After the swap, drop the Injection puddle on existing red pools before it expires."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/the-venomous-abyss/entombed-sentinels-heroic" },
@@ -46,6 +92,24 @@
       "name": "The Lost Explorers",
       "kind": "raid",
       "instance": "Venomous Abyss",
+      "diagram": {
+        "caption": "Cleave two turtles. Gebbo stays out.",
+        "cols": 3,
+        "cells": [
+          { "label": "Nama", "tone": "boss" },
+          { "label": "Iku", "tone": "boss" },
+          { "label": "Gebbo far", "tone": "add" },
+          { "label": "Two-turtle cleave", "tone": "stack", "span": 2 },
+          { "label": "Bomb at edge", "tone": "hazard" }
+        ]
+      },
+      "steps": [
+        { "id": "P1", "kind": "phase", "label": "Cleave", "action": "Two turtles in cleave. All three within 30y is United Defense. Balance HP." },
+        { "id": "Feed", "kind": "phase", "label": "Feed", "action": "Pop crates before Relic Rupture. Feed Nama, then Iku, then Gebbo." },
+        { "id": "Soak", "kind": "phase", "label": "Soaks", "action": "Nama Thud: 3 soak groups. Iku: clear the opposite Frostfire patch." },
+        { "id": "Bomb", "kind": "phase", "label": "Gebbo", "action": "Bomb at the edge, then mushroom over Blast Wave. Kick Icebound Flames." },
+        { "id": "100", "kind": "loop", "label": "Energy", "action": "Three feeds reset Mor'zahi. Fourth 100 energy is Final Ascension." }
+      ],
       "lines": [
         "Keep only two turtles in cleave range; all three within 30 yards is United Defense. Balance HP; if you must stagger, Gebbo then Nama then Iku.",
         "Pop every Gebbo crate before Relic Rupture and fish from them. Feed Nama, then Iku, then Gebbo. Three feeds reset Mor'zahi; the fourth 100 energy is Final Ascension.",
@@ -54,7 +118,12 @@
         "Taunt swap Shredding Shards on Iku and Steady Strikes on Nama. Hero on pull."
       ],
       "specNotes": {
-        "250": "Death Strike Shredding Shards. Face Nama so Shell Spin goes away from ranged; Death's Advance to stay on the two-turtle cleave without dragging Gebbo into United Defense."
+        "250": "Death Strike Shredding Shards. Face Nama so Shell Spin goes away from ranged; Death's Advance to stay on the two-turtle cleave without dragging Gebbo into United Defense.",
+        "73": "Shield Block Shredding Shards. Face Nama so Shell Spin goes away from ranged; Heroic Leap over Gebbo Blast Wave if the mushroom is late.",
+        "66": "Ardent Defender Shredding Shards. Face Nama so Shell Spin goes away from ranged; Divine Steed over Gebbo Blast Wave if the mushroom is late.",
+        "268": "Fortifying Brew Shredding Shards. Face Nama so Shell Spin goes away from ranged; Transcendence: Transfer over Gebbo Blast Wave if the mushroom is late.",
+        "104": "Frenzied Regeneration Shredding Shards. Face Nama so Shell Spin goes away from ranged; Stampeding Roar the raid onto mushrooms for Blast Wave.",
+        "581": "Demon Spikes Shredding Shards. Face Nama so Shell Spin goes away from ranged; Infernal Strike over Gebbo Blast Wave if the mushroom is late."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/the-venomous-abyss/the-lost-explorers-heroic" },
@@ -66,6 +135,23 @@
       "name": "Vashnik the Malignant",
       "kind": "raid",
       "instance": "Venomous Abyss",
+      "diagram": {
+        "caption": "Live between Shadow and Fire. Adds never reach the pool.",
+        "cols": 3,
+        "cells": [
+          { "label": "Shadow", "tone": "hazard" },
+          { "label": "Boss", "tone": "boss" },
+          { "label": "Fire", "tone": "hazard" },
+          { "label": "Center pool - adds die first", "tone": "hazard", "span": 3 }
+        ]
+      },
+      "steps": [
+        { "id": "Park", "kind": "phase", "label": "Park", "action": "Stay between the Shadow and Fire fountains for the whole fight." },
+        { "id": "100", "kind": "phase", "label": "Imbibe", "action": "At 100 energy, raid defensives. Adds must die before the center pool." },
+        { "id": "Adds", "kind": "phase", "label": "Adds", "action": "Grip Burning Venom one at a time. CC Shrouded. One pool arrival is a DoT." },
+        { "id": "Soak", "kind": "phase", "label": "Soaks", "action": "Cover every Catalytic Bile. Froth spread; plus-waves off the boss." },
+        { "id": "Swap", "kind": "loop", "label": "Fangs swap", "action": "Swap every Dripping Fangs. Kill before Toxic Vapor stacks take over." }
+      ],
       "lines": [
         "Park permanently between the Shadow and Fire fountains. On Imbibe at 100 energy, pop raid defensives and kill every add before it reaches the center pool.",
         "Grip the two Burning Venom and kill them one at a time (Heroic death DoT). CC Shrouded Venom. One pool arrival is a Malignant Burst DoT; more than one is usually a wipe.",
@@ -74,7 +160,12 @@
         "Kill before Toxic Vapor stacks from repeated Imbibe take over."
       ],
       "specNotes": {
-        "250": "Grip Burning Venom onto the boss so they die before the pool. AMZ Imbibe; Death Strike Dripping Fangs."
+        "250": "Grip Burning Venom onto the boss so they die before the pool. AMZ Imbibe; Death Strike Dripping Fangs.",
+        "73": "Shockwave one Burning Venom so the raid can kill them one at a time before the pool. Shield Block Dripping Fangs; Rallying Cry Imbibe.",
+        "66": "Hammer of Justice one Burning Venom while the raid kills the other before the pool. Ardent Defender Dripping Fangs; Blessing of Spellwarding Imbibe.",
+        "268": "Clash Burning Venom onto the boss so they die before the pool. Fortifying Brew Dripping Fangs; Celestial Brew Imbibe.",
+        "104": "Ursol's Vortex Burning Venom on the boss so they die before the pool. Frenzied Regeneration Dripping Fangs; Barkskin Imbibe.",
+        "581": "Sigil of Chains Burning Venom onto the boss so they die before the pool. Demon Spikes Dripping Fangs; Darkness Imbibe."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/the-venomous-abyss/vashnik-the-malignant-heroic" },
@@ -86,6 +177,24 @@
       "name": "Sszorak",
       "kind": "raid",
       "instance": "Venomous Abyss",
+      "diagram": {
+        "caption": "Cysts opposite the glowing tunnels. Edge tank.",
+        "cols": 3,
+        "cells": [
+          { "label": "Wind 1", "tone": "move" },
+          { "label": "Wind 2", "tone": "move" },
+          { "label": "Wind 3", "tone": "move" },
+          { "label": "Cysts opposite tunnels", "tone": "soak", "span": 3 },
+          { "label": "Edge tank", "tone": "tank", "span": 3 }
+        ]
+      },
+      "steps": [
+        { "id": "Loop", "kind": "phase", "label": "Ability loop", "action": "Two soak groups of 5+. Apex Predator, Surge, Crosswinds — twice." },
+        { "id": "Tank", "kind": "phase", "label": "Tank", "action": "Tank the edge. Swap Ravage mid-combo. Alternate Mutilate soaks." },
+        { "id": "Cysts", "kind": "phase", "label": "Cysts", "action": "Surge drops cysts opposite glowing tunnels. Need 3 + 1 spare." },
+        { "id": "Wind", "kind": "phase", "label": "Crosswinds", "action": "Point your arrow at a partner and collide mid-air. Misses fall off." },
+        { "id": "100", "kind": "intermission", "label": "Dig In", "action": "Drag mid, pixel-stack, one cyst per wind. Burn Dig In, then leftovers." }
+      ],
       "lines": [
         "Two soak groups of 5+. Loop: Apex Predator, Venomous Surge, Raging Crosswinds, twice, then intermission at 100 energy.",
         "Tank at the edge. Swap Ravage mid-combo (400% amp); alternate Mutilate soaks so the same group never soaks twice. Dodge Tempest tornadoes.",
@@ -94,7 +203,12 @@
         "Intermission: drag the boss mid, pixel-stack, and pop one cyst into each wind so it knocks you back onto the platform. Burn Dig In (+30%), then pop leftover cysts."
       ],
       "specNotes": {
-        "250": "Death Strike Ravage, not Mutilate. Death's Advance can skip the Crosswinds knock-up only if your partner is not relying on colliding with you."
+        "250": "Death Strike Ravage, not Mutilate. Death's Advance can skip the Crosswinds knock-up only if your partner is not relying on colliding with you.",
+        "73": "Shield Block Ravage, not Mutilate. Point your Crosswinds arrow at a partner and collide; do not Heroic Leap if that strands them.",
+        "66": "Ardent Defender Ravage, not Mutilate. Divine Shield can skip the Crosswinds knock-up only if your partner is not relying on colliding with you.",
+        "268": "Fortifying Brew Ravage, not Mutilate. Point your Crosswinds arrow at a partner and collide; do not Transfer if that strands them.",
+        "104": "Frenzied Regeneration Ravage, not Mutilate. Stampeding Roar the raid into the Dig In mid stack after you have collided on Crosswinds.",
+        "581": "Demon Spikes Ravage, not Mutilate. Infernal Strike back to the boss after you collide on Crosswinds."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/the-venomous-abyss/sszorak-heroic" },
@@ -106,6 +220,24 @@
       "name": "The Twin Fangs",
       "kind": "raid",
       "instance": "Venomous Abyss",
+      "diagram": {
+        "caption": "They do not move. Kill together before the third Submerge.",
+        "cols": 2,
+        "cells": [
+          { "label": "Vexhul", "tone": "boss" },
+          { "label": "Ithraz", "tone": "boss" },
+          { "label": "Deluge swap", "tone": "tank" },
+          { "label": "Stone Breaker 3", "tone": "soak" },
+          { "label": "Feast / Submerge", "tone": "stack", "span": 2 }
+        ]
+      },
+      "steps": [
+        { "id": "Soak", "kind": "phase", "label": "Stacks", "action": "Soak every Globule. Eternal Venom 10 kills. Feast removes one stack each." },
+        { "id": "Even", "kind": "phase", "label": "Even HP", "action": "Bosses cannot move. Kill together. Both dead before the third Submerge." },
+        { "id": "Tank", "kind": "phase", "label": "Tanks", "action": "Vexhul swaps Deluge. Ithraz soaks Stone Breaker (3 hits), then swap." },
+        { "id": "Adds", "kind": "phase", "label": "Emergence", "action": "Emergence: stack plus 3 serpents. Ichor at the edge. Weave Depths waves." },
+        { "id": "Sub", "kind": "loop", "label": "Feast / Sub", "action": "Feast: 3 groups of 7+. Submerge: run against Vile Flood, then melee." }
+      ],
       "lines": [
         "Eternal Venom never expires; 10 stacks kill you. Soak every Caustic Globule (one player each). Only Ravenous Feast removes stacks, one per player on Heroic.",
         "Bosses do not share HP and cannot be moved. Kill them together or Uncoiled Wrath ramps. Both dead before the third Submerge.",
@@ -114,7 +246,12 @@
         "Feast: three soak groups of 7+ (or two plus immunities). Submerge: run against Vile Flood rotation and dodge Sanguine Storm, then get back in melee."
       ],
       "specNotes": {
-        "250": "Death's Advance holds Caustic Deluge pushback and gets you back in melee after Feast or Submerge. Death Strike Deluge and the later Stone Breaker hits."
+        "250": "Death's Advance holds Caustic Deluge pushback and gets you back in melee after Feast or Submerge. Death Strike Deluge and the later Stone Breaker hits.",
+        "73": "Heroic Leap back in melee after Feast, Submerge, or the Stone Breaker roar. Shield Block Caustic Deluge and the later Stone Breaker hits.",
+        "66": "Divine Steed back in melee after Feast, Submerge, or the Stone Breaker roar. Ardent Defender Caustic Deluge and the later Stone Breaker hits.",
+        "268": "Roll or Transcendence: Transfer back in melee after Feast, Submerge, or the Stone Breaker roar. Fortifying Brew Deluge and the later Stone Breaker hits.",
+        "104": "Stampeding Roar the raid back in melee after Feast or Submerge. Frenzied Regeneration Deluge and the later Stone Breaker hits.",
+        "581": "Infernal Strike back in melee after Feast, Submerge, or the Stone Breaker roar. Demon Spikes Deluge and the later Stone Breaker hits."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/the-venomous-abyss/the-twin-fangs-heroic" },
@@ -126,6 +263,24 @@
       "name": "The Coiled Altar",
       "kind": "raid",
       "instance": "Venomous Abyss",
+      "diagram": {
+        "caption": "Stack behind. Sever through the mid pile.",
+        "cols": 3,
+        "cells": [
+          { "label": "Stack behind boss", "tone": "stack", "span": 3 },
+          { "label": "Orb pile mid", "tone": "hazard" },
+          { "label": "Boss", "tone": "boss" },
+          { "label": "Sever clears", "tone": "tank" },
+          { "label": "Guillotine then gate", "tone": "soak", "span": 3 }
+        ]
+      },
+      "steps": [
+        { "id": "P1", "kind": "phase", "label": "Phase 1", "action": "Stack behind. Carriers pile orbs mid; Sever tank clears. Swap each Sever." },
+        { "id": "Axe", "kind": "phase", "label": "Guillotine", "action": "Guillotine: 5+ in two groups, then gate out. Dispel Venomfang." },
+        { "id": "P2", "kind": "phase", "label": "Phase 2", "action": "Park ghosts mid and face them. Soul Sever clears. Fragments in 15s." },
+        { "id": "Zul", "kind": "intermission", "label": "Zul'jan", "action": "Hero Zul'jan (100% more damage taken). Block orbs; stagger if the raid is low." },
+        { "id": "P3", "kind": "burn", "label": "Phase 3", "action": "Keep them even. After the first Defilement, ignore leftover orbs and race." }
+      ],
       "lines": [
         "Stay stacked behind the boss. Phase 1: carriers pile Coalesced Venom in the middle; the Sever tank clears the pile. Swap each Sever.",
         "Soak Guillotine with 5+ in two alternating groups, then gate out. Dodge Axegrinder; poison-dispel Venomfang. Raid cooldown the 0% remaining-orb detonation.",
@@ -134,7 +289,12 @@
         "Phase 3: keep them together and even. After the first Defilement of the Coiled Altar, ignore leftover orbs and race both down."
       ],
       "specNotes": {
-        "250": "Aim Sever through the orb pile and Soul Sever through parked ghosts. AMZ the phase-1 push and Defilement. Pick up Gravebound fragments after every Sever."
+        "250": "Aim Sever through the orb pile and Soul Sever through parked ghosts. AMZ the phase-1 push and Defilement. Pick up Gravebound fragments after every Sever.",
+        "73": "Aim Sever through the orb pile and Soul Sever through parked ghosts. Rallying Cry the phase-1 push and Defilement. Pick up Gravebound fragments after every Sever.",
+        "66": "Aim Sever through the orb pile and Soul Sever through parked ghosts. Blessing of Spellwarding the phase-1 push and Defilement. Pick up Gravebound fragments after every Sever.",
+        "268": "Aim Sever through the orb pile and Soul Sever through parked ghosts. Fortifying Brew the phase-1 push and Defilement. Pick up Gravebound fragments after every Sever.",
+        "104": "Aim Sever through the orb pile and Soul Sever through parked ghosts. Barkskin the phase-1 push and Defilement. Pick up Gravebound fragments after every Sever.",
+        "581": "Aim Sever through the orb pile and Soul Sever through parked ghosts. Darkness the phase-1 push and Defilement. Pick up Gravebound fragments after every Sever."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/the-venomous-abyss/the-coiled-altar-heroic" },
@@ -146,6 +306,24 @@
       "name": "Ula'tek",
       "kind": "raid",
       "instance": "Venomous Abyss",
+      "diagram": {
+        "caption": "Green on eggs hatches vipers. Leave CCW on platform breaks.",
+        "cols": 3,
+        "cells": [
+          { "label": "Eggs - no green hatch", "tone": "hazard", "span": 3 },
+          { "label": "Cover melee", "tone": "stack" },
+          { "label": "Boss", "tone": "boss" },
+          { "label": "Cover tail", "tone": "stack" },
+          { "label": "Leave CCW on breaks", "tone": "move", "span": 3 }
+        ]
+      },
+      "steps": [
+        { "id": "Eggs", "kind": "phase", "label": "Eggs", "action": "Green on an egg or carrier hatches a Blightscale. Cover melee and tail." },
+        { "id": "P1", "kind": "phase", "label": "Phase 1", "action": "Grab the 3 starting eggs. Two-group Spectral Coils. Hero the first Heart." },
+        { "id": "P2", "kind": "phase", "label": "Phase 2", "action": "Grip across. Kill Doomscale. Feed cauldron small eggs first, Doomscale last." },
+        { "id": "Int", "kind": "intermission", "label": "Intermission", "action": "Pick up every egg. Group 1 soaks 1/3/5, group 2 2/4/6. Off-center on split." },
+        { "id": "P3", "kind": "burn", "label": "Phase 3", "action": "Three Bite groups, then spread Purge. Leave CCW before Circling Prey." }
+      ],
       "lines": [
         "Green hitting an egg or carrier hatches a Blightscale Viper. A clean hatch is a harmless Rawling. Cover melee and tail or the raid eats Mother's Wrath / Rattler Slam.",
         "Phase 1: grab the three starting eggs on pull. Soak Spectral Coils in two groups. Dodge Caustic Waves opposite the pulled wing. Hero the first Rage of the Shackled Heart.",
@@ -154,7 +332,12 @@
         "Phase 3: three Bite soak groups (melee / healer-mid / ranged), stay in until soaked, then spread for Volatile Purge. Leave counterclockwise before Circling Prey breaks the platform. Taunt-kill Shriekers and kick Vicious Echoes."
       ],
       "specNotes": {
-        "250": "Grip the phase-2 crossing (Blood takes extra damage with no target). Death Strike Mother's Wrath and Serpent's Bite. Death's Advance off Circling Prey breaks; AMS the Heart burn and Bite soaks."
+        "250": "Grip the phase-2 crossing (Blood takes extra damage with no target). Death Strike Mother's Wrath and Serpent's Bite. Death's Advance off Circling Prey breaks; AMS the Heart burn and Bite soaks.",
+        "73": "Heroic Leap the phase-2 crossing. Shield Block Mother's Wrath and Serpent's Bite; Spell Reflect the Heart burn and Bite soaks.",
+        "66": "Divine Steed the phase-2 crossing. Ardent Defender Mother's Wrath and Serpent's Bite; Blessing of Spellwarding the Heart burn and Bite soaks.",
+        "268": "Roll the phase-2 crossing. Fortifying Brew Mother's Wrath and Serpent's Bite; Transcendence: Transfer off Circling Prey breaks.",
+        "104": "Stampeding Roar the phase-2 crossing. Frenzied Regeneration Mother's Wrath and Serpent's Bite; stay on melee and tail so Mother's Wrath / Rattler Slam never raid-hits.",
+        "581": "Infernal Strike the phase-2 crossing. Fiery Brand Mother's Wrath and Serpent's Bite; Infernal Strike off Circling Prey breaks."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/the-venomous-abyss/ulatek-heroic" },
@@ -176,7 +359,12 @@
         "Trash: stagger Living Venom deaths; kick Ula'tek's Chosen Mass Envenom. Face Ascendant Serpent Noxious Spray away."
       ],
       "specNotes": {
-        "250": "Death's Advance snaps Death Rattle tethers. Death Strike Hydrastrike and Chop Down; AMS Ritual of the Fang beams."
+        "250": "Death's Advance snaps Death Rattle tethers. Death Strike Hydrastrike and Chop Down; AMS Ritual of the Fang beams.",
+        "73": "Heroic Leap snaps Death Rattle tethers. Shield Block Hydrastrike and Chop Down; Spell Reflect Ritual of the Fang beams.",
+        "66": "Divine Steed snaps Death Rattle tethers. Ardent Defender Hydrastrike and Chop Down; Blessing of Spellwarding Ritual of the Fang beams.",
+        "268": "Roll or Transcendence: Transfer snaps Death Rattle tethers. Fortifying Brew Hydrastrike and Chop Down.",
+        "104": "Stampeding Roar snaps Death Rattle tethers. Frenzied Regeneration Hydrastrike and Chop Down; Barkskin Ritual of the Fang beams.",
+        "581": "Infernal Strike snaps Death Rattle tethers. Demon Spikes Hydrastrike and Chop Down; Fiery Brand Ritual of the Fang beams."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/dungeons/altar-of-fangs" }
@@ -194,7 +382,12 @@
         "Ziekket: soak Lightbloom Essence orbs before they reach the boss. Hit add corpses with Concentrated Lightbeam at the platform edge. Death Strike Thornspike."
       ],
       "specNotes": {
-        "250": "Death Strike Bedrock Slam, Mangling Claws, and Thornspike. AMS the Lightblossom Beam soak ticks."
+        "250": "Death Strike Bedrock Slam, Mangling Claws, and Thornspike. AMS the Lightblossom Beam soak ticks.",
+        "73": "Shield Block Bedrock Slam, Mangling Claws, and Thornspike. Spell Reflect the Lightblossom Beam soak ticks.",
+        "66": "Click the Light-Starved Blossom if you go left. Ardent Defender Bedrock Slam and Thornspike; Blessing of Freedom Verdant Stomp roots.",
+        "268": "Fortifying Brew Bedrock Slam, Mangling Claws, and Thornspike. Tiger's Lust Verdant Stomp roots.",
+        "104": "Frenzied Regeneration Bedrock Slam, Mangling Claws, and Thornspike. Stampeding Roar off Bloodthirsty Gaze; Barkskin Lightblossom Beam soak ticks.",
+        "581": "Demon Spikes Bedrock Slam, Mangling Claws, and Thornspike. Infernal Strike out of Verdant Stomp; Fiery Brand Lightblossom Beam soak ticks."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/dungeons/the-blinding-vale" }
@@ -212,7 +405,12 @@
         "During Fury of the War God, wall charging echoes so they do not hit Zul'jarra."
       ],
       "specNotes": {
-        "250": "Death's Advance through Harsh Winds and Frozen Tempest. Death Strike Forceful Slam; turn so Onslaught cannot jump you into an echo."
+        "250": "Death's Advance through Harsh Winds and Frozen Tempest. Death Strike Forceful Slam; turn so Onslaught cannot jump you into an echo.",
+        "73": "Heroic Leap through Harsh Winds and Frozen Tempest. Shield Block Forceful Slam; turn so Onslaught cannot jump you into an echo.",
+        "66": "Divine Steed through Harsh Winds and Frozen Tempest. Ardent Defender Forceful Slam; turn so Onslaught cannot jump you into an echo.",
+        "268": "Roll or Transcendence: Transfer through Harsh Winds and Frozen Tempest. Fortifying Brew Forceful Slam; turn so Onslaught cannot jump you into an echo.",
+        "104": "Click Warding Incense in bear form; Stampeding Roar through Harsh Winds and Frozen Tempest. Frenzied Regeneration Forceful Slam; turn so Onslaught cannot jump you into an echo.",
+        "581": "Infernal Strike through Harsh Winds and Frozen Tempest. Demon Spikes Forceful Slam; turn so Onslaught cannot jump you into an echo."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/dungeons/den-of-nalorakk" }
@@ -230,7 +428,12 @@
         "Lithiel: kick Chaos Bolt. Keep the Infernal off the boss. After Demonic Gateway, wait out Malefic Wave then take the safe gate. Cleave adds before the wave empowers them."
       ],
       "specNotes": {
-        "250": "Grip Nibbles, the Legion Axe, and Vilefiends onto the boss. Death's Advance past Malefic Wave if the gate is late. Death Strike Envenom and Legion Strike."
+        "250": "Grip Nibbles, the Legion Axe, and Vilefiends onto the boss. Death's Advance past Malefic Wave if the gate is late. Death Strike Envenom and Legion Strike.",
+        "73": "Face Nibbles so Fel Spray goes away. Heroic Leap past Malefic Wave if the gate is late. Shield Block Envenom and Legion Strike.",
+        "66": "Face Nibbles so Fel Spray goes away. Divine Steed past Malefic Wave if the gate is late. Ardent Defender Envenom and Legion Strike.",
+        "268": "Clash Nibbles, the Legion Axe, and Vilefiends onto the boss. Transcendence: Transfer past Malefic Wave if the gate is late. Fortifying Brew Envenom and Legion Strike.",
+        "104": "Ursol's Vortex Nibbles and Vilefiends onto the boss. Stampeding Roar past Malefic Wave if the gate is late. Frenzied Regeneration Envenom and Legion Strike.",
+        "581": "Sigil of Chains Nibbles, the Legion Axe, and Vilefiends onto the boss. Infernal Strike past Malefic Wave if the gate is late. Demon Spikes Envenom and Legion Strike."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/dungeons/murder-row" }
@@ -248,7 +451,12 @@
         "Charonus: kite Gravitic Orbs into Unstable Singularities. Point Dark Waves away. Run out for Void Cascade."
       ],
       "specNotes": {
-        "250": "Death's Advance Void Blast and Dark Waves knockback. Grip the Toxic Creeper. Death Strike Hulking Claw."
+        "250": "Death's Advance Void Blast and Dark Waves knockback. Grip the Toxic Creeper. Death Strike Hulking Claw.",
+        "73": "Heroic Leap Void Blast and Dark Waves knockback. Kite the Toxic Creeper; Shield Block Hulking Claw.",
+        "66": "Divine Steed Void Blast and Dark Waves knockback. Blessing of Freedom while you kite the Toxic Creeper; Ardent Defender Hulking Claw.",
+        "268": "Transcendence: Transfer Void Blast knockback. Roll-kite the Toxic Creeper; Fortifying Brew Hulking Claw.",
+        "104": "Stampeding Roar Void Blast and Dark Waves knockback. Typhoon space to kite the Toxic Creeper; Frenzied Regeneration Hulking Claw.",
+        "581": "Infernal Strike Void Blast and Dark Waves knockback. Sigil of Chains the Toxic Creeper; Demon Spikes Hulking Claw."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/dungeons/voidscar-arena" }
@@ -266,7 +474,12 @@
         "Shadow of Zul: soak both Pool of Darkness; Dark Revelation players move out."
       ],
       "specNotes": {
-        "250": "Bank a 10-stack Blood Debt on idle gaps and Marrowrend it on the next gather. Death Strike Blade Combo and Debilitating Backhand."
+        "250": "Bank a 10-stack Blood Debt on idle gaps and Marrowrend it on the next gather. Death Strike Blade Combo and Debilitating Backhand.",
+        "73": "Shield Block Blade Combo and Debilitating Backhand. Heroic Leap back after the Backhand knockback.",
+        "66": "Ardent Defender Blade Combo and Debilitating Backhand. Blessing of Spellwarding Poison Nova if the kick is late.",
+        "268": "Fortifying Brew Blade Combo and Debilitating Backhand. Transcendence: Transfer back after the Backhand knockback.",
+        "104": "Frenzied Regeneration Blade Combo and Debilitating Backhand. Stampeding Roar the group into Barrel Through.",
+        "581": "Demon Spikes Blade Combo and Debilitating Backhand. Infernal Strike back after the Backhand knockback."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/dungeons/kings-rest" },
@@ -285,7 +498,12 @@
         "Winds of Change push NW, then SW, SE, NE. Phase 2 at 50%: pool cooldowns; Spit hits three."
       ],
       "specNotes": {
-        "250": "Grip Infused Whelps and the Firestorm add. AMS Frost Overload. Death Strike Searing Blows and Stormslam."
+        "250": "Grip Infused Whelps and the Firestorm add. AMS Frost Overload. Death Strike Searing Blows and Stormslam.",
+        "73": "Pick up Infused Whelps on Melidrussa. Spell Reflect Frost Overload. Shield Block Searing Blows and Stormslam.",
+        "66": "Avenger's Shield the Firestorm add's Blaze Volley. Blessing of Spellwarding Frost Overload; Ardent Defender Searing Blows and Stormslam.",
+        "268": "Clash Infused Whelps and the Firestorm add. Fortifying Brew Searing Blows and Stormslam; Transcendence: Transfer out of Chillstorm.",
+        "104": "Pick up Infused Whelps on Melidrussa. Frenzied Regeneration Searing Blows; Stampeding Roar against Winds of Change.",
+        "581": "Sigil of Chains Infused Whelps and the Firestorm add. Fiery Brand Frost Overload; Demon Spikes Searing Blows and Stormslam."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/dungeons/ruby-life-pools" }
@@ -303,7 +521,12 @@
         "Avatar: kill Corrupted Guardian, soak the three Corrupted Lifeforce. After Essence Defiler dies, healer kites Tormentors while the group CCs them (each heals the Avatar)."
       ],
       "specNotes": {
-        "250": "Death's Advance Gale Force knockback. Death Strike Lightning Bite, Sunder Slam, and Tainted Strike. AMS Galvazzt spire soaks if you have to cover one."
+        "250": "Death's Advance Gale Force knockback. Death Strike Lightning Bite, Sunder Slam, and Tainted Strike. AMS Galvazzt spire soaks if you have to cover one.",
+        "73": "Heroic Leap back after Gale Force so you make the Thunder and Lightning soak. Shield Block Lightning Bite, Sunder Slam, and Tainted Strike.",
+        "66": "Divine Steed back after Gale Force so you make the Thunder and Lightning soak. Ardent Defender Lightning Bite and Tainted Strike; Blessing of Spellwarding Galvazzt spire soaks if you have to cover one.",
+        "268": "Transcendence: Transfer back after Gale Force so you make the Thunder and Lightning soak. Fortifying Brew Lightning Bite, Sunder Slam, and Tainted Strike.",
+        "104": "Stampeding Roar the group back after Gale Force for the Thunder and Lightning soak. Frenzied Regeneration Lightning Bite and Tainted Strike.",
+        "581": "Infernal Strike back after Gale Force so you make the Thunder and Lightning soak. Demon Spikes Lightning Bite, Sunder Slam, and Tainted Strike."
       },
       "sources": [
         { "name": "Method", "url": "https://www.method.gg/guides/dungeons/temple-of-sethraliss" }

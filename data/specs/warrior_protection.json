@@ -1,0 +1,666 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 1,
+  "specId": 73,
+  "className": "Warrior",
+  "specName": "Protection",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "One-Hand",
+      "item": "Spellbreaker's Blade (Darkmoon Sigil: Hunt)",
+      "notes": "Icy Veins, Wowhead, and Method first Spark. Skip if you already loot Myth-track Aman'muso. Swap Hunt off once a Mythic raid weapon is online.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Arcanoweave Lining)",
+      "notes": "Icy Veins second craft. Raid players put linings on wrists and feet so they do not cover Ula'tek or Coiled Altar cantrip slots. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Off-Hand",
+      "item": "Spellbreaker's Rebuke (Arcanoweave Lining)",
+      "notes": "Wowhead second craft. Icy Veins says a shield first is as valid as a weapon. Method puts Adorned Fang on the shield instead of Arcanoweave.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/bis-gear" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Spellbreaker's March (Arcanoweave Lining)",
+      "notes": "Icy Veins raid second lining after a Mythic weapon; Wowhead third craft. Method raid BiS uses Nek'zali sabatons instead.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Back",
+      "item": "Adherent's Silken Shroud (Arcanoweave Lining)",
+      "notes": "Icy Veins M+-only second lining if you skip raid. Method M+ cloak is Fireproof Drape from Ruby Life Pools, not this craft.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "One-Hand", "item": "Aman'muso, Warlord's Vengeance" },
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Waist", "item": "Girdle of Toxic Regret" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Chest", "item": "Reckless Spirit Breastplate (catalyze)" }
+        ],
+        "notes": "Icy Veins first Voidcore. Cantrip 1H, matching Guillotine, belt, cloak, and catalyze chest. Wowhead overall BiS matches these slots.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Legs", "item": "Chausses of Unbound Rancor (catalyze)" },
+          { "slot": "One-Hand", "item": "Jaw of the Shackled Goddess" }
+        ],
+        "notes": "Icy Veins catalyzes the cantrip legs into 4pc. Wowhead overall lists Chausses as the Ula'tek leg without calling the catalyze. Jaw is the alt cantrip 1H.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/bis-gear" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Off-Hand", "item": "Venom-Slashed Scuteward" },
+          { "slot": "Shoulders", "item": "Raging Pauldrons of the Jade Warlord (tier token)" }
+        ],
+        "notes": "Highest-ilvl shield. Icy Veins raid 4pc uses this shoulder token; overall and Method catalyze C'thraxxi Binders Pauldrons from Temple of Sethraliss instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/bis-gear" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Head", "item": "Tempered Horns of the Jade Warlord (tier token)" }
+        ],
+        "notes": "Icy Veins raid helm token. Overall mix catalyzes Skullguard of the Risen Sacrifice from Nek'zali instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Hands", "item": "Jeweled Gauntlets of the Jade Warlord (tier token)" },
+          { "slot": "Trinket", "item": "Keeper's Seething Core" }
+        ],
+        "notes": "Icy Veins raid glove token; Wowhead overall also uses these tier gloves. Overall mix catalyzes Bonds of the Hash'ura from Den of Nalorakk.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Head", "item": "Skullguard of the Risen Sacrifice (catalyze)" }
+        ],
+        "notes": "Icy Veins overall and Method raid catalyze this helm. Method raid boots here are Entombed Cultist's Sabatons; Icy Veins and Wowhead overall keep crafted Spellbreaker's March.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins raid BiS and Wowhead overall ring. Skip Method Alluring Bubbleband (Tidebound Grotto leftover).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 8,
+        "items": [
+          { "slot": "Finger", "item": "Vile Alchemist's Band" }
+        ],
+        "notes": "Icy Veins raid BiS and Wowhead overall second ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/bis-gear" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Off-Hand", "item": "Tempest's Shelter", "from": "Sentinel of Winter" },
+          { "slot": "Neck", "item": "Yoke of the Charging Bear", "from": "Nalorakk" },
+          { "slot": "Hands", "item": "Bonds of the Hash'ura (catalyze)", "from": "Nalorakk" }
+        ],
+        "notes": "Icy Veins first farm: shield, M+ neck, and overall catalyze gloves. Method catalyzes Den gloves for M+ 4pc as well.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "One-Hand", "item": "Thorned Reply", "from": "Ziekket" },
+          { "slot": "Chest", "item": "Taproot Ribs (catalyze)", "from": "Lightwarden Ruia" }
+        ],
+        "notes": "Icy Veins second farm: dungeon weapon and M+ catalyze chest. Method M+ also takes Thorned Reply from here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Legs", "item": "Ancient General's Obsidian Pillars (catalyze)", "from": "Zul'jan" },
+          { "slot": "Feet", "item": "Poison-Proof Stompers", "from": "Rav'i" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord", "from": "Zul'jan" }
+        ],
+        "notes": "Icy Veins third farm and M+ catalyze legs. Method overall also uses these boots. Icy Veins M+ BiS ring is this band, not Ritual Binder's Ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Shoulders", "item": "C'thraxxi Binders Pauldrons (catalyze)", "from": "Avatar of Sethraliss" }
+        ],
+        "notes": "Icy Veins overall and M+ catalyze shoulders. Method raid BiS also catalyzes this dungeon piece instead of the Lost Explorers token.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Head", "item": "Helm of the Raptor King (catalyze)", "from": "Dazar, the First King" },
+          { "slot": "Waist", "item": "Girdle of Pestilent Purification", "from": "The Council of Tribes" },
+          { "slot": "Finger", "item": "Ritual Binder's Ring", "from": "Mchimba the Embalmer" }
+        ],
+        "notes": "Icy Veins M+ catalyze helm and belt. Ritual Binder's Ring is Method M+ BiS; Icy Veins M+ prefers Band of the Amani Warlord.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Trinket", "item": "Tumor of the Swarm", "from": "Atroxus" },
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus", "from": "Atroxus" }
+        ],
+        "notes": "Icy Veins M+ BiS trinket and second M+ ring. Method Prot gearing does not list Tumor among its S/A picks.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Colossus",
+        "recommended": true,
+        "loadoutCode": "CkEAAAAAAAAAAAAAAAAAAAAAA02AAAzMDzMzMzMzmxsMjxYmGGDLzMzMDGzMAAAAYZAYGDAsYGDbwAzwCNmZBmxMDmNAAzMAgZgxA",
+        "bullets": [
+          "Icy Veins 12.1 ST leader and raid-recommended Colossus import. Method raid default is Mountain Thane instead.",
+          "Wowhead marks Raid (Best) as Mountain Thane; Icy Veins still puts Colossus ahead on single-target.",
+          "A lot of Colossus damage is tied to Revenge, so max-damage play leaves less Rage for Ignore Pain.",
+          "Raid flex: Enduring Alacrity and Thunderlord. Tough as Nails only on bosses that auto-attack you a lot.",
+          "Raid default Into the Fray. Take Heavy Repercussions if you need more Shield Block uptime.",
+          "Apex Phalanx is mostly offensive: Thunder Clap then a cone Shield Slam, with a small enemy damage reduction."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-spec-builds-talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/talent-builds-pve-tank" }
+        ]
+      },
+      {
+        "heroTree": "Mountain Thane",
+        "recommended": false,
+        "loadoutCode": "CkEAAAAAAAAAAAAAAAAAAAAAA0yAAAzMzwMzYGzmxsMjxY0wMDLzMzMDGzMAAAAYZMAzYAGYDWWMaMDgZLmZDzMmZwsBAzMAAMDMG",
+        "bullets": [
+          "Method Raid Standard recommended Thane import. Icy Veins ST still prefers Colossus.",
+          "Wowhead Raid (Best) is Mountain Thane for Thunder Blast priority and Rage economy.",
+          "Thane is not far behind Icy Veins ST if you want that playstyle.",
+          "Flex Deep Wounds, Enduring Alacrity, and Thunderlord. Tough as Nails on heavy auto-attack bosses.",
+          "Method Advanced drops Battle-Scarred Veteran, Last Stand, and Hunker Down for more damage.",
+          "Method (11 Aug 2026) still calls Thane the default in most content; Colossus is the niche tree."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-spec-builds-talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/talent-builds-pve-tank" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Mountain Thane",
+        "recommended": true,
+        "loadoutCode": "CkEAAAAAAAAAAAAAAAAAAAAAA0yAAAjZYmZmZGziZmlZMGz0YGDLmZmZMDzMAAAAYZAYGDwAbw2iRjZAMLYmNYmZmhxCAMzAAwAGD",
+        "bullets": [
+          "Icy Veins AoE / M+ default Thane. Method M+ Standard is also Thane.",
+          "Heavy Repercussions at low Haste for Shield Block; swap Into the Fray as Haste rises.",
+          "Flex Tough as Nails and Bloodborne. Javelineer can swap to Barbaric Training for more damage.",
+          "Method M+ import leans on Thunderlord so Demoralizing Shout is up more often.",
+          "Colossus can still be played in keys; Icy Veins says do not expect Thane-level AoE.",
+          "Watch Rage overcap and Thunder Blast / Lightning Strike procs so you do not waste the loop."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/talents" }
+        ]
+      },
+      {
+        "heroTree": "Colossus",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "Icy Veins publishes Colossus AoE talents but no standard M+ Colossus import in the quick-start codes (only a defensive M+ string).",
+          "Method has no Colossus M+ import; they call Thane better offensively and defensively in keys.",
+          "Wowhead: Colossus builds drop Wrecking Throw and take Shockwave for Earthquaker.",
+          "Same Block FAQ as Thane: Heavy Repercussions early, Into the Fray once Shield Block uptime is comfortable.",
+          "Flex Tough as Nails and Bloodborne; Javelineer can swap to Barbaric Training.",
+          "Use the Mountain Thane M+ loadout on this tab unless you specifically want Demolish / Shockwave CC."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/talent-builds-pve-tank" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Mountain Thane",
+        "recommended": true,
+        "loadoutCode": "CkEAAAAAAAAAAAAAAAAAAAAAAkBAAGzYmZmZmxsYmZZGjxMNmxwiZmZGzwMDAAAAWGAmxAMwGstY0YGAzCmZDmZmZYsAAzMAAMgxA",
+        "bullets": [
+          "Icy Veins published Delves import is Mountain Thane.",
+          "Method has no Delves page; do not treat their raid or M+ Thane imports as a Delves loadout.",
+          "Icy Veins: the M+ Thane tree is also the basis for Delves.",
+          "Wowhead has a Delves tab; Raid (Best) on that guide is still Mountain Thane.",
+          "Flex Tough as Nails and Bloodborne the same way as keys.",
+          "Heavy Repercussions while Haste is low if you need Shield Block uptime in solo content."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-spec-builds-talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/talent-builds-pve-tank" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/talents" }
+        ]
+      },
+      {
+        "heroTree": "Colossus",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Colossus Delves import on Icy Veins; the Delves quick-start code is Mountain Thane only.",
+          "Method has no Delves page.",
+          "Wowhead describes a Colossus Delves play (pull big, Demolish plus Thunder Clap) but no import was available to copy.",
+          "Use the Mountain Thane Delves loadout on this tab for this content."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-spec-builds-talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/protection/talent-builds-pve-tank" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins and Method S. Passive execute amp; pair with Aman'muso. Do not wear two on-use trinkets (shared 30s lockout).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "90s on-use main-stat. Line up with Avatar. Icy Veins example pair is Heart plus Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method A Haste passive. Icy Veins second example pair is Guillotine plus this if you skip Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Coiled Fangstone",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A Strength on-use. Skip a second on-use if you already wear Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/item=273795/coiled-fangstone" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A all-primary on-use from the first Altar of Fangs boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins A passive. Method Prot S/A list does not include it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method A passive stat stick. High uptime; procs are random so do not plan a window around it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B Agility/Strength passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B only after the whelp is trained; skip it until then.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Idol of the War Loa",
+        "from": "Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins B Strength passive from Nalorakk.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins lists this apart from the S–B damage table as a defensive absorb. Method ranks it A as the best defensive of the tier.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mchimba's Ritual Bandages",
+        "from": "Mchimba the Embalmer",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins defensive row, not S–B damage. 60s absorb from a dungeon you already farm for helm and belt.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "90s on-use. Icy Veins M+ S with Guillotine. Line up with Avatar on big pulls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins M+ S. Passive; still the pair with Heart. Method M+ BiS instead lists Blazebinder's Hoof and Permafrost Essence.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Haste passive while you farm Heart or Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins M+ A and M+ BiS dungeon trinket. Farm Voidscar with the Atroxus ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Coiled Fangstone",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A Strength on-use. Do not pair with Heart if you can avoid two on-use slots.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins M+ A and M+ BiS on-use. Farm it with Poison-Proof Stompers on Rav'i.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A passive. Method often prefers dungeon options in keys; Icy Veins still ranks this A in M+.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Idol of the War Loa",
+        "from": "Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins M+ B. Farm it while you are already in Den for the shield, neck, and gloves.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins M+ B Agility/Strength passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Seed of the Devouring Wild",
+        "from": "Ikuzz the Light Hunter",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins M+ B on-use. Raid table does not rank this one.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B only after the whelp is trained.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Merektha's Fang",
+        "from": "Merektha",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins B: damage is S-tier on paper, but the 2.6s channel cancels if you cast and you cannot block. Raid is usually fine; keys often need Shield Wall or you die.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins defensive row. Method A. Do not replace Heart or Guillotine with this in keys unless you need the absorb.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/protection-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mchimba's Ritual Bandages",
+        "from": "Mchimba the Embalmer",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins defensive row. Farm it only while you are already in King's Rest for helm and belt.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/protection-warrior-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,739 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 4,
+  "specId": 259,
+  "className": "Rogue",
+  "specName": "Assassination",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Off Hand",
+      "item": "Farstrider's Mercy (Hunter's Ritual Stone)",
+      "notes": "Icy Veins and Method first Spark. Craft a dagger early; park it in off-hand once a Myth-track main-hand drops. It stays BiS there. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Silvermoon Agent's Deflectors (Adorned Fang)",
+      "notes": "Icy Veins second Spark. Raid and M+ both use Hunter's Ritual Stone plus Adorned Fang on wrists. Low-stat slot; sim if you also play the other Rogue specs.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Silvermoon Agent's Deflectors (Arcanoweave Lining)",
+      "notes": "Method Overall lining on these wrists instead of Adorned Fang. Same low-budget slot. Icy Veins does not list Arcanoweave.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Zatha'tek, Breath of Corruption" },
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Head", "item": "Gaze of the Coiled Watcher (catalyze)" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Trinket", "item": "Font of Venomous Rage" }
+        ],
+        "notes": "Voidcore first (Heroic still grants Myth-track 1/6). Icy Veins BiS dagger, on-use, helm, neck, and Font. Method Overall: Heart plus catalyze Gaze; skip Font for Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Waist", "item": "Sash of the Forlorn Vessel" },
+          { "slot": "Legs", "item": "Coiled Hex Legguards (catalyze)" },
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" }
+        ],
+        "notes": "Icy Veins and Method Overall cloak, belt, and catalyze legs. Guillotine is Icy Veins A / Method #3; Icy Veins says the Maze-roa set is incomplete so raid will rarely give it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" },
+          { "slot": "Shoulders", "item": "Chosen Bloodslayer's Voodoo Guards (tier token)" }
+        ],
+        "notes": "Method Voidcore Mythic Gebbo. Method Overall second trinket; Icy Veins A and raid BiS passive. Icy Veins raid catalyzes this shoulder token; Overall catalyzes Voidscar instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Chosen Bloodslayer's Fanged Grips" },
+          { "slot": "Trinket", "item": "Keeper's Seething Core" }
+        ],
+        "notes": "Method Overall and Icy Veins gloves from this token; Icy Veins says they already have optimal stats so skip catalyzing them. Core is Icy Veins S as a Gebbo stand-in.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Finger", "item": "Vile Alchemist's Band" },
+          { "slot": "Chest", "item": "Chosen Bloodslayer's Banded Poncho (tier token)" }
+        ],
+        "notes": "Icy Veins and Method Overall ring. Icy Veins raid chest token; Overall catalyzes War Trial Vestments from Nalorakk instead. Raid FAQ also lists Frothing Venom Spaulders here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Method Overall and Icy Veins raid second ring. Icy Veins Overall uses Band of the Amani Warlord from Altar of Fangs here instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Feet", "item": "Bespittled Slitherslippers" }
+        ],
+        "notes": "Icy Veins raid-only boots. Overall and Method Overall wear Arctic Explorer's Legwraps from Den of Nalorakk instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Sharpened Lightwood Slasher", "from": "Zul'jan" },
+          { "slot": "Head", "item": "Spare Speaker's Hood (catalyze)", "from": "Zul'jan" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord", "from": "Zul'jan" },
+          { "slot": "Neck", "item": "Strand of Warding Fangs", "from": "The Writhing Coil" }
+        ],
+        "notes": "Icy Veins weapon farm and M+ helm/ring/neck. Overall second ring is this band. Skip if you already have Zatha'tek.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Chest", "item": "War Trial Vestments (catalyze)", "from": "Nalorakk" },
+          { "slot": "Feet", "item": "Arctic Explorer's Legwraps", "from": "Sentinel of Winter" }
+        ],
+        "notes": "Icy Veins and Method Overall catalyze chest and wear these boots. Method Voidcores +10 here for off-pieces.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Shoulders", "item": "Somber Spaulders (catalyze)", "from": "Taz'Rah" },
+          { "slot": "Trinket", "item": "Void Execution Mandate", "from": "Taz'Rah" }
+        ],
+        "notes": "Icy Veins first farm dungeon: Overall and M+ shoulder catalyze. Mandate is Icy Veins B on-use, weaker than Lustrous Golden Plumage.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/voidscar-arena-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Gauntlets of Fevered Defense (catalyze)", "from": "Kystia Manaheart" },
+          { "slot": "Legs", "item": "Breeches of Deft Deals (catalyze)", "from": "Zaen Bladesorrow" },
+          { "slot": "Finger", "item": "Signet of Snarling Servitude", "from": "Xathuux the Annihilator" },
+          { "slot": "Trinket", "item": "Freightrunner's Flask", "from": "Zaen Bladesorrow" },
+          { "slot": "Trinket", "item": "Resonant Bellowstone", "from": "Xathuux the Annihilator" }
+        ],
+        "notes": "Icy Veins first farm dungeon: M+ gloves, legs, and ring. Icy Veins also Voidcores this early for several tier slots. Flask and Bellowstone are Icy Veins B.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Trinket", "item": "Lustrous Golden Plumage", "from": "The Golden Serpent" },
+          { "slot": "Waist", "item": "Primal Dinomancer's Belt", "from": "Dazar, the First King" }
+        ],
+        "notes": "Icy Veins first farm dungeon and best dungeon on-use until Heart. M+ BiS belt. Icy Veins pairs Plumage with Sapling of the Dawnroot.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Trinket", "item": "Sapling of the Dawnroot", "from": "Ziekket" }
+        ],
+        "notes": "Icy Veins M+ BiS passive and B-tier. Strong on 1–2 targets, falls off in AoE. Farm with King's Rest Plumage until Heart and Font or Gebbo land.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Back", "item": "Fireproof Drape" }
+        ],
+        "notes": "Icy Veins M+ cloak. Overall and raid keep Silken Voodoo Drape from Coiled Altar.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Fatebound",
+        "recommended": true,
+        "loadoutCode": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlxsZwAAAAAAzygtZAAAAAAttNzMzMzMGLzMzsNzyMz8AjxMjxYmZmxAYgFYGjGzGgtBsZAwMzgB",
+        "bullets": [
+          "Icy Veins Raid Cleave import; tagged recommended for most Venomous Abyss bosses.",
+          "Icy Veins ST pick: Fatebound. Deathstalker is at most 1–2% ahead on paper and much easier to misplay.",
+          "Adds Caustic Spatter and Crimson Tempest. Icy Veins does not recommend swapping to Pure ST even on Coiled Altar or Entombed Sentinels.",
+          "Coin flips on 5+ Combo Point finishers; Feint is freer and there is less room for error.",
+          "Method (12 Aug 2026) still defaults Deathstalker at +2–5% in all situations; Fatebound remains viable.",
+          "Apex Implacable: Energy on Envenom, then extra Bleed/Nature, then Kingsbane damage plus 5 Combo Points."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/talents" }
+        ]
+      },
+      {
+        "heroTree": "Deathstalker",
+        "recommended": false,
+        "loadoutCode": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAYWGsNDAAAAAIbzMzMzMjxyMzMbzsMzMPgZMzYMMzYMAbmlBGwSwywEYYxgZGgxYA",
+        "bullets": [
+          "Method Raid import; default after 12.1 because Deathstalker is 2–5% ahead in all situations.",
+          "Method: class and spec trees stay the same if you swap to Fatebound. Pure ST import is a separate string.",
+          "Icy Veins: Deathstalker Raid Cleave for most bosses; Pure ST only versus Sszorak.",
+          "Singular Focus funnels AoE into the marked target. Icy Veins adds a cooldown skill that swaps Deathstalker's Mark.",
+          "Losing the Mark on a target swap or a submerge that keeps debuffs is a steep DPS drop.",
+          "Icy Veins still prefers Fatebound for raid ST because the extra 1–2% is not worth the extra error."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Fatebound",
+        "recommended": true,
+        "loadoutCode": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDAAAAAAzygtZAAAAAAttNzMzMzMGLzMzsNzyMz8AmxMjxwMjxAYgFYGjGzCgtBsZAwMzMMA",
+        "bullets": [
+          "Icy Veins Mythic+/Delves import; default for most key levels.",
+          "Same DPS ballpark as Deathstalker without Mark management.",
+          "Caustic Spatter cleaves poisons, Envenom, and Kingsbane. Crimson Tempest smart-spreads your longest bleeds.",
+          "Switch to Deathstalker only for title-level keys, where prio funnel matters.",
+          "Method uses one Raid/M+/Open World string and still defaults Deathstalker.",
+          "Method class notes: Thistle Tea auto-procs, take Cold Blooded Killer and Deeper Stratagem."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/talents" }
+        ]
+      },
+      {
+        "heroTree": "Deathstalker",
+        "recommended": false,
+        "loadoutCode": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAYWGsNDAAAAAIbzMzMzMjxyMzMbzsMzMPgZMzYMMzYMAbmlBGwSwywEYYxgZGgxYA",
+        "bullets": [
+          "Method Mythic+/Open World import (same string as their Raid build).",
+          "Icy Veins high-keys tree: AoE about even with Fatebound, plus Singular Focus prio.",
+          "Icy Veins: extra rotational load; bad Mark play drops DPS hard. Default Fatebound for typical keys.",
+          "Use this for large-scale AoE or raid add funnel if you can keep the Mark.",
+          "Method: spec and class trees match Fatebound; only the hero tree changes.",
+          "Icy Veins did not publish a separate Deathstalker import in the 12.1 quick-start list; this is Method's string."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Fatebound",
+        "recommended": true,
+        "loadoutCode": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDAAAAAAzygtZAAAAAAttNzMzMzMGLzMzsNzyMz8AmxMjxwMjxAYgFYGjGzCgtBsZAwMzMMA",
+        "bullets": [
+          "Icy Veins published Delves import is this Fatebound Mythic+/Delves code.",
+          "Same tree as keys; no Deathstalker's Mark to track while solo.",
+          "Icy Veins only considers Deathstalker for title-level keys or cutting-edge raid, not typical Delves.",
+          "Method has no Delves page; Open World uses their M+ import and still defaults Deathstalker.",
+          "Apex Implacable still applies: Energy on Envenom smooths the rotation.",
+          "Fatebound stays even in AoE via buffed Caustic Spatter."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/talents" }
+        ]
+      },
+      {
+        "heroTree": "Deathstalker",
+        "recommended": false,
+        "loadoutCode": "CMQAAAAAAAAAAAAAAAAAAAAAAYmlZmFDGAAAAAYWGsNDAAAAAIbzMzMzMjxyMzMbzsMzMPgZMzYMMzYMAbmlBGwSwywEYYxgZGgxYA",
+        "bullets": [
+          "Method Open World import is this Deathstalker Raid/M+ string. No separate Delves page.",
+          "Icy Veins Deathstalker Mythic+/Delves is the high-keys tree, not the default Delves pick.",
+          "Icy Veins quick-start Delves code is Fatebound only.",
+          "Use the Fatebound Delves import on this tab unless you already play Deathstalker everywhere.",
+          "Method: Fatebound is still viable if you do not enjoy Mark play."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method #1. Always the on-use; macro to Deathmark. Method Voidcores Ula'tek Heroic and Mythic for All.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S pair with Heart. Method #4: always keep Heart as the on-use and use Font in the second slot. Same boss as Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S Agility/Strength passive. Stand-in for Gebbo; decent in all environments, not as good as Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method #2 and Overall BiS second slot. Strong any target count; Method Voidcores Mythic Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method #3. Better than Font on single-target, but Icy Veins says you cannot complete the set bonus so raid will rarely give it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lustrous Golden Plumage",
+        "from": "The Golden Serpent",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins B. Best Mythic+ on-use until Heart. Farm early; do not keep it over Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B. Strong on single-target and 2-target; drops off in AoE. Icy Veins M+ BiS passive until Font or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B Agility/Strength passive. Pickup while catalyzing Fevered Defense gloves.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Zaen Bladesorrow",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B Agility/Intellect on-use. Pickup on the same Murder Row farm as Bellowstone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B all-primary on-use. Farm it while targeting Sharpened Lightwood Slasher on Zul'jan.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B Agility passive from Vashnik. Pickup while looting Vile Alchemist's Band.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Taz'Rah",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B on-use. Weaker than Lustrous Golden Plumage; farm it while catalyzing Somber Spaulders.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/voidscar-arena-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Pickup only if you are already in Ruby Life Pools for Fireproof Drape.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C Agility/Strength on-use. Vile Vial is the Altar on-use Icy Veins actually ranks B.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Lightspire Core",
+        "from": "Lightwarden Ruia",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C Agility/Intellect passive. Do not take this over Sapling of the Dawnroot from Ziekket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins D (C here). Unlisted and delve trinkets share this rank.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins D (C here). Tank-tagged on the Method drop table; Icy Veins still lists it among Assassination D-tier.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method #1. Best on-use on big pulls; dungeon BiS lists are stopgaps until this lands. Macro to Deathmark.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S pair with Heart. Method #4 second slot. Icy Veins M+ list uses Sapling until this or Gebbo drops.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S Gebbo stand-in. Fine in keys while you wait on Heart plus Font or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method #2. Best second slot if you do not want to swap trinkets by target count.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method #3. Better ST than Font; Icy Veins still treats set-bonus completion as unlikely.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/assassination-rogue/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lustrous Golden Plumage",
+        "from": "The Golden Serpent",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins B and Icy Veins M+ BiS on-use until Heart. Farm King's Rest with the dinomancer belt.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B and Icy Veins M+ BiS passive. Pair with Plumage; replace once Heart plus Font or Gebbo is in.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B. Farm with Fevered Defense gloves, Deft Deals legs, and Signet of Snarling Servitude.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Zaen Bladesorrow",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B on-use from the same Murder Row farm. Weaker than Plumage as the dungeon on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B. Pickup while farming Sharpened Lightwood Slasher; Plumage is still the dungeon on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B raid Agility passive. Not a key-farm target; wear it if it already dropped.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Taz'Rah",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B. Weaker than Plumage; farm Taz'Rah while catalyzing Somber Spaulders.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/voidscar-arena-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins C. Ruby Life Pools is on the Icy Veins M+ list for Fireproof Drape, not this trinket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C. Kill Zul'jan for the dagger and Amani ring; skip the Banner versus Vile Vial.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Lightspire Core",
+        "from": "Lightwarden Ruia",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C. Vale farm is Sapling of the Dawnroot; do not take Core over it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins D (C here). Not on the Icy Veins dungeon farm list.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins D (C here). Voidscar farm is Somber Spaulders; skip Tumor versus Mandate if you need an on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/assassination-rogue-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

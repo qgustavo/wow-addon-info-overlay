@@ -1,0 +1,854 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 10,
+  "specId": 268,
+  "className": "Monk",
+  "specName": "Brewmaster",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Two-Hand",
+      "item": "Blood Knight's Impetus (Hunter's Ritual Stone)",
+      "notes": "Icy Veins first Spark unless you can immediately Voidcore a Myth-track Abyssal Broodfiend's Bardiche from Heroic Ula'tek. Recraft off the stone with a Lucky Keychain once the polearm is in.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Blood Knight's Impetus (Darkmoon Sigil: Hunt)",
+      "notes": "Method first Spark. Icy Veins still prefers Hunter's Ritual Stone on this slot. Skip the craft if the Bardiche is already Myth-track.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Finger",
+      "item": "Loa Worshiper's Band",
+      "notes": "Icy Veins second Spark and overall BiS ring. Innate Crit/Mastery Loa proc; pair with Stabilizing Gemstone Bandolier. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Silvermoon Agent's Deflectors (Stabilizing Gemstone Bandolier)",
+      "notes": "Icy Veins overall and raid BiS wrists; Bandolier doubles the Loa band. Method raid uses Restless Spirit Shackles instead.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Silvermoon Agent's Sneakers (Stabilizing Gemstone Bandolier)",
+      "notes": "Method third Spark and raid/overall BiS boots. Icy Veins allows Deflectors or Sneakers for the Bandolier; raid BiS feet are Twin Fangs drops if you skip this craft.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Finger",
+      "item": "Masterwork Sin'dorei Band (Polished Ammolite)",
+      "notes": "Method second Spark. Icy Veins overall BiS keeps the Loa band instead. Wear at most two embellished pieces.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Two-Hand", "item": "Abyssal Broodfiend's Bardiche" },
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Trinket", "item": "Font of Venomous Rage" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Head", "item": "Gaze of the Coiled Watcher (catalyze)" }
+        ],
+        "notes": "Voidcore first. Icy Veins: Myth Bardiche from a Heroic roll; Heart even on Heroic. Method raid BiS uses Font over Heart. Catalyze helm only at 344.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Waist", "item": "Sash of the Forlorn Vessel" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Legs", "item": "Coiled Hex Legguards (catalyze)" }
+        ],
+        "notes": "Voidcore second. Icy Veins 2H over dual-wield at equal ilvl. Method: skip the 1H unless you dual-wield; skip Altar loot below Mythic except this trinket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Chest", "item": "Battle Gi of the Monkey King (tier)" },
+          { "slot": "Shoulders", "item": "Frothing Venom Spaulders (catalyze)" },
+          { "slot": "Finger", "item": "Vile Alchemist's Band" }
+        ],
+        "notes": "Icy Veins raid-only chest (original stats) and shoulder catalyze. Method raid catalyzes Tassels of the Monkey King here instead. Skip the ring if you already have the Loa band.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Ruthless Slaughtergrips (catalyze)" },
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins raid glove catalyze. Method raid catalyzes Monkey King's Fighting Fists here and uses this ring with the crafted band.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Feet", "item": "Bespittled Slitherslippers" }
+        ],
+        "notes": "Icy Veins raid-only boots if you skip crafted Sneakers. Overall BiS feet are Goldfeather Boots from King's Rest.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Wrist", "item": "Restless Spirit Shackles" }
+        ],
+        "notes": "Method raid BiS wrists if you skip Spark bracers. Icy Veins raid BiS keeps Silvermoon Agent's Deflectors.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Feet", "item": "Goldfeather Boots" },
+          { "slot": "Back", "item": "Speakeasy Shroud" },
+          { "slot": "Wrist", "item": "Kula's Butchering Wristwraps" },
+          { "slot": "Back", "item": "Cloak of the Restless Tribes" },
+          { "slot": "Trinket", "item": "Lustrous Golden Plumage" }
+        ],
+        "notes": "Icy Veins first farm: overall BiS boots, Speakeasy Shroud, early catalyze slots. Method M+ uses Kula's wrists and Cloak of the Restless Tribes; Plumage is Method M+ BiS on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Waist", "item": "Rootwalker Harness" },
+          { "slot": "Two-Hand", "item": "Branch of Pride" }
+        ],
+        "notes": "Icy Veins second farm: M+ BiS belt and weapon if you skip Mythic Bardiche. Method M+ catalyzes Pantaloons of the Monkey King here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Head", "item": "Crown of Roaring Storms (catalyze)" },
+          { "slot": "Hands", "item": "Subjugator's Chilling Grips (catalyze)" }
+        ],
+        "notes": "Icy Veins third farm and Voidcore after Ula'tek/Altar. Helm loses only to 344 Gaze. Method overall also catalyzes these gloves.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Shoulders", "item": "Snakeskin Spaulders (catalyze)" }
+        ],
+        "notes": "Icy Veins and Method overall shoulder catalyze. Method raid catalyzes Vashnik instead if you are raid-only.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Chest", "item": "Hide of Pestilence (catalyze)" },
+          { "slot": "Trinket", "item": "Tumor of the Swarm" },
+          { "slot": "Neck", "item": "Graft of the Domanaar" }
+        ],
+        "notes": "Icy Veins overall chest catalyze and M+ BiS Tumor. Graft of the Domanaar is Icy Veins M+ neck if you skip Aqirbane Reliquary.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Legs", "item": "Leggings of the Galeforce Viper (catalyze)" },
+          { "slot": "Trinket", "item": "Tiny Electromental in a Jar" },
+          { "slot": "Finger", "item": "Jade Ophidian Band" }
+        ],
+        "notes": "Icy Veins M+ catalyze legs and M+ BiS Tiny Electromental. Method Voidcores +10 here for tier and jewellery; Jade Ophidian Band is Method M+ BiS ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Pilfered Precious Band" }
+        ],
+        "notes": "Icy Veins overall and M+ BiS drop ring. Method M+ uses this with Jade Ophidian Band if you skip the crafted rings.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Master of Harmony",
+        "recommended": true,
+        "loadoutCode": "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAgZbzYGPwYWM2mxMDAAAAAAALLYEmBmhxmZMmZmZMzywMmZZYZzy2sNMLAAwysMtMbzsMAAAAzwGYmBMNGAAwA",
+        "bullets": [
+          "Icy Veins default raid is Master of Harmony; Method raid default is Shado-Pan — note the split.",
+          "Second Celestial Infusion/Brew charge, stronger Purifying Brew, and the highest single-target via Meditative Focus and Harmonic Surge.",
+          "Icy Veins: swap Infusion vs Brew by fight; consider dropping Niuzao's Resolve.",
+          "More defense: drop Empty the Cellar and Dragonfire Brew for High Tolerance, Elixir of Determination, or Ox Stance (large damage loss).",
+          "Method also publishes a Harmony raid defensive tree; they still recommend Shado-Pan for raid.",
+          "Both trees are viable. Icy Veins: regular add spawns favor Shado-Pan padding."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/talents" }
+        ]
+      },
+      {
+        "heroTree": "Shado-Pan",
+        "recommended": false,
+        "loadoutCode": "CwQAQnG51S19isUJoJoTeJ/IKDAAAwMbbGzwwyM2YmZMAAAAAAALLYmYmBmhZ2YwMzMDz2wMmZ5BYZbW2mNmZBAA2QAAAmtZpZmZ2YYDgZGmGDAAYA",
+        "bullets": [
+          "Method recommended raid tree (standard/defensive Shado-Pan, 11 Aug 2026).",
+          "Icy Veins advanced/offensive raid is also Shado-Pan: near-identical ST, ahead in AoE; most Season 2 raid fights have extra targets.",
+          "Method: swap Celestial Brew vs Infusion by encounter. This import is the durable raid build, not their Black Ox Brew offensive tree.",
+          "Flurry Strikes from autos, dump with Keg Smash. Niuzao window: as many Breath of Fire and Blackout Kick as you can.",
+          "Shado-Pan is stronger vs magic; Harmony is stronger vs physical Stagger.",
+          "Icy Veins still defaults Harmony for raid defense; Method recommends Shado-Pan."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Shado-Pan",
+        "recommended": true,
+        "loadoutCode": "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAwMLbGDzwyM2MmZMAAAAAAALLgYmBmhBzgZmZGzsNMjZWGW2stNbzYWAAgNAAAwsNLNzMzGDbAMzw0YADAYA",
+        "bullets": [
+          "Icy Veins standard M+ and Method recommended M+ are both Shado-Pan.",
+          "Icy Veins: Exploding Keg plus Fuel on the Fire, Niuzao's Resolve, and Black Ox Brew for burst defense.",
+          "Better at 3+ targets via Shado Over the Battlefield and more Niuzao. Predictive Training helps AoE tanking.",
+          "Method: Special Delivery over Rushing Jade Wind in all content; Anvil & Stave stays vital after Season 2 brew CDR changes.",
+          "High keys: Icy Veins switches this hero to Harmony for priority damage; either tree can excel at the top.",
+          "Flex: Detox, Pressure Points on enrage, Hasty Provocation, Fatal Touch when adds are up."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/talents" }
+        ]
+      },
+      {
+        "heroTree": "Master of Harmony",
+        "recommended": false,
+        "loadoutCode": "CwQAQnG51S19isUJoJoTeJ/IKDAAAgZbzYGGzyMzGzMjBAAAAAAYZBzEzMwMM2MMmZmZY2YmxYZYZ7BW2mNMLAAwysMtMbzsMAAz2s0MzMbMsBmZmZYaMAAgB",
+        "bullets": [
+          "Method M+ Harmony import (same M+ class/spec tree, hero swap). Icy Veins high-key M+ is Harmony; that import is not in the IV page text.",
+          "Icy Veins high keys: drop Niuzao's Resolve; Black Ox Brew or Bob and Weave; pick up Zen State, High Tolerance, Anvil & Stave.",
+          "Method: more consistent durability and damage than Shado-Pan.",
+          "Narrow Overwhelming Force cleave; punished for poor Blackout Kick and Blackout Combo.",
+          "Icy Veins: keep Shado-Pan for large AoE pulls or an easier key.",
+          "Method talents are Raid/M+ only; no Delves page."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Master of Harmony",
+        "recommended": true,
+        "loadoutCode": "CwQAAAAAAAAAAAAAAAAAAAAAAAAAAgZZzYGzwyM2MmZMAAAAAAALLgYmBmhBzgZmZGzsNMjZWGW2ssNbzYWAAglZZaZ2mZZAAAAMsBmZATjBMAgB",
+        "bullets": [
+          "Icy Veins published Delves/open-world import is Master of Harmony.",
+          "Icy Veins: Tiger Palm buffs to kill a priority target; Delves rarely need extra tank defense.",
+          "Rushing Jade Wind can still help open-world threat; Special Delivery is the simpler default.",
+          "Method has no Delves page; use this for solo and open world.",
+          "Both hero trees are interchangeable; Icy Veins still prefers Harmony here.",
+          "Switch to a raid or M+ tree for that content."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-spec-builds-talents" }
+        ]
+      },
+      {
+        "heroTree": "Shado-Pan",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Shado-Pan Delves import on Icy Veins or Method.",
+          "Icy Veins: you may still use Shado-Pan in Delves; the published Delves code is Harmony only.",
+          "Method talents are Raid/M+ only, no Delves.",
+          "Use the Harmony Delves loadout on this tab, or the M+ Shado-Pan tree if you want that hero in solo content."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "90s on-use Agility plus Physical damage that works with the tier set and Shado-Pan. Icy Veins: grab even on Heroic. Method: especially strong with Shado-Pan Niuzao in M+.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Passive 3ppm; optional set with a Coiled Altar 1H (set cleaves 2). Icy Veins: strong enough without the weapon. Method raid BiS with Font.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "4-minute on-use channel; you cannot dodge during it. Icy Veins and Method S. Method raid BiS pair with Guillotine. Versatility and crit scale the hit.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Tumor of the Swarm",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins S hybrid tank proc (~3ppm) with healing. Damage splits, but total per proc rises in AoE. Icy Veins M+ BiS with Tiny Electromental.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "2-minute Versatility on-use for 20s. Icy Veins: best on-use if you lack 344 options; lines up with Niuzao for Harmony. Method A and Method M+ BiS.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins A and M+ BiS. Builds ~20 charges/min and dumps Nature damage every 12; chains, so it holds up across target counts.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "90s Crit on-use. Icy Veins: especially for Shado-Pan, where it lines up with the reduced Niuzao cooldown. Harmony still uses it well.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins and Method A. 3ppm random effects; one dud. Strong when you cannot reach 344 Heart/Font/Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Resonant Bellowstone",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Crit stat stick. Icy Veins and Method A. Method M+ BiS pair with Lustrous Golden Plumage.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Agility passive (~1/min) that works in both single-target and cleave.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A passive. Farm it while you are already in Vale for Rootwalker Harness and Branch of Pride.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A Mastery. You must stand in the light beam for the full effect; that is not always possible mid-fight.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Agility/Strength passive. Haste helps AoE and 4pc Keg Smash uptime (~6 ppm, with a 20% bonus proc).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "90s absorb (40% partial, 80% while below 40% HP). Icy Veins A defensive. Method: best defensive trinket of the tier for Brew.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B / Method A. On-use random secondary for 15s, then a small random secondary penalty for 15s.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Mchimba's Ritual Bandages",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "60s dungeon tank defensive. Icy Veins B. Named Icy Veins defensive alternatives are Shellward and Plumage.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B Agility on-use from Voidscar. Skip it if you already have Tumor from the same dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B only after the whelp is trained; AoE damage training is the Brew pick. Skip it until then.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B Agility/Strength on-use. Fangstone is Strength-only; this is the Altar on-use Brew can actually wear.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Manaheart's Binding Flame",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B M+ tank on-use. Named Icy Veins defensives are First Mate's Shellward and Lustrous Golden Plumage.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Permafrost Essence",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Dungeon tank passive. Icy Veins B. Method's Nalorakk pickup for Brew is Pilfered Precious Band, not this trinket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the Howling Nexus",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Raid tank Mastery passive. Icy Veins C. Method lists it as the Sszorak tank drop; Ferocity from this boss is Strength-only.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "90s on-use on big pulls. Method: especially strong with Shado-Pan Niuzao in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Passive 3ppm that still works in keys without the 1H set. Physical damage lines up with the 4pc flame patches.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "4-minute channel nuke. Awkward in keys because you cannot dodge during the channel; still Icy Veins/Method S for burst.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Tumor of the Swarm",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins M+ BiS with Tiny Electromental. Hybrid tank proc plus heal; total damage per proc rises in AoE.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Method M+ BiS on-use with Bellowstone. 2-minute Versatility; lines up with Niuzao for Harmony.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins M+ BiS with Tumor. Easy farm from Sethraliss; chaining Nature dumps hold up on mixed pulls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "90s Crit on-use for Shado-Pan Niuzao pulls. Farm Murder Row while you are already there for Bellowstone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Raid catch while you farm keys. Method often prefers dungeon A-tiers (Plumage/Bellowstone) as the M+ pair.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Resonant Bellowstone",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Method M+ BiS Crit stick with Lustrous Golden Plumage. Icy Veins still prefers Tumor plus Tiny Electromental.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Agility passive. Raid catch for keys if dungeon S/A trinkets have not dropped yet.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A passive. Farm it while targeting Rootwalker Harness and Branch of Pride in the same dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A Mastery if you can stand in the beam. Skip it on routes where you cannot plant.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A haste passive. Helps 4pc ignited Keg Smash uptime on packed pulls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Method: best defensive of the tier. Icy Veins A; do not replace Tumor or Tiny Electromental with this by default in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B / Method A. Farm it while targeting Snakeskin Spaulders on Altar of Fangs.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Mchimba's Ritual Bandages",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "60s defensive from a dungeon you already farm for boots/cloak. Icy Veins B; Plumage is the King's Rest on-use to chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B Agility on-use. Tumor from the same dungeon is the Icy Veins S pickup.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B after AoE-damage training. You are already here for Crown of Roaring Storms and Subjugator's Chilling Grips.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B Agility/Strength on-use. Shoulders are the Altar catalyze to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Manaheart's Binding Flame",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B tank on-use. Bellowstone and Freightrunner's Flask are the Murder Row picks Icy Veins actually ranks A.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Permafrost Essence",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins B tank passive. Method's Nalorakk farm for Brew is Pilfered Precious Band.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/brewmaster-monk/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Idol of the Howling Nexus",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C raid tank trinket. Not a key farm; Sszorak's ring is the Method pickup from this boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/brewmaster-monk-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

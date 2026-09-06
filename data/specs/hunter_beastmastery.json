@@ -1,0 +1,745 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 3,
+  "specId": 253,
+  "className": "Hunter",
+  "specName": "Beast Mastery",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Waist",
+      "item": "Farstrider's Trophy Belt (Arcanoweave Lining)",
+      "notes": "Long-term Spark with Crit/Mastery. Icy Veins and Method BiS lining pair; Wowhead late-season belt first. Two embellishments max. Belt first if the craft gains ilvl, bracers first if it loses ilvl.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Farstrider's Plated Bracers (Arcanoweave Lining)",
+      "notes": "Second long-term lining. Lowest-budget mail; Silken Voodoo Drape blocks a Spark cloak. Wowhead: Peerless (Crit/Mastery) for keys, Feverflare (Haste/Mastery) for raid. Method Crit/Mastery.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+      ]
+    },
+    {
+      "slot": "Ranged",
+      "item": "Aln'hara Sprigshot (Hunter's Ritual Stone)",
+      "notes": "Icy Veins/Wowhead early Spark if you lack a Myth-track Caustic Repose Greatbow. Method: do not craft a weapon; Voidcore Heroic Ula'tek instead. Wowhead: wait one or two bonus rolls before you spend this Spark.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+      ]
+    },
+    {
+      "slot": "Legs",
+      "item": "Farstrider's Reinforced Faulds (Arcanoweave Lining)",
+      "notes": "Icy Veins short-term armor craft, and the permanent legs if you never kill Mythic Coiled Altar for 344 Cuisses. Wowhead early alt vs the belt; skip once those raid legs are catalyzed.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Ranged",
+      "item": "Aln'hara Sprigshot (Darkmoon Sigil: Hunt)",
+      "notes": "Wowhead swap if Hunter's Ritual Stone is ever fixed to Blacksmithing-only. Coiled Snake-Eye is on par with Hunt but more RNG. Do not Spark a crafted trinket.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Caustic Repose Greatbow" },
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Chest", "item": "Awoken Dreadfang Cuirass (catalyze)" },
+          { "slot": "Trinket", "item": "Font of Venomous Rage" }
+        ],
+        "notes": "Voidcore first (IV, Wowhead, Method Heroic). Cantrip bow, BiS 90s on-use, cantrip neck, 344 catalyze chest. Font is Method overall second trinket and Icy Veins S.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Shoulders", "item": "Soulslither Spaulders (catalyze)" },
+          { "slot": "Legs", "item": "Cuisses of the Uncoiled Union (catalyze)" }
+        ],
+        "notes": "Icy Veins raid second trinket. 344 cloak is why no Spark cloak. Shoulders and legs are the 344 catalyzes on IV, Method, and Wowhead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Trinket", "item": "Keeper's Seething Core" }
+        ],
+        "notes": "Icy Veins overall second trinket (4 Sep 2026) and Voidcore #2. Wowhead raid-only catch. Method passive while you wait on Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Finger", "item": "Vile Alchemist's Band" },
+          { "slot": "Trinket", "item": "Vashnik's Sanguine Rancor" }
+        ],
+        "notes": "Icy Veins, Method, and Wowhead raid ring. Sanguine Rancor is Icy Veins B; skip it once Heart plus Core, Guillotine, or Font is on.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Feet", "item": "Ferocious Scaleboots" },
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Method and Wowhead overall boots. Icy Veins raid BiS ring; overall mix uses Charged Sandstone Band from Sethraliss instead.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Head", "item": "Skulking Viper's Weeping Fangs" }
+        ],
+        "notes": "Method raid helm and Wowhead catalyze/source slot. Icy Veins overall catalyzes Crown of the Eternal Fang from Nek'zali into this appearance instead.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Head", "item": "Crown of the Eternal Fang (catalyze)" }
+        ],
+        "notes": "Icy Veins overall and raid helm catalyze (31 Aug 2026). Skip if you follow Method/Wowhead Twin Fangs or Method overall Voidscarred Crown.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 8,
+        "items": [
+          { "slot": "Feet", "item": "Boots of the Reckless Wayfarer" },
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" }
+        ],
+        "notes": "Icy Veins raid BiS boots (31 Aug 2026). Gebbo is Icy Veins A / Method passive; Wowhead Voidcores this boss if the guild blocks Heroic Ula'tek.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Trinket", "item": "Lightspire Core" },
+          { "slot": "Main Hand", "item": "Amirdrassil's Reach" }
+        ],
+        "notes": "Icy Veins first farm: M+ BiS trinket. Method M+ bow. Wowhead: Lightspire overperforms in sims but forces random stand-in zones.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Feet", "item": "Sabatons of Coruscating Energy" },
+          { "slot": "Finger", "item": "Charged Sandstone Band", "from": "Galvazzt" },
+          { "slot": "Head", "item": "Sethraliss' Fanged Helm (catalyze)" },
+          { "slot": "Legs", "item": "Legguards of the Awakening Brood (catalyze)" }
+        ],
+        "notes": "Icy Veins second farm: overall boots and ring. Method M+ helm and leg catalyzes.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Main Hand", "item": "Sinseared Repeater" },
+          { "slot": "Back", "item": "Speakeasy Shroud" },
+          { "slot": "Finger", "item": "Signet of Snarling Servitude" },
+          { "slot": "Shoulders", "item": "Jangling Felpaulets (catalyze)" }
+        ],
+        "notes": "Icy Veins third farm: M+ bow (31 Aug 2026), cloak, and ring. Method M+ shoulder catalyze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Trinket", "item": "Lustrous Golden Plumage" },
+          { "slot": "Chest", "item": "Loa-Blessed Chestguard (catalyze)" },
+          { "slot": "Hands", "item": "Sepulchral Construct's Gloves (catalyze)" }
+        ],
+        "notes": "Icy Veins fourth farm: M+ on-use. Method M+ chest. Wowhead and Method overall catalyze these gloves; Icy Veins overall uses Galerattle instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Neck", "item": "Graft of the Domanaar" },
+          { "slot": "Head", "item": "Voidscarred Crown (catalyze)" },
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus", "from": "Atroxus" },
+          { "slot": "Trinket", "item": "Void Execution Mandate" }
+        ],
+        "notes": "Icy Veins fifth farm: M+ neck. Method overall helm catalyze. Signet is Method/Wowhead overall second ring. Mandate is Icy Veins B.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Hands", "item": "Galerattle Gauntlets (catalyze)" }
+        ],
+        "notes": "Icy Veins overall and M+ glove catalyze (31 Aug 2026). Method M+ also catalyzes these. Skip if you follow Wowhead/Method overall King's Rest gloves.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom", "from": "Rav'i" },
+          { "slot": "Trinket", "item": "Tattered Amani War Banner", "from": "Zul'jan" }
+        ],
+        "notes": "Vile Vial is Icy Veins A on-use while you farm Heart. War Banner is Icy Veins B; Vial is the Altar trinket to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Pack Leader",
+        "recommended": true,
+        "loadoutCode": "C0PAAAAAAAAAAAAAAAAAAAAAAAMmxwCsAzwwMsBAgZYMzyMDzYmhhZGjZGzMjZMziZmxMmBjpZAAAAAzAAAwYmZAmZjxGMLgtBgB",
+        "bullets": [
+          "Icy Veins Pack Leader in all content. Dark Ranger is tankier (Smoke Screen) but far behind on damage and more effort; they list it, do not play it.",
+          "This import is Icy Veins pure ST (21 Aug 2026 hotfix). Method ST/Raid import differs; both are Pack Leader.",
+          "Most Venomous Abyss is not true ST: Icy Veins Raid AoE/Cleave keeps Beast Cleave and takes Thrill of the Hunt over Training Expert.",
+          "Apex Nature's Ally: Bestial Wrath is a damage hit. Never Kill Command twice in a row; Barbed Shot or Cobra Shot between.",
+          "Method Pack Leader: Howl beasts cycle Wyvern (damage), Boar (AoE plus Cobra), Bear; first Kill Command after Bestial Wrath is Stampede.",
+          "Folio (Icy Veins and Method): Unleashed Fire, Void-Tainted Shell, Lingering, Masterful Cunning, Overload."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Pack Leader",
+        "recommended": true,
+        "loadoutCode": "C0PAAAAAAAAAAAAAAAAAAAAAAAMmxwCsAzwQDbAAYGzMzs8AzYmZmZMzgZGzMMzYmZGbzMjZMDLjpZAAAAAAAAgHYMGwMbEwsA2GAA",
+        "bullets": [
+          "Icy Veins Pack Leader M+. Method also recommends Pack Leader AoE/M+ (5 Sep 2026); the import string differs.",
+          "30 Aug 2026: Thrill of the Hunt over Bloody Frenzy. Same performance, higher Focus regen, smoother rotation.",
+          "Flex, most disposable: Misdirection (personal threat only), Kodo Tranquilizer, Emergency Salve (dungeon-dependent).",
+          "Built for real-key clear speed, not max AoE sims. Heavier AoE trees lose more single-target than they gain.",
+          "Dark Ranger M+ exists on Icy Veins and Method. Icy Veins still does not recommend it.",
+          "Apex: same Nature's Ally rule; do not chain Kill Command."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Pack Leader",
+        "recommended": true,
+        "loadoutCode": "C0PAAAAAAAAAAAAAAAAAAAAAAAMmxwCsAzwQDbAAYGzMzs8AzYmZmZMzgZGzMMzYmZGMGzYmhx0AAAAAAAAAzMGDYmNCWmZBsNAA",
+        "bullets": [
+          "Icy Veins Pack Leader Delves. Close to the M+ tree with class-tree picks for solo pet tanking.",
+          "12 Aug 2026: Emergency Salve over Wilderness Medicine on Delve builds.",
+          "30 Aug 2026: Thrill of the Hunt over Bloody Frenzy on Delves too.",
+          "Method has no Delves page; Method recommends Pack Leader in raid and keys. Use this Icy Veins import for solo.",
+          "Pack Leader Shell Cover is a small Survival of the Fittest buff. Dark Ranger Smoke Screen is tankier; Icy Veins still Pack Leader.",
+          "Apex: same Nature's Ally Kill Command filler rule."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method and Wowhead best on-use. 90s; line it with Bestial Wrath. Voidcore Heroic Ula'tek until it drops.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S and overall second slot (4 Sep 2026). Wowhead raid-only catch. Method haste passive. Do not pair two on-use trinkets.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S and raid second slot. Wowhead overall pair with Heart. Method: pure ST in place of Keeper's Core; weaker once pulls go wide.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S (4 Sep 2026). Method overall second trinket with Heart. 4 min on-use; Method pops it at the end of Liquid Luster, not with Bestial Wrath. Never take this over Heart from the same boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A on-use while Heart is missing. One on-use only; do not pair with Heart, Font, or Plumage.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A / Method M+ BiS Mastery stick. Stand in the lightbeam. Wowhead: overperforms in sims, skip it when the zone is unplayable.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A / Method 2 min Versatility on-use. Sync with Bestial Wrath. Icy Veins M+ BiS on-use until Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method random-secondary passive. Easier than Guillotine. Do not plan Bestial Wrath around the proc.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B Agility/Intellect on-use. Hold for Bestial Wrath. One on-use only.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B Agility on-use. Farm it while you are already in Voidscar for the neck and signet.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B Agility passive. Method lists it as the Agility DPS drop on Vashnik. Skip once an S/A pair is on.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B Agility/Strength on-use from the last Altar boss. Vile Vial is the Altar on-use Icy Veins ranks A.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Darkmoon Dominion: Hunt",
+        "from": "Inscription",
+        "instance": "Crafted",
+        "whenToUse": "Icy Veins C. Wowhead: sims fine but spends an embellishment slot; do not Spark a trinket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C. Vale farm target is Lightspire Core, not this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins C Agility/Strength passive. Murder Row farm is the bow, cloak, and signet.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C Agility passive. Sethraliss farm is boots, ring, and the catalyzes.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins D (C here). Wowhead: only after it is trained for Crit. Skip it until then.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Still the on-use to chase. Line it with Bestial Wrath on big pulls. Dungeon lists are stopgaps until this lands.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S passive in keys. Pair with one on-use (Heart or Plumage), not with Font.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S. Method and Wowhead: strong ST, falls off in wide keys. Swap to Lightspire or Gebbo when pulls go large.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S burst. Method: end of Liquid Luster, not Bestial Wrath. Awkward 4 min in keys; Heart is the Ula'tek slot to keep.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A and Icy Veins/Method M+ BiS passive. Stand in the beam. Wowhead warns the zone is often unplayable.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A and Icy Veins/Method M+ BiS on-use until Heart. 2 min Versatility; line it with Bestial Wrath on big pulls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A dungeon on-use if Plumage and Heart have not dropped. One on-use only.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method key passive while Guillotine is ST-only. Random procs; do not plan lust around it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/beast-mastery-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B. Farm it while targeting Sinseared Repeater. Plumage is the dungeon on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B. Farm Atroxus for the signet; this is the extra Voidscar on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B raid leftover in keys. Lightspire or Gebbo is the dungeon/raid catch Icy Veins actually ranks A.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B. Vile Vial from Rav'i is the Altar on-use to wear.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Darkmoon Dominion: Hunt",
+        "from": "Inscription",
+        "instance": "Crafted",
+        "whenToUse": "Icy Veins C. Keep Spark for Arcanoweave belt/bracers, not a trinket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/hunter/beast-mastery/bis-gear" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C. Vale farm is Lightspire.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins C. Murder Row farm is Sinseared Repeater, Speakeasy Shroud, and Signet of Snarling Servitude.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C. Sethraliss farm is Sabatons of Coruscating Energy and Charged Sandstone Band.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins D (C here). Leave it in the bag until trained; RLP farm for BM is Galerattle Gauntlets.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/beast-mastery-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      }
+    ]
+  }
+}

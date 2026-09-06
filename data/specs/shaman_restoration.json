@@ -1,0 +1,752 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 7,
+  "specId": 264,
+  "className": "Shaman",
+  "specName": "Restoration",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Off-Hand",
+      "item": "Spellbreaker's Rebuke (Arcanoweave Lining)",
+      "notes": "Icy Veins first Spark if you lack a Myth-track shield. Wowhead first craft: skip a Hunt weapon because Heroic Ula'tek Voidcores land Jan'thrazet by week 4. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Main Hand",
+      "item": "Crafted 1H (Darkmoon Sigil: Hunt)",
+      "notes": "Method first Spark: 1H Hunt, then grab the best shield you can. Icy Veins and Wowhead skip this because Myth-track Jan'thrazet is easy to coin.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Farstrider's Plated Bracers (Arcanoweave Lining)",
+      "notes": "Icy Veins lining if you already have a Myth shield. Wowhead second craft. Method lining on wrists or cloak (low-stat slots). Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Farstrider's Razor Talons (Arcanoweave Lining)",
+      "notes": "Icy Veins second lining. Wowhead late-season pair with the bracers; they skip cloak because Silken Voodoo Drape exists. Icy Veins overall also lists Shaladrassil's Roots on these boots.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Legs",
+      "item": "Farstrider's Reinforced Faulds (Arcanoweave Lining)",
+      "notes": "Wowhead early second Spark: Myth-track pants are hard before the fifth raid boss. Recraft off this once Sszorak or Temple of Sethraliss legs are online.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Back",
+      "item": "Adherent's Silken Shroud (Arcanoweave Lining)",
+      "notes": "Method overall/raid/M+ cloak and later lining host with the bracers once weapon and shield are Myth. Icy Veins overall wears Amani Summoning Shawl instead.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Aln'hara Cane (Hunter's Ritual Stone)",
+      "notes": "Icy Veins alt Spark later in the season if you still need a fast power dump. Shield plus Supportive Imbuements is the Totemic default; Farseer can use a two-hand in PvE.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Jan'thrazet, the Soul Fang" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Chest", "item": "Awoken Dreadfang Cuirass (catalyze)" }
+        ],
+        "notes": "Icy Veins and Wowhead Voidcore first. Best weapon of the tier plus the cantrip neck. Method also coins the catalyze chest here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Soulcoiler Ritual Vessel" },
+          { "slot": "Head", "item": "Crown of the Eternal Fang (catalyze)" },
+          { "slot": "Waist", "item": "Cursed Reliquary Cincture" },
+          { "slot": "Back", "item": "Amani Summoning Shawl" }
+        ],
+        "notes": "Icy Veins Voidcore second. Strongest healer trinket, leech catalyze helm, belt. Wowhead overall cloak. Skip IV raid gloves from Tidebound Grotto.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Off-Hand", "item": "Venom-Slashed Scuteward" },
+          { "slot": "Shoulders", "item": "Hissing Mantle of the Ophidian Oracle (tier token)" },
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" }
+        ],
+        "notes": "Method/Wowhead overall shield. Method raid shoulder token. Icy Veins overall pairs Soulcoiler with Gebbo. IV later coins Explorers as Enhancement.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" },
+          { "slot": "Legs", "item": "Leggings of the Ophidian Oracle (tier token)" }
+        ],
+        "notes": "Icy Veins/Method/Wowhead overall ring. IV raid-only catalyze uses the Sszorak token; overall catalyzes Temple of Sethraliss instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Shoulders", "item": "Soulslither Spaulders (catalyze)" },
+          { "slot": "Trinket", "item": "Hex Lord's Dooming Idol" }
+        ],
+        "notes": "Icy Veins raid and Wowhead overall catalyze shoulders. Hex Lord is IV/Wowhead S-tier; awkward to pair with Soulcoiler because of the shared on-use lockout.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Hands", "item": "Hexing Grips of the Ophidian Oracle" }
+        ],
+        "notes": "Method raid gloves. Icy Veins overall catalyzes Pulverizing Pads from The Blinding Vale instead of this token.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Head", "item": "Serpent Crown of the Ophidian Oracle" },
+          { "slot": "Chest", "item": "Ophidian Fangmail (catalyze)" }
+        ],
+        "notes": "Method overall/raid helm token. Icy Veins raid catalyze chest if you skip Ula'tek's Awoken Dreadfang Cuirass.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 8,
+        "items": [
+          { "slot": "Finger", "item": "Vile Alchemist's Band" }
+        ],
+        "notes": "Icy Veins raid BiS second ring. Overall and Method use Apex Brute's Claw Ring plus a dungeon or crafted band instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Shoulders", "item": "Jangling Felpaulets (catalyze)" },
+          { "slot": "Finger", "item": "Signet of Snarling Servitude", "from": "Xathuux the Annihilator" },
+          { "slot": "Back", "item": "Speakeasy Shroud" },
+          { "slot": "Trinket", "item": "Freightrunner's Flask" },
+          { "slot": "Feet", "item": "Felsoaked Soles" }
+        ],
+        "notes": "Icy Veins first farm: catalyze shoulders, ring, cloak, and the second-best dungeon trinket. Wowhead overall boots. Method overall also wants these shoulders.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Hands", "item": "Pulverizing Pads (catalyze)" },
+          { "slot": "Off-Hand", "item": "Teldrassil's Sacrifice" },
+          { "slot": "Trinket", "item": "Lightspire Core" }
+        ],
+        "notes": "Icy Veins second farm and overall catalyze gloves plus dungeon shield. Method M+ off-hand. Lightspire is IV B / Wowhead B.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Head", "item": "Sethraliss' Fanged Helm (catalyze)" },
+          { "slot": "Legs", "item": "Legguards of the Awakening Brood (catalyze)" },
+          { "slot": "Wrist", "item": "Arc-Glass Bindings" }
+        ],
+        "notes": "Icy Veins M+ catalyze helm and overall/M+ catalyze legs. Wowhead overall wrists if you skip Spark bracers.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Chest", "item": "Loa-Blessed Chestguard (catalyze)" },
+          { "slot": "Waist", "item": "Belt of the Consecrated Tomb" },
+          { "slot": "Main Hand", "item": "Gilded Serpent's Tooth" }
+        ],
+        "notes": "Icy Veins overall/M+ catalyze chest. Method M+ belt and dungeon dagger if you skip Jan'thrazet.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Neck", "item": "Strand of Warding Fangs" },
+          { "slot": "Main Hand", "item": "Venom-Etched Crescent" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord" }
+        ],
+        "notes": "Icy Veins M+ neck and dungeon 1H. Method M+ second ring. Skip the weapon once Jan'thrazet is upgraded.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Finger", "item": "Pilfered Precious Band" },
+          { "slot": "Head", "item": "Nalorakk's Nightmare (catalyze)" }
+        ],
+        "notes": "Icy Veins M+ and Method/Wowhead overall second ring. Wowhead overall catalyze helm if you skip Nek'zali's Crown of the Eternal Fang.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Totemic",
+        "recommended": true,
+        "loadoutCode": "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNjZGjZGzMYsBbwMW0YbAMDsZGmBbjZmpZbZmhZMbsMzMzYwsMAAAwMzgZGAYwM",
+        "bullets": [
+          "Icy Veins default raid Totemic; more forgiving on movement (instants plus Totemic Projection on Surging Totem).",
+          "Free Chain Heals from Lively Totems; more AoE healing than Farseer, weaker spot-healing.",
+          "Method also recommends Totemic for all content; Farseer is closer this patch after Ancestor Chain Heal buffs.",
+          "Raid CD: Ascendance over Healing Tide (higher potential and ST). HTT is a pure raid heal.",
+          "Deeply Rooted Elements plus Preeminence; First Ascendant only on 2-minute raid damage. Skip Downpour for Riptide talents.",
+          "Method raid Totemic import differs from this Icy Veins string."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/talents" }
+        ]
+      },
+      {
+        "heroTree": "Farseer",
+        "recommended": false,
+        "loadoutCode": "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNjZGjZGzMMWMzCMgJYWYCMWMDzwsNzY0stMzsZGzGLGzMGWmlBAAAmZGDgZGYwM",
+        "bullets": [
+          "Method Raid Farseer import; Icy Veins has a Farseer Raid tab but no quick-start code.",
+          "Icy Veins: viable, especially on leftover Season 1 4pc (Unleash Life). Ancestor AoE and Riptide were buffed for Season 2.",
+          "Stronger hard-casts (Maelstrom Supremacy, Windspeaker); skip Downpour because it heals less with Healing Rain than Surging Totem.",
+          "Method: easier to spread Riptide on the raid; still behind Totemic.",
+          "Unleash Life is mandatory on Farseer (near-permanent Ancestor).",
+          "Method (11 Aug 2026) still recommends Totemic in raid."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Totemic",
+        "recommended": true,
+        "loadoutCode": "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsstMmZmZmZGjZMsBbwMW0YbAMDshxMMLzMGNLLzMbmxsxixMjhlZZAAAAzMYmBgxgZA",
+        "bullets": [
+          "Icy Veins default M+ Totemic; Healing Tide over Ascendance (Splitstream, Primal Catalyst, you can DPS while it ticks).",
+          "Acid Rain for extra DPS; Ancestral Vigor vs burst; Swelling Tides plus Riptide support so the party stays covered.",
+          "Method also Totemic in keys; swap the class tree for Poison Cleansing Totem or a curse dispel per dungeon.",
+          "Free Chain Heals from Lively Totems; Totemic Momentum cuts Healing Stream cooldown.",
+          "Surging Totem replaces Healing Rain: instant, 24s, move it with Totemic Projection.",
+          "Method M+ Totemic import differs from this Icy Veins string."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/talents" }
+        ]
+      },
+      {
+        "heroTree": "Farseer",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Farseer M+ import on Icy Veins quick-start or Method.",
+          "Icy Veins Farseer M+ tab: Acid Rain plus the Season 2 set, Unleash Life mandatory, Ancestral Reach over Flow of the Tides.",
+          "Farseer has better spread and spot healing (Maelstrom Supremacy, Windspeaker).",
+          "Method recommends Totemic for keys and does not publish a Farseer M+ tree.",
+          "Use the Totemic M+ loadout on this tab unless you already play Farseer."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Farseer",
+        "recommended": true,
+        "loadoutCode": "CgQAAAAAAAAAAAAAAAAAAAAAAAAAAgBAAAAzMzsssNzMzMzMzYmhxiZWgBMgZhJwYhBY2mZMa2WmZ2MzMLsYmZGDmlBAAAYGAMzgZwM",
+        "bullets": [
+          "Icy Veins published Delves import is Farseer.",
+          "Self-heal with Healing Wave; cooldowns work well on you and a Delve companion.",
+          "Advanced: Reactive Warding (Earth Shield value in tiny groups) plus Instinctive Imbuements.",
+          "Icy Veins: Restoration is not particularly fast at clearing Delves.",
+          "Method has no Delves page; they still recommend Totemic for raid and M+.",
+          "Icy Veins quick-start Delves code is Farseer only."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/talents" }
+        ]
+      },
+      {
+        "heroTree": "Totemic",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Totemic Delves import on Icy Veins or Method.",
+          "Icy Veins Delves tab is Farseer; Totemic is their raid and M+ default.",
+          "Method recommends Totemic in raid and M+ but has no Delves page.",
+          "Use the Farseer Delves loadout on this tab for solo."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Soulcoiler Ritual Vessel",
+        "from": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins and Wowhead S. Method BiS on-use in raid and keys; deaths refund cooldown and spawn a shield. First-boss drop.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins and Wowhead S passive. Can steal stats instead of giving them, but uptime is high. Icy Veins overall pairs it with Soulcoiler.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins and Wowhead S; Method overall/raid BiS passive. Intellect ramps 0–6 then down. Time CDs at max stacks. Skip if you are not farming leftover Tidebound.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins and Wowhead S. Stacks an Intellect debuff until you press it. Wowhead: awkward with Soulcoiler because of the shared on-use lockout.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins A / Wowhead A only after Crit training (IV: use on yourself out of combat; Wowhead ~6 days; Method 7 daily trains). Method M+ pair.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A Crit on-use. Delay slightly for 2-minute Ascendance, or press on cooldown for 3-minute. Method: macro into HTT/Ascendance. Method M+ pair.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Drum of Renewed Bonds",
+        "from": "Delves",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins A / Wowhead A delve option. IV: configure a Crit proc in Zul'Aman at 52.15, 80.74. Wowhead: train it for Crit.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Glorious Crusader's Keepsake",
+        "from": "Delve journey",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins A even if you are the only player with it; cannot be Myth-track. Wowhead: easy Hero-track from the Delve journey; proc Crit.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B / Wowhead B. Most of the value is passive; standing in the Mastery beam is extra, not required.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B / Wowhead B. 15s random primary on a 2-minute CD (pair with 2-minute Ascendance), then a 15s stat loss after.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Unstable Felheart Crystal",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B lifesaving on-use / Wowhead A M+ tech. Flask from this dungeon is the slot Method actually wants.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Seed of Radiant Hope",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B lifesaving on-use; can wait until the target drops low. Wowhead D (mapped to C here). Farm Lightspire from this dungeon first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mycolic Medicine",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C / Wowhead C. Passive like Lightspire but a flat heal instead of Mastery. Den of Nalorakk pickup is the ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins C 2-minute Haste on-use (pair with 2-minute Ascendance). Wowhead D (mapped to C). Method M+ weapon/belt farm is this dungeon, not this trinket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Preternatural Antivenom",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Wowhead D (mapped to C). Method raid healer passive from Twin Fangs. Icy Veins does not name it; do not take it over Soulcoiler or Gebbo.",
+        "sources": [
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Soulcoiler Ritual Vessel",
+        "from": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Wowhead: shields on demand are especially good in keys. Method: Progression/Mythic+ trinket. Still the slot to chase over dungeon heals.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins/Wowhead S. Wear in keys if you already have it from raid or vault; still behind Soulcoiler.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins M+ BiS pair and first dungeon farm. Method M+ pair. Crit on-use; line up with Ascendance or Healing Tide.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins M+ BiS pair / Wowhead best dungeon alternative after Crit training. Method M+ pair. Skip it until trained.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins/Wowhead S raid on-use while you farm Flask. Shared lockout with Soulcoiler makes this pair awkward in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins/Wowhead S leftover passive. Method overall still lists it. Skip if you cannot farm Tidebound; Flask plus Whelp covers keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/restoration-shaman/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Drum of Renewed Bonds",
+        "from": "Delves",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins A while you farm keys. Configure Crit in Zul'Aman (52.15, 80.74).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Glorious Crusader's Keepsake",
+        "from": "Delve journey",
+        "instance": "Delves",
+        "whenToUse": "Icy Veins A catch while dungeon trinkets lag. Hero-track only.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Unstable Felheart Crystal",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Wowhead A M+ tech (not strong overall HPS). Icy Veins B lifesaving on-use. Flask from this dungeon is the farm.",
+        "sources": [
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B. Pickup while targeting Teldrassil's Sacrifice and Pulverizing Pads. Do not chase the beam.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B on-use while targeting Strand of Warding Fangs or Venom-Etched Crescent.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Seed of Radiant Hope",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B. Same dungeon as Lightspire; take Lightspire first. Wowhead D (mapped to C in raid).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mycolic Medicine",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins C. Den of Nalorakk pickup is Pilfered Precious Band, not this healer passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins C. King's Rest farm is the catalyze chest, Method belt, and Gilded Serpent's Tooth.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/restoration-shaman-pve-healing-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Preternatural Antivenom",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Wowhead D (mapped to C). Raid healer leftover; do not replace Flask or Whelp with this in keys.",
+        "sources": [
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/shaman/restoration/bis-gear" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

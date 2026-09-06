@@ -8,9 +8,6 @@ contextBridge.exposeInMainWorld("wqr", {
   hide: () => ipcRenderer.send("hide-panel"),
   startRebind: () => ipcRenderer.send("start-rebind"),
   openExternal: (url) => ipcRenderer.send("open-external", url),
-  onOpenSpec: (cb) => {
-    ipcRenderer.on("open-spec", (_event, payload) => cb(payload));
-  },
   onLockChanged: (cb) => {
     ipcRenderer.on("lock-changed", (_event, locked) => cb(locked));
   },

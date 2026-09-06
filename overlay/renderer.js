@@ -108,8 +108,50 @@ function empty(text) {
   return `<p class="empty">${esc(text)}</p>`;
 }
 
+const STEP_KINDS = new Set(["phase", "intermission", "loop", "burn"]);
+const MAP_TONES = new Set(["boss", "tank", "stack", "soak", "hazard", "add", "move"]);
+
+function diagramHtml(diagram) {
+  if (!diagram || !Array.isArray(diagram.cells) || !diagram.cells.length) return "";
+  const cols = diagram.cols === 2 ? 2 : 3;
+  const cells = diagram.cells
+    .map((cell) => {
+      const tone = MAP_TONES.has(cell.tone) ? cell.tone : "stack";
+      const span = Number(cell.span);
+      const spanClass = span === 2 || span === 3 ? ` span-${span}` : "";
+      return `<div class="map-cell ${tone}${spanClass}">${esc(cell.label)}</div>`;
+    })
+    .join("");
+  const cap = diagram.caption ? `<p class="map-caption">${esc(diagram.caption)}</p>` : "";
+  return `<div class="fight-map cols-${cols}">${cells}</div>${cap}`;
+}
+
+function stepsHtml(steps) {
+  if (!Array.isArray(steps) || !steps.length) return "";
+  const items = steps
+    .map((step) => {
+      const kind = STEP_KINDS.has(step.kind) ? step.kind : "phase";
+      return `<li class="step ${kind}">
+        <span class="step-id">${esc(step.id)}</span>
+        <div class="step-body">
+          <div class="step-label">${esc(step.label)}</div>
+          <p class="step-action">${esc(step.action)}</p>
+        </div>
+      </li>`;
+    })
+    .join("");
+  return `<ol class="fight-flow">${items}</ol>`;
+}
+
+function fightVisualHtml(enc) {
+  const map = diagramHtml(enc.diagram);
+  const flow = stepsHtml(enc.steps);
+  if (!map && !flow) return "";
+  return `<div class="fight-visual">${map}${flow}</div>`;
+}
+
 function fillPicker() {
-  const specs = [...state.specs];
+  const specs = [...state.specs].sort((a, b) => a.classId - b.classId || a.specId - b.specId);
   const hasCurrent = specs.some((s) => s.classId === state.classId && s.specId === state.specId);
   if (!hasCurrent) specs.push(placeholderSpec(state.classId, state.specId));
   el.picker.innerHTML = specs
@@ -290,9 +332,18 @@ function renderDrops(spec) {
     .join("");
 }
 
+function dropLine(row) {
+  const parts = [];
+  if (row.from) parts.push(`Drops from ${row.from}`);
+  if (row.instance) parts.push(row.instance);
+  return parts.length ? `<div class="from">${esc(parts.join(" · "))}</div>` : "";
+}
+
 function renderTrinkets(spec) {
   const list = (spec.trinkets && spec.trinkets[state.trinketCtx]) || [];
-  const rows = list.filter((row) => matches(hay(row.tier, row.item, row.whenToUse, (row.sources || []).map((s) => s.name))));
+  const rows = list.filter((row) =>
+    matches(hay(row.tier, row.item, row.from, row.instance, row.whenToUse, (row.sources || []).map((s) => s.name)))
+  );
   if (!rows.length) {
     el.content.innerHTML = empty(list.length ? "No matches." : "No trinket ranks listed yet.");
     return;
@@ -302,6 +353,7 @@ function renderTrinkets(spec) {
       (row) => `
       <article class="card">
         <h3><span class="tier ${esc(row.tier)}">${esc(row.tier)}</span>${esc(row.item)}</h3>
+        ${dropLine(row)}
         <p class="when">${esc(row.whenToUse)}</p>
         ${sourcesHtml(row.sources)}
       </article>`
@@ -314,7 +366,19 @@ function renderBosses() {
   const spec = currentSpec();
   const rows = list.filter((enc) => {
     const note = enc.specNotes && enc.specNotes[String(spec.specId)];
-    return matches(hay(enc.name, enc.instance, enc.kind, enc.lines, note, (enc.sources || []).map((s) => s.name)));
+    return matches(
+      hay(
+        enc.name,
+        enc.instance,
+        enc.kind,
+        enc.lines,
+        note,
+        (enc.sources || []).map((s) => s.name),
+        enc.diagram && enc.diagram.caption,
+        enc.diagram && (enc.diagram.cells || []).map((cell) => cell.label),
+        (enc.steps || []).map((step) => [step.id, step.label, step.action])
+      )
+    );
   });
   if (!rows.length) {
     el.content.innerHTML = empty(list.length ? "No matches." : "No boss notes for this season yet.");
@@ -326,11 +390,16 @@ function renderBosses() {
       const lines = (enc.lines || []).map((line) => `<p class="line">${esc(line)}</p>`).join("");
       const specLine = note ? `<p class="notes">${esc(spec.specName)}: ${esc(note)}</p>` : "";
       const inst = enc.instance ? ` · ${enc.instance}` : "";
+      const visual = fightVisualHtml(enc);
+      const notesBlock = visual && lines
+        ? `<details class="fight-notes"><summary>Full notes</summary>${lines}</details>`
+        : lines;
       return `
         <article class="card">
           <div class="slot">${esc(enc.kind || "")}${esc(inst)}</div>
           <h3>${esc(enc.name)}</h3>
-          ${lines}
+          ${visual}
+          ${notesBlock}
           ${specLine}
           ${sourcesHtml(enc.sources)}
         </article>`;
@@ -408,10 +477,6 @@ el.hotkeyBtn.addEventListener("click", () => window.wqr.startRebind());
 el.search.addEventListener("input", () => {
   state.query = el.search.value;
   render();
-});
-
-window.wqr.onOpenSpec((payload) => {
-  selectSpec(payload.classId, payload.specId);
 });
 
 window.wqr.onLockChanged((locked) => setLockUi(locked));

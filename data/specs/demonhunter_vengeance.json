@@ -1,0 +1,843 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 12,
+  "specId": 581,
+  "className": "Demon Hunter",
+  "specName": "Vengeance",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "One-Hand",
+      "item": "Spellbreaker's Warglaive (Hunter's Ritual Stone)",
+      "notes": "Icy Veins and Wowhead first Spark. Park in off-hand once a Myth-track main-hand drops. Icy Veins later replaces this with a second lining once both weapons are better.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/demon-hunter/vengeance/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Waist",
+      "item": "Silvermoon Agent's Utility Belt (Arcanoweave Lining)",
+      "notes": "Icy Veins second Spark. Arcanoweave Lining is their other best embellishment, on a low-budget slot. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Silvermoon Agent's Deflectors (Arcanoweave Lining)",
+      "notes": "Wowhead second Spark; Method Overall wrists. Icy Veins crafts these later to replace the Ritual Stone warglaive. Lining starts behind Loa Worshiper's Band, then overtakes as gear fills.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/demon-hunter/vengeance/bis-gear" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+      ]
+    },
+    {
+      "slot": "Back",
+      "item": "Adherent's Silken Shroud (Arcanoweave Lining)",
+      "notes": "Method Overall cloak. They call lining on a low-budget slot (wrists or cloak) the best group-content pair by a small margin.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+      ]
+    },
+    {
+      "slot": "Finger",
+      "item": "Loa Worshiper's Band",
+      "notes": "Method early sim option with Peridot/Garnet so it procs Agility, Haste, or Crit. Wowhead: lining is weaker than this ring at the start of the season, then overtakes. Two embellishments max.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/demon-hunter/vengeance/bis-gear" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Aman'muso, Warlord's Vengeance" },
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Waist", "item": "Sash of the Forlorn Vessel" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Legs", "item": "Coiled Hex Legguards (catalyze)" }
+        ],
+        "notes": "Voidcore after Ula'tek. Myth-track cantrip glaive; Guillotine wants this weapon. Icy Veins catalyzes these legs only from Mythic; otherwise use King's Rest breeches.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/demon-hunter/vengeance/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Head", "item": "Gaze of the Coiled Watcher (catalyze)" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" }
+        ],
+        "notes": "Voidcore first. Cantrip helm (Haste proc), cantrip neck, and the on-use Heart. Do not take Font of Venomous Rage over Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Chest", "item": "Abyssal Doomhound's Coreguard (tier token)" }
+        ],
+        "notes": "Icy Veins, Method, and Wowhead raid chest token. Icy Veins overall also allows Hide of Pestilence from Voidscar Arena.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Abyssal Doomhound's Studded Gauntlets (tier token)" },
+          { "slot": "Trinket", "item": "Keeper's Seething Core" }
+        ],
+        "notes": "Method raid glove token. Icy Veins overall catalyzes Murder Row hands instead. Core is Icy Veins strongest passive and Method raid second trinket; Voidcore this boss on Mythic.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Shoulders", "item": "Abyssal Doomhound's Jaws (tier token)" },
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" }
+        ],
+        "notes": "Icy Veins and Method raid shoulder token. Overall mix catalyzes Scavenger's Spaulders from Den of Nalorakk instead. Wowhead overall shoulders catalyze Voidscar Arena.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/demon-hunter/vengeance/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Off Hand", "item": "Tomb-Creeper's Claw" }
+        ],
+        "notes": "Icy Veins and Method off-hand. Wowhead Overall parks Spellbreaker's Warglaive here instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/demon-hunter/vengeance/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins raid/overall and Method Overall ring. Vault-worthy as the only long-term Sszorak pickup. Method Voidcores this on Mythic.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "One-Hand", "item": "Grim Harvest Gloves", "from": "The Hoardmonger" },
+          { "slot": "Shoulders", "item": "Scavenger's Spaulders (catalyze)", "from": "The Hoardmonger" },
+          { "slot": "Feet", "item": "Arctic Explorer's Legwraps", "from": "Sentinel of Winter" },
+          { "slot": "Finger", "item": "Pilfered Precious Band", "from": "The Hoardmonger" },
+          { "slot": "Neck", "item": "Yoke of the Charging Bear", "from": "Nalorakk" }
+        ],
+        "notes": "Icy Veins first dungeon farm: best dungeon fist weapons plus several strong leather pieces. Method Overall catalyzes these shoulders and wears these boots.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Head", "item": "Spare Speaker's Hood (catalyze)" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord" },
+          { "slot": "Neck", "item": "Strand of Warding Fangs" },
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom", "from": "Rav'i" },
+          { "slot": "Trinket", "item": "Tattered Amani War Banner", "from": "Zul'jan" }
+        ],
+        "notes": "Icy Veins second farm: M+ catalyze helm, a ring, and A-tier trinkets. Method M+ uses this neck instead of Yoke of the Charging Bear.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Finger", "item": "Ritual Binder's Ring", "from": "Mchimba the Embalmer" },
+          { "slot": "Legs", "item": "Breeches of the Sacred Hall (catalyze)", "from": "The Golden Serpent" },
+          { "slot": "Trinket", "item": "Lustrous Golden Plumage" }
+        ],
+        "notes": "Icy Veins third farm for leftover slots. Catalyze these legs unless you have Mythic Coiled Hex Legguards. Method Overall uses this ring with Apex Brute's Claw Ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Gauntlets of Fevered Defense (catalyze)" },
+          { "slot": "Trinket", "item": "Freightrunner's Flask" },
+          { "slot": "Trinket", "item": "Resonant Bellowstone", "from": "Xathuux the Annihilator" }
+        ],
+        "notes": "Icy Veins overall/M+ catalyze hands. Method M+ trinket pair is Flask plus Bellowstone. Method Overall catalyzes Subjugator's Chilling Grips from Ruby Life Pools instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Chest", "item": "Hide of Pestilence (catalyze)", "from": "Atroxus" },
+          { "slot": "Trinket", "item": "Void Execution Mandate" }
+        ],
+        "notes": "Icy Veins M+ chest catalyze (or the Vashnik raid token). Wowhead Overall shoulders also catalyze this dungeon. Method M+ chest is this Atroxus catalyze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Annihilator",
+        "recommended": true,
+        "loadoutCode": "CUkAAAAAAAAAAAAAAAAAAAAAAAAMjZmZMzMjMzMYWMzMDMjZGzYGzMDzMzM2GzsNGAAAAAAAAwMzYDAAAADGzMzMbtNzMDAAAAAwA",
+        "bullets": [
+          "Icy Veins default ST Annihilator; ST is close vs Aldrachi, but Annihilator bursts better and has shorter defensives.",
+          "About 40% more damage on 5 targets; the gap widens as you add more. Recommended for virtually all content.",
+          "Sync Fiery Brand with Voidfall/Metamorphosis and Untethered Rage Apex procs.",
+          "Raid: Last Resort out for Soul Carver; swap back if you want a cheat death.",
+          "Loses less damage when forced out of melee because more damage sits in cooldown windows.",
+          "Method Raid import is a separate S2 code; they also drop raid-only utility for damage."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/talents" }
+        ]
+      },
+      {
+        "heroTree": "Aldrachi Reaver",
+        "recommended": false,
+        "loadoutCode": "CUkAAAAAAAAAAAAAAAAAAAAAAAAMjZmZMzMjMzMYWMzMjBjZGzYGzMDzMzM2MzsNGAAAAwsNDGGLLMhhZmxCAAAAGMAEgZGgBAAAwA",
+        "bullets": [
+          "Method Raid Aldrachi. Icy Veins: slightly behind on pure ST and loses more when forced out of melee.",
+          "Viable if you prefer the playstyle or the fight has small adds for Wounded Quarry funnel.",
+          "Method: finish the Reaver's Glaive combo with Soul Cleave on current tuning.",
+          "Always Incorruptible Spirit and Keen Engagement over the other choice nodes.",
+          "Same raid cheat-death flex: Soul Carver out, Last Resort in if content is hard.",
+          "Icy Veins still defaults Annihilator for virtually all raid fights."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Annihilator",
+        "recommended": true,
+        "loadoutCode": "CUkAAAAAAAAAAAAAAAAAAAAAAAAMjZmZMMzkZmBWMjZwMjZGzMzMzYwMzM2YmtxwAAAAAAAAwMzMbAAAAYgZmZmZrtZmZAgBAAAwA",
+        "bullets": [
+          "Icy Veins recommended at all key levels; damage beats Aldrachi funnel.",
+          "Pull around Metamorphosis, Voidfall, and Fiery Brand. World Killer shortens Meta.",
+          "Strongest defensives without big offensive losses; easy keys can Soul Carver over Last Resort.",
+          "Painbringer over Ascending Flame into Revel in Pain (more heal/mit than the tier-buffed path).",
+          "Method M+ template; they skip Sigil of Chains (they still treat it as replacing Misery).",
+          "Flex Imprison, Consume Magic, and Burn It Out or Soul Cleanse by dungeon."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/talents" }
+        ]
+      },
+      {
+        "heroTree": "Aldrachi Reaver",
+        "recommended": false,
+        "loadoutCode": "CUkAAAAAAAAAAAAAAAAAAAAAAAAMjZmZMMzkZmB2MjZwMjZGzMzMzYwMzM2YmtxwAAAAwsNDGGLLMhhZmZWAAAAwADgAMzAMAAAAG",
+        "bullets": [
+          "Method M+ Aldrachi. Icy Veins does not recommend it in most keys (less damage, longer Meta).",
+          "Wounded Quarry funnel plus extra Soul Fragments for self-heal once targets live long enough.",
+          "Same Method Chains note: trade Fel Flame Fortification or Volatile Flameblood if you want Chains.",
+          "Icy Veins still defaults Annihilator for keys.",
+          "Method: Annihilator looks slightly stronger; small tuning could flip it."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Annihilator",
+        "recommended": true,
+        "loadoutCode": null,
+        "bullets": [
+          "Icy Veins Delves picker is Annihilator; they recommend it for virtually all content.",
+          "Burst around Metamorphosis and Mass Acceleration to clear packs before they become dangerous.",
+          "Slightly behind on self-sustain; this build takes most mobility nodes.",
+          "Quick Start copy-paste on the 12.1 page is ST/AoE only; use the Delves picker on that page.",
+          "Method has no separate Delves loadout."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-spec-builds-talents" }
+        ]
+      },
+      {
+        "heroTree": "Aldrachi Reaver",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "Icy Veins Delves picker exists; self-sustain plus Wounded Quarry on small enemies.",
+          "Also opted into most mobility nodes.",
+          "No published copy-paste import on the 12.1 Quick Start block (ST/AoE only).",
+          "Method has no Delves loadout.",
+          "Icy Veins still recommends Annihilator for Delves."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-spec-builds-talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S both trees. Method best burst on-use; ramping Agility fights a frontloaded Meta window. Pair with Metamorphosis.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S both trees. Method best ST proc; needs Aman'muso, especially on 2+ targets. Method Overall pairs this with Heart; raid table uses Core instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S Annihilator / A Aldrachi. Method best general haste-stacking passive (offense plus defense). Raid second trinket; Voidcore this boss on Mythic.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S both trees. Method: similar power to Core; strong second passive if you want rotating secondaries.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A both trees. All-primary on-use from the first Altar of Fangs boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A both trees as the extra defensive absorb layer. Raid tank on-use from Explorers.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A Annihilator / B Aldrachi. Method: 1:30 Crit on-use, a bit worse than Heart; pair with Metamorphosis.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A Annihilator / B Aldrachi. Agility/Strength on-use from the last Altar of Fangs boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A Annihilator / B Aldrachi. Method: Crit ramp slightly below Core; wear a Myth version if you cannot get Core.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A Annihilator / B Aldrachi. Agility on-use from King's Rest.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B Annihilator / C Aldrachi. Only after the whelp is trained.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Manaheart's Binding Flame",
+        "from": "Kystia Manaheart",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B both trees. M+ tank on-use; First Mate's Shellward is the ranked raid absorb.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Permafrost Essence",
+        "from": "Sentinel of Winter",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins B both trees. Dungeon tank trinket while farming Den of Nalorakk weapons.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Idol of the Howling Nexus",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B Annihilator / C Aldrachi. Raid tank Mastery stick; Apex Brute's Claw Ring is the Sszorak pickup to chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B Annihilator / C Aldrachi. Agility on-use from Voidscar Arena.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B Annihilator / C Aldrachi. Agility/Intellect passive from The Blinding Vale.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B both trees. Agility/Intellect/Strength passive from Ziekket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B both trees. Mastery on-use from the same boss as Heart; do not take this over Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C both trees. Agility passive from Vashnik; take the chest token first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mchimba's Ritual Bandages",
+        "from": "Mchimba the Embalmer",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins C both trees. 60s dungeon defensive; First Mate's Shellward is the ranked absorb.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C both trees. Agility passive from Temple of Sethraliss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins C Aldrachi; absent from the Annihilator chart (treat as C or skip).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S both trees. Line up with Metamorphosis on big pulls. Method still calls it the best burst on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S. Pair with Aman'muso on 2+ target pulls; still usable alone if the glaive is not upgraded yet.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S Annihilator / A Aldrachi. Solid catch while you farm Heart or a Myth Bellowstone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S both trees. Method often sits this next to Core as the other high-uptime passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A Annihilator / B Aldrachi. Method M+ table pairs this with Bellowstone; 1:30 Crit with Meta.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Resonant Bellowstone",
+        "from": "Xathuux the Annihilator",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A Annihilator / B Aldrachi. Method M+ table partner to Flask; Myth version if you lack Core.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A both trees. Farm it while targeting Altar of Fangs helm and neck.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "First Mate's Shellward",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A both trees if you want a defensive absorb in keys. Do not replace Heart or Guillotine with this by default.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Tattered Amani War Banner",
+        "from": "Zul'jan",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A Annihilator / B Aldrachi. On-use from Zul'jan while farming the M+ helm catalyze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins A Annihilator / B Aldrachi. Agility on-use while farming Ritual Binder's Ring and the legs catalyze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B Annihilator / C Aldrachi. Only after the whelp is trained; otherwise leave it in the bag.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Manaheart's Binding Flame",
+        "from": "Kystia Manaheart",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B both trees. M+ tank on-use from a dungeon you already farm for hands and Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Permafrost Essence",
+        "from": "Sentinel of Winter",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins B both trees. Dungeon tank trinket; Grim Harvest Gloves are the Den pickup to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Idol of the Howling Nexus",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B Annihilator / C Aldrachi. Raid tank stick; skip if you already have Heart plus Core or Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins B Annihilator / C Aldrachi. Farm while catalyzing Hide of Pestilence.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B Annihilator / C Aldrachi. Passive from Vale; Method M+ belt from this dungeon is Rootwalker Harness.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/vengeance-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B both trees. Farm Ziekket while you are already in Vale.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B both trees. Never take this over Heart from the same boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C both trees. Skip for keys; the Vashnik pickup is the chest token.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Mchimba's Ritual Bandages",
+        "from": "Mchimba the Embalmer",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins C both trees. Emergency only; do not replace Flask, Bellowstone, or Heart with this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tiny Electromental in a Jar",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C both trees. Agility passive; not an Icy Veins Vengeance farm target.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tumor of the Swarm",
+        "from": "Atroxus",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins C Aldrachi; absent from the Annihilator chart. Easy Voidscar farm while catalyzing Hide of Pestilence.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/vengeance-demon-hunter-pve-tank-gear-best-in-slot" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      }
+    ]
+  }
+}

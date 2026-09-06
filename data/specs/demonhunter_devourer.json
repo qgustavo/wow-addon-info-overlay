@@ -1,0 +1,675 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 12,
+  "specId": 1480,
+  "className": "Demon Hunter",
+  "specName": "Devourer",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "One-Hand",
+      "item": "Spellbreaker's Warglaive (Hunter's Ritual Stone)",
+      "notes": "Icy Veins and Method first Spark. Warglaive so you can swap Havoc/Vengeance. Skip Day-1 if you would rather wait out recraft after S2 cantrip changes. Drop Hunt once you have two Myth-track weapons.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Silvermoon Agent's Deflectors (Arcanoweave Lining)",
+      "notes": "Icy Veins second Spark and Method Overall wrists. Arcanoweave Lining is the long-term second embellishment. Two embellishments max. Icy Veins missive is Peerless (Crit/Mastery); Method uses Feverflare (Haste/Mastery).",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Silvermoon Agent's Sneakers (Arcanoweave Lining)",
+      "notes": "Icy Veins overall/raid/M+ boots. After a second 344 weapon they recraft lining here and remove Hunt. Method Overall also wears these; lining slot can be wrists, sneakers, or cloak.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+      ]
+    },
+    {
+      "slot": "Back",
+      "item": "Adherent's Silken Shroud (Arcanoweave Lining)",
+      "notes": "Method second-craft lining option if you already have raid cloak upgrades or prefer the low-budget slot. Skip if you already wear lining wrists or sneakers.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Jan'thrazet, the Soul Fang" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Head", "item": "Gaze of the Coiled Watcher (catalyze)" }
+        ],
+        "notes": "Icy Veins and Method Voidcore first. Cantrip dagger, cantrip neck, cantrip helm. Do not take Font of Venomous Rage over these; Icy Veins calls Font one of the worst rolls on this table.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Off Hand", "item": "Baleful Hexblade" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Waist", "item": "Sash of the Forlorn Vessel" },
+          { "slot": "Legs", "item": "Coiled Hex Legguards (catalyze)" },
+          { "slot": "Trinket", "item": "Hex Lord's Dooming Idol" }
+        ],
+        "notes": "Icy Veins chase after Ula'tek. Method Overall off-hand, cloak, belt, and legs catalyze. Hex Lord is Icy Veins A-tier.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" }
+        ],
+        "notes": "Icy Veins S and Method Overall/Voidcore. Icy Veins raid BiS pairs Gebbo with Fang of Umbral Malignance; Method Overall pairs it with Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Abyssal Doomhound's Studded Gauntlets (tier token)" }
+        ],
+        "notes": "Icy Veins overall/raid catalyze and Method Overall gloves. Keep the Sentinels secondary stats when you catalyze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Finger", "item": "Vile Alchemist's Band" },
+          { "slot": "Trinket", "item": "Fang of Umbral Malignance" },
+          { "slot": "Shoulders", "item": "Frothing Venom Spaulders (catalyze)" }
+        ],
+        "notes": "Icy Veins and Method Overall ring. Fang is Icy Veins raid BiS second trinket. Raid-only shoulder catalyze; overall mix uses Somber Spaulders from Voidscar Arena instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Chest", "item": "Vestment of the Awakening (catalyze)" }
+        ],
+        "notes": "Icy Veins raid chest catalyze. Overall mix catalyzes War Trial Vestments from Den of Nalorakk instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins raid BiS second ring. Overall and Method Overall use Charged Sandstone Band from Temple of Sethraliss instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Trinket", "item": "Freightrunner's Flask" },
+          { "slot": "Finger", "item": "Signet of Snarling Servitude" },
+          { "slot": "Legs", "item": "Breeches of Deft Deals (catalyze)" }
+        ],
+        "notes": "Icy Veins first farm and Method Voidcore on +10. Best Season 2 on-use; line up with Void Metamorphosis. M+ catalyze legs if you skip Coiled Hex Legguards.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Mindpiercer's Sigil" },
+          { "slot": "Shoulders", "item": "Somber Spaulders (catalyze)" }
+        ],
+        "notes": "Icy Veins second farm: A-tier Intellect passive and overall shoulder catalyze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Chest", "item": "War Trial Vestments (catalyze)" }
+        ],
+        "notes": "Icy Veins overall chest catalyze; beats the raid alternative. Icy Veins also names this as a Vault/Voidcore catalyze target.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Finger", "item": "Charged Sandstone Band" },
+          { "slot": "Head", "item": "Hood of the Slithering Loa (catalyze)" }
+        ],
+        "notes": "Icy Veins and Method Overall ring. M+ helm catalyze if you skip Gaze of the Coiled Watcher.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Main Hand", "item": "Polished Lightwood Channeler" },
+          { "slot": "Off Hand", "item": "Polished Lightwood Channeler" },
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom" }
+        ],
+        "notes": "Icy Veins M+ weapons until Jan'thrazet and Baleful Hexblade. Vial is their second on-use; Method lists it as an alternative.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Hands", "item": "Desiccator's Blessed Gloves (catalyze)" },
+          { "slot": "Trinket", "item": "Stormbound Emblem of Dazar" }
+        ],
+        "notes": "Icy Veins M+ glove catalyze. Stormbound is Icy Veins B Intellect on-use from this dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Trinket", "item": "Ruby Whelp Shell" }
+        ],
+        "notes": "Icy Veins M+ BiS second trinket with Flask. A-tier only after the whelp is trained (four Crit alone, two Haste in a group).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Void-Scarred",
+        "recommended": true,
+        "loadoutCode": "CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzMjBmBAAAAAAY5BGz2gZAAAAAAAAYGzw8AzMzMzMzMjZ2mZM202CACYAMmZmtZmpZbmlZmxYGA",
+        "bullets": [
+          "Icy Veins default ST (updated 18 Aug 2026). Void-Scarred is ahead of Annihilator in all Venomous Abyss fights after 12.1.",
+          "Skip Apex Midnight; Collapsing Star is not worth the pacing hit. Soul Glutton for short, frequent Meta.",
+          "Cull and Reap are the core; take Second Helping, Soulshaper, Moment of Craving, and Devourer's Edge.",
+          "Raid cleave: Icy Veins flexes Eradicate. Two-plus targets: Second Helping into Sweet Suffering.",
+          "Method melee ST is their strongest import by about 5%; caster ST exists if you hate the leap playstyle.",
+          "Season 2 4pc is Reap-focused; Void-Scarred lines up with it better than Annihilator."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/talents" }
+        ]
+      },
+      {
+        "heroTree": "Annihilator",
+        "recommended": false,
+        "loadoutCode": "CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMzMzMjZmZMzsYGjFtswMzMzWbzMzAYGDABMGMmB",
+        "bullets": [
+          "Method ST import (drops Eradicate for Umbral Blade). Icy Veins has no published Annihilator ST string in the quick-start block.",
+          "Icy Veins: firmly behind Void-Scarred after the 12.1 damage redistribution; play it only if you prefer caster.",
+          "Always Emptiness and Tempered Soul. Harness the Cosmos over Doomsayer; Doomsayer fires once on true ST.",
+          "Method: Apex Midnight is a real gain here because you still press Collapsing Star.",
+          "Cycle Fury and Souls into long Meta windows for Impending Apocalypse Collapsing Star payoffs.",
+          "Method (12 Aug 2026) still recommends Void-Scarred melee ST over this."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Void-Scarred",
+        "recommended": true,
+        "loadoutCode": "CgcBAAAAAAAAAAAAAAAAAAAAAAAWMzMzMzYMGmBAAAAAAY5BGz2gZAAAAAAAAYGzw8AzMzMzMzMjZ2mZM202CACYAMmZmtZmpZZmlZmhZGA",
+        "bullets": [
+          "Icy Veins default AoE/M+. Still ahead at all key levels; Annihilator AoE closes some gap but dumps single-target.",
+          "Take the full capstones and skip Apex. Finish the right side to Eradicate so Reap becomes an AoE frontal after Void Ray.",
+          "Soul Glutton for short burst Meta you can aim at pulls. Faster ramp than Season 1 caster Devourer.",
+          "Method melee M+ is their recommended keys import and also takes Eradicate.",
+          "Boss damage still matters in keys; Icy Veins would not swap to Annihilator just for pack size.",
+          "Class-tree M+ extras on Method: Demon Muzzle after Disrupt, Demonic Resilience (second Blur)."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/talents" }
+        ]
+      },
+      {
+        "heroTree": "Annihilator",
+        "recommended": false,
+        "loadoutCode": "CgcBAAAAAAAAAAAAAAAAAAAAAAA2mxMzMzMzMGmBAAAAAAgxsNYGAAAAAAAAmxMMzMzMzMzMDzsYGjFtswMzMzWbzMzAYGDABMGMmB",
+        "bullets": [
+          "Method Raid Cleave / M+ import. Reap and Cull when they will collect 4+ souls.",
+          "Icy Veins: only play this if you strongly prefer caster; it sacrifices a lot of single-target.",
+          "Still takes Emptiness. Eradicate for Reap after Void Ray.",
+          "Harness the Cosmos for boss damage; Doomsayer in lower keys or when you drop combat often.",
+          "Tempered Soul over Spontaneous Immolation in all group content (Method and Icy Veins).",
+          "Icy Veins still defaults Void-Scarred for keys."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Void-Scarred",
+        "recommended": true,
+        "loadoutCode": "CgcBAAAAAAAAAAAAAAAAAAAAAAA2MzMzMzMjxwMAAAAAAAmxAmBAAAAAAAgZMDzDMzMzMzMzMmZbmxYTbbAIgBwMzMz2Mz0sNz2MzwMDA",
+        "bullets": [
+          "Icy Veins published Delves import is Void-Scarred.",
+          "Fits the pull cadence; size packs around your Void Metamorphosis state.",
+          "High movement, frequent burst, and single-target already in the default loadout.",
+          "Skip Apex Midnight like the other Void-Scarred builds.",
+          "Method has no separate Delves page; use this for solo and open world.",
+          "Annihilator Delves is only an alternative if you prefer stop-start caster pacing."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/talents" }
+        ]
+      },
+      {
+        "heroTree": "Annihilator",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Annihilator Delves import on Icy Veins (quick-start) or Method.",
+          "Icy Veins: stop-and-start pulls work; Doomsayer helps set up between rooms.",
+          "Less versatile than Void-Scarred, so it stays an alternative.",
+          "Method has no Delves page.",
+          "Use the Void-Scarred Delves loadout on this tab for this content."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S (best M+ passive) and Method Overall. High-uptime secondaries; pair with Flask on Method Overall, or with Fang in Icy Veins raid BiS.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins S best on-use; hold for Void Metamorphosis. Method Overall second trinket and Voidcore on +10.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Wavecaller's Seastone",
+        "from": "Tidebound Grotto",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins S best raid passive (Intellect proc with ramp). Method also names it among the best. Not in the S2 key pool; only if you still have one.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A and raid BiS second trinket. Intellect passive that procs often on a spell-heavy rotation.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins A Intellect passive. Second dungeon farm while you catalyze Somber Spaulders.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A second on-use; longer cooldown than Flask. Pair with Void Metamorphosis. Method alternative.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins A dungeon proc. Train four times Crit (use it while alone) and twice Haste (use it in a group); skip until trained.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Haste passive/on-use from Coiled Altar. Pickup while farming Hexblade, cloak, and belt.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B all-primary passive. Catch while you wait on Gebbo or Seastone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins B Intellect on-use. Farm it while catalyzing Desiccator's Blessed Gloves.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C channel with a long cooldown. Same boss as Jan'thrazet; Icy Veins warns this is a bad Voidcore hit.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Intellect on-use. Skip while chasing Ula'tek and Coiled Altar cantrips.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C Intellect passive. Altar farm is the Channelers and Vile Vial, not this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins D (shown as C here). Standing in the zone cancels Void Ray. Method still lists it as an alternative.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S best M+ passive; high-uptime secondaries match frequent Meta. Method Overall pairs this with Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins S on-use and M+ BiS pair with Ruby Whelp Shell. Hold for Void Metamorphosis on big pulls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Wavecaller's Seastone",
+        "from": "Tidebound Grotto",
+        "instance": "Tidebound Grotto (S1 leftover)",
+        "whenToUse": "Icy Veins S raid passive. Not in the S2 pool; keep it in keys only if ilvl still beats Gebbo or Sigil.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A intellect passive. Raid drop; still fine in keys until Gebbo or Sigil is upgraded.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins A. Farm Voidscar with Somber Spaulders; dungeon stand-in for Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A on-use if Flask is late. Pair with Meta. Farm it with the Polished Lightwood Channelers.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins M+ BiS second slot with Flask. Train four Crit / two Haste before you wear it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A. Raid Haste option if your dungeon on-use is still Hero-track.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B passive while you farm Sigil, Flask, or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins B Intellect on-use. Pickup while catalyzing King's Rest gloves.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C. Never Voidcore Ula'tek hoping for this; you want the Fang, Reliquary, or Gaze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C. Flask or Vial is the on-use to chase for keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C. Altar keys are for Channelers and Vile Vial.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins D (shown as C here). Zone proc cancels Void Ray; skip in keys. Method still lists it as an alternative.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/devourer-demon-hunter-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/devourer-demon-hunter/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

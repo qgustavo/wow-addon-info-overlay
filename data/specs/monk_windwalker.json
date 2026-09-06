@@ -1,0 +1,656 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 10,
+  "specId": 270,
+  "className": "Monk",
+  "specName": "Windwalker",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Wrist",
+      "item": "Silvermoon Agent's Deflectors (Arcanoweave Lining)",
+      "notes": "Icy Veins and Method lining slot. Lowest-budget leather; skip a weapon Spark and Voidcore Heroic Ula'tek for the Bardiche instead. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Silvermoon Agent's Sneakers (Arcanoweave Lining)",
+      "notes": "Method overall/raid BiS second lining. Icy Veins BiS lists already assume these boots once you will loot 344 Silken Voodoo Drape; craft here so you do not recraft later.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+      ]
+    },
+    {
+      "slot": "Back",
+      "item": "Adherent's Silken Shroud (Arcanoweave Lining)",
+      "notes": "Icy Veins text prefers bracers plus cloak as the two lowest-budget linings if you will not kill Mythic Coiled Altar. Icy Veins M+ BiS wears this cloak; raid BiS swaps to Silken Voodoo Drape.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+      ]
+    },
+    {
+      "slot": "Finger",
+      "item": "Masterwork Sin'dorei Band",
+      "notes": "Method raid BiS second ring. Icy Veins raid uses Apex Brute's Claw Ring plus Vile Alchemist's Band instead; overall Icy Veins/Method keep dungeon rings.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Two-Hand", "item": "Abyssal Broodfiend's Bardiche" },
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Head", "item": "Gaze of the Coiled Watcher (catalyze)" }
+        ],
+        "notes": "Voidcore first. Icy Veins: Heroic roll is Myth-track; Mythic is +10 ilvl. Coin until Bardiche, Heart, Gaze, and Reliquary; loot Brewmaster to drop Font from the pool.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Waist", "item": "Sash of the Forlorn Vessel" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Legs", "item": "Coiled Hex Legguards (catalyze)" }
+        ],
+        "notes": "Voidcore second. Method Mythic-only for Guillotine. 344 cloak is why Icy Veins moves the second lining off cloak onto boots. Icy Veins overall catalyzes these legs into Pantaloons of the Monkey King.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Shoulders", "item": "Tassels of the Monkey King (catalyze)" },
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" }
+        ],
+        "notes": "Icy Veins overall/raid catalyze shoulders here. Method raid wears Tassels as the drop; Method Voidcores Mythic Explorers for Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Chest", "item": "Battle Gi of the Monkey King (tier)" },
+          { "slot": "Finger", "item": "Vile Alchemist's Band" },
+          { "slot": "Shoulders", "item": "Frothing Venom Spaulders (catalyze)" }
+        ],
+        "notes": "Method overall/raid chest is this Vashnik tier piece. Icy Veins raid ring. Icy Veins raid FAQ catalyzes these shoulders; the raid BiS table catalyzes Lost Explorers Tassels instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Hands", "item": "Monkey King's Fighting Fists (tier)" },
+          { "slot": "Trinket", "item": "Keeper's Seething Core" }
+        ],
+        "notes": "Method raid/overall gloves. Icy Veins overall catalyzes Gauntlets of Fevered Defense from Murder Row instead. Method lists Keeper's as a good high-target passive.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Chest", "item": "Vestment of the Awakening (catalyze)" }
+        ],
+        "notes": "Icy Veins overall/raid catalyze this chest into Battle Gi of the Monkey King. Method overall/raid chest is the Vashnik tier drop, not this catalyze.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins raid BiS second ring. Skip if you already have Sickening Signet of Atroxus or Method's crafted band.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Two-Hand", "item": "Toxin-Coated Warstaff" },
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom" }
+        ],
+        "notes": "Icy Veins first farm: M+ BiS staff and the dungeon 2-minute on-use. Method M+ weapon is Victor's Flashfrozen Blade from Nalorakk instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Lightspire Core" },
+          { "slot": "Trinket", "item": "Sapling of the Dawnroot" },
+          { "slot": "Back", "item": "Bloodthorn Burnous" }
+        ],
+        "notes": "Icy Veins second farm: M+ BiS list wears Lightspire; rankings put it D and Sapling B (25 Aug 2026). Method M+ BiS is Sapling plus this cloak.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Feet", "item": "Arctic Explorer's Legwraps" },
+          { "slot": "Chest", "item": "War Trial Vestments (catalyze)" },
+          { "slot": "Two-Hand", "item": "Victor's Flashfrozen Blade" }
+        ],
+        "notes": "Icy Veins third farm: M+ BiS boots and chest catalyze. Method M+ BiS weapon. Skip the boots if you craft Silvermoon Agent's Sneakers.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Head", "item": "Vilefiend's Guise (catalyze)" },
+          { "slot": "Neck", "item": "Pendant of Malefic Fury" },
+          { "slot": "Hands", "item": "Gauntlets of Fevered Defense (catalyze)" },
+          { "slot": "Legs", "item": "Breeches of Deft Deals (catalyze)" },
+          { "slot": "Trinket", "item": "Freightrunner's Flask" }
+        ],
+        "notes": "Icy Veins: most M+ slots. M+ FAQ helm/gloves here; M+ BiS table also catalyzes legs here. Method M+ helm, neck, Flask; Method M+ legs are these breeches.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus", "from": "Atroxus" },
+          { "slot": "Shoulders", "item": "Somber Spaulders (catalyze)" },
+          { "slot": "Trinket", "item": "Void Execution Mandate" }
+        ],
+        "notes": "Icy Veins overall/M+ ring. Method Voidcores +10 for the signet. Icy Veins M+ catalyze shoulders here; Method M+ shoulders are vault Tassels.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Finger", "item": "Charged Sandstone Band" },
+          { "slot": "Waist", "item": "Whirling Dervish Sash" }
+        ],
+        "notes": "Icy Veins overall/M+ ring. Method M+ BiS belt. Icy Veins M+ BiS waist is Primal Dinomancer's Belt from King's Rest instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Waist", "item": "Primal Dinomancer's Belt" },
+          { "slot": "Trinket", "item": "Lustrous Golden Plumage" }
+        ],
+        "notes": "Icy Veins M+ BiS belt. Plumage is Icy Veins B on-use. Not on the short farm list; pick it up if you are already here.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Shado-Pan",
+        "recommended": true,
+        "loadoutCode": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYM2GmhlZGbzAAAAAAAAAAAAsMMCzwwAmZGmZmZY2GmhZZmAAWMz2MjZmZmBAwGAMLzSzMzsAgBmZAYsMAGwFA",
+        "bullets": [
+          "Icy Veins default raid Shado-Pan; they recommend it on all Venomous Abyss bosses this tier.",
+          "Pure ST Shado-Pan is ahead of Conduit and still does decent cleave without swapping.",
+          "Simpler and less punishing; Conduit has a slightly higher ceiling.",
+          "Apex Tigereye Brew: do not dump both Zenith charges back-to-back; the second has few stacks.",
+          "Method Shado-Pan ST import is close (not identical). Flurry Strikes cap at 30; do not skip Fists of Fury.",
+          "Icy Veins also calls Shado-Pan ahead in AoE from flexible cooldowns and a simpler loop."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/talents" }
+        ]
+      },
+      {
+        "heroTree": "Conduit of the Celestials",
+        "recommended": false,
+        "loadoutCode": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYM2GmhlZmZbGAAAAAAAAAAAglhRzYGwAmxwMzMDz2wMMLzEAwiZ2mZMjZmBAwiZWmtxEEAAGAzAMWGImZmFXA",
+        "bullets": [
+          "Method Conduit ST import; Icy Veins raid default is Shado-Pan (this tree is labeled advanced).",
+          "Higher ceiling, more punishing; play Heart of the Jade Serpent windows from Zenith, Celestial Conduit, Strike of the Windlord, and Whirling Dragon Punch.",
+          "Method: Heart of the Jade Serpent from Zenith (Yu'lon's Avatar) stacks with other Heart of the Jade Serpent buffs.",
+          "Method: 90-second on-use Heart wants Xuen's Bond on Conduit.",
+          "Rank 3 Apex replaces Zenith with Zenith Stomp charges; spend them before Zenith expires.",
+          "Icy Veins still recommends Shado-Pan on all raid bosses this tier."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Conduit of the Celestials",
+        "recommended": true,
+        "loadoutCode": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmZ2mBAAAAAAAAAAAYZYEmhhBMjhZmZGmNMDzyMBAswsxMmZmZAAsYmlZZMBAAmZGAzAMWGDYmZ2M",
+        "bullets": [
+          "Icy Veins quick-start Mythic+ import; labeled high-keys. Method has a separate Conduit M+ string.",
+          "Icy Veins: Conduit shines when cooldowns are planned (high-level or MDI-type groups).",
+          "Method: 90-second Flask or Heart wants Xuen's Bond on Conduit.",
+          "Bank Chi before Heart of the Jade Serpent so the sped-up Fists of Fury window is not wasted.",
+          "Rank 3 Apex: Zenith Stomp replaces Tiger Palm for Chi; leftover charges vanish when Zenith ends.",
+          "Same import as Icy Veins Delves; Icy Veins AoE prose still says Shado-Pan is ahead."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/talents" }
+        ]
+      },
+      {
+        "heroTree": "Shado-Pan",
+        "recommended": false,
+        "loadoutCode": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYAMGbzMz2MAAAAAAAAAAAALDz0MmhhBMMMzMzwsNMDzyDMBAsYmtZmxMzMDAgNAYWmlmZmZBADMzAwYZgYAD",
+        "bullets": [
+          "Method Shado-Pan Mythic+ import; Icy Veins weekly-keys label. Icy Veins did not publish a separate Shado-Pan M+ string.",
+          "Safer for newer players and PUGs; Icy Veins says Shado-Pan is ahead in AoE from flexible cooldowns.",
+          "Do not overcap Flurry Strikes at 30 by skipping Fists of Fury.",
+          "Method 4pc: at 2+ targets, Spinning Crane Kick after Fists of Fury to spend the buff.",
+          "Icy Veins quick-start Mythic+ is still Conduit.",
+          "Method has no Delves page; use this tree in keys if you want the simpler loop."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Conduit of the Celestials",
+        "recommended": true,
+        "loadoutCode": "C0QAAAAAAAAAAAAAAAAAAAAAAMzYMgxYZmZ2mBAAAAAAAAAAAYZYEmhhBMjhZmZGmNMDzyMBAswsxMmZmZAAsYmlZZMBAAmZGAzAMWGDYmZ2M",
+        "bullets": [
+          "Icy Veins published Delves import is Conduit; same string as their Mythic+ quick-start.",
+          "Icy Veins labels Delves recommended for Conduit.",
+          "Delves use the same damage profile as Mythic+, so the talent build is the same.",
+          "Method has no separate Delves page.",
+          "Apex Tigereye Brew refills to 10 stacks out of combat quickly if you are below that.",
+          "Use this for solo and open world."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/talents" }
+        ]
+      },
+      {
+        "heroTree": "Shado-Pan",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Shado-Pan Delves import on Icy Veins; Delves quick-start is Conduit only.",
+          "Icy Veins has a Shado-Pan Delves tab and says Delves match the Mythic+ damage profile.",
+          "Method has no Delves page.",
+          "Use the Shado-Pan Mythic+ loadout on the M+ tab if you want this tree in Delves."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method best on-use. 90s Agility plus physical; macro to Zenith. Stronger on Conduit. Mythic can go to 344.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method best passive. Highest-ilvl passive; Method default in all content, especially single-target.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A / Method good 90s on-use. Stronger on Conduit. Method M+ BiS on-use until Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A / Method good. Strongest 2-minute dungeon on-use; Icy Veins best dungeon on-use if you play Shado-Pan.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins A Agility on-use. Does not scale as well into multi-target as Heart, Flask, or Vial.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A / Method good. Strongest passive in AoE. Method Voidcores Mythic Explorers for this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B (moved down 25 Aug 2026) / Method good passive. Method M+ BiS pair with Flask.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B Mastery on-use from the same boss as Heart. Icy Veins: loot Brewmaster so this drops out of the Voidcore pool; never take it over Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins B Agility on-use from King's Rest.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here) / Method good high-target passive with Gebbo and Sapling. Catch while you wait on Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins D (C here) but the M+ BiS list still wears it. Rankings prefer Sapling from the same dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins D (C here). Agility/Strength on-use; Vile Vial is the Altar on-use Icy Veins actually ranks A.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here). Agility passive from Vashnik; skip vs Heart plus Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method best on-use on big pulls. Macro to Zenith; dungeon BiS lists are stopgaps until this lands.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method default passive in keys too. Pair with Heart; Gebbo if the pull is pure AoE.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A / Method M+ BiS 90s on-use with Sapling. Stronger on Conduit; farm Murder Row with the catalyze slots.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A and Icy Veins M+ BiS on-use. Best 2-minute dungeon on-use if you play Shado-Pan.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Void Execution Mandate",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins A. Farm Voidscar with the signet; skip this on large packs where it scales worse.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A strongest AoE passive. Vault or Method Mythic Explorers Voidcore while you wait on Guillotine.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B / Method M+ BiS passive with Flask. Farm Vale while you are already there for the cloak.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B. Same boss as Heart; never take this over Heart in keys either.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Lustrous Golden Plumage",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins B. Pick up with Primal Dinomancer's Belt; Flask or Vial is the dungeon on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here) / Method good high-target passive. Vault catch, not a key farm target.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Lightspire Core",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins D (C here) but Icy Veins M+ BiS still lists it with Vile Vial. Rankings and Method M+ prefer Sapling.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/windwalker-monk/gearing" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins D (C here). Vile Vial is the Altar on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Vashnik's Sanguine Rancor",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins D (C here). Raid Agility passive; skip vs Flask, Vial, or Sapling in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/windwalker-monk-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}

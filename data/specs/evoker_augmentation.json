@@ -1,0 +1,757 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 13,
+  "specId": 1473,
+  "className": "Evoker",
+  "specName": "Augmentation",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Off-Hand",
+      "item": "Aln'hara Lantern (Hunter's Ritual Stone)",
+      "notes": "Icy Veins first Spark if you Voidcore Ula'tek for Soul Fang. Replace Hunt once two Arcanoweave Linings are online; lining beats Hunt or Darkmoon Sigil: Hunt. Method recrafts Hunt onto this lantern after a Myth-track one-hand. Method M+ off-hand. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Aln'hara Cane (Hunter's Ritual Stone)",
+      "notes": "Method first Spark. Icy Veins crafts a staff instead of the lantern only if you are not bonus-rolling Ula'tek. Skip once Heroic+ Jan'thrazet, the Soul Fang is online, then recraft. Icy Veins: hold Day 1 crafts after last-minute cantrip changes.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Main Hand",
+      "item": "Magister's Ritual Knife (Hunter's Ritual Stone)",
+      "notes": "Icy Veins early knife only if Soul Fang is late and you need weapon power now. Keep it until equal-or-better Soul Fang, then spend the Spark on an Arcanoweave armour piece. Skip if you followed Method's staff path.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Farstrider's Plated Bracers (Arcanoweave Lining)",
+      "notes": "Icy Veins and Method overall, raid, and M+ wrists. Long-term lining after the weapon Spark; Icy Veins removes Hunt from the weapon when this is crafted. Arcanoweave is the best lining (ally primary stat). Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+      ]
+    },
+    {
+      "slot": "Waist",
+      "item": "Farstrider's Trophy Belt (Arcanoweave Lining)",
+      "notes": "Icy Veins and Method overall, raid, and M+ belt. Second lining; Icy Veins removes Hunt from the lantern when this is crafted. Method second Spark can be lining on your lowest-ilvl slot first, then recraft here. Two embellishments max.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+        { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Main Hand", "item": "Jan'thrazet, the Soul Fang" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Chest", "item": "Awoken Dreadfang Cuirass (catalyze)" }
+        ],
+        "notes": "Icy Veins first three Voidcores: Heroic Ula'tek in Preservation loot-spec to drop the DPS trinket. Method Voidcores all three. Keep the cantrip chest; Icy Veins overall and raid catalyze it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Shoulders", "item": "Soulslither Spaulders (catalyze)" },
+          { "slot": "Legs", "item": "Cuisses of the Uncoiled Union (catalyze)" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" }
+        ],
+        "notes": "Method high-priority Voidcore after Ula'tek. Icy Veins overall and raid catalyze both armour pieces; cloak is overall and raid BiS.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Finger", "item": "Vile Alchemist's Band" },
+          { "slot": "Trinket", "item": "Fang of Umbral Malignance" },
+          { "slot": "Waist", "item": "Serpentine Mixing Belt" }
+        ],
+        "notes": "Icy Veins Voidcore next: Band plus Mixing Belt. Stay Preservation if raid trinkets are done; DPS spec if you want Fang for keys. Overall/raid belt is still the crafted Trophy Belt.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" }
+        ],
+        "notes": "Method Voidcore. Icy Veins: the only standout all-content trinket; A in the raid table, S in Mythic+.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Off-Hand", "item": "Spine of the Hissing Abyss" },
+          { "slot": "Hands", "item": "Calamitous Echo's Ebon Greathorns (tier token)" }
+        ],
+        "notes": "Icy Veins and Method overall/raid off-hand. Icy Veins raid catalyzes this glove token; overall and M+ catalyze Galerattle Gauntlets from Ruby Life Pools instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Trinket", "item": "Vexhul's Everflowing Gland" }
+        ],
+        "notes": "Icy Veins S-tier raid on-use and Method raid BiS pair with Wavecaller's Seastone. Kill CDR on adds. Skip if you already have two strong passives.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Feet", "item": "Ferocious Scaleboots" },
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins and Method overall/raid boots. Icy Veins raid second ring; overall second ring is Charged Sandstone Band from Temple of Sethraliss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 8,
+        "items": [
+          { "slot": "Head", "item": "Crown of the Eternal Fang (catalyze)" }
+        ],
+        "notes": "Icy Veins and Method raid-only helm catalyze. Overall and M+ catalyze Sethraliss' Fanged Helm from Temple of Sethraliss instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Head", "item": "Sethraliss' Fanged Helm (catalyze)" },
+          { "slot": "Legs", "item": "Legguards of the Awakening Brood (catalyze)" },
+          { "slot": "Finger", "item": "Charged Sandstone Band", "from": "Galvazzt" },
+          { "slot": "Feet", "item": "Sabatons of Coruscating Energy" }
+        ],
+        "notes": "Icy Veins first farm: most BiS pieces of any dungeon. Preservation loot-spec to skip the dungeon trinket. Overall helm catalyze and overall second ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Mindpiercer's Sigil" },
+          { "slot": "Chest", "item": "Manipulator's Vest (catalyze)" },
+          { "slot": "Waist", "item": "Behemoth Waistband" }
+        ],
+        "notes": "Icy Veins second farm: S-tier Sigil plus a good belt. Icy Veins M+ catalyzes this chest. Method M+ uses the belt if you skip crafted Trophy Belt.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Icy Veins dungeon", "url": "https://www.icy-veins.com/wow/voidscar-arena-dungeon-guide" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Trinket", "item": "Freightrunner's Flask", "from": "Zaen Bladesorrow" },
+          { "slot": "Neck", "item": "Pendant of Malefic Fury", "from": "Lithiel Cinderfury" },
+          { "slot": "Back", "item": "Speakeasy Shroud" },
+          { "slot": "Finger", "item": "Signet of Snarling Servitude", "from": "Xathuux the Annihilator" }
+        ],
+        "notes": "Icy Veins third farm: Flask, M+ neck, cloak, and second ring. Method M+ BiS pair is Flask plus Mindpiercer's Sigil.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Galerattle Gauntlets (catalyze)" }
+        ],
+        "notes": "Icy Veins high-priority Mastery gloves. Overall and M+ catalyze these; raid-only lists use the Entombed Sentinels token instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Shoulders", "item": "Spaulders of Prime Emperor (catalyze)" }
+        ],
+        "notes": "Icy Veins M+ shoulder catalyze. Raid and overall catalyze Soulslither Spaulders from Coiled Altar instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Main Hand", "item": "Polished Lightwood Channeler" }
+        ],
+        "notes": "Icy Veins and Method M+ weapon if Soul Fang is late. Method M+ pairs it with the crafted lantern.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 7,
+        "items": [
+          { "slot": "Trinket", "item": "Lightspire Core", "from": "Lightwarden Ruia" }
+        ],
+        "notes": "Icy Veins M+ BiS second trinket (Mastery proc zone on your head). S in both Icy Veins tables. Method M+ pair uses Sigil instead of this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Chronowarden",
+        "recommended": true,
+        "loadoutCode": "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAAAAYmhxMYM1YmZGAAAAMjZMmZWGzMwMMwYGLsADMDDNwCGjZGAYA",
+        "bullets": [
+          "Icy Veins default raid Chronowarden; Method same import. About 15% ahead of Scalecommander in raid.",
+          "Season 2 4pc magnifies Fate Mirror; Method says that biases Chronowarden in nearly all content.",
+          "Time Skip plus Overlord for Breath of Eons cleave; about 0.5% ahead of Interwoven Threads. Swap for smoother play or better Breath timings.",
+          "Time Skip wants a Tip the Scales cancelaura so the cooldowns stay aligned.",
+          "Duplicate: press Breath of Eons on cooldown for Duplicate uptime instead of holding for a perfect window.",
+          "Default Quell; on bosses with no interrupts, move to Arcane Reach, Bestow Weyrnstone, or Aspects' Favor."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/talents" }
+        ]
+      },
+      {
+        "heroTree": "Scalecommander",
+        "recommended": false,
+        "loadoutCode": "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbjZmxyMYmlZMzMmBAAAAAAAAzMMmBjpGzMzAAAAgZMjxMzyYmBmZzYwCsMGGbDgZQshxAzMAG",
+        "bullets": [
+          "Method raid Scalecommander import; Icy Veins strongly recommends against it (about 15% behind).",
+          "Wingleader was massively nerfed in Season 2; Scalecommander also has poor Prescience synergy with the S2 set.",
+          "Plays Motes of Possibility and Overlord; drops Rumbling Earth for Interwoven Threads (smoother Wingleader).",
+          "Chronowarden cannot make that swap; it needs Rumbling Earth for Primacy on single-target.",
+          "Personal-damage tree; Method still recommends Chronowarden for raiding and high keys.",
+          "Icy Veins (10 Aug 2026) and Method (25 Aug 2026) both default Chronowarden in raid."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Chronowarden",
+        "recommended": true,
+        "loadoutCode": "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbzMzgZYmZZGzMjZ2AAAAAAAAYmhZGYM1YmZGAAAAMjZMmZWGzMwMMwYGLsADMDDNwCGzMzAAD",
+        "bullets": [
+          "Icy Veins high-key Chronowarden; Method M+ import matches. Use this for high keys.",
+          "About 5-10% more single-target than Scalecommander at the same multi-target DPS; most of that is buffs, so allies matter.",
+          "Overlord plus Time Skip for more Breath of Eons; move Overlord to Interwoven Threads for consistency or better dungeon timings.",
+          "Icy Veins does not suggest this in weekly keys; too reliant on ally performance.",
+          "Class-tree flex: Twin Guardian into Oppressing Roar or Terror of the Skies.",
+          "Method (25 Aug 2026): Chronowarden for raid and high keys; Scalecommander for lower or weekly vault keys."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/talents" }
+        ]
+      },
+      {
+        "heroTree": "Scalecommander",
+        "recommended": false,
+        "loadoutCode": "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbjZmxyMYmtZMzMmBAAAAAAAAmhHYGYM1YmZGAAAAMzMjxMz2YmBmZzYwCsMGGbDgZQshxMYmBDG",
+        "bullets": [
+          "Icy Veins weekly Mythic+ / Delve Scalecommander; Method M+ import matches.",
+          "Less buff-reliant, so better on average in weekly keys; comparable on 4-6 targets, falls off over 8; 5-10% less single-target.",
+          "Interwoven Threads plus Overlord. Echoing Strike is about 2% more single-target and 2% less AoE than Pupil of Alexstrasza.",
+          "With Echoing Strike, Azure Strike over Living Flame at all target counts except to consume Leaping Flames.",
+          "Method: Scalecommander for lower keys or weekly vault keys.",
+          "Icy Veins: both trees are viable at all key levels; Chronowarden still has the higher ceiling."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/talents" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Scalecommander",
+        "recommended": true,
+        "loadoutCode": "CEcBAAAAAAAAAAAAAAAAAAAAAMMzMbjZmxyMYmtZMzMmBAAAAAAAAmhHYGYM1YmZGAAAAMzMjxMz2YmBmZzYwCsMGGbDgZQshxMYmBDG",
+        "bullets": [
+          "Icy Veins published Delves import is Scalecommander (same code as weekly Mythic+).",
+          "Less of its damage comes from buffs, so it is less dependent on allies in solo content.",
+          "Echoing Strike keeps the builder instant; Pupil of Alexstrasza is the about 2% AoE swap.",
+          "Interwoven Threads plus Overlord, same as the weekly keys build.",
+          "Method has no Delves page; they recommend Scalecommander for lower or weekly keys.",
+          "Switch to Chronowarden for raid and high keys."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/talents" }
+        ]
+      },
+      {
+        "heroTree": "Chronowarden",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 Chronowarden Delves import on Icy Veins or Method.",
+          "Icy Veins picker marks Scalecommander as the Weekly Mythic+/Delve build.",
+          "Chronowarden's damage is mostly buffs; Icy Veins does not suggest it when allies are weak or absent.",
+          "Use the Scalecommander Delves loadout on this tab for this content."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins S and Method overall/M+ pair. Passive damage plus Intellect proc; slightly worse than stat trinkets on multi-target. Icy Veins overall pair with Wavecaller's Seastone.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "whenToUse": "Icy Veins S and Method overall/raid pair. Stacking primary that ramps to 6 and back to 0; scales better on cleave than damage trinkets. World boss up to Mythic.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S raid on-use and Method's ideal on-use. Damage nuke that hits harder as the target drops HP; 3 min, 5s CDR per kill. Icy Veins prefers passives because Breath of Eons CDR desyncs on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Lightspire Core",
+        "from": "Lightwarden Ruia",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins S Mastery proc; zone always spawns on your head. Mastery is Augmentation's best stat. Uptime is not guaranteed if you have to move.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S raid: stacking DoT; explosions add little in raid. Method: powerhouse in keys, do not equip in single-target. Voidcore Vashnik on DPS spec if you want this for M+.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A raid: 4 min channeled burst. Useful on vulnerability bosses like Coiled Altar; otherwise behind because it is a channel. Never Voidcore this over Soul Fang, Reliquary, or Awoken Dreadfang.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Zaen Bladesorrow",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A raid / Method on-use Crit. Line up with Breath of Eons and ally major cooldowns. Do not pair two on-use trinkets.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A raid / S Mythic+. High-budget stat stick; Icy Veins calls it the only standout all-content trinket. Method Voidcore. Random secondaries; do not plan a window around it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A at 344 ilvl. Ramping Intellect down, then a large on-use when you click. Shift damage into add or vulnerability windows. Slightly undertuned otherwise.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins B raid passive. Farm it while targeting Lightspire Core in the same dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Drum of Renewed Bonds",
+        "from": "Jan'alai altar",
+        "instance": "Zul'Aman",
+        "whenToUse": "Icy Veins B (Hero) Delve trinket. Set it to Mastery at the Jan'alai temple. Strip this slot from macros; the on-use breaks them.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B Intellect passive. Pickup while farming Polished Lightwood Channeler.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B / Method on-use: huge random secondary on 2 min. Method uses it to line Breath of Eons with ally major cooldowns.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B. Farm Galerattle Gauntlets in this dungeon first; whelp value still depends on training.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Darkmoon Deck: Hunt",
+        "from": "Inscription",
+        "instance": "Crafting",
+        "whenToUse": "Icy Veins C. Best Darkmoon Deck, but it spends an embellishment (about 1% DPS), which drops it from A to C. Do not craft this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins D (mapped to C) Intellect on-use. Flask or Vexhul is the on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Fang of Umbral Malignance",
+        "from": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S and Method M+ powerhouse. Stacking DoT explodes on kill and cascades if you chain-pull. Method: do not equip this in single-target.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Mindpiercer's Sigil",
+        "from": "Voidscar Arena",
+        "instance": "Voidscar Arena",
+        "whenToUse": "Icy Veins S and Method M+ pair with Flask. Passive damage plus Intellect; slightly worse than stat trinkets on AoE.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Wavecaller's Seastone",
+        "from": "Nymrissa Wavecaller",
+        "instance": "Tidebound Grotto",
+        "whenToUse": "Icy Veins S. Stacking primary that ramps and falls; scales better on multi-target than damage trinkets. Farm the world boss if keys are not dropping Fang or Sigil.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S in Mythic+ (A in raid). Stat trinkets gain relative value in keys because damage trinkets scale less. Method Voidcore.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Lightspire Core",
+        "from": "Lightwarden Ruia",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins S and Icy Veins M+ BiS pair with Sigil. Mastery zone on your head; movement in keys can clip uptime. Method M+ pair uses Flask instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Freightrunner's Flask",
+        "from": "Zaen Bladesorrow",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins A / Method M+ on-use Crit. Line up with Breath of Eons. Method M+ BiS pair with Mindpiercer's Sigil.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/murder-row-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vexhul's Everflowing Gland",
+        "from": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A in keys: strong priority damage; kills refund 5s on the 3 min cooldown. Method's ideal on-use if you are not running two passives.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Hex Lord's Dooming Idol",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A at 344 ilvl. Click to dump the ramping Intellect down into a pull-start burst while ally cooldowns are running. Undertuned below that ilvl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Drum of Renewed Bonds",
+        "from": "Jan'alai altar",
+        "instance": "Zul'Aman",
+        "whenToUse": "Icy Veins B (Hero). Set Mastery at the Jan'alai temple. Strip this slot from macros; the on-use breaks them.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B in keys: long-channel 4 min burst, undertuned even at 344. Do not take this over Fang, Sigil, or Gebbo.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Knot of Writhing Serpents",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B Intellect passive. Pickup while farming Polished Lightwood Channeler.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Rav'i",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins B / Method on-use for lining Breath of Eons with ally cooldowns. Flask is the Murder Row on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/augmentation-evoker/gearing" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Melidrussa Chillworn",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B. Ruby Life Pools farm for Augmentation is Galerattle Gauntlets; leave the whelp until it is trained.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/how-the-ruby-whelp-shell-trinket-works-in-wow-midnight-season-2" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sapling of the Dawnroot",
+        "from": "Ziekket",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins C in Mythic+ (B in raid). Vale farm is Lightspire Core, not this sapling.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Darkmoon Deck: Hunt",
+        "from": "Inscription",
+        "instance": "Crafting",
+        "whenToUse": "Icy Veins C. Best Darkmoon Deck, but the embellishment cost drops it a full tier. Do not craft this.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Stormbound Emblem of Dazar",
+        "from": "King's Rest",
+        "instance": "King's Rest",
+        "whenToUse": "Icy Veins D (mapped to C). King's Rest farm for Augmentation is Spaulders of Prime Emperor, not this on-use.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/augmentation-evoker-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      }
+    ]
+  }
+}

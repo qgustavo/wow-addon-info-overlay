@@ -1,0 +1,749 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 1,
+  "specId": 71,
+  "className": "Warrior",
+  "specName": "Arms",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Adorned Fang)",
+      "notes": "Icy Veins and Wowhead late BiS pair. Low-budget Spark slot. Two embellishments max; skip a Day-1 craft if you would rather wait out recraft cost.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Spellbreaker's March (Adorned Fang)",
+      "notes": "Second Fang after bracers once you are not holding Hunt on a crafted two-hander. Icy Veins raid and M+ BiS boots.",
+      "sources": [
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Blood Knight's Warblade (Darkmoon Sigil: Hunt)",
+      "notes": "Wowhead early Spark dump if you lack a Myth-track or Venomous Abyss cantrip two-hander. Pair Hunt with Fang bracers, then drop the weapon craft for Maze-roa.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/bis-gear" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Arcanoweave Lining)",
+      "notes": "Method BiS lining on bracers. Wowhead: Fang and Arcanoweave are practically even; Fang edges haste-starved profiles.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" },
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/bis-gear" }
+      ]
+    },
+    {
+      "slot": "Waist",
+      "item": "Spellbreaker's Girdle (Arcanoweave Lining)",
+      "notes": "Method second lining. Method overall, raid, and M+ lists keep this crafted belt; Icy Veins raid BiS uses Girdle of Toxic Regret instead.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Two-Hand", "item": "Maze-roa, Warlord's Fury" },
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Waist", "item": "Girdle of Toxic Regret" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Chest", "item": "Reckless Spirit Breastplate (catalyze)" }
+        ],
+        "notes": "Voidcore first. Cantrip weapon, matching S-tier trinket, Icy Veins belt and cloak, Icy Veins catalyze chest. Method also Voidcores Heroic Maze-roa.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Legs", "item": "Chausses of Unbound Rancor (catalyze)" }
+        ],
+        "notes": "Voidcore second. BiS on-use, double-socket cantrip neck. Icy Veins catalyzes these legs; Method wears Chausses as the cantrip piece.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "The Twin Fangs",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Head", "item": "Tempered Horns of the Jade Warlord" }
+        ],
+        "notes": "Icy Veins overall helm is Twin Fangs or catalyst. Method catalyzes Skullguard of the Risen Sacrifice from Nek'zali instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Jeweled Gauntlets of the Jade Warlord (tier token)" },
+          { "slot": "Trinket", "item": "Keeper's Seething Core" },
+          { "slot": "Two-Hand", "item": "Caustic Keeper-Crusher" }
+        ],
+        "notes": "Wowhead and Method raid glove token. Keeper's Core is Method's raid trinket catch. Method raid alt weapon if Maze-roa is late.",
+        "sources": [
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/bis-gear" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Trinket", "item": "Gebbo's Bottomless Bag" },
+          { "slot": "Shoulders", "item": "Raging Pauldrons of the Jade Warlord (tier token)" }
+        ],
+        "notes": "Icy Veins S-tier passive trinket. Method raid BiS catalyzes this shoulder token.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Head", "item": "Skullguard of the Risen Sacrifice (catalyze)" },
+          { "slot": "Feet", "item": "Entombed Cultist's Sabatons" }
+        ],
+        "notes": "Method raid and overall catalyze this head. Method raid BiS boots if you skip crafted Fang stompers.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Vile Alchemist's Band" },
+          { "slot": "Chest", "item": "Cuirass of the Jade Warlord (tier token)" }
+        ],
+        "notes": "Icy Veins and Method raid ring. Method raid chest token; Icy Veins catalyzes Coiled Altar instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 8,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins raid BiS and Method overall/raid ring. Skip if you already have Band of the Amani Warlord plus Sickening Signet.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Trash (BoE)",
+        "instance": "Venomous Abyss",
+        "priority": 9,
+        "items": [
+          { "slot": "Shoulders", "item": "Pauldrons of the Forgotten Sacrifice" }
+        ],
+        "notes": "Icy Veins overall BiS shoulders. Method raid BiS uses the Lost Explorers token instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/bis-gear" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Two-Hand", "item": "Vile Writhefang Glaive" },
+          { "slot": "Legs", "item": "Ancient General's Obsidian Pillars (catalyze)" },
+          { "slot": "Finger", "item": "Band of the Amani Warlord" },
+          { "slot": "Neck", "item": "Strand of Warding Fangs" },
+          { "slot": "Trinket", "item": "Vile Vial of Volatile Venom" }
+        ],
+        "notes": "Icy Veins first farm: most pieces plus the dungeon weapon. Method also Voidcores this glaive as the Maze-roa alt.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Chest", "item": "Sentinel Challenger's Prize (catalyze)" },
+          { "slot": "Hands", "item": "Bonds of the Hash'ura (catalyze)" },
+          { "slot": "Trinket", "item": "Idol of the War Loa" }
+        ],
+        "notes": "Icy Veins second farm. Two catalyst slots and the A-tier Strength passive Icy Veins and Method both put in M+ BiS.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Murder Row",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Finger", "item": "Signet of Snarling Servitude" },
+          { "slot": "Wrist", "item": "Overseer's Vambraces" },
+          { "slot": "Two-Hand", "item": "Xathuux's Cleave" }
+        ],
+        "notes": "Icy Veins third farm for the ring. Method M+ uses Overseer's Vambraces if you skip Spark bracers; Xathuux's Cleave is Method's dungeon alt weapon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Voidscar Arena",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Head", "item": "Visor of the Predator (catalyze)" },
+          { "slot": "Finger", "item": "Sickening Signet of Atroxus" }
+        ],
+        "notes": "Icy Veins M+ helm catalyze. Method overall and M+ ring; Voidcore this on +10 after raid weapons and Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Shoulders", "item": "C'thraxxi Binders Pauldrons (catalyze)" },
+          { "slot": "Chest", "item": "Desert Guardian's Breastplate (catalyze)" }
+        ],
+        "notes": "Icy Veins M+ shoulder catalyze. Method overall catalyzes this chest; Icy Veins M+ chest is Nalorakk instead.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "boss": "Ruby Life Pools",
+        "instance": "Mythic+",
+        "priority": 6,
+        "items": [
+          { "slot": "Back", "item": "Fireproof Drape" },
+          { "slot": "Trinket", "item": "Blazebinder's Hoof" }
+        ],
+        "notes": "Method overall and M+ cloak. Method M+ BiS on-use; Icy Veins ranks the Hoof B and uses Vile Vial in the M+ list instead.",
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "Slayer",
+        "recommended": true,
+        "loadoutCode": "CcEAAAAAAAAAAAAAAAAAAAAAAAzMzsMzMmZGAAAghphxYmZzMzMzgxMDAAAAgZWmZAhxyyALgBMDTgZwGYmx2YbglZWGgZGAMDDA",
+        "bullets": [
+          "Icy Veins default ST Slayer; significantly ahead in single-target and most raid fights (25 Aug 2026).",
+          "Sweeping Strikes and Bladestorm cover most Venomous Abyss add packs without a full AoE tree.",
+          "Two-target flex: Just Warming Up to Broad Strokes, Cleave to Powerful Momentum.",
+          "Wrecking Throw over Fearless or Piercing Howl when shields are up.",
+          "Stance Mastery is strong defense only if you actually use Defensive Stance.",
+          "Method publishes a different Slayer ST string the same day; Wowhead talent body was JS-stripped (no import copied)."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/talents" }
+        ]
+      },
+      {
+        "heroTree": "Colossus",
+        "recommended": false,
+        "loadoutCode": "CcEAAAAAAAAAAAAAAAAAAAAAAAzMzsMzMmZAAAAMMNMGzwyMzMzwMmZAAAAAM2mZAZBYzMG2gBmRb0YwCYmBz2MYZmlBzMAgZGGA",
+        "bullets": [
+          "Method ST Colossus import; Icy Veins does not publish a Colossus ST quick-start.",
+          "Icy Veins: Colossus can still burst multi-target but loses much more single-target than Slayer.",
+          "Method: Colossus AoE is better, Slayer ST is better; the ST gap narrowed after 12.0.5.",
+          "Colossus kit is Mortal Strike, bleeds, and Demolish cooldown reduction.",
+          "Icy Veins still defaults Slayer for raid single-target.",
+          "Method (25 Aug 2026) has no Delves page; this is the raid ST alternative."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "Slayer",
+        "recommended": true,
+        "loadoutCode": "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphxYmZzMzMzYmxMDAAAAgxyMDMhxy2ALgBMDTgZwGYmhhBzyMbDwMDAmhBA",
+        "bullets": [
+          "Icy Veins Dungeons & Delves Slayer; Overpower and Reap the Storm for AoE with little single-target loss.",
+          "Icy Veins (25 Aug 2026) now calls Slayer the main multi-target tree.",
+          "Class-tree flex: Interpose, Fast Footwork, Overwhelming Rage; Field Dressing and Second Wind are easy drops.",
+          "Wrecking Throw plus Javelineer for a ranged interrupt; that costs Stance Mastery defense.",
+          "Method also publishes Slayer AoE/M+; Colossus on this tab is Method's dungeon tree.",
+          "Wowhead talent body was JS-stripped; snippet still says Colossus for high-target keys. Icy Veins disagrees."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/talent-builds-pve-dps" }
+        ]
+      },
+      {
+        "heroTree": "Colossus",
+        "recommended": false,
+        "loadoutCode": "CcEAAAAAAAAAAAAAAAAAAAAAAgZmxsMzMzYGAAAghphxYmxyMzMzwMmZAAAAAM2MDMZDYzMGWgBmRb0YwCYmhx2MMbmtBzMAAzwA",
+        "bullets": [
+          "Method AoE/Mythic+ Colossus import; Icy Veins publishes no Colossus M+ string.",
+          "Icy Veins: Cleave plus Mortal Strike cooldown reduction on Demolish; boss single-target is lackluster and Execute is rare.",
+          "Heavy AoE flex: Icy Veins drops Crushing Force and takes Resonant Voice over Javelineer.",
+          "Wowhead: Colossus for high-target dungeons and delves; Slayer for short-lived raid adds.",
+          "Method: play the tree you play well; the ST gap is closer than before 12.0.5.",
+          "Icy Veins still defaults Slayer for keys after the 25 Aug 2026 Slayer M+ add."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-spec-builds-talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/talent-builds-pve-dps" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Slayer",
+        "recommended": true,
+        "loadoutCode": "CcEAAAAAAAAAAAAAAAAAAAAAAgZmZmFzYmZGAAAghphxYmZzMzMzYmxMDAAAAgxyMDMhxy2ALgBMDTgZwGYmhhBzyMbDwMDAmhBA",
+        "bullets": [
+          "Icy Veins published Dungeons & Delves import is Slayer (same string as the M+ tab).",
+          "Method has no separate Delves loadout; use this Icy Veins string for solo and open world.",
+          "Icy Veins picker marks Slayer as recommended for Mythic+ & Delves.",
+          "Class-tree flex matches keys: Interpose, Fast Footwork, Overwhelming Rage.",
+          "Wowhead talent body was JS-stripped; snippet still prefers Colossus for delves.",
+          "Icy Veins 25 Aug 2026 added the extra Slayer build that covers this tab."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-spec-builds-talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/talent-builds-pve-dps" }
+        ]
+      },
+      {
+        "heroTree": "Colossus",
+        "recommended": false,
+        "loadoutCode": "CcEAAAAAAAAAAAAAAAAAAAAAAgZmxsMzMzYGAAAghphxYmxyMzMzwMmZAAAAAM2MDMZDYzMGWgBmRb0YwCYmhx2MMbmtBzMAAzwA",
+        "bullets": [
+          "No Icy Veins Colossus Delves import in the quick-start list; the picker still lists Colossus for Mythic+ & Delves.",
+          "Method has no Delves page; this string is Method AoE/Mythic+ Colossus for solo if you want that tree.",
+          "Wowhead: Colossus is simpler and better in high-target delves.",
+          "Icy Veins: Colossus dungeon single-target is lackluster; they still recommend Slayer for Delves.",
+          "Do not invent an Icy Veins Colossus Delves code; none is published in the three quick-start strings."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/warrior/arms/talent-builds-pve-dps" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S. Method's raid pair with Voracious Heart of Ula'tek. Voidcore this with Maze-roa.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S / Method BiS on-use (Crit). Pair with Guillotine. Season has few on-use trinkets that line up with Avatar or Colossus Smash.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S all-primary passive. Wear while you wait on Guillotine or Heart; Icy Veins says most season passives do not line up with Avatar or Colossus Smash.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A all-primary on-use. Icy Veins M+ BiS pair with Idol of the War Loa; farm it on the Altar of Fangs weapon run.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Idol of the War Loa",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins A Strength passive. Icy Veins and Method both put this in M+ BiS; solid raid catch if Guillotine or Heart is late.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Strength/Agility passive. Method's named raid alternative if you cannot get Guillotine or Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Seed of the Devouring Wild",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A Strength on-use. Farmable stand-in for Heart until raid or vault lands.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A all-primary passive. No extra setup; farm it while you are in Vale.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B all-primary passive from Ruby Life Pools.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B Agility/Strength passive. Pickup while farming Signet of Snarling Servitude.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Blazebinder's Hoof",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B Haste on-use. Method ranks it as a named alternative and puts it in M+ BiS; Icy Veins does not.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B Mastery on-use from the same boss as Heart. Do not take this over Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C Agility/Strength on-use. Skip it for Vile Vial from the same dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sszorak's Ferocity",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Strength passive. Farm Apex Brute's Claw Ring here; this trinket is not the Arms chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Coiled Fangstone",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C Strength on-use. Vile Vial is the Altar of Fangs on-use Icy Veins actually ranks for Arms.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Merektha's Fang",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C Strength on-use. Farm Sethraliss for the catalyst shoulders, not this trinket.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Zul'jin's Guillotine Technique",
+        "from": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S. Still the raid piece you want in keys if vault or bonus rolls give it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S on-use. Use on big pulls if you have it from raid or vault; dungeon on-uses sit lower on the Icy Veins list.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Gebbo's Bottomless Bag",
+        "from": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins S passive. Fine in keys while you farm Vile Vial or Idol of the War Loa.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Vile Vial of Volatile Venom",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins A and Icy Veins M+ BiS on-use. First dungeon trinket to chase with the Writhefang glaive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Idol of the War Loa",
+        "from": "Den of Nalorakk",
+        "instance": "Den of Nalorakk",
+        "whenToUse": "Icy Veins A / Method M+ BiS Strength passive. Pair with Vile Vial (Icy Veins) or Blazebinder's Hoof (Method).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Keeper's Seething Core",
+        "from": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins A Strength/Agility passive. Raid catch you can wear in keys until Vial or Idol upgrades.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Seed of the Devouring Wild",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A Strength on-use. Farmable if Altar of Fangs Vile Vial has not dropped yet.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Sapling of the Dawnroot",
+        "from": "The Blinding Vale",
+        "instance": "The Blinding Vale",
+        "whenToUse": "Icy Veins A all-primary passive. No-setup dungeon option while you wait on Idol of the War Loa.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Ruby Whelp Shell",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B passive. Farm Pools for Fireproof Drape and Blazebinder first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Resonant Bellowstone",
+        "from": "Murder Row",
+        "instance": "Murder Row",
+        "whenToUse": "Icy Veins B Agility/Strength passive. Pickup while targeting Signet of Snarling Servitude.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Blazebinder's Hoof",
+        "from": "Ruby Life Pools",
+        "instance": "Ruby Life Pools",
+        "whenToUse": "Icy Veins B / Method M+ BiS Haste on-use. Method's dungeon pair with Idol of the War Loa.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/arms-warrior/gearing" }
+        ]
+      },
+      {
+        "tier": "B",
+        "item": "Font of Venomous Rage",
+        "from": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins B Mastery on-use. Never take this over Heart from the same boss.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Tattered Amani War Banner",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C. Vile Vial is the Altar of Fangs on-use to chase first.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Sszorak's Ferocity",
+        "from": "Sszorak",
+        "instance": "Venomous Abyss",
+        "whenToUse": "Icy Veins C Strength passive. Not an Arms M+ chase.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Coiled Fangstone",
+        "from": "Altar of Fangs",
+        "instance": "Altar of Fangs",
+        "whenToUse": "Icy Veins C Strength on-use. Skip it for Vile Vial on the same dungeon.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      },
+      {
+        "tier": "C",
+        "item": "Merektha's Fang",
+        "from": "Temple of Sethraliss",
+        "instance": "Temple of Sethraliss",
+        "whenToUse": "Icy Veins C Strength on-use. Sethraliss is a catalyst farm, not a Fang farm, for Arms.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/arms-warrior-pve-dps-gear-best-in-slot" },
+          { "name": "Method drops", "url": "https://www.method.gg/guides/all-wow-midnight-season-2-dungeon-and-raid-trinkets" }
+        ]
+      }
+    ]
+  }
+}
