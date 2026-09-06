@@ -1,0 +1,6 @@
+## Interface: 120100
+## Title: WowQuickRef
+## Notes: Copies class/spec IPC to the clipboard for the desktop overlay.
+## SavedVariables: WowQuickRefDB
+
+WowQuickRef.lua

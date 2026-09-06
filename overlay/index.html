@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self'; script-src 'self'; img-src 'self' data:;" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WowQuickRef</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <header class="titlebar">
+        <div class="title-block">
+          <span class="brand">WowQuickRef</span>
+          <span id="meta" class="meta">12.1 · S2</span>
+        </div>
+        <select id="spec-picker" aria-label="Spec"></select>
+        <button type="button" id="hotkey-btn" class="icon-btn" title="Change toggle hotkey">F8</button>
+        <button type="button" id="lock-btn" class="icon-btn" title="Lock overlay position">Lock</button>
+        <button type="button" id="hide-btn" class="icon-btn" title="Hide panel (F8)">Hide</button>
+      </header>
+
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search this tab…" autocomplete="off" />
+      </div>
+
+      <nav class="tabs" role="tablist">
+        <button type="button" class="tab active" data-tab="bis" role="tab">BIS Crafts</button>
+        <button type="button" class="tab" data-tab="drops" role="tab">BIS Drops</button>
+        <button type="button" class="tab" data-tab="talents" role="tab">Talents</button>
+        <button type="button" class="tab" data-tab="bosses" role="tab">Bosses</button>
+        <button type="button" class="tab" data-tab="trinkets" role="tab">Trinkets</button>
+      </nav>
+
+      <div id="subnav" class="subnav hidden"></div>
+      <div id="rebind-banner" class="banner hidden">Press a key for the toggle hotkey. Esc cancels.</div>
+      <div id="banner" class="banner hidden"></div>
+      <main id="content" class="content"></main>
+      <footer id="footer" class="footer">F8 toggle · click-through when hidden</footer>
+    </div>
+    <script src="renderer.js"></script>
+  </body>
+</html>

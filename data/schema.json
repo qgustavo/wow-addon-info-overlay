@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "wowquickref-spec",
+  "title": "WowQuickRefSpec",
+  "type": "object",
+  "required": [
+    "patch",
+    "season",
+    "updatedAt",
+    "classId",
+    "specId",
+    "className",
+    "specName",
+    "bisCrafts",
+    "bisDrops",
+    "talents",
+    "trinkets",
+    "status"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "patch": { "type": "string" },
+    "season": { "type": "integer" },
+    "updatedAt": { "type": "string" },
+    "classId": { "type": "integer" },
+    "specId": { "type": "integer" },
+    "className": { "type": "string" },
+    "specName": { "type": "string" },
+    "status": { "enum": ["curated", "placeholder"] },
+    "bisCrafts": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "required": ["slot", "item", "notes", "sources"],
+        "additionalProperties": false,
+        "properties": {
+          "slot": { "type": "string" },
+          "item": { "type": "string" },
+          "notes": { "type": "string" },
+          "sources": { "$ref": "#/$defs/sources" }
+        }
+      }
+    },
+    "bisDrops": {
+      "type": "object",
+      "required": ["raid", "mplus"],
+      "additionalProperties": false,
+      "properties": {
+        "raid": { "$ref": "#/$defs/dropList" },
+        "mplus": { "$ref": "#/$defs/dropList" }
+      }
+    },
+    "talents": {
+      "type": "object",
+      "required": ["singleTarget", "mplus", "delves"],
+      "additionalProperties": false,
+      "properties": {
+        "singleTarget": { "$ref": "#/$defs/talentContent" },
+        "mplus": { "$ref": "#/$defs/talentContent" },
+        "delves": { "$ref": "#/$defs/talentContent" }
+      }
+    },
+    "trinkets": {
+      "type": "object",
+      "required": ["raid", "mplus"],
+      "additionalProperties": false,
+      "properties": {
+        "raid": { "$ref": "#/$defs/trinketList" },
+        "mplus": { "$ref": "#/$defs/trinketList" }
+      }
+    }
+  },
+  "$defs": {
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["name", "url"],
+        "additionalProperties": false,
+        "properties": {
+          "name": { "type": "string" },
+          "url": { "type": "string" }
+        }
+      }
+    },
+    "talentContent": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2,
+      "items": { "$ref": "#/$defs/talentLoadout" }
+    },
+    "talentLoadout": {
+      "type": "object",
+      "required": ["heroTree", "bullets", "sources"],
+      "additionalProperties": false,
+      "properties": {
+        "heroTree": { "type": "string" },
+        "recommended": { "type": "boolean" },
+        "loadoutCode": { "type": ["string", "null"] },
+        "bullets": {
+          "type": "array",
+          "maxItems": 6,
+          "items": { "type": "string" }
+        },
+        "sources": { "$ref": "#/$defs/sources" }
+      }
+    },
+    "dropList": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "required": ["boss", "instance", "priority", "items", "notes", "sources"],
+        "additionalProperties": false,
+        "properties": {
+          "boss": { "type": "string" },
+          "instance": { "type": "string" },
+          "priority": { "type": "integer", "minimum": 1 },
+          "items": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 6,
+            "items": {
+              "type": "object",
+              "required": ["slot", "item"],
+              "additionalProperties": false,
+              "properties": {
+                "slot": { "type": "string" },
+                "item": { "type": "string" },
+                "from": { "type": "string" }
+              }
+            }
+          },
+          "notes": { "type": "string" },
+          "sources": { "$ref": "#/$defs/sources" }
+        }
+      }
+    },
+    "trinketList": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "required": ["tier", "item", "whenToUse", "sources"],
+        "additionalProperties": false,
+        "properties": {
+          "tier": { "enum": ["S", "A", "B"] },
+          "item": { "type": "string" },
+          "whenToUse": { "type": "string" },
+          "sources": { "$ref": "#/$defs/sources" }
+        }
+      }
+    }
+  }
+}

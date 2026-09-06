@@ -1,0 +1,440 @@
+{
+  "patch": "12.1",
+  "season": 2,
+  "updatedAt": "2026-09-06",
+  "classId": 6,
+  "specId": 250,
+  "className": "Death Knight",
+  "specName": "Blood",
+  "status": "curated",
+  "bisCrafts": [
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Arcanoweave Lining)",
+      "notes": "First long-term Spark craft once Maze-roa is online; only non-cantrip, non-bonus-ilvl raid slot. Wear at most two embellished pieces.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+      ]
+    },
+    {
+      "slot": "Finger",
+      "item": "Masterwork Sin'dorei Band (Prismatic Focusing Iris)",
+      "notes": "Single-target second embellishment. Icy Veins early order starts with this ring; Wowhead skips Polished Ammolite (recipe not in-game).",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/bis-gear" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Feet",
+      "item": "Spellbreaker's March (Arcanoweave Lining)",
+      "notes": "Mythic+ second lining if boots beat the crafted ring on item level. Method San'layn BiS uses these crafted boots.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+      ]
+    },
+    {
+      "slot": "Waist",
+      "item": "Spellbreaker's Girdle (Arcanoweave Lining)",
+      "notes": "AoE second lining for group value; Method prefers this over Prismatic Focusing Iris in AoE. Two embellishments max.",
+      "sources": [
+        { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Blood Knight's Warblade (Hunter's Ritual Stone)",
+      "notes": "Early Spark dump only if you lack Myth-track Maze-roa, Warlord's Fury. Skip once the Coiled Altar cantrip axe is upgraded.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+      ]
+    },
+    {
+      "slot": "Two-Hand",
+      "item": "Blood Knight's Warblade (Darkmoon Sigil: Hunt)",
+      "notes": "Alt weapon embellishment vs Hunter's Ritual Stone; Wowhead calls them roughly equal, with Hunt giving deterministic stats per fight.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/bis-gear" },
+        { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" }
+      ]
+    },
+    {
+      "slot": "Wrist",
+      "item": "Spellbreaker's Bracers (Adorned Fang)",
+      "notes": "San'layn sim option; Method says Adorned Fang can beat the other linings. Wowhead lists it among the best embellishments.",
+      "sources": [
+        { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/bis-gear" },
+        { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+      ]
+    }
+  ],
+  "bisDrops": {
+    "raid": [
+      {
+        "boss": "The Coiled Altar",
+        "instance": "Venomous Abyss",
+        "priority": 1,
+        "items": [
+          { "slot": "Two-Hand", "item": "Maze-roa, Warlord's Fury" },
+          { "slot": "Trinket", "item": "Zul'jin's Guillotine Technique" },
+          { "slot": "Waist", "item": "Girdle of Toxic Regret" },
+          { "slot": "Back", "item": "Silken Voodoo Drape" },
+          { "slot": "Chest", "item": "Reckless Spirit Breastplate (catalyze)" }
+        ],
+        "notes": "Voidcore and vault first. Cantrip weapon at +10 ilvl, matching trinket, belt, cloak, and catalyze chest.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Ula'tek",
+        "instance": "Venomous Abyss",
+        "priority": 2,
+        "items": [
+          { "slot": "Trinket", "item": "Voracious Heart of Ula'tek" },
+          { "slot": "Neck", "item": "Aqirbane Reliquary" },
+          { "slot": "Legs", "item": "Chausses of Unbound Rancor" }
+        ],
+        "notes": "Voidcore second. BiS 90s on-use, cantrip neck with a bonus socket, cantrip legs at +10 ilvl.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      },
+      {
+        "boss": "The Lost Explorers",
+        "instance": "Venomous Abyss",
+        "priority": 3,
+        "items": [
+          { "slot": "Shoulders", "item": "Baleful Grave-Knight's Gibbets (tier token)" },
+          { "slot": "Wrist", "item": "Shellbound Bracers" }
+        ],
+        "notes": "Icy Veins raid BiS catalyzes the Explorers shoulder token. Raid-only wrists if you skip the Spark bracers.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Entombed Sentinels",
+        "instance": "Venomous Abyss",
+        "priority": 4,
+        "items": [
+          { "slot": "Hands", "item": "Baleful Grave-Knight's Deathgrips (tier token)" }
+        ],
+        "notes": "Icy Veins raid glove token. Wowhead catalyzes King's Rest gloves instead if you skip this drop.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/bis-gear" }
+        ]
+      },
+      {
+        "boss": "Nek'zali the Soulcoiler",
+        "instance": "Venomous Abyss",
+        "priority": 5,
+        "items": [
+          { "slot": "Head", "item": "Skullguard of the Risen Sacrifice (catalyze)" }
+        ],
+        "notes": "Wowhead and Icy Veins raid catalyze this head. Overall mix can use Helm of the Raptor King from King's Rest instead.",
+        "sources": [
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/bis-gear" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" }
+        ]
+      },
+      {
+        "boss": "Vashnik the Malignant",
+        "instance": "Venomous Abyss",
+        "priority": 6,
+        "items": [
+          { "slot": "Feet", "item": "Scaled Fiend's Warboots" },
+          { "slot": "Finger", "item": "Vile Alchemist's Band" }
+        ],
+        "notes": "Raid-only boots if you skip Altar of Fangs stompers. Method Deathbringer BiS uses this ring.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      },
+      {
+        "boss": "Sszorak",
+        "instance": "Venomous Abyss",
+        "priority": 7,
+        "items": [
+          { "slot": "Finger", "item": "Apex Brute's Claw Ring" }
+        ],
+        "notes": "Icy Veins raid BiS and Method San'layn ring. Skip if you already have Ritual Binder's Ring or the crafted band.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "boss": "Temple of Sethraliss",
+        "instance": "Mythic+",
+        "priority": 1,
+        "items": [
+          { "slot": "Trinket", "item": "Merektha's Fang", "from": "Merektha" },
+          { "slot": "Shoulders", "item": "C'thraxxi Binders Pauldrons (catalyze)", "from": "Avatar of Sethraliss" },
+          { "slot": "Chest", "item": "Desert Guardian's Breastplate (catalyze)", "from": "Avatar of Sethraliss" },
+          { "slot": "Waist", "item": "Sand-Scoured Greatbelt", "from": "Galvazzt" },
+          { "slot": "Finger", "item": "Charged Sandstone Band", "from": "Galvazzt" }
+        ],
+        "notes": "Icy Veins first farm if you skip raid: three possible tier pieces, two rings, and the go-to on-use without Heart.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/temple-of-sethraliss-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "The Blinding Vale",
+        "instance": "Mythic+",
+        "priority": 2,
+        "items": [
+          { "slot": "Hands", "item": "Thornspike Gauntlets", "from": "Ziekket" },
+          { "slot": "Back", "item": "Bloodthorn Burnous", "from": "Ikuzz the Light Hunter" },
+          { "slot": "Trinket", "item": "Sapling of the Dawnroot", "from": "Ziekket" },
+          { "slot": "Two-Hand", "item": "Pruning Lance", "from": "Lightblossom Trinity" }
+        ],
+        "notes": "Icy Veins second farm: off-pieces and two valuable trinkets. Method uses this cloak on both hero trees.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/the-blinding-vale-dungeon-overview-location-rewards" }
+        ]
+      },
+      {
+        "boss": "King's Rest",
+        "instance": "Mythic+",
+        "priority": 3,
+        "items": [
+          { "slot": "Head", "item": "Helm of the Raptor King (catalyze)", "from": "Dazar, the First King" },
+          { "slot": "Finger", "item": "Ritual Binder's Ring", "from": "Mchimba the Embalmer" },
+          { "slot": "Wrist", "item": "Embalmer's Steadying Bracers", "from": "Mchimba the Embalmer" },
+          { "slot": "Hands", "item": "Gauntlets of the Avian Sentinel (catalyze)", "from": "The Golden Serpent" }
+        ],
+        "notes": "Catalyze helm for 4pc. Wowhead catalyzes Golden Serpent gloves. Ritual Binder's Ring is Icy Veins M+ BiS.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/kings-rest-dungeon-overview-mythic-plus" }
+        ]
+      },
+      {
+        "boss": "Altar of Fangs",
+        "instance": "Mythic+",
+        "priority": 4,
+        "items": [
+          { "slot": "Legs", "item": "Ancient General's Obsidian Pillars (catalyze)", "from": "Zul'jan" },
+          { "slot": "Feet", "item": "Poison-Proof Stompers", "from": "Rav'i" }
+        ],
+        "notes": "Icy Veins M+ catalyze legs. Overall and Wowhead BiS boots. Method also Voidcores this dungeon on +10 for extra plate.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/altar-of-fangs-dungeon-overview-location-rewards" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      },
+      {
+        "boss": "Den of Nalorakk",
+        "instance": "Mythic+",
+        "priority": 5,
+        "items": [
+          { "slot": "Neck", "item": "Yoke of the Charging Bear", "from": "Nalorakk" },
+          { "slot": "Hands", "item": "Bonds of the Hash'ura (catalyze)", "from": "Nalorakk" }
+        ],
+        "notes": "Icy Veins M+ BiS neck. Method San'layn catalyzes these gloves. Kill Nalorakk; skip the other two if you are only hunting these.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/midnight/den-of-nalorakk-dungeon-overview-location-rewards" }
+        ]
+      }
+    ]
+  },
+  "talents": {
+    "singleTarget": [
+      {
+        "heroTree": "San'layn",
+        "recommended": true,
+        "loadoutCode": "CoPAAAAAAAAAAAAAAAAAAAAAAwYWmZGmxMzMMLzMz0MLGzMzMGAAAAwMzMzMzMDzYMDAMzMzAAAYgBmxiGLLAWGwGgZMDAAYmBwA",
+        "bullets": [
+          "Icy Veins default ST San'layn; Deathbringer is close while Echoing Fury is bugged.",
+          "Venomous Abyss is mostly not true ST; San'layn pulls ahead once a second target lasts past Reaper's Mark.",
+          "Flex Bloodied Blade and Deadly Reach; move Blade to Consumption or Reach to Bloodworms for pure ST.",
+          "Method ST: those same flexes can swap to Bloody Reflection if the boss deals direct physical.",
+          "Sustained or ~1:30 AoE favors San'layn; intermittent AoE on Reaper's Mark can let Deathbringer catch up.",
+          "Blood-Soaked Ground narrowed the defensive gap. Apex Dance of Midnight: ~50% uptime on at least one DRW."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/talents" }
+        ]
+      },
+      {
+        "heroTree": "Deathbringer",
+        "recommended": false,
+        "loadoutCode": "CoPAAAAAAAAAAAAAAAAAAAAAAwYWGzMmxMzMYbmZmmZZGjxMGAAAAwMzMzMzMDzYMAYMzMzAAAMmtBGwSwywEYYBwMmBAgZGAzYA",
+        "bullets": [
+          "Method ST Deathbringer import; Icy Veins says either tree can win on true ST depending on gear and fight.",
+          "Flexible class tree for raid utility.",
+          "Bloodied Blade and Deadly Reach can swap to Bloody Reflection if bosses deal direct physical.",
+          "Simpler than San'layn; behind once a second target lasts past Reaper's Mark.",
+          "Icy Veins still defaults San'layn because few Venomous Abyss fights are true ST.",
+          "Method (4 Sep 2026) still recommends San'layn in all content; this is the ST alternative."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/talents" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-spec-builds-talents" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "heroTree": "San'layn",
+        "recommended": true,
+        "loadoutCode": "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZZmZmmZxYmxMGAAAAwMmZmZmZYGjBAjZmZGAAADMwMW0YZBwyA2AMjZAAAzMwwA",
+        "bullets": [
+          "Icy Veins default M+ San'layn; plan pulls around the 1:30 Gift of the San'layn window.",
+          "M+ flex: Umbilicus Eternus, Deadly Reach, and Bloodied Blade.",
+          "Umbilicus Eternus is convenience; Sanguinary Burst is more burst (~400% AP per target mid-DRW).",
+          "Deathbringer is simpler but behind on AoE and priority; the new tier set eased San'layn pull setup.",
+          "More defense: Relish in Blood to Foul Bulwark, Bloodied Blade to Improved Vampiric Blood.",
+          "Method extras: Anti-Magic Zone (Assimilation), Grip of the Dead for kiting, Consumption vs heal absorbs."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-spec-builds-talents" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/talents" }
+        ]
+      },
+      {
+        "heroTree": "Deathbringer",
+        "recommended": false,
+        "loadoutCode": "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZZmZmmZxYmxMGAAAAwMmZmZmZYGDAYmZmZGAAgxsNwAWC2GmADLAmxMAAMzAYYA",
+        "bullets": [
+          "Method M+ Deathbringer; simpler but behind San'layn on AoE and priority.",
+          "Wowhead defaults Reaper's Onslaught after 12.1 Exterminate buffs.",
+          "Flex Umbilicus Eternus into Sanguinary Burst for more damage.",
+          "More defense: Foul Bulwark, Relish in Blood, Perseverance of the Ebon Blade, Improved Vampiric Blood.",
+          "Consumption from Bloodied Blade vs heal absorbs.",
+          "Icy Veins still defaults San'layn for keys."
+        ],
+        "sources": [
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/talent-builds-pve-tank" }
+        ]
+      }
+    ],
+    "delves": [
+      {
+        "heroTree": "Deathbringer",
+        "recommended": true,
+        "loadoutCode": "CoPAAAAAAAAAAAAAAAAAAAAAAwMzyMzwMmZmhZZmZmmZxYmZmxAAAAAmxMzMzMDzYMAYMzMzAAAMmtBGwCYbYCMsAYGzAAwMDAMA",
+        "bullets": [
+          "Icy Veins published Delves import is Deathbringer.",
+          "Wowhead only recommends Deathbringer for Delves: San'layn is miserable with walk/collect downtime.",
+          "Group utility stripped vs the keys build (no Raise Dead RP reduction Valeera cannot use).",
+          "More defense: Relish in Blood to Foul Bulwark, Bloodied Blade to Improved Vampiric Blood.",
+          "Ease of use over Essence of the Blood Queen upkeep in solo content.",
+          "Method has no separate Delves page; use this for solo and open world."
+        ],
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-spec-builds-talents" },
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/talent-builds-pve-tank" }
+        ]
+      },
+      {
+        "heroTree": "San'layn",
+        "recommended": false,
+        "loadoutCode": null,
+        "bullets": [
+          "No published 12.1 San'layn Delves import on Icy Veins or Wowhead.",
+          "Wowhead: pick Deathbringer for Delves; San'layn is a miserable experience with non-combat downtime.",
+          "Icy Veins quick-start Delves code is Deathbringer only.",
+          "Use the Deathbringer Delves loadout on this tab for this content."
+        ],
+        "sources": [
+          { "name": "Wowhead", "url": "https://www.wowhead.com/guide/classes/death-knight/blood/talent-builds-pve-tank" },
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-spec-builds-talents" }
+        ]
+      }
+    ]
+  },
+  "trinkets": {
+    "raid": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "whenToUse": "90s on-use; line up with Gift of the San'layn / Reaper's Mark (macro with Dancing Rune Weapon).",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Merektha's Fang",
+        "whenToUse": "Walk the channel with Death's Advance; damage is not split, so it still hits on single-target.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Zul'jin's Guillotine Technique",
+        "whenToUse": "Pair with Maze-roa; the set is stronger on 2+ targets. Without the axe, Method prefers an A-tier passive.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "whenToUse": "Wear when you cannot pair Guillotine with Maze-roa; extra secondaries, but procs are random so do not plan a window around it.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      }
+    ],
+    "mplus": [
+      {
+        "tier": "S",
+        "item": "Voracious Heart of Ula'tek",
+        "whenToUse": "90s on-use; line up with Gift of the San'layn / Reaper's Mark on big pulls.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "S",
+        "item": "Merektha's Fang",
+        "whenToUse": "Walk the channel with Death's Advance; drop Death and Decay, then channel from range. Unsplit even on single-target.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Zul'jin's Guillotine Technique",
+        "whenToUse": "Pair with Maze-roa on 2+ target pulls; still usable alone if the axe is not upgraded yet.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      },
+      {
+        "tier": "A",
+        "item": "Gebbo's Bottomless Bag",
+        "whenToUse": "Extra secondaries when you cannot pair Guillotine with Maze-roa; Method often swaps this for a defensive passive in keys.",
+        "sources": [
+          { "name": "Icy Veins", "url": "https://www.icy-veins.com/wow/blood-death-knight-pve-tank-gear-best-in-slot" },
+          { "name": "Method", "url": "https://www.method.gg/guides/blood-death-knight/gearing" }
+        ]
+      }
+    ]
+  }
+}
